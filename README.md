@@ -1,4 +1,15 @@
-# strings.xml for Sketchware
+# Language Setting Guide for Sketchware
+
+- [Language Setting Guide for Sketchware](#language-setting-guide-for-sketchware)
+    - [Currently Available Language Files](#currently-available-language-files)
+    - [How to Change the Language Setting for Sketchware](#how-to-change-the-language-setting-for-sketchware)
+        - [Option 1: I already have downloaded the translated strings.xml file.](#option-1-i-already-have-downloaded-the-translated-stringsxml-file)
+        - [Option 2: I don't have the strings.xml file, and I have to translate it.](#option-2-i-dont-have-the-stringsxml-file-and-i-have-to-translate-it)
+    - [I Want to Contribute!](#i-want-to-contribute)
+        - [Option 1: Language file exists inside this repository. I found an error or  want to improve it](#option-1-language-file-exists-inside-this-repository-i-found-an-error-or-want-to-improve-it)
+        - [Option 2: Language file doesn't exist, I want to translate it](#option-2-language-file-doesnt-exist-i-want-to-translate-it)
+
+## Currently Available Language Files
 
 Languages currently avaiable in this repository
 
@@ -6,9 +17,11 @@ Languages currently avaiable in this repository
 
 [Korean 🇰🇷](https://github.com/sketchware/strings.xml/blob/master/strings_kr.xml)
 
-# How to Change the Language Setting for Sketchware
 
-## Option 1: I already have downloaded the translated strings.xml file.
+
+## How to Change the Language Setting for Sketchware
+
+### Option 1: I already have downloaded the translated strings.xml file.
 
 Rename the file from `strings_XX.xml` to `strings.xml`. (Note that `XX` in the file name can be any locale, en, kr...)
 
@@ -18,7 +31,7 @@ For me, it was under `sdcard/sketchware/localization`, shown below:
 
 [](https://github.com/sketchware/strings.xml/blob/master/screenshots/localization.png)
 
-## Option 2: I don't have the strings.xml file, and I have to translate it.
+### Option 2: I don't have the strings.xml file, and I have to translate it.
 
 Use your favorite File Manager to navigate to the following directory:
 
@@ -38,11 +51,11 @@ When you restart Sketchware, you will see the message below:
 
 [](https://github.com/sketchware/strings.xml/blob/master/screenshots/patch_complete.png)
 
-# I Want to Contribute!
+## I Want to Contribute!
 
 Do you want to translate or improve Sketchware into your favorite language?
 
-## Option 1: Language file exists inside this repository. I found an error or  want to improve it
+### Option 1: Language file exists inside this repository. I found an error or  want to improve it
 
 If you have used GitHub before and are comfortable with using it, please fork this Repo, fix the errors, and send us a Pull request!
 
@@ -72,7 +85,7 @@ It should look something like this:
 
 5. Submit the issue and wait for us to fix the change! We will comment directly on the issue, letting you know that the fix has been applied.
 
-## Option 2: Language file doesn't exist, I want to translate it
+### Option 2: Language file doesn't exist, I want to translate it
 
 Please email the translated strings.xml file to [help@sketchware.io](mailto:help@sketchware.io). Please put [LANGUAGE] before the title, so we know that it's a request.
 
