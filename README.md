@@ -32,11 +32,15 @@ Download Guide:
 
 If the file name is not `strings.xml`, rename the file from `strings_XX.xml` to `strings.xml`. (Note that `XX` in the file name can be any locale, en, kr...)
 
-Save the `strings.xml` file under `Device Storage -> sketchware -> localization`.
+Copy and Paste the `strings.xml` file to `Device Storage -> sketchware -> localization`.
 
-For me, it was under `sdcard/sketchware/localization`, shown below:
+For me, I could find this folder under `sdcard/sketchware/localization` path, shown below:
 
 ![](https://github.com/sketchware/strings.xml/blob/master/screenshots/localization.png)
+
+Restart Sketchware, and you will see the message below:
+
+![](https://github.com/sketchware/strings.xml/blob/master/screenshots/patch_complete.png)
 
 ### Option 2: I don't have the strings.xml file, and I have to translate it.
 
