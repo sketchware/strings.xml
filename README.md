@@ -1,2 +1,80 @@
-# strings.xml
-Centralized repository for Sketchware's strings.xml in different language sets 🔠
+# strings.xml for Sketchware
+
+Languages currently avaiable in this repository
+
+[English 🇺🇸](https://github.com/sketchware/strings.xml/blob/master/strings_en.xml)
+
+[Korean 🇰🇷](https://github.com/sketchware/strings.xml/blob/master/strings_kr.xml)
+
+# How to Change the Language Setting for Sketchware
+
+## Option 1: I already have downloaded the translated strings.xml file.
+
+Rename the file from `strings_XX.xml` to `strings.xml`. (Note that `XX` in the file name can be any locale, en, kr...)
+
+Save the `strings.xml` file under `Device Storage -> sketchware -> localization`.
+
+For me, it was under `sdcard/sketchware/localization`, shown below:
+
+[](https://github.com/sketchware/strings.xml/blob/master/screenshots/localization.png)
+
+## Option 2: I don't have the strings.xml file, and I have to translate it.
+
+Use your favorite File Manager to navigate to the following directory:
+
+`Device storage -> sketchware -> localization`
+
+There will be a string file, `strings_provided.xml`, provided to you in this directory.
+
+For me, it was under `sdcard/sketchware/localization`, shown below:
+
+[](https://github.com/sketchware/strings.xml/blob/master/screenshots/localization.png)
+
+Then, use your favorite text editor to open the `strings_provided.xml` file and translate it to your language.
+
+After you're done modifying the string file, save it as `strings.xml`, and place it under the same directory as the `strings_provided.xml` file, which was under `.../sketcwhare/localization`.
+
+When you restart Sketchware, you will see the message below:
+
+[](https://github.com/sketchware/strings.xml/blob/master/screenshots/patch_complete.png)
+
+# I Want to Contribute!
+
+Do you want to translate or improve Sketchware into your favorite language?
+
+## Option 1: Language file exists inside this repository. I found an error or  want to improve it
+
+If you have used GitHub before and are comfortable with using it, please fork this Repo, fix the errors, and send us a Pull request!
+
+Else: 
+
+1. Create a GitHub Account.
+
+2. Click on the "Issues" tab on the top left corner of this repository.
+
+[](https://github.com/sketchware/strings.xml/blob/master/screenshots/issues.png)
+
+3. Click on the "New Issue" button.
+
+[](https://github.com/sketchware/strings.xml/blob/master/screenshots/new_issues.png)
+
+4. Please describe the error in the language file in this format:
+
+Example: 
+
+`Title: Revision needed for strings_en.xml`
+
+`Comment: There is a typo on line 123. Sketchwaer -> Sketchware`
+
+It should look something like this:
+
+[](https://github.com/sketchware/strings.xml/blob/master/screenshots/issues_post.png)
+
+5. Submit the issue and wait for us to fix the change! We will comment directly on the issue, letting you know that the fix has been applied.
+
+## Option 2: Language file doesn't exist, I want to translate it
+
+Please email the translated strings.xml file to [help@sketchware.io](mailto:help@sketchware.io). Please put [LANGUAGE] before the title, so we know that it's a request.
+
+Title for Mail Example: `[LANGUAGE] Sketchware strings.xml for Hindi`
+

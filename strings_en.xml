@@ -1,0 +1,2194 @@
+<resources>
+
+    <string name="property_header_layout">Layout Properties</string>
+    <string name="property_header_text">Text Properties</string>
+    <string name="property_header_image">Image Properties</string>
+    <string name="property_header_view">View Properties</string>
+    <string name="property_header_seekbar">SeekBar Properties</string>
+
+    <string name="property_layout_width">layout_width</string>
+    <string name="property_layout_height">layout_height</string>
+    <string name="property_orientation">orientation</string>
+    <string name="property_text_size">text_size</string>
+    <string name="property_text_style">text_style</string>
+    <string name="property_input_type">input_type</string>
+    <string name="property_ime_option">ime_option</string>
+    <string name="property_spinner_mode">spinnerMode</string>
+    <string name="property_scale_type">scale_type</string>
+    <string name="property_resource">resource</string>
+    <string name="property_gravity">gravity</string>
+    <string name="property_layout_gravity">layout_gravity</string>
+    <string name="property_single_line">single_line</string>
+    <string name="property_lines">lines</string>
+    <string name="property_enabled">enabled</string>
+    <string name="property_clickable">clickable</string>
+    <string name="property_checked">checked</string>
+    <string name="property_text_color">text_color</string>
+    <string name="property_hint_color">hint_color</string>
+    <string name="property_background_color">background_color</string>
+    <string name="property_background_resource">background_resource</string>
+    <string name="property_text">text</string>
+    <string name="property_hint">hint</string>
+    <string name="property_weight">weight</string>
+    <string name="property_weight_sum">weightSum</string>
+    <string name="property_id">ID</string>
+    <string name="property_rotate">rotate</string>
+    <string name="property_padding">padding</string>
+    <string name="property_margin">margin</string>
+    <string name="property_divider_height">dividerHeight</string>
+    <string name="property_choice_mode">choiceMode</string>
+    <string name="property_image">image</string>
+    <string name="property_alpha">alpha</string>
+    <string name="property_max">max</string>
+    <string name="property_progress">progress</string>
+    <string name="property_translation_x">translationX</string>
+    <string name="property_translation_y">translationY</string>
+    <string name="property_scale_x">scaleX</string>
+    <string name="property_scale_y">scaleY</string>
+    <string name="property_custom_view_listview">customView</string>
+
+    <string name="desc_component_intent">Intent is used to start a new Activity</string>
+    <string name="desc_component_file">File is used to save data locally</string>
+    <string name="desc_component_calendar">Calendar is used to calculate time and date</string>
+    <string name="desc_component_vibrator">Vibrator is used vibrate the device</string>
+    <string name="desc_component_timer">Timer is used to delay certain actions</string>
+    <string name="desc_component_soundpool">SoundPool is used to play short sound effects</string>
+    <string name="desc_component_mediaplayer">MediaPlayer is used to play big sound files</string>
+    <string name="desc_component_dialog">Dialog is used to create a pop-up</string>
+    <string name="desc_component_objectanimator">ObjectAnimator is used to animate certain properties of a View</string>
+
+    <string name="logic_event_initialize">On activity create</string>
+    <string name="logic_event_definefunc">MoreBlock</string>
+    <string name="logic_event_onbackpressed">On back button press</string>
+    <string name="logic_event_onpostcreated">On activity start-up complete</string>
+    <string name="logic_event_onstart">On activity becoming visible</string>
+    <string name="logic_event_onstop">On activity no longer visible</string>
+    <string name="logic_event_onclick">onClick</string>
+    <string name="logic_event_oncheckchanged">onCheckChanged</string>
+    <string name="logic_event_onitemselected">onItemSelected</string>
+    <string name="logic_event_ontextchanged">onTextChanged</string>
+    <string name="logic_event_onprogresschanged">onProgressChanged</string>
+    <string name="logic_event_onstarttrackingtouch">onStartTrackingTouch</string>
+    <string name="logic_event_onstoptrackingtouch">onStopTrackingTouch</string>
+    <string name="logic_event_onpagestarted">onPageStarted</string>
+    <string name="logic_event_onpagefinished">onPageFinished</string>
+    <string name="logic_event_onanimationstart">onAnimationStart</string>
+    <string name="logic_event_onanimationend">onAnimationEnd</string>
+    <string name="logic_event_onanimationcancel">onAnimationCancel</string>
+    <string name="logic_event_onitemclicked">onItemClicked</string>
+    <string name="logic_event_onitemlongclicked">onItemLongClicked</string>
+    <string name="logic_event_onbindcustomview">onBindCustomView</string>
+
+
+    <!-- new root spec -->
+    <string name="root_spec_common_define">Define </string>
+    <string name="root_spec_common_when">When </string>
+
+    <string name="root_spec_initialize_head">On activity create</string>
+    <string name="root_spec_initialize_tail"></string>
+
+    <string name="root_spec_on_back_pressed_head">On back button press</string>
+    <string name="root_spec_on_back_pressed_tail"></string>
+
+    <string name="root_spec_on_post_created_head">On activity start-up complete</string>
+    <string name="root_spec_on_post_created_tail"></string>
+
+    <string name="root_spec_on_start_head">On activity becoming visible</string>
+    <string name="root_spec_on_start_tail"></string>
+
+    <string name="root_spec_on_stop_head">On activity no longer visible</string>
+    <string name="root_spec_on_stop_tail"></string>
+
+    <string name="root_spec_on_clicked_head">clicked</string>
+    <string name="root_spec_on_clicked_tail"></string>
+
+    <string name="root_spec_on_check_changed_head">checkChanged</string>
+    <string name="root_spec_on_check_changed_tail"></string>
+
+    <string name="root_spec_on_item_selected_head">itemSelected</string>
+    <string name="root_spec_on_item_selected_tail"></string>
+
+    <string name="root_spec_on_text_changed_head">textChanged</string>
+    <string name="root_spec_on_text_changed_tail"></string>
+
+    <string name="root_spec_on_page_started_head">pageStarted</string>
+    <string name="root_spec_on_page_started_tail"></string>
+
+    <string name="root_spec_on_page_finished_head">pageFinished</string>
+    <string name="root_spec_on_page_finished_tail"></string>
+
+    <string name="root_spec_on_progress_changed_head">progressChanged</string>
+    <string name="root_spec_on_progress_changed_tail"></string>
+
+    <string name="root_spec_on_start_tracking_touch_head">onStartTrackingTouch</string>
+    <string name="root_spec_on_start_tracking_touch_tail"></string>
+
+    <string name="root_spec_on_stop_tracking_touch_head">onStopTrackingTouch</string>
+    <string name="root_spec_on_stop_tracking_touch_tail"></string>
+
+    <string name="root_spec_on_animation_start_head">onAnimationStart</string>
+    <string name="root_spec_on_animation_start_tail"></string>
+
+    <string name="root_spec_on_animation_end_head">onAnimationEnd</string>
+    <string name="root_spec_on_animation_end_tail"></string>
+
+    <string name="root_spec_on_animation_cancel_head">onAnimationCancel</string>
+    <string name="root_spec_on_animation_cancel_tail"></string>
+
+    <string name="root_spec_on_item_clicked_head">itemClicked</string>
+    <string name="root_spec_on_item_clicked_tail"></string>
+
+    <string name="root_spec_on_item_long_clicked_head">itemLongClicked</string>
+    <string name="root_spec_on_item_long_clicked_tail"></string>
+
+    <string name="root_spec_on_bind_custom_view_head">onBindCustomView</string>
+    <string name="root_spec_on_bind_custom_view_body1"></string>
+    <string name="root_spec_on_bind_custom_view_tail"></string>
+
+    <string name="block_category_all">All</string>
+    <string name="block_category_var">Variable</string>
+    <string name="block_category_list">List</string>
+    <string name="block_category_control">Control</string>
+    <string name="block_category_math">Math</string>
+    <string name="block_category_operator">Operator</string>
+    <string name="block_category_view_func">View</string>
+    <string name="block_category_component_func">Component</string>
+    <string name="block_category_moreblock">More Block</string>
+
+    <!-- new block spec -->
+    <string name="block_set_var_bool_head">set</string>
+    <string name="block_set_var_bool_body_1">to</string>
+    <string name="block_set_var_bool_tail"></string>
+
+    <string name="block_set_var_int_head">set</string>
+    <string name="block_set_var_int_body_1">to</string>
+    <string name="block_set_var_int_tail"></string>
+
+    <string name="block_increase_int_head"></string>
+    <string name="block_increase_int_tail">increase 1</string>
+
+    <string name="block_decrease_int_head"></string>
+    <string name="block_decrease_int_tail">decrease 1</string>
+
+    <string name="block_set_var_str_head">set</string>
+    <string name="block_set_var_str_body_1">to</string>
+    <string name="block_set_var_str_tail"></string>
+
+    <string name="block_add_list_int_head">add</string>
+    <string name="block_add_list_int_body_1">to</string>
+    <string name="block_add_list_int_tail"></string>
+
+    <string name="block_insert_list_int_head">insert</string>
+    <string name="block_insert_list_int_body_1">at</string>
+    <string name="block_insert_list_int_body_2">to</string>
+    <string name="block_insert_list_int_tail"></string>
+
+    <string name="block_get_at_list_int_head">get at</string>
+    <string name="block_get_at_list_int_body_1">of</string>
+    <string name="block_get_at_list_int_tail"></string>
+
+    <string name="block_indexof_list_int_head">index</string>
+    <string name="block_indexof_list_int_body_1">in</string>
+    <string name="block_indexof_list_int_tail"></string>
+
+    <string name="block_contain_list_int_head"></string>
+    <string name="block_contain_list_int_body_1">contains</string>
+    <string name="block_contain_list_int_tail"></string>
+
+    <string name="block_add_list_str_head">add</string>
+    <string name="block_add_list_str_body_1">to</string>
+    <string name="block_add_list_str_tail"></string>
+
+    <string name="block_insert_list_str_head">insert</string>
+    <string name="block_insert_list_str_body_1">at</string>
+    <string name="block_insert_list_str_body_2">to</string>
+    <string name="block_insert_list_str_tail"></string>
+
+    <string name="block_get_at_list_str_head">get at</string>
+    <string name="block_get_at_list_str_body_1">of</string>
+    <string name="block_get_at_list_str_tail"></string>
+
+    <string name="block_indexof_list_str_head">index</string>
+    <string name="block_indexof_list_str_body_1">in</string>
+    <string name="block_indexof_list_str_tail"></string>
+
+    <string name="block_contain_list_str_head"></string>
+    <string name="block_contain_list_str_body_1">contains</string>
+    <string name="block_contain_list_str_tail"></string>
+
+    <string name="block_add_list_map_head">add key</string>
+    <string name="block_add_list_map_body_1">value</string>
+    <string name="block_add_list_map_body_2">to</string>
+    <string name="block_add_list_map_tail"></string>
+
+    <string name="block_insert_list_map_head">insert key</string>
+    <string name="block_insert_list_map_body_1">value</string>
+    <string name="block_insert_list_map_body_2">at</string>
+    <string name="block_insert_list_map_body_3">to</string>
+    <string name="block_insert_list_map_tail"></string>
+
+    <string name="block_get_at_list_map_head">get value at</string>
+    <string name="block_get_at_list_map_body_1">key</string>
+    <string name="block_get_at_list_map_body_2">of</string>
+    <string name="block_get_at_list_map_tail"></string>
+
+    <string name="block_set_at_list_map_head">set key</string>
+    <string name="block_set_at_list_map_body_1">value</string>
+    <string name="block_set_at_list_map_body_2">at</string>
+    <string name="block_set_at_list_map_body_3">to</string>
+    <string name="block_set_at_list_map_tail"></string>
+
+    <string name="block_contain_list_map_head"></string>
+    <string name="block_contain_list_map_body_1">contains at</string>
+    <string name="block_contain_list_map_body_2">key</string>
+    <string name="block_contain_list_map_tail"></string>
+
+    <string name="block_delete_list_head">delete at</string>
+    <string name="block_delete_list_body_1">of</string>
+    <string name="block_delete_list_tail"></string>
+
+    <string name="block_length_list_head">length of</string>
+    <string name="block_length_list_tail"></string>
+
+    <string name="block_clear_list_head">clear</string>
+    <string name="block_clear_list_tail"></string>
+
+    <string name="block_repeat_head">repeat</string>
+    <string name="block_repeat_tail"></string>
+
+    <string name="block_forever_head">forever</string>
+    <string name="block_forever_tail"></string>
+
+    <string name="block_break_head">stop</string>
+    <string name="block_break_tail"></string>
+
+    <string name="block_if_head">if</string>
+    <string name="block_if_tail">then</string>
+
+    <string name="block_if_else_head">if</string>
+    <string name="block_if_else_tail">then</string>
+
+    <string name="block_else_head">else</string>
+    <string name="block_else_tail"></string>
+
+    <string name="block_true_head">true</string>
+    <string name="block_true_tail"></string>
+
+    <string name="block_false_head">false</string>
+    <string name="block_false_tail"></string>
+
+    <string name="block_smaller_head"></string>
+    <string name="block_smaller_body_1">&lt;</string>
+    <string name="block_smaller_tail"></string>
+
+    <string name="block_equal_head"></string>
+    <string name="block_equal_body_1">=</string>
+    <string name="block_equal_tail"></string>
+
+    <string name="block_bigger_head"></string>
+    <string name="block_bigger_body_1">&gt;</string>
+    <string name="block_bigger_tail"></string>
+
+    <string name="block_and_head"></string>
+    <string name="block_and_body_1">and</string>
+    <string name="block_and_tail"></string>
+
+    <string name="block_or_head"></string>
+    <string name="block_or_body_1">or</string>
+    <string name="block_or_tail"></string>
+
+    <string name="block_not_head">not</string>
+    <string name="block_not_tail"></string>
+
+    <string name="block_plus_head"></string>
+    <string name="block_plus_body_1">+</string>
+    <string name="block_plus_tail"></string>
+
+    <string name="block_minus_head"></string>
+    <string name="block_minus_body_1">-</string>
+    <string name="block_minus_tail"></string>
+
+    <string name="block_times_head"></string>
+    <string name="block_times_body_1">*</string>
+    <string name="block_times_tail"></string>
+
+    <string name="block_divide_head"></string>
+    <string name="block_divide_body_1">/</string>
+    <string name="block_divide_tail"></string>
+
+    <string name="block_rest_head"></string>
+    <string name="block_rest_body_1">%</string>
+    <string name="block_rest_tail"></string>
+
+    <string name="block_random_head">pick random</string>
+    <string name="block_random_body_1">to</string>
+    <string name="block_random_tail"></string>
+
+    <string name="block_string_length_head">length of</string>
+    <string name="block_string_length_tail"></string>
+
+    <string name="block_string_join_head">join</string>
+    <string name="block_string_join_body_1">and</string>
+    <string name="block_string_join_tail"></string>
+
+    <string name="block_string_index_head">index</string>
+    <string name="block_string_index_body_1">of</string>
+    <string name="block_string_index_tail"></string>
+
+    <string name="block_string_sub_head"></string>
+    <string name="block_string_sub_body_1">substring</string>
+    <string name="block_string_sub_body_2">to</string>
+    <string name="block_string_sub_tail"></string>
+
+    <string name="block_string_equals_head"></string>
+    <string name="block_string_equals_body_1">equals</string>
+    <string name="block_string_equals_tail"></string>
+
+    <string name="block_string_contains_head"></string>
+    <string name="block_string_contains_body_1">contains</string>
+    <string name="block_string_contains_tail"></string>
+
+    <string name="block_string_replace_head"></string>
+    <string name="block_string_replace_body_1">replace all</string>
+    <string name="block_string_replace_body_2">with</string>
+    <string name="block_string_replace_tail"></string>
+
+    <string name="block_string_replace_first_head"></string>
+    <string name="block_string_replace_first_body_1">replace first RegEx</string>
+    <string name="block_string_replace_first_body_2">with</string>
+    <string name="block_string_replace_first_tail"></string>
+
+    <string name="block_string_replace_all_head"></string>
+    <string name="block_string_replace_all_body_1">replace all RegEx</string>
+    <string name="block_string_replace_all_body_2">with</string>
+    <string name="block_string_replace_all_tail"></string>
+
+    <string name="block_to_number_head">toNumber</string>
+    <string name="block_to_number_tail"></string>
+
+    <string name="block_trim_head">trim</string>
+    <string name="block_trim_tail"></string>
+
+    <string name="block_to_upper_case_head">toUpperCase</string>
+    <string name="block_to_upper_case_tail"></string>
+
+    <string name="block_to_lower_case_head">toLowerCase</string>
+    <string name="block_to_lower_case_tail"></string>
+
+    <string name="block_to_string_head">toString</string>
+    <string name="block_to_string_tail">without decimal</string>
+
+    <string name="block_to_string_with_decimal_head">toString</string>
+    <string name="block_to_string_with_decimal_tail">with decimal</string>
+
+    <string name="block_to_string_format_head"></string>
+    <string name="block_to_string_format_body_1">toDecimalFormat</string>
+    <string name="block_to_string_format_tail"></string>
+
+    <string name="block_add_source_directly_head">add source directly</string>
+    <string name="block_add_source_directly_tail"></string>
+
+    <string name="block_math_get_dip_head">getDip</string>
+    <string name="block_math_get_dip_tail"></string>
+
+    <string name="block_math_get_display_width_head">getDisplayWidthPixels</string>
+    <string name="block_math_get_display_width_tail"></string>
+
+    <string name="block_math_get_display_height_head">getDisplayHeightPixels</string>
+    <string name="block_math_get_display_height_tail"></string>
+
+    <string name="block_math_pi_head">PI(π)</string>
+    <string name="block_math_pi_tail"></string>
+
+    <string name="block_math_e_head">E(e)</string>
+    <string name="block_math_e_tail"></string>
+
+    <string name="block_math_pow_head"></string>
+    <string name="block_math_pow_body_1">to the</string>
+    <string name="block_math_pow_tail">power</string>
+
+    <string name="block_math_min_head">minimum of</string>
+    <string name="block_math_min_body_1">and</string>
+    <string name="block_math_min_tail"></string>
+
+    <string name="block_math_max_head">maximum of</string>
+    <string name="block_math_max_body_1">and</string>
+    <string name="block_math_max_tail"></string>
+
+    <string name="block_math_sqrt_head">square root of</string>
+    <string name="block_math_sqrt_tail"></string>
+
+    <string name="block_math_abs_head">absolute value of</string>
+    <string name="block_math_abs_tail"></string>
+
+    <string name="block_math_round_head">round</string>
+    <string name="block_math_round_tail"></string>
+
+    <string name="block_math_ceil_head">ceil</string>
+    <string name="block_math_ceil_tail"></string>
+
+    <string name="block_math_floor_head">floor</string>
+    <string name="block_math_floor_tail"></string>
+
+    <string name="block_math_sin_head">sin</string>
+    <string name="block_math_sin_tail"></string>
+
+    <string name="block_math_cos_head">cos</string>
+    <string name="block_math_cos_tail"></string>
+
+    <string name="block_math_tan_head">tan</string>
+    <string name="block_math_tan_tail"></string>
+
+    <string name="block_math_asin_head">arcsin</string>
+    <string name="block_math_asin_tail"></string>
+
+    <string name="block_math_acos_head">arccos</string>
+    <string name="block_math_acos_tail"></string>
+
+    <string name="block_math_atan_head">arctan</string>
+    <string name="block_math_atan_tail"></string>
+
+    <string name="block_math_exp_head">exp</string>
+    <string name="block_math_exp_tail"></string>
+
+    <string name="block_math_log_head">ln</string>
+    <string name="block_math_log_tail"></string>
+
+    <string name="block_math_log10_head">log</string>
+    <string name="block_math_log10_tail"></string>
+
+    <string name="block_math_to_radian_head">Degree</string>
+    <string name="block_math_to_radian_tail">to Radian</string>
+
+    <string name="block_math_to_degree_head">Radian</string>
+    <string name="block_math_to_degree_tail">to Degree</string>
+
+    <string name="block_view_on_click_head">When</string>
+    <string name="block_view_on_click_tail">clicked</string>
+
+    <string name="block_set_enable_head"></string>
+    <string name="block_set_enable_body_1">setEnable</string>
+    <string name="block_set_enable_tail"></string>
+
+    <string name="block_get_enable_head"></string>
+    <string name="block_get_enable_tail">getEnable</string>
+
+    <string name="block_set_visible_head"></string>
+    <string name="block_set_visible_body_1">setVisible</string>
+    <string name="block_set_visible_tail"></string>
+
+    <string name="block_set_clickable_head"></string>
+    <string name="block_set_clickable_body_1">setClickable</string>
+    <string name="block_set_clickable_tail"></string>
+
+    <string name="block_set_text_head"></string>
+    <string name="block_set_text_body_1">setText</string>
+    <string name="block_set_text_tail"></string>
+
+    <string name="block_get_text_head"></string>
+    <string name="block_get_text_tail">getText</string>
+
+    <string name="block_set_bg_color_head"></string>
+    <string name="block_set_bg_color_body_1">setBackgroundColor</string>
+    <string name="block_set_bg_color_tail"></string>
+
+    <string name="block_set_bg_resource_head"></string>
+    <string name="block_set_bg_resource_body_1">setBackgroundResource</string>
+    <string name="block_set_bg_resource_tail"></string>
+
+    <string name="block_set_text_color_head"></string>
+    <string name="block_set_text_color_body_1">setTextColor</string>
+    <string name="block_set_text_color_tail"></string>
+
+    <string name="block_set_image_head"></string>
+    <string name="block_set_image_body_1">setImage</string>
+    <string name="block_set_image_tail"></string>
+
+    <string name="block_set_rotate_head"></string>
+    <string name="block_set_rotate_body_1">setRotation</string>
+    <string name="block_set_rotate_tail"></string>
+
+    <string name="block_get_rotate_head"></string>
+    <string name="block_get_rotate_tail">getRotation</string>
+
+    <string name="block_set_alpha_head"></string>
+    <string name="block_set_alpha_body_1">setAlpha</string>
+    <string name="block_set_alpha_tail"></string>
+
+    <string name="block_get_alpha_head"></string>
+    <string name="block_get_alpha_tail">getAlpha</string>
+
+    <string name="block_set_translation_x_head"></string>
+    <string name="block_set_translation_x_body_1">setTranslationX</string>
+    <string name="block_set_translation_x_tail"></string>
+
+    <string name="block_get_translation_x_head"></string>
+    <string name="block_get_translation_x_tail">getTranslationX</string>
+
+    <string name="block_set_translation_y_head"></string>
+    <string name="block_set_translation_y_body_1">setTranslationY</string>
+    <string name="block_set_translation_y_tail"></string>
+
+    <string name="block_get_translation_y_head"></string>
+    <string name="block_get_translation_y_tail">getTranslationY</string>
+
+    <string name="block_set_scale_x_head"></string>
+    <string name="block_set_scale_x_body_1">setScaleX</string>
+    <string name="block_set_scale_x_tail"></string>
+
+    <string name="block_get_scale_x_head"></string>
+    <string name="block_get_scale_x_tail">getScaleX</string>
+
+    <string name="block_set_scale_y_head"></string>
+    <string name="block_set_scale_y_body_1">setScaleY</string>
+    <string name="block_set_scale_y_tail"></string>
+
+    <string name="block_get_scale_y_head"></string>
+    <string name="block_get_scale_y_tail">getScaleY</string>
+
+    <string name="block_set_checked_head"></string>
+    <string name="block_set_checked_body_1">setChecked</string>
+    <string name="block_set_checked_tail"></string>
+
+    <string name="block_get_checked_head"></string>
+    <string name="block_get_checked_tail">getChecked</string>
+
+    <string name="block_set_thumb_resource_head"></string>
+    <string name="block_set_thumb_resource_body_1">setThumbResource</string>
+    <string name="block_set_thumb_resource_tail"></string>
+
+    <string name="block_set_track_resource_head"></string>
+    <string name="block_set_track_resource_body_1">setTrackResource</string>
+    <string name="block_set_track_resource_tail"></string>
+
+    <string name="block_list_set_data_head"></string>
+    <string name="block_list_set_data_body_1">setListViewData</string>
+    <string name="block_list_set_data_tail"></string>
+
+    <string name="block_list_set_custom_view_data_head"></string>
+    <string name="block_list_set_custom_view_data_body_1">setListCustomViewData</string>
+    <string name="block_list_set_custom_view_data_tail"></string>
+
+    <string name="block_spn_set_data_head"></string>
+    <string name="block_spn_set_data_body_1">setSpinnerData</string>
+    <string name="block_spn_set_data_tail"></string>
+
+    <string name="block_spn_set_selection_head"></string>
+    <string name="block_spn_set_selection_body_1">setSelection</string>
+    <string name="block_spn_set_selection_tail"></string>
+
+    <string name="block_spn_get_selection_head"></string>
+    <string name="block_spn_get_selection_tail">getSelection</string>
+
+    <string name="block_seekbar_set_progress_head"></string>
+    <string name="block_seekbar_set_progress_body_1">setProgress</string>
+    <string name="block_seekbar_set_progress_tail"></string>
+
+    <string name="block_seekbar_get_progress_head"></string>
+    <string name="block_seekbar_get_progress_tail">getProgress</string>
+
+    <string name="block_seekbar_set_max_head"></string>
+    <string name="block_seekbar_set_max_body_1">setMax</string>
+    <string name="block_seekbar_set_max_tail"></string>
+
+    <string name="block_seekbar_get_max_head"></string>
+    <string name="block_seekbar_get_max_tail">getMax</string>
+
+    <string name="block_list_refresh_head"></string>
+    <string name="block_list_refresh_tail">refreshData</string>
+
+
+
+    <string name="block_spn_refresh_head"></string>
+    <string name="block_spn_refresh_tail">refreshData</string>
+
+    <string name="block_webview_load_url_head"></string>
+    <string name="block_webview_load_url_body_1">loadUrl</string>
+    <string name="block_webview_load_url_tail"></string>
+
+    <string name="block_webview_get_url_head"></string>
+    <string name="block_webview_get_url_tail">getUrl</string>
+
+    <string name="block_webview_set_cache_mode_head"></string>
+    <string name="block_webview_set_cache_mode_body_1">setCacheMode</string>
+    <string name="block_webview_set_cache_mode_tail"></string>
+
+    <string name="block_webview_can_go_back_head"></string>
+    <string name="block_webview_can_go_back_tail">canGoBack</string>
+
+    <string name="block_webview_can_go_forward_head"></string>
+    <string name="block_webview_can_go_forward_tail">canGoForward</string>
+
+    <string name="block_webview_go_back_head"></string>
+    <string name="block_webview_go_back_tail">goBack</string>
+
+    <string name="block_webview_go_forward_head"></string>
+    <string name="block_webview_go_forward_tail">goForward</string>
+
+    <string name="block_webview_clear_cache_head"></string>
+    <string name="block_webview_clear_cache_tail">clearCache</string>
+
+    <string name="block_webview_clear_history_head"></string>
+    <string name="block_webview_clear_history_tail">clearHistory</string>
+
+    <string name="block_webview_stop_loading_head"></string>
+    <string name="block_webview_stop_loading_tail">stopLoading</string>
+
+    <string name="block_webview_zoom_in_head"></string>
+    <string name="block_webview_zoom_in_tail">zoomIn</string>
+
+    <string name="block_webview_zoom_out_head"></string>
+    <string name="block_webview_zoom_out_tail">zoomOut</string>
+
+    <string name="block_intent_set_action_head"></string>
+    <string name="block_intent_set_action_body_1">setAction</string>
+    <string name="block_intent_set_action_tail"></string>
+
+    <string name="block_intent_set_data_head"></string>
+    <string name="block_intent_set_data_body_1">setData</string>
+    <string name="block_intent_set_data_tail"></string>
+
+    <string name="block_intent_set_screen_head"></string>
+    <string name="block_intent_set_screen_body_1">setScreen</string>
+    <string name="block_intent_set_screen_tail"></string>
+
+    <string name="block_intent_put_extra_head"></string>
+    <string name="block_intent_put_extra_body_1">putExtra key</string>
+    <string name="block_intent_put_extra_body_2">value</string>
+    <string name="block_intent_put_extra_tail"></string>
+
+    <string name="block_intent_set_flags_head"></string>
+    <string name="block_intent_set_flags_body_1">setFlagss</string>
+    <string name="block_intent_set_flags_tail"></string>
+
+    <string name="block_start_activity_head">StartActivityt</string>
+    <string name="block_start_activity_tail"></string>
+
+    <string name="block_intent_get_string_head">Activity getExtra key</string>
+    <string name="block_intent_get_string_tail"></string>
+
+    <string name="block_finish_activity_head">Finish</string>
+    <string name="block_finish_activity_tail">Activity</string>
+
+    <string name="block_file_get_data_head"></string>
+    <string name="block_file_get_data_body_1">getData key</string>
+    <string name="block_file_get_data_tail"></string>
+
+    <string name="block_file_set_data_head"></string>
+    <string name="block_file_set_data_body_1">setData key</string>
+    <string name="block_file_set_data_body_2">value</string>
+    <string name="block_file_set_data_tail"></string>
+
+    <string name="block_file_remove_data_head"></string>
+    <string name="block_file_remove_data_body_1">removeData key</string>
+    <string name="block_file_remove_data_tail"></string>
+
+    <string name="block_calendar_get_now_head"></string>
+    <string name="block_calendar_get_now_tail">getNow</string>
+
+    <string name="block_calendar_add_head"></string>
+    <string name="block_calendar_add_body_1">add</string>
+    <string name="block_calendar_add_body_2">value</string>
+    <string name="block_calendar_add_tail"></string>
+
+    <string name="block_calendar_set_head"></string>
+    <string name="block_calendar_set_body_1">set</string>
+    <string name="block_calendar_set_body_2">value</string>
+    <string name="block_calendar_set_tail"></string>
+
+    <string name="block_calendar_format_head"></string>
+    <string name="block_calendar_format_body_1">Format</string>
+    <string name="block_calendar_format_tail"></string>
+
+    <string name="block_calendar_diff_head">Difference</string>
+    <string name="block_calendar_diff_body_1">-</string>
+    <string name="block_calendar_diff_tail"></string>
+
+    <string name="block_vibrator_action_head"></string>
+    <string name="block_vibrator_action_body_1">vibrate for</string>
+    <string name="block_vibrator_action_tail">ms</string>
+
+    <string name="block_timer_after_head"></string>
+    <string name="block_timer_after_body_1">after</string>
+    <string name="block_timer_after_tail">ms</string>
+
+    <string name="block_timer_every_head"></string>
+    <string name="block_timer_every_body_1">after</string>
+    <string name="block_timer_every_body_2">ms for every</string>
+    <string name="block_timer_every_tail">ms</string>
+
+    <string name="block_timer_cancel_head"></string>
+    <string name="block_timer_cancel_tail">cancel</string>
+
+    <string name="block_dialog_set_title_head"></string>
+    <string name="block_dialog_set_title_body_1">set title</string>
+    <string name="block_dialog_set_title_tail"></string>
+
+    <string name="block_dialog_set_message_head"></string>
+    <string name="block_dialog_set_message_body_1">set message</string>
+    <string name="block_dialog_set_message_tail"></string>
+
+    <string name="block_dialog_show_head"></string>
+    <string name="block_dialog_show_tail">show</string>
+
+    <string name="block_dialog_dismiss_head"></string>
+    <string name="block_dialog_dismiss_tail">dismiss</string>
+
+    <string name="block_dialog_ok_button_head"></string>
+    <string name="block_dialog_ok_button_body_1">OK Button</string>
+    <string name="block_dialog_ok_button_tail">Clicked</string>
+
+    <string name="block_dialog_cancel_button_head"></string>
+    <string name="block_dialog_cancel_button_body_1">Cancel Button</string>
+    <string name="block_dialog_cancel_button_tail">Clicked</string>
+
+    <string name="block_dialog_neutral_button_head"></string>
+    <string name="block_dialog_neutral_button_body_1">Neutral Button</string>
+    <string name="block_dialog_neutral_button_tail">Clicked</string>
+
+    <string name="block_mediaplayer_create_head"></string>
+    <string name="block_mediaplayer_create_body_1">create</string>
+    <string name="block_mediaplayer_create_tail"></string>
+
+    <string name="block_mediaplayer_start_head"></string>
+    <string name="block_mediaplayer_start_tail">start</string>
+
+    <string name="block_mediaplayer_pause_head"></string>
+    <string name="block_mediaplayer_pause_tail">pause</string>
+
+    <string name="block_mediaplayer_seek_head"></string>
+    <string name="block_mediaplayer_seek_body_1">seek to</string>
+    <string name="block_mediaplayer_seek_tail"></string>
+
+    <string name="block_mediaplayer_get_current_head"></string>
+    <string name="block_mediaplayer_get_current_tail">get current duration</string>
+
+    <string name="block_mediaplayer_get_duration_head"></string>
+    <string name="block_mediaplayer_get_duration_tail">get song duration</string>
+
+    <string name="block_mediaplayer_reset_head"></string>
+    <string name="block_mediaplayer_reset_tail">reset</string>
+
+    <string name="block_mediaplayer_release_head"></string>
+    <string name="block_mediaplayer_release_tail">release</string>
+
+    <string name="block_mediaplayer_is_playing_head"></string>
+    <string name="block_mediaplayer_is_playing_tail">is playing</string>
+
+    <string name="block_mediaplayer_set_looping_head"></string>
+    <string name="block_mediaplayer_set_looping_body_1">set looping</string>
+    <string name="block_mediaplayer_set_looping_tail"></string>
+
+    <string name="block_mediaplayer_is_looping_head"></string>
+    <string name="block_mediaplayer_is_looping_tail">is looping</string>
+
+    <string name="block_soundpool_create_head"></string>
+    <string name="block_soundpool_create_body_1">create max stream count</string>
+    <string name="block_soundpool_create_tail"></string>
+
+    <string name="block_soundpool_load_head">SoundID : </string>
+    <string name="block_soundpool_load_body_1">load</string>
+    <string name="block_soundpool_load_tail"></string>
+
+    <string name="block_soundpool_stream_play_head">StreamID : </string>
+    <string name="block_soundpool_stream_play_body_1">play Sound ID</string>
+    <string name="block_soundpool_stream_play_body_2">1 +</string>
+    <string name="block_soundpool_stream_play_tail">times</string>
+
+    <string name="block_soundpool_stream_stop_head"></string>
+    <string name="block_soundpool_stream_stop_body_1">stop stream ID</string>
+    <string name="block_soundpool_stream_stop_tail"></string>
+
+    <string name="block_objectanimator_set_target_head"></string>
+    <string name="block_objectanimator_set_target_body_1">set target</string>
+    <string name="block_objectanimator_set_target_tail"></string>
+
+    <string name="block_objectanimator_set_property_head"></string>
+    <string name="block_objectanimator_set_property_body_1">set property</string>
+    <string name="block_objectanimator_set_property_tail"></string>
+
+    <string name="block_objectanimator_set_value_head"></string>
+    <string name="block_objectanimator_set_value_body_1">set value</string>
+    <string name="block_objectanimator_set_value_tail"></string>
+
+    <string name="block_objectanimator_set_from_to_head"></string>
+    <string name="block_objectanimator_set_from_to_body_1">set values from</string>
+    <string name="block_objectanimator_set_from_to_body_2">to</string>
+    <string name="block_objectanimator_set_from_to_tail"></string>
+
+    <string name="block_objectanimator_set_duration_head"></string>
+    <string name="block_objectanimator_set_duration_body_1">set duration</string>
+    <string name="block_objectanimator_set_duration_tail"></string>
+
+    <string name="block_objectanimator_set_repeat_mode_head"></string>
+    <string name="block_objectanimator_set_repeat_mode_body_1">set repeat mode</string>
+    <string name="block_objectanimator_set_repeat_mode_tail"></string>
+
+    <string name="block_objectanimator_set_repeat_count_head"></string>
+    <string name="block_objectanimator_set_repeat_count_body_1">set repeat count</string>
+    <string name="block_objectanimator_set_repeat_count_tail"></string>
+
+    <string name="block_objectanimator_set_interpolator_head"></string>
+    <string name="block_objectanimator_set_interpolator_body_1">set interpolator</string>
+    <string name="block_objectanimator_set_interpolator_tail"></string>
+
+    <string name="block_objectanimator_start_head"></string>
+    <string name="block_objectanimator_start_tail">start</string>
+
+    <string name="block_objectanimator_cancel_head"></string>
+    <string name="block_objectanimator_cancel_tail">cancel</string>
+
+    <string name="block_objectanimator_is_running_head"></string>
+    <string name="block_objectanimator_is_running_tail">is running</string>
+
+    <string name="block_do_toast_head">Toast</string>
+    <string name="block_do_toast_tail"></string>
+
+    <string name="block_copy_to_clipboard_head">copyToClipboard</string>
+    <string name="block_copy_to_clipboard_tail"></string>
+
+    <string name="block_set_title_head">Activity set title</string>
+    <string name="block_set_title_tail"></string>
+
+
+
+    <string name="desc_bl_invalid_1">An index is either negative or greater than or equal to the size of the list</string>
+    <string name="desc_bl_invalid_2">A number cannot be divided by zero</string>
+    <string name="desc_bl_invalid_3">An index is either negative or greater than the size of the string</string>
+    <string name="desc_bl_invalid_4">Thrown to indicate that the application has attempted to convert a string to one of the numeric types</string>
+    <string name="desc_bl_invalid_5">Unreachable statement or stop block outside repeat block or forever block</string>
+    <string name="desc_bl_invalid_6">Occurred when parameters of Intent is invalid</string>
+    <string name="desc_bl_and">Join two conditions</string>
+    <string name="desc_bl_bool_set_to">Set the specified variable to the condition</string>
+    <string name="desc_bl_bool_var">Boolean variable</string>
+    <string name="desc_bl_equals">The condition for checking if two strings are equal</string>
+    <string name="desc_bl_str_contains">The condition for checking if the string contains a value</string>
+    <string name="desc_bl_str_replace">Replaces all string value to the given value</string>
+    <string name="desc_bl_false">False condition</string>
+    <string name="desc_bl_forever">A loop that will never end\n* this must be used with stop block</string>
+    <string name="desc_bl_get_text">Get the text the widget is displaying</string>
+    <string name="desc_bl_get_enable">the enabled status for the widget</string>
+    <string name="desc_bl_if_else">Check the condition\n - if the condition is true, the blocks inside the first C will activate,\nand if the condition is false, the blocks inside the second C will activate</string>
+    <string name="desc_bl_if_then">Check the condition\n - if the condition is true, the blocks inside it will activate</string>
+    <string name="desc_bl_init_logic">When application is executed, the block activates</string>
+    <string name="desc_bl_int_set_to">Sets the specified variable to the number</string>
+    <string name="desc_bl_int_var">Number variable</string>
+    <string name="desc_bl_join">The two values put right next to each other</string>
+    <string name="desc_bl_str_lengthof">The length of the string</string>
+    <string name="desc_bl_list_addto">Add an item to the list (the item goes at the bottom of the list of items) with the specified content in it</string>
+    <string name="desc_bl_list_clear">Clear the list</string>
+    <string name="desc_bl_list_contains">The condition for checking if an item\'s content is the specified value</string>
+    <string name="desc_bl_list_delete_at_of">Deletes the item off the list</string>
+    <string name="desc_bl_list_get_at_of">Gets the item\'s value</string>
+    <string name="desc_bl_list_index_in">The position value of the item</string>
+    <string name="desc_bl_list_insert_at_to">Adds an item to the list (the item goes where you specify in the list of items) with the specified content in it. </string>
+    <string name="desc_bl_list_lengthof">How many items there are in the specified list</string>
+
+    <string name="desc_bl_map_add_list">Add a (String, String) Map to the list of Maps</string>
+    <string name="desc_bl_map_insert_list">Insert a (key, value) pair into a Map at a certain index of the Map List</string>
+    <string name="desc_bl_map_set_list">Modify a (key, value) pair inside a Map at a certain index of the Map List</string>
+    <string name="desc_bl_map_contain_list">Check if the Map at a certain index of the Map List contains a key</string>
+    <string name="desc_bl_map_get_at_list">Gets the (key, value) pair from the Map at a certain index of the Map List</string>
+
+
+    <string name="desc_bl_math_divide">The value of the division</string>
+    <string name="desc_bl_math_device_rest">The remainder of the division</string>
+    <string name="desc_bl_math_math_equals">The condition for checking if two values are equal</string>
+    <string name="desc_bl_math_great">The condition for checking if a value is greater than the other</string>
+    <string name="desc_bl_math_less">The condition for checking if a value is less than the other</string>
+    <string name="desc_bl_math_minus">The value of the subtraction</string>
+    <string name="desc_bl_math_multi">The value of the multiplication</string>
+    <string name="desc_bl_math_plus">The value of the addition</string>
+    <string name="desc_bl_not">Make the condition checked if it is false, not true</string>
+    <string name="desc_bl_or">Join two conditions, but they function separately</string>
+    <string name="desc_bl_pic_num">Pick a random number between the two limits</string>
+    <string name="desc_bl_repeat">A loop that repeats for the specified amount</string>
+    <string name="desc_bl_set_bg_color">Set the background color for the widget</string>
+    <string name="desc_bl_set_enable">Set the enabled state of the widget</string>
+    <string name="desc_bl_set_image">Set selected image as the content of the ImageView</string>
+    <string name="desc_bl_set_text">Set the text of the widget</string>
+    <string name="desc_bl_set_text_color">Set the text color of the widget</string>
+    <string name="desc_bl_show_message">Display the text in notification popup</string>
+    <string name="desc_bl_stop">Stop the wrapped loop</string>
+    <string name="desc_bl_str_indexof">The first index of the given string, or -1</string>
+    <string name="desc_bl_str_set_to">Set the specified variable to the string</string>
+    <string name="desc_bl_str_var">String variable</string>
+    <string name="desc_bl_substring">A string containing the given subsequence of the string</string>
+    <string name="desc_bl_to_number">Converts to number</string>
+    <string name="desc_bl_to_string">Converts to string</string>
+    <string name="desc_bl_true">True condition</string>
+    <string name="desc_bl_trim">Returns a string with no spaces at the beginning or end</string>
+    <string name="desc_bl_intent_set_action">Set the Intent action to be performed\nIntent : a component for load a Activity(view)\n-ACTION_CALL : Perform a call to someone specified by the data(permission:CALL_PHONE)\n-ACTION_DIAL : Dial a number as specified by the data(no permission)\n-ACTION_VIEW : Display the data to the user\n*You need to add \'Intent\' in [Component] to use this</string>
+    <string name="desc_bl_intent_set_flag">Set special conditions controlling how this intent is handled\n-SINGLE_TOP :  Views are usually maintained like a deck of cards, stacked on top of each other. This block makes the application manage views in a way that if the view you’re about to transition to was already called before, it would bring that view to the front rather than putting a new view on top.\n-CLEAR_TOP : Clears all the previous views under the current view.\n  *You need to add \'Intent\' in [Component] to use this</string>
+    <string name="desc_bl_intent_set_data">Set the data this Intent is operating on\n-ACTION_CALL : must start with "tel:"\n (EX:"tel:021111111)\n-ACTION_DIAL : must start with "tel:"\n (EX:"tel:021111111)\n-ACTION_VIEW : must follow URL form starting with "http:" or "https:"\n (EX: "http://google.com")\n *A run-time error may occur if you don\'t follow the recommendation\n *You need to add \'Intent\' in [Component] to use this</string>
+    <string name="desc_bl_intent_set_screen">Set the Activity(View) to be performed\n*You need to add \'Intent\' in [Component] to use this</string>
+    <string name="desc_bl_intent_putextra">Bind the data to Intent\n*Send to Activity with key : value format\n*Intent can have multiple keys and values\n*You need to add \'Intent\' in [Component] to use this</string>
+    <string name="desc_bl_activity_getextra_s">Get the data from Intent\n*Only the value saved by Intent PutExtra block can be retrieved\n*Get the empty string("") when the key does not exist\n*You need to add \'Intent\' in [Component] to use this</string>
+    <string name="desc_bl_start_activity">Launch a new Activity by Intent\n*A run-time error may occur if the Intent parameters is invalid\n*You need to add \'Intent\' in [Component] to use this</string>
+    <string name="desc_bl_finish_activity">Finish the current Activity</string>
+    <string name="desc_bl_file_get_data">Retrieve a value from the preference file\nThe value saved by File SetData block can be retrieved\n*You need to add \'File(Shared Preference)\' from [Component] to use this</string>
+    <string name="desc_bl_file_set_data">Set a value in the preference file\n*Application can have multiple files and a file can have multiple values\n*the keys in the file must be unique. If same key is used several times, only the latest saved value is accessible \n*format - key : value\nEx) key : new_memo , value : hello\n*You need to add \'File(Shared Preference\' from [Component] to use this</string>
+    <string name="desc_bl_file_remove_data">remove file data with the following key</string>
+    <string name="desc_bl_cal_getnow">Get the current date and time\n*You need to add \'Calendar\' from [Component] to use this</string>
+    <string name="desc_bl_cal_addvalue">Add the given amount of time to the Calendar field\n*Positive Value : adds time\n*Negative Value : subtracts time\n*You need to add \'Calendar\' from [Component] to use this</string>
+    <string name="desc_bl_cal_setvalue">Set the Calendar field to a specific value\n*You need to add \'Calendar\' from [Component] to use this</string>
+    <string name="desc_bl_cal_format">Format the Calendar as a string using the pattern\nYear(y) | Month(M) | Day(d)\nHour(h) 1~12 | Hour(H) 0~23 | Minute(m) | Second(s)\nEx : yyyy-MM-dd hh:mm:ss ( 2106-01-01 03:01:02 )\nEx : yyyy-MM-dd HH:mm:ss ( 2106-01-01 15:01:02 )\nEx : yyyy-MM-dd ( 2106-01-01 )\nEx : hh:mm:ss ( 12:01:02 )\n*A run-time error if the given string format is invalid\n*You need to add \'Calendar\' from [Component] to use this</string>
+    <string name="desc_bl_cal_difference">Get the differences between the given calendars (time)\nUnit : milliseconds\n*You need to add \'Calendar\' from [Component] to use this</string>
+    <string name="desc_bl_int_increase">Increment Value by 1</string>
+    <string name="desc_bl_int_decrease">Decrement Value by 1</string>
+    <string name="desc_bl_spn_refresh">Refresh Spinner\nRefresh List Item using Spinner</string>
+    <string name="desc_bl_set_spn_data">Set Spinner Data\nData Format: String</string>
+    <string name="desc_bl_spn_set_selection">Select a spinner item at a given index\nSetting an index greater than the number of items in the spinner will result in runtime error</string>
+    <string name="desc_bl_spn_get_selection">Get the index of selected spinner item\nIndex starts from 0</string>
+    <string name="desc_bl_listview_set_data">Set ListView Data\nSetting the data for a ListView\nData Format: String</string>
+    <string name="desc_bl_listview_set_customview_data">Inflate the CustomView layout to an item</string>
+    <string name="desc_bl_listview_refresh">Refresh ListView\nRefresh the ListView data</string>
+    <string name="desc_bl_listview_setitem_chk_pos">Set the value of a ListView item at a given index\nOnly Works when the ChoiceMode for the ListView is either single or multi\nSetting an index greater than the number of items in the ListView will result in runtime error</string>
+    <string name="desc_bl_listview_getchk_pos">Get the index of selected ListView item\nOnly Works when the ChoiceMode for the ListView is either single or multi</string>
+    <string name="desc_bl_listview_getchk_pos_arr">Get an array of indices for the selected ListView items\nOnly Works when the ChoiceMode for the ListView is either single or multi</string>
+    <string name="desc_bl_listview_getchk_count">Get the number of selected ListView items\nOnly Works when the ChoiceMode for the ListView is either single or multi</string>
+    <string name="desc_bl_chk_get_checked">Get the status of a checkbox\nTrue if checked, else false</string>
+    <string name="desc_bl_chk_set_checked">Set the status of a checkbox\nChecked if set true, else unchecked</string>
+    <string name="desc_bl_set_rotation">Set the rotation on a widget</string>
+    <string name="desc_bl_get_rotation">Get the rotation of a widget</string>
+    <string name="desc_bl_set_alpha">Set the alpha value of a widget</string>
+    <string name="desc_bl_get_alpha">Get the current alpha value of a widget</string>
+    <string name="desc_bl_set_translation_x">Set the translation X value of a widget</string>
+    <string name="desc_bl_get_translation_x">Get the current translation X value of a widget</string>
+    <string name="desc_bl_set_translation_y">Set the translation Y value of a widget</string>
+    <string name="desc_bl_get_translation_y">Get the current translation Y value of a widget</string>
+    <string name="desc_bl_set_scale_x">Set the scale X value of a widget</string>
+    <string name="desc_bl_get_scale_x">Get the current scale X value of a widget</string>
+    <string name="desc_bl_set_scale_y">Set the scale Y value of a widget</string>
+    <string name="desc_bl_get_scale_y">Get the current scale Y value of a widget</string>
+    <string name="desc_bl_set_visible">Set the visibility of a widget\nVisibility Properties\n- VISIBLE : This view is visible\n- INVISIBLE : This view is invisible, but it still takes up space for layout purposes\n- GONE : This view is invisible, and it doesn\'t take any space for layout purposes</string>
+    <string name="desc_bl_vibrator">Vibrate for the set amount of time\n- Time Unit: millisecond\n* You need to add \'Vibrator\' from [Component] to use this</string>
+    <string name="desc_bl_timer_after">Execute the blocks after a set time period\n- Time Unit: millisecond\n* You can only set one task per timer\n* You need to add \'Timer\' from [Component] to use this</string>
+    <string name="desc_bl_timer_every">Execute the blocks after a set time period for every set time period\n- Time Unit: millisecond\n* You can only set one task per timer\n* You need to add \'Timer\' from [Component] to use this</string>
+    <string name="desc_bl_timer_cancel">Cancels the designated timer task\n- Time Unit: millisecond\n* You need to add \'Timer\' from [Component] to use this</string>
+    <string name="desc_bl_str_replace_first">Replaces the first string value with the given value</string>
+    <string name="desc_bl_str_replace_all">Replaces all the string value with the given value</string>
+    <string name="desc_bl_touppercase">Changes all the characters to uppercase value</string>
+    <string name="desc_bl_tolowercase">Changes all the characters in the string to lowercase</string>
+    <string name="desc_bl_to_string_with_decimal">Converts the number to a string including the decimal value</string>
+    <string name="desc_bl_to_string_format">Used to format numbers to a certain decimal place. \nEx: Formating numbers to a 2 decimal places takes in the input of 0.00</string>
+    <string name="desc_bl_math_pi">Value of Pi, 3.14159...</string>
+    <string name="desc_bl_math_e">Value of e, 2.71828...</string>
+    <string name="desc_bl_math_pow">Calculate nth power of the given value</string>
+    <string name="desc_bl_math_min">Calculate the smaller value between two values</string>
+    <string name="desc_bl_math_max">Calculate the bigger value between two values</string>
+    <string name="desc_bl_math_sqrt">Calculate the square root of the given value</string>
+    <string name="desc_bl_math_abs">Calculate the absolute value of the given value</string>
+    <string name="desc_bl_math_round">Round the given value up or down</string>
+    <string name="desc_bl_math_ceil">Round the given value up</string>
+    <string name="desc_bl_math_floor">Round the given value down</string>
+    <string name="desc_bl_math_sin">Calculate the sine function of the given value</string>
+    <string name="desc_bl_math_cos">Calculate the cosine function of the given value</string>
+    <string name="desc_bl_math_tan">Calculate the tangent function of the given value</string>
+    <string name="desc_bl_math_asin">Calculate the arcsine function of the given value</string>
+    <string name="desc_bl_math_acos">Calculate the arccosine function of the given value</string>
+    <string name="desc_bl_math_atan">Calculate the arctangent function of the given value</string>
+    <string name="desc_bl_math_exp">Calculate the exponential function of the given value</string>
+    <string name="desc_bl_math_log">Calculate the natural log of the given value</string>
+    <string name="desc_bl_math_log10">Calculate the log based 10 of the given value</string>
+    <string name="desc_bl_math_to_radian">Convert the given value to Radian from Degree</string>
+    <string name="desc_bl_math_to_degree">Convert the given value to Degree from Radian</string>
+    <string name="desc_bl_math_get_dip">Calculate device\'s dip(dp) value using the input</string>
+    <string name="desc_bl_math_get_display_width">Retrieve the device\'s width size in pixels</string>
+    <string name="desc_bl_math_get_display_height">Retrieve the device\'s height size in pixels</string>
+    <string name="desc_bl_webview_load_url">Load the url to the WebView</string>
+    <string name="desc_bl_webview_get_url">Retrieve the url of the current WebView</string>
+    <string name="desc_bl_webview_set_cachemode">Enable or disable saving cache</string>
+    <string name="desc_bl_webview_can_go_back">Check if previous page is available</string>
+    <string name="desc_bl_webview_can_go_forward">Check if there is next page available</string>
+    <string name="desc_bl_webview_go_back">Go back to the previous page</string>
+    <string name="desc_bl_webview_go_forward">Go forward a page</string>
+    <string name="desc_bl_webview_clear_cache">Clear cache from websites</string>
+    <string name="desc_bl_webview_clear_history">Clear previous browsing history</string>
+    <string name="desc_bl_webview_stop_loading">Force stops the load</string>
+    <string name="desc_bl_webview_zoom_in">Zoom in to the WebView</string>
+    <string name="desc_bl_webview_zoom_out">Zoom out from the WebView</string>
+    <string name="desc_bl_set_title">Set the title for the current Activity</string>
+    <string name="desc_bl_dialog_set_title">Set the tile for the current Dialog</string>
+    <string name="desc_bl_dialog_set_message">Set the body message for the Dialog</string>
+    <string name="desc_bl_dialog_ok_button">Determine the action for OK Pressed</string>
+    <string name="desc_bl_dialog_cancel_button">Determine the action for Cancel Pressed</string>
+    <string name="desc_bl_dialog_neutral_button">Determine the action for Neutral Button Pressed</string>
+    <string name="desc_bl_dialog_show">Show the Dialog</string>
+    <string name="desc_bl_dialog_dismiss">Programatically close the Dialog</string>
+    <string name="desc_bl_mediaplayer_create">Initialize the MediaPlayer with a sound</string>
+    <string name="desc_bl_mediaplayer_start">Start the MediaPlayer</string>
+    <string name="desc_bl_mediaplayer_pause">Pause the MediaPlayer</string>
+    <string name="desc_bl_mediaplayer_seek">Seeks the MediaPlayer to given milliseconds</string>
+    <string name="desc_bl_mediaplayer_get_current">Get the current duration in milliseconds</string>
+    <string name="desc_bl_mediaplayer_get_duration">Get the duration of the sound in milliseconds</string>
+    <string name="desc_bl_mediaplayer_isplaying">Check if MediaPlayer is playing</string>
+    <string name="desc_bl_mediaplayer_setlooping">Enable or disable loop for the sound</string>
+    <string name="desc_bl_mediaplayer_islooping">Check if the sound is on loop</string>
+    <string name="desc_bl_mediaplayer_reset">Reset the MediaPlayer to initial state, seeking to 0 milliseconds</string>
+    <string name="desc_bl_mediaplayer_release">Release the sound the MediaPlayer is holding onto</string>
+    <string name="desc_bl_soundpool_create">Initialize how many sounds the pool can hold</string>
+    <string name="desc_bl_soundpool_load">Load the pool with a sound. Returns the soundID (number)</string>
+    <string name="desc_bl_soundpool_stream_play">Play the sound with the matching soundID. Returns the streamID (number)</string>
+    <string name="desc_bl_soundpool_stream_stop">Stops the sound with the matching streamID</string>
+    <string name="desc_bl_seekbar_set_progress">Sets the progress value of the SeekBar</string>
+    <string name="desc_bl_seekbar_get_progress">Retrieves the current value of the SeekBar</string>
+    <string name="desc_bl_seekbar_set_max">Sets the maximum value of the SeekBar</string>
+    <string name="desc_bl_seekbar_get_max">Retrieves the current maximum value of the SeekBar</string>
+
+
+
+
+    <string name="desc_bl_objectanimator_set_target">Set the desired target for animation</string>
+    <string name="desc_bl_objectanimator_set_property">Set the desired animation property</string>
+    <string name="desc_bl_objectanimator_set_value">Set the desired value for the property</string>
+    <string name="desc_bl_objectanimator_set_from_to">Set the initial and result value for the animation</string>
+    <string name="desc_bl_objectanimator_set_duration">Set the duration for the animation</string>
+
+    <string name="desc_bl_objectanimator_set_repeat_mode">Set if the animation should repeat or not</string>
+    <string name="desc_bl_objectanimator_set_repeat_count">Set how many times the animation should repeat</string>
+    <string name="desc_bl_objectanimator_set_interpolator">Set the type of interpolator for the animation</string>
+    <string name="desc_bl_objectanimator_start">Start the animation</string>
+    <string name="desc_bl_objectanimator_cancel">Cancel the animation</string>
+    <string name="desc_bl_objectanimator_isrunning">Check if the animation is running</string>
+
+    <string name="desc_bl_add_source_directly">Add Java source code directly</string>
+
+    <string name="tuto_textview_group_title">Add text in your app</string>
+    <string name="tuto_textview_title_1">Adding TextView and changing text value</string>
+    <string name="tuto_textview_title_2">Increasing the font size</string>
+    <string name="tuto_textview_title_3">Making the text bold</string>
+    <string name="tuto_textview_title_4">Changing the color of the text</string>
+    <string name="tuto_textview_title_5">Using setText block to change the text value</string>
+    <string name="tuto_textview_title_6">Joining your first and last name together</string>
+    <string name="tuto_textview_title_7">Showing a toast message with the TextView\'s value</string>
+    <string name="tuto_textview_title_8">Creating a Magic 8-Ball app</string>
+
+    <string name="tuto_layout_group_title">Place and position widgets differently</string>
+    <string name="tuto_layout_title_1">Placing widgets horizontally</string>
+    <string name="tuto_layout_title_2">Placing widgets vertically</string>
+    <string name="tuto_layout_title_3">Resizing layouts to different sizes</string>
+    <string name="tuto_layout_title_4">Aligning widgets in the layout</string>
+    <string name="tuto_layout_title_5">Creating screen-size responsive layouts</string>
+    <string name="tuto_layout_title_6">Mixing vertical and horizontal layouts</string>
+    <string name="tuto_layout_title_7">Making a scrollable layout</string>
+
+
+    <string name="tuto_button_group_title">Perform actions when a button is clicked</string>
+    <string name="tuto_button_title_1">Similarities and differences between a TextView and a Button</string>
+    <string name="tuto_button_title_2">Disabling a Button</string>
+    <string name="tuto_button_title_3">Changing the TextView\'s value when a Button is clicked</string>
+
+    <string name="tuto_edittext_group_title">Take user input</string>
+    <string name="tuto_edittext_title_1">Hinting the user for the input</string>
+    <string name="tuto_edittext_title_2">Setting the default value of the input box</string>
+    <string name="tuto_edittext_title_3">Setting the maximum number of lines an input can display</string>
+    <string name="tuto_edittext_title_4">Disabling the input box</string>
+    <string name="tuto_edittext_title_5">Changing keyboard type for different input types</string>
+    <string name="tuto_edittext_title_6">Showing the current user input when a Button is clicked</string>
+    <string name="tuto_edittext_title_7">Firing events whenever the input value is changed</string>
+    <string name="tuto_edittext_title_8">Creating a custom input validator</string>
+
+
+
+    <string name="tuto_imageview_group_title">Display fascinating images</string>
+    <string name="tuto_imageview_title_1">Adding an image</string>
+    <string name="tuto_imageview_title_2">Understanding different scale types</string>
+    <string name="tuto_imageview_title_3">Creating an image slideshow using a ScrollView</string>
+    <string name="tuto_imageview_title_4">Understanding 9-Patch images</string>
+
+    <string name="tuto_chk_switch_group_title">Toggle on and off</string>
+    <string name="tuto_chk_switch_title_1">Understanding checkbox and switch</string>
+    <string name="tuto_chk_switch_title_2">Toggling the check programmatically</string>
+    <string name="tuto_chk_switch_title_3">Showing/hiding an image based on the checked state</string>
+
+    <string name="tuto_styling_group_title">Professionally design your app</string>
+    <string name="tuto_styling_title_1">Understanding padding and margin property</string>
+    <string name="tuto_styling_title_2">Layout gravity vs gravity</string>
+    <string name="tuto_styling_title_3">Rotating a widget</string>
+    <string name="tuto_styling_title_4">Making a widget transparent</string>
+    <string name="tuto_styling_title_5">Creating a loading spinner</string>
+
+    <string name="tuto_intent_group_title">Navigate to a different screen or apps</string>
+    <string name="tuto_intent_title_1">Opening the native Android Phone app</string>
+    <string name="tuto_intent_title_2">Opening a web browser programmatically</string>
+    <string name="tuto_intent_title_3">Navigating to a different screen</string>
+    <string name="tuto_intent_title_4">Understanding the setFlag block</string>
+
+    <string name="tuto_file_group_title">Save and retrieve data locally</string>
+    <string name="tuto_file_title_1">Saving and retrieving data</string>
+    <string name="tuto_file_title_2">Removing data</string>
+    <string name="tuto_file_title_3">Creating a Sign-up / Login page</string>
+    <string name="tuto_file_title_4">Remembering an option for next launch</string>
+
+
+    <string name="tuto_calendar_group_title">Figure out what time it is</string>
+    <string name="tuto_calendar_title_1">Retrieving the current time</string>
+    <string name="tuto_calendar_title_2">Adding time value to calendar component</string>
+    <string name="tuto_calendar_title_3">Finding the difference between two times</string>
+    <string name="tuto_calendar_title_4">Setting a specific time value</string>
+    <string name="tuto_calendar_title_5">Creating a digital clock app</string>
+
+    <string name="tuto_vibrator_group_title">Vibrate your device</string>
+    <string name="tuto_vibrator_title_1">Vibrating your device</string>
+
+    <string name="tuto_timer_group_title">Delay your actions</string>
+    <string name="tuto_timer_title_1">Show a message after 3 seconds</string>
+    <string name="tuto_timer_title_2">Increase a number every 1 second</string>
+    <string name="tuto_timer_title_3">Animate a running cheetah (Sprite)</string>
+    <string name="tuto_timer_title_4">Create a stopwatch</string>
+
+    <string name="tuto_sound_media_group_title">Add some flavor in your app</string>
+    <string name="tuto_sound_media_title_1">Adding and playing a sound file</string>
+    <string name="tuto_sound_media_title_2">Playing and pausing sound file</string>
+    <string name="tuto_sound_media_title_3">Infinitely looping a sound</string>
+    <string name="tuto_sound_media_title_4">Getting the duration of the song</string>
+    <string name="tuto_sound_media_title_5">Creating a 3-key piano</string>
+    <string name="tuto_sound_media_title_6">Designing a music player</string>
+
+    <string name="tuto_algorithm_group_title">Learn and optimize your logic</string>
+    <string name="tuto_algorithm_title_1">Swapping two values of TextViews</string>
+    <string name="tuto_algorithm_title_2">Printing a triangle of asterisks</string>
+    <string name="tuto_algorithm_title_3">Checking if a number is even or odd</string>
+    <string name="tuto_algorithm_title_4">Reverse the items in a list by creating a new list</string>
+    <string name="tuto_algorithm_title_5">Creating a deck of card (1/2)</string>
+    <string name="tuto_algorithm_title_6">Shuffling a deck of card (2/2)</string>
+    <string name="tuto_algorithm_title_7">Calculating how many times a word is repeated</string>
+
+
+    <string name="tuto_com_welcome">Welcome to the tutorial!</string>
+    <string name="tuto_com_tab_continue">Tap the screen to continue</string>
+    <string name="tuto_com_goal">Goal</string>
+    <string name="tuto_com_view_goal">View Goal</string>
+    <string name="tuto_com_logic_goal">Logic Goal</string>
+    <string name="tuto_com_logic_recap">Logic Recap</string>
+    <string name="tuto_com_logic_explained">Logic Explained</string>
+    <string name="tuto_com_logic_category">Click on the %s category</string>
+    <string name="tuto_com_explained_continued">Explanation Continued</string>
+    <string name="tuto_com_prerequisite">Prerequisite</string>
+
+    <string name="tuto_com_summary">Summary</string>
+    <string name="tuto_com_summary_continued">Summary continued</string>
+    <string name="tuto_com_click_copy">Click on the "Copy" button</string>
+    <string name="tuto_com_click_paste">Click on the "Paste" button to paste the block you copied</string>
+    <string name="tuto_com_click_it_category">Click on the %s category</string><!-- Variable, List,View,etc -->
+    <string name="tuto_com_click_it_tab">Click on the %s tab</string><!-- VIEW, LOGIC -->
+    <string name="tuto_com_click_properties">Click on properties </string>
+    <string name="tuto_com_longpress_widget">Long-press the \"%s\" widget</string><!-- TextView , Button, etc -->
+    <string name="tuto_com_longpress_layout">Long-press the \"%s\" layout</string><!-- Linear(H) , Linear(V) -->
+    <string name="tuto_com_longpress_block">Long-press the \"%s\" block</string><!-- Toast , setText , etc -->
+
+    <string name="tuto_com_add_event">Add the %s event by clicking the + button</string><!-- onTextChanged , onCheckChanged , etc -->
+    <string name="tuto_com_add_component" formatted="false">Add the %s component with the name of \"%s\"</string><!-- 1:Calendar,Timer 2:Variable name -->
+    <string name="tuto_com_add_component_file" formatted="false">Add the %s component with the name of \"%s\" and the File name of \"%s\"</string><!-- 1:Variable name 2:File name -->
+    <string name="tuto_com_properties_again">Something went wrong. Click on properties again</string>
+    <string name="tuto_com_event_again">Something went wrong. Click the event again</string>
+
+    <string name="tuto_com_select">Select %s</string><!-- VISIBLE,GONE,right,AnyActivityName -->
+    <string name="tuto_com_select_appropriate">Select the appropriate %s</string><!-- TextView,Calendar,etc -->
+    <string name="tuto_com_choose_manager">Choose the %s inside the menu</string><!-- View,Image,Sound -->
+    <string name="tuto_com_choose_image">Choose the \"%s\" image</string><!-- Variable name -->
+    <string name="tuto_com_add_activity">Add an activity view named \"%s\"</string>
+    <string name="tuto_com_add_sound_file">Add a sound file and name it \"%s\"</string><!-- Sound file name -->
+    <string name="tuto_com_it_added">Your \"%s\" has been added successfully!</string><!-- 1:Calendar,Timer 2:Variable name -->
+
+    <string name="tuto_com_try_install">Try running and installing this example to try it out</string>
+    <string name="tuto_com_congratulations">Congratulations!</string>
+    <string name="tuto_com_tuto_completed">You completed the tutorial</string>
+    <string name="tuto_com_goodjob">Good job!</string>
+    <string name="tuto_com_go_to_editor">Press the back button to return to the editor</string>
+    <string name="tuto_com_back_button">Press the back button to see the change</string>
+    <string name="tuto_com_back_button_tosave">Press the back button to save</string>
+
+    <string name="tuto_com_drop_onto_layout" formatted="false">Drop the %s onto the %s layout</string><!-- 1:TextView , 2:root -->
+    <string name="tuto_com_drop_onto_editor">Drop the \"%s\" onto the editor</string><!--TextView-->
+    <string name="tuto_com_drop_under_block">Drop it under the \"%s\" block</string><!-- Toast , setText , etc -->
+    <string name="tuto_com_drop_into_block">Drop it into the \"%s\" block</string><!-- Toast , setText , etc -->
+    <string name="tuto_com_drop_inside_block">Drop it inside the \"%s\" block</string><!-- Toast , setText , etc -->
+    <string name="tuto_com_drop_inside_condition_block">Drop it inside the condition of the \"%s\" block</string><!-- Toast , setText , etc -->
+    <string name="tuto_com_drop_inside_1st_param_block">Drop it inside the first parameter of the \"%s\" block</string><!-- Toast , setText , etc -->
+    <string name="tuto_com_drop_inside_2nd_param_block">Drop it inside the second parameter of the \"%s\" block</string><!-- Toast , setText , etc -->
+    <string name="tuto_com_select_1st_param">Select \"%s\" for the first parameter</string><!-- Toast , setText , etc -->
+    <string name="tuto_com_select_2nd_param">Select \"%s\" for the second parameter</string><!-- Toast , setText , etc -->
+    <string name="tuto_com_set_1st_param">Set \"%s\" for the first parameter</string><!-- Toast , setText , etc -->
+    <string name="tuto_com_set_2nd_param">Set \"%s\" for the second parameter</string><!-- Toast , setText , etc -->
+
+
+    <string name="tuto_com_need_run">Since the change happens when the app starts, you will need to RUN the application</string>
+
+    <string name="tuto_textview_1_0">Perfect! This is how you can add widgets to the editor</string>
+    <string name="tuto_textview_1_1">We can change the text value by editing its property</string>
+    <string name="tuto_textview_1_2">The "text" property can be changed to alter the text value</string>
+    <string name="tuto_textview_1_3">Try changing the text value to anything you want</string>
+    <string name="tuto_textview_1_4">Try changing it to anything other than \"%s\"</string>
+    <string name="tuto_textview_1_6">The text value has been changed</string>
+
+    <string name="tuto_textview_2_0">Change the font size</string>
+    <string name="tuto_textview_2_1">Click on the TextView to show the Properties tab</string>
+    <string name="tuto_textview_2_2">Try increasing or decreasing the font size</string>
+    <string name="tuto_textview_2_3">Try changing the font size to a different value</string>
+    <string name="tuto_textview_2_4">The font size has been changed</string>
+
+    <string name="tuto_textview_3_0">Make the TextView bold through its Properties</string>
+    <string name="tuto_textview_3_1">Click on the TextView to show the Properties tab</string>
+    <string name="tuto_textview_3_2">Choose the \"bold\" option for the text style</string>
+    <string name="tuto_textview_3_3">Try changing the text style to \"%s\"!</string>
+    <string name="tuto_textview_3_4">The TextView is now bold!</string>
+
+    <string name="tuto_textview_4_0">Change the color of the TextView</string>
+    <string name="tuto_textview_4_1">Click on the TextView to show the Properties tab</string>
+    <string name="tuto_textview_4_2">Choose a new text color</string>
+    <string name="tuto_textview_4_3">Choose a new text color other than \"%s\"</string>
+    <string name="tuto_textview_4_4">The color of the TextView has been changed</string>
+
+    <string name="tuto_textview_5_0">Change the value of the TextView using Logic Editor</string>
+    <string name="tuto_textview_5_1">This is the Logic tab</string>
+    <string name="tuto_textview_5_2">Logic tab is made up of events. For example, clicking a button would be an event</string>
+    <string name="tuto_textview_5_3">[onCreate] event is provided by default. It\'s an event that always gets triggered once when your application starts</string>
+    <string name="tuto_textview_5_4">Let\'s edit this event to change the value of the TextView when the app starts </string>
+    <string name="tuto_textview_5_5">You need to finish this event</string>
+    <string name="tuto_textview_5_6">This is where you program how your application behaves with blocks</string>
+    <string name="tuto_textview_5_7">You can use the setText block to change text values</string>
+    <string name="tuto_textview_5_9">Change the text value to whatever you want</string>
+    <string name="tuto_textview_5_10">Change it to anything other than \"%s\"</string>
+
+
+    <string name="tuto_textview_6_0">Use the operator block to join your first and last name</string>
+    <string name="tuto_textview_6_1">Edit this event to change the value of the TextView</string>
+    <string name="tuto_textview_6_2">You need to finish this event</string>
+    <string name="tuto_textview_6_4">Click on the Operator tab</string>
+    <string name="tuto_textview_6_5">Write your first name here</string>
+    <string name="tuto_textview_6_6">Don\'t leave it as empty</string>
+    <string name="tuto_textview_6_7">Write your last name here</string>
+
+    <string name="tuto_textview_7_0">Use the [Toast] and [getText] block</string>
+    <string name="tuto_textview_7_1">Let\'s edit this event to show a message when the app starts</string>
+    <string name="tuto_textview_7_2">You need to finish this event</string>
+    <string name="tuto_textview_7_4">Since the change happens when the app starts, you will need to RUN the application</string>
+
+
+    <string name="tuto_textview_9_0">Create a Magic 8-Ball app</string>
+    <string name="tuto_textview_9_1">What is a Magic 8-Ball?</string>
+    <string name="tuto_textview_9_2">The Magic 8-Ball is a toy used for fortune-telling or seeking advice, developed in the 1950s and manufactured by Mattel. It is often used in fiction, often for humor related to its giving accurate, inaccurate, or otherwise statistically improbable answers</string>
+    <string name="tuto_textview_9_3">This is the Magic 8-Ball</string>
+    <string name="tuto_textview_9_4">When the button is pressed, we will change the "answer" text</string>
+    <string name="tuto_textview_9_5">This is the answer text, which will give either "Yes" or "No" answers</string>
+    <string name="tuto_textview_9_6">The [ask_button\'s onClick] event gets fired everytime the button is clicked. Let\'s edit this event</string>
+    <string name="tuto_textview_9_7">1. When the ask button is clicked\n2. Generate a random number between 0 and 1\n3. If number is 0, show "No", else if 1, show "Yes"</string>
+    <string name="tuto_textview_9_8">Since we want a value of either 0 or 1, put "0" here</string>
+    <string name="tuto_textview_9_9">Let\'s put \"%s\" here</string>
+    <string name="tuto_textview_9_10">In our first condition, let\'s check if the number random is 0. Put \"%s\" here</string>
+    <string name="tuto_textview_9_11">Select the \"%s\" TextView</string>
+    <string name="tuto_textview_9_12">Let\'s change the text value to \"%s\"</string>
+    <string name="tuto_textview_9_15">Whenever the ask button is clicked, we generate a random number between 0 and 1.\nIf the generated number is 0, we make the Magic 8-ball say "Yes", else "No."</string>
+
+
+    <string name="tuto_layout_1_0">Place widgets horizontally</string>
+    <string name="tuto_layout_1_1">Drop the layout onto the editor</string>
+    <string name="tuto_layout_1_2">The layout automatically receives the width of "match_parent" since it\'s a horizontal layout</string>
+    <string name="tuto_layout_1_3">We\'re going to add two TextView\'s to the layout</string>
+    <string name="tuto_layout_1_4">Add the TextView to the layout</string>
+    <string name="tuto_layout_1_5">Drop the 1st TextView inside the layout</string>
+    <string name="tuto_layout_1_6">Let\'s add one more TextView to the layout</string>
+    <string name="tuto_layout_1_7">Drop the TextView to the right of the first TextView</string>
+    <string name="tuto_layout_1_8">You can see that the layout takes in children horizontally</string>
+
+    <string name="tuto_layout_2_0">Place widgets vertically</string>
+    <string name="tuto_layout_2_1">Drop the layout onto the editor</string>
+    <string name="tuto_layout_2_2">The layout automatically receives the height of "match_parent" since it\'s a vertical layout</string>
+    <string name="tuto_layout_2_3">We\'re going to add two TextView\'s to the vertical layout</string>
+    <string name="tuto_layout_2_4">Add the TextView to the layout</string>
+    <string name="tuto_layout_2_5">Drop the 1st TextView inside the layout</string>
+    <string name="tuto_layout_2_6">Let\'s add one more TextView to the layout</string>
+    <string name="tuto_layout_2_7">Add one more TextView to the layout</string>
+    <string name="tuto_layout_2_8">"Drop the TextView below the first TextView</string>
+    <string name="tuto_layout_2_9">You can see that the layout takes in children vertically</string>
+
+    <string name="tuto_layout_3_0">Resize layouts to different sizes</string>
+    <string name="tuto_layout_3_1">We provided this layout for you. Click on the layout</string>
+    <string name="tuto_layout_3_2">Let\'s change this layout\'s size by editing its property</string>
+    <string name="tuto_layout_3_3">We will first try changing the layout\'s width</string>
+    <string name="tuto_layout_3_4">Try changing the width to "match_parent"</string>
+    <string name="tuto_layout_3_5">"match_parent" property changes the layout\'s width to match its parent\'s width</string>
+    <string name="tuto_layout_3_6">Since the root layout is the parent and it fills up the entire screen, the layout\'s width of "match_parent" fills the entire screen</string>
+    <string name="tuto_layout_3_7">Let\'s try a different option!</string>
+    <string name="tuto_layout_3_8">Try changing the width to \"%s\"</string>
+    <string name="tuto_layout_3_9">"wrap_content" property changes the layout\'s width to wrap whatever is inside</string>
+    <string name="tuto_layout_3_10">Since the layout has nothing in it, it shrunk to its smallest size</string>
+    <string name="tuto_layout_3_11">Let\'s try the last option!</string>
+    <string name="tuto_layout_3_12">Try changing the dp to any value greater than \"%s\"</string>
+    <string name="tuto_layout_3_13">"dp" assigns a fixed width to the layout</string>
+
+    <string name="tuto_layout_4_0">Align widgets in the layout</string>
+    <string name="tuto_layout_4_1">We provided this horizontal layout for you. Click on the layout</string>
+    <string name="tuto_layout_4_2">The layout we provided has width and height of "wrap_content"</string>
+    <string name="tuto_layout_4_3">Let\'s make this layout fill up the entire screen</string>
+    <string name="tuto_layout_4_4">Try changing the width to "match_parent"</string>
+    <string name="tuto_layout_4_5">Try changing the height to "match_parent"</string>
+    <string name="tuto_layout_4_6">Since the width and height are both "match_parent," the layout fills up the entire screen</string>
+    <string name="tuto_layout_4_7">We\'re going to add a TextView to the layout</string>
+    <string name="tuto_layout_4_8">Drop the TextView onto the editor</string>
+    <string name="tuto_layout_4_9">Perfect! Now, let\'s align the TextView to the center of the layout</string>
+    <string name="tuto_layout_4_10">Click on the linear layout that contains the TextView</string>
+    <string name="tuto_layout_4_11">Let\'s change its properties</string>
+    <string name="tuto_layout_4_12">Gravity handles the positioning of the its children widgets</string>
+    <string name="tuto_layout_4_13">Select "center_horizontal" from the options</string>
+    <string name="tuto_layout_4_14">You can see that the TextView is now horizontally aligned in the center</string>
+    <string name="tuto_layout_4_15">Let\'s try adding a different gravity</string>
+    <string name="tuto_layout_4_16">Select both "center_horizontal" and "center_vertical" from the options</string>
+    <string name="tuto_layout_4_17">You can see that the TextView is now aligned in the center</string>
+
+    <string name="tuto_layout_5_0">Create responsive layouts that are proportional in any device screen size</string>
+    <string name="tuto_layout_5_1">We provided two layouts with the width of "match_parent"</string>
+    <string name="tuto_layout_5_2">Let\'s change their properties so that the height of Blue to Green layout ratio will be 1:3</string>
+    <string name="tuto_layout_5_3">First, let\'s edit the Blue layout\'s property</string>
+    <string name="tuto_layout_5_4">Weight property determines how much "proportion" of the parent layout it should take</string>
+    <string name="tuto_layout_5_5">Weight is proportionally compared to other children\'s weight in the same layout</string>
+    <string name="tuto_layout_5_6">Try changing the weight to \"%s\"</string>
+    <string name="tuto_layout_5_7">Since the Blue layout\'s weight is 1 and the Green layout\'s weight is 0, Blue layout takes as much room as possible</string>
+    <string name="tuto_layout_5_8">Now, let\'s edit the Green layout\'s property</string>
+    <string name="tuto_layout_5_9">We will also change its weight</string>
+    <string name="tuto_layout_5_10">Since both layouts have a weight of 1, they take up equal amount of space with the ratio of 1:1</string>
+    <string name="tuto_layout_5_11">Let\'s try changing Green\'s weight to \"%s\"</string>
+    <string name="tuto_layout_5_12">Since Blue layout has a weight of 1 and the Green layout has a weight of 3, they take up the space with the proportion of 1:3</string>
+
+    <string name="tuto_layout_6_0">Mix differently oriented layouts together</string>
+    <string name="tuto_layout_6_1">Drop the horizontal layout onto the editor</string>
+    <string name="tuto_layout_6_2">Let\'s make this layout fill up the entire screen</string>
+    <string name="tuto_layout_6_3">Try changing the height to "match_parent"</string>
+    <string name="tuto_layout_6_4">Since the width and height are both "match_parent," the layout fills up the entire screen</string>
+    <string name="tuto_layout_6_5">We\'re going to add differently oriented layouts onto the layout we previously placed</string>
+    <string name="tuto_layout_6_6">Drop the layout onto the horizontal layout we previously placed</string>
+    <string name="tuto_layout_6_7">We\'re going to add two TextView\'s to the vertical layout we just placed</string>
+    <string name="tuto_layout_6_8">Add two TextView\'s to the vertical layout</string>
+    <string name="tuto_layout_6_9">Drop the 1st TextView inside the vertical layout</string>
+    <string name="tuto_layout_6_10">Let\'s add one more TextView</string>
+    <string name="tuto_layout_6_11">Drop the TextView anywhere inside the vertical layout</string>
+    <string name="tuto_layout_6_12">The widgets are placed horizontally and vertically depending on the orientation of the layout you add them to</string>
+    <string name="tuto_layout_6_13">Drop the layout to the right of the vertical layout</string>
+    <string name="tuto_layout_6_14">We\'re going to add two TextView\'s in the horizontal layout we just placed</string>
+    <string name="tuto_layout_6_15">Add two TextView\'s in the horizontal layout we just placed</string>
+    <string name="tuto_layout_6_16">Drop the 1st TextView to the layout</string>
+    <string name="tuto_layout_6_17">Let\'s add one more TextView to the layout</string>
+    <string name="tuto_layout_6_18">Drop the TextView anywhere inside the horizontal layout</string>
+    <string name="tuto_layout_6_19">The TextView\'s are placed horizontally inside the horizontal layout</string>
+    <string name="tuto_layout_6_20">We\'ve successfully added widgets in different orientations using differently oriented layouts</string>
+
+
+    <string name="tuto_layout_7_0">Make a scrollable layout</string>
+    <string name="tuto_layout_7_1">Drop the scroll layout onto the editor</string>
+    <string name="tuto_layout_7_2">Scroll layouts can take in only ONE layout or widget</string>
+    <string name="tuto_layout_7_3">Anything inside the scroll layout becomes scrollable, even widgets</string>
+    <string name="tuto_layout_7_4">However, it\'s ideal to add a linear layout inside the scroll layout</string>
+    <string name="tuto_layout_7_5">Drop the horizontal linear layout inside the scroll layout</string>
+    <string name="tuto_layout_7_6">The scroll and linear layout usually share the same orientation. In this case, they are both horizontal</string>
+    <string name="tuto_layout_7_7">We are going to add a long TextView inside the horizontal layout to force the layout to scroll</string>
+    <string name="tuto_layout_7_8">Drop the TextView inside the linear layout</string>
+    <string name="tuto_layout_7_9">Let\'s increase this TextView\'s width so the layout becomes scrollable</string>
+    <string name="tuto_layout_7_10">Try changing the dp to \"%s\"</string>
+    <string name="tuto_layout_7_11">Try running and installing this example to try it out</string>
+
+    <string name="tuto_button_1_0">Understanding the similarities and the differences between a TextView and a Button</string>
+    <string name="tuto_button_1_1">Drop the Button onto the editor</string>
+    <string name="tuto_button_1_2">A Button shares the same text properties with the TextView</string>
+    <string name="tuto_button_1_3">For example, you could change the text of a Button by editing the "text" property</string>
+    <string name="tuto_button_1_4">Let\'s go back to the editor by pressing the back button</string>
+    <string name="tuto_button_1_5">Unlike the TextView, Button\'s "onClick" event is automatically generated whenever a Button widget is added onto the View Editor</string>
+    <string name="tuto_button_1_6">This event would fire whenever the Button is clicked</string>
+    <string name="tuto_button_1_7">You need to finish this event</string>
+
+    <string name="tuto_button_2_0">Disable the Button</string>
+    <string name="tuto_button_2_1">We provided this Button for you. Click on it</string>
+    <string name="tuto_button_2_2">You can disable the Button by editing its "enabled" property</string>
+    <string name="tuto_button_2_3">Toggle the switch to disable the Button</string>
+    <string name="tuto_button_2_4">Let\'s go back to the editor</string>
+
+    <string name="tuto_button_3_0">Disable the Button when it is clicked</string>
+    <string name="tuto_button_3_1">Drop the Button here</string>
+    <string name="tuto_button_3_2">Let\'s edit the Button\'s onClick event</string>
+
+    <string name="tuto_button_4_0">Change the value of TextView when the Button is clicked</string>
+    <string name="tuto_button_4_1">Drop the Button below the TextView</string>
+    <string name="tuto_button_4_2">The Button\'s onClick event fires whenever the Button is clicked</string>
+    <string name="tuto_button_4_3">Let\'s edit the event so that the text changes when the Button is clicked</string>
+    <string name="tuto_button_4_4">Click on the View tab to find the setText block</string>
+    <string name="tuto_button_4_6">Change the text value to whatever you want</string>
+    <string name="tuto_button_4_7">Change the value to anything other than \"%s\"</string>
+
+
+    <string name="tuto_edittext_1_0">Change the hint of an input box</string>
+    <string name="tuto_edittext_1_1">EditText has the default hint of "Edit Text"</string>
+    <string name="tuto_edittext_1_2">"hint" is the text value that hints the user on what he or she should input</string>
+    <string name="tuto_edittext_1_3">Let\'s change the hint value by editing its property</string>
+    <string name="tuto_edittext_1_4">The "hint" property handles the text value of the hint</string>
+    <string name="tuto_edittext_1_5">Try changing it to any hint value you want</string>
+    <string name="tuto_edittext_1_6">The hint value has been changed</string>
+
+    <string name="tuto_edittext_2_0">Change the default text value of an input box</string>
+    <string name="tuto_edittext_2_1">EditText has an empty text value until the user types anything in</string>
+    <string name="tuto_edittext_2_2">You can initially set the text value by editing its property</string>
+    <string name="tuto_edittext_2_3">Let\'s change the default text value by editing its property</string>
+    <string name="tuto_edittext_2_4">The "text" property handles the text value of the EditText</string>
+    <string name="tuto_edittext_2_5">Try changing the text value to any value you want</string>
+    <string name="tuto_edittext_2_6">Try changing it to anything other than an empty value!</string>
+    <string name="tuto_edittext_2_7">The default text value has been changed</string>
+
+    <string name="tuto_edittext_3_0">Set the maximum number of lines an input can display</string>
+    <string name="tuto_edittext_3_1">By default, EditText only displays one line of text</string>
+    <string name="tuto_edittext_3_2">Let\'s change the number of lines it displays by editing its property</string>
+    <string name="tuto_edittext_3_3">The "lines" property determines how many lines the EditText is going to display</string>
+    <string name="tuto_edittext_3_4">Try changing the value to %s</string>
+    <string name="tuto_edittext_3_5">The EditText widget can now display %s lines of text</string>
+
+
+    <string name="tuto_edittext_4_0">Disable the input box</string>
+    <string name="tuto_edittext_4_1">Sometimes, we may want to disable the EditText widget so the user can\'t input anything</string>
+    <string name="tuto_edittext_4_2">Let\'s disable it by editing its property</string>
+    <string name="tuto_edittext_4_3">Disable it by clicking on the switch</string>
+    <string name="tuto_edittext_4_4">The EditText is now disabled, and the user will not be able to input any value</string>
+
+    <string name="tuto_edittext_5_0">Change the input type property to "textPassword"</string>
+    <string name="tuto_edittext_5_1">Sometimes, we may want the EditText to take in sensitive information like password and censor it</string>
+    <string name="tuto_edittext_5_2">Let\'s change the input type by editing its property</string>
+    <string name="tuto_edittext_5_3">Let\'s change the input_type to "textPassword"</string>
+    <string name="tuto_edittext_5_4">The EditText will now censor the text value it takes in</string>
+
+
+    <string name="tuto_edittext_6_0">Show the current input value when the Button is clicked</string>
+    <string name="tuto_edittext_6_1">When the Button is clicked, we will want to show the current value of EditText</string>
+    <string name="tuto_edittext_6_2">The Button\'s onClick event fires whenever the Button is clicked</string>
+    <string name="tuto_edittext_6_3">Let\'s edit the event so that the text value of EditText shows when the Button is clicked</string>
+
+    <string name="tuto_edittext_7_0">Fire an event whenever a new value is entered</string>
+    <string name="tuto_edittext_7_1">When the user enters any value into EditText, we are going to show it back on the screen</string>
+    <string name="tuto_edittext_7_2">Unlike the Button widget, EditText\'s events are not automatically added</string>
+    <string name="tuto_edittext_7_3">The EditText\'s "onTextChanged" event gets fired every time the text value is changed</string>
+    <string name="tuto_edittext_7_4">Let\'s edit the event so that the text value of EditText shows whenever it\'s changed</string>
+    <string name="tuto_edittext_7_5">The purple block in the root block indicates the changed text value</string>
+    <string name="tuto_edittext_7_6">Drop it in the Toast block parameter</string>
+
+    <string name="tuto_edittext_8_0">Create a custom input validator with a word filter</string>
+    <string name="tuto_edittext_8_1">Any input with the word "hate" will be trigger a warning message</string>
+    <string name="tuto_edittext_8_2">We will display the warning message here</string>
+    <string name="tuto_edittext_8_3">Let\'s initially hide the warning message when the app starts</string>
+    <string name="tuto_edittext_8_4">Set the default warning message to an empty message</string>
+    <string name="tuto_edittext_8_5">Select the \"%s\" TextView</string>
+    <string name="tuto_edittext_8_6">We will leave this empty, since we want it to be an empty string</string>
+    <string name="tuto_edittext_8_7">"onTextChanged" event has been successfully added</string>
+    <string name="tuto_edittext_8_8">Let\'s edit this event to validate the sentence whenever the text change occurs</string>
+    <string name="tuto_edittext_8_9">1. Every time a change occurs, "onTextChanged" event gets fired\n2. Check if the input contains the word "hate"\n3. If it does, show a warning message, else set the warning message as an empty String</string>
+    <string name="tuto_edittext_8_10">Since we\'re filtering for the word "hate," put "hate" here</string>
+    <string name="tuto_edittext_8_11">Drop it inside the "if then" sub-section</string>
+    <string name="tuto_edittext_8_12">Drop it inside the "else" sub-section</string>
+    <string name="tuto_edittext_8_13">Input a warning message you want to display, other than an empty String value</string>
+    <string name="tuto_edittext_8_14">We will leave this empty, since we don\'t want to hide the warning message if it doesn\'t contain any filtered word</string>
+
+
+    <string name="tuto_imageview_1_0">Add an image of your choice</string>
+    <string name="tuto_imageview_1_2">The menu button on the top-right corner contains different managers that handle different parts of the app</string>
+    <string name="tuto_imageview_1_3">Inside the Image Manager, you can add different kinds of icons and import your own images from your camera roll</string>
+    <string name="tuto_imageview_1_4">Let\'s try adding our own image by clicking the + button</string>
+    <string name="tuto_imageview_1_5">Import the image and name it \"%s\"</string>
+    <string name="tuto_imageview_1_7">ImageView has a grey android icon by default</string>
+    <string name="tuto_imageview_1_8">We are going to change it to the image we just added</string>
+    <string name="tuto_imageview_1_9">The image has been changed</string>
+
+
+    <string name="tuto_imageview_2_0">Understand different scale type properties</string>
+    <string name="tuto_imageview_2_1">We\'ve provided this ImageView with the width and height of "match_parent" for you</string>
+    <string name="tuto_imageview_2_2">Click on the ImageView</string>
+    <string name="tuto_imageview_2_3">Different scale types change how the image is displayed</string>
+    <string name="tuto_imageview_2_4">Try changing the scale type to \"%s\"</string>
+    <string name="tuto_imageview_2_5">The scale type for the ImageView has changed to \"%s\"</string>
+    <string name="tuto_imageview_2_6">"FIT_XY" scale type stretches to take up the space given, ignoring the image ratio</string>
+    <string name="tuto_imageview_2_7">Let\'s try a different scale type property</string>
+    <string name="tuto_imageview_2_8">"FIT_START" scale type stretches to take up the space given, maintains the image ratio, and aligns the image top</string>
+    <string name="tuto_imageview_2_9">"FIT_CENTER" scale type stretches to take up the space given, maintains the image ratio, and aligns the image center</string>
+    <string name="tuto_imageview_2_10">The "FIT_END" scale type is similar to "FIT_START" and "FIT_CENTER", except that it aligns the image bottom</string>
+    <string name="tuto_imageview_2_11">"CENTER" maintains the image size while aligning it to center</string>
+    <string name="tuto_imageview_2_12">"CENTER_CROP" scales the image uniformly so that both width and height of the image will be equal to or larger than the corresponding dimension of the layout</string>
+    <string name="tuto_imageview_2_13">"CENTER_INSIDE" scales the image uniformly so that both width and height of the image will be equal to or less than the corresponding dimension of the layout</string>
+    <string name="tuto_imageview_2_14">Try changing the scale type to \"%s\"</string>
+
+
+    <string name="tuto_imageview_3_0">Make a scrollable image slideshow</string>
+    <string name="tuto_imageview_3_1">Let\'s try adding our own image by clicking the + button</string>
+    <string name="tuto_imageview_3_2">Add an image of your choice with the name of \"%s\"</string>
+    <string name="tuto_imageview_3_3">Name your imported image \"%s\"</string>
+    <string name="tuto_imageview_3_5">Scroll layouts can take in only ONE layout or widget</string>
+    <string name="tuto_imageview_3_6">Anything inside the scroll layout becomes scrollable, even widgets</string>
+    <string name="tuto_imageview_3_7">However, it\'s ideal to add a linear layout inside the scroll layout</string>
+    <string name="tuto_imageview_3_8">Drop the horizontal linear layout inside the scroll layout</string>
+    <string name="tuto_imageview_3_9">The scroll and linear layout usually share the same orientation. In this case, they are both horizontal</string>
+    <string name="tuto_imageview_3_10">We are going to add two images</string>
+    <string name="tuto_imageview_3_11">Drop the ImageView inside the linear layout</string>
+    <string name="tuto_imageview_3_12">Let\'s change the image through its properties</string>
+    <string name="tuto_imageview_3_13">Choose the \"%s\" image</string>
+    <string name="tuto_imageview_3_14">Let\'s add one more ImageView in the linear layout</string>
+    <string name="tuto_imageview_3_15">Let\'s change the image through its properties</string>
+    <string name="tuto_imageview_3_16">Choose the \"%s\" image</string>
+
+
+
+    <string name="tuto_imageview_4_0">Understand nine patch images</string>
+    <string name="tuto_imageview_4_1">Nine Patch Images</string>
+    <string name="tuto_imageview_4_2">Nine patch images are bitmap images that automatically resize to accommodate the contents of the view and the size of the screen</string>
+    <string name="tuto_imageview_4_3">Nine Patch Images Continued</string>
+    <string name="tuto_imageview_4_4">We\'re going to apply a nine patch image to different widgets to see how they are affected</string>
+    <string name="tuto_imageview_4_5">Click on the TextView widget to edit its properties</string>
+    <string name="tuto_imageview_4_6">Let\'s change the background image through its properties</string>
+    <string name="tuto_imageview_4_7">Click on the Linear layout to edit its properties</string>
+    <string name="tuto_imageview_4_10">Click on the Button widget to edit its properties</string>
+    <string name="tuto_imageview_4_12">As you can see, even though we used one image file, it automatically fits the size of all the widgets/layouts</string>
+    <string name="tuto_imageview_4_13">That is why ninepatch images are useful for creating responsive designs on different screen sizes</string>
+
+    <string name="tuto_chk_switch_1_0">Understand Checkbox and Switch widget</string>
+    <string name="tuto_chk_switch_1_1">We\'ve provided two widgets for you, a Checkbox and a Switch</string>
+    <string name="tuto_chk_switch_1_2">Both of these widgets are commonly used\n to take user\'s YES/NO input</string>
+    <string name="tuto_chk_switch_1_3">For example, you can usually find checkboxes in login screens, with descriptions such as \"%s\"</string>
+    <string name="tuto_chk_switch_1_4">Switch can be used with the same concept, it just gives different user interface and experience</string>
+    <string name="tuto_chk_switch_1_6">Both Checkbox and Switch are used to take YES/NO input from the user</string>
+    <string name="tuto_chk_switch_1_8">For Checkboxes, more than one of them are usually placed to take in multiple inputs</string>
+    <string name="tuto_chk_switch_1_9">Let\'s try toggling this to checked by editing its property</string>
+    <string name="tuto_chk_switch_1_10">Toggle the \"%s\" switch</string>
+    <string name="tuto_chk_switch_1_11">Similar to Checkbox, you can toggle on the Switch the same way by editing its property</string>
+
+    <string name="tuto_chk_switch_2_0">Toggle the checkbox with a click of a Button</string>
+    <string name="tuto_chk_switch_2_1">Drop the Button below the CheckBox</string>
+    <string name="tuto_chk_switch_2_2">When the button is clicked, we will check/uncheck the checkbox depending on its current state</string>
+    <string name="tuto_chk_switch_2_3">Let\'s edit the Button\'s onClick event so that check state toggles when the Button is clicked</string>
+    <string name="tuto_chk_switch_2_4">Before we continue, let\'s think about how the blocks should be placed</string>
+    <string name="tuto_chk_switch_2_5">1. Get the current state of the checkbox\n2. If the checkbox is checked, un-check it\n3. Else, check it</string>
+    <string name="tuto_chk_switch_2_6">Let\'s learn more about %s block</string>
+    <string name="tuto_chk_switch_2_7">The blocks under "if (condition) then" gets executed if the condition is true, else the blocks under "else" will get executed</string>
+
+    <string name="tuto_chk_switch_3_0">Toggle the visibility of an image with a  with a CheckBox</string>
+    <string name="tuto_chk_switch_3_1">Drop the CheckBox below the ImageView</string>
+    <string name="tuto_chk_switch_3_2">When the checkbox is clicked, we will show/hide the image</string>
+    <string name="tuto_chk_switch_3_3">First, let\'s change the text of the checkbox</string>
+    <string name="tuto_chk_switch_3_4">Try changing the text value to \"%s\"</string>
+    <string name="tuto_chk_switch_3_5">Toggle the \"%s\" switch, since image will be visible on the first launch</string>
+    <string name="tuto_chk_switch_3_6">Nice! The CheckBox has been edited</string>
+    <string name="tuto_chk_switch_3_7">"The CheckBox's "onCheckChanged" event gets fired every time the check value is toggled</string>
+    <string name="tuto_chk_switch_3_8">Let\'s edit the event so that the image shows/hides depending on the check value</string>
+    <string name="tuto_chk_switch_3_9">Before we continue, let\'s think about how the blocks should be placed</string>
+    <string name="tuto_chk_switch_3_10">1. If the CheckBox is checked, show the image\n2. Else, hide it</string>
+    <string name="tuto_chk_switch_3_11">Let\'s review the if/else block</string>
+    <string name="tuto_chk_switch_3_12">The blocks under "if (condition) then" gets executed if the condition is true, else the blocks under "else" will get executed</string>
+    <string name="tuto_chk_switch_3_13">The purple block in the root block indicates the changed CheckBox value</string>
+
+    <string name="tuto_styling_1_0">Understand padding and margin property</string>
+    <string name="tuto_styling_1_2">Spacing</string>
+    <string name="tuto_styling_1_3">Spacing between widgets is very important for app design. We use margin and padding to keep content separated from other widgets, by giving extra space around or inside it</string>
+    <string name="tuto_styling_1_4">Padding</string>
+    <string name="tuto_styling_1_5">The padding represents the inner space of an element. By default, Sketchware provides 8dp of padding to every widget when it is placed</string>
+    <string name="tuto_styling_1_6">The blue layout has a padding of %dp, so there is a spacing between two layouts</string>
+    <string name="tuto_styling_1_7">First, let\'s click on the Blue layout</string>
+    <string name="tuto_styling_1_8">Try changing the padding to \"%s\"</string>
+    <string name="tuto_styling_1_9">The applied padding gave more space between two layouts</string>
+    <string name="tuto_styling_1_10">The margin represents the outer space of an element. By default, Sketchware provides no margin to the widget when it is placed</string>
+    <string name="tuto_styling_1_11">Now, let\'s click on the Blue layout to edit the margin</string>
+    <string name="tuto_styling_1_12">Try changing the margin to \"%s\"</string>
+    <string name="tuto_styling_1_13">There is now spacing on the outside of the Blue layout</string>
+
+    <string name="tuto_styling_2_0">Understanding Gravity vs Layout Gravity</string>
+    <string name="tuto_styling_2_1">In the "Layout" tutorial category, we learned how to align widgets using "gravity" property</string>
+    <string name="tuto_styling_2_2">The "gravity" property sets the gravity of the content of the View its used on</string>
+    <string name="tuto_styling_2_3">The "layout_gravity" property sets the gravity of itself in its parent</string>
+    <string name="tuto_styling_2_4">Let\'s try and change the \"%s\"</string>
+    <string name="tuto_styling_2_5">The layout has been aligned to the right side of its parent</string>
+
+    <string name="tuto_styling_3_0">Rotate a widget by changing "rotate" property</string>
+    <string name="tuto_styling_3_1">Every widget comes with a "rotate" property. By default, widgets have 0 rotation value</string>
+    <string name="tuto_styling_3_2">Let\'s try changing its rotation value</string>
+    <string name="tuto_styling_3_3">Try changing the rotation value to \"%s\"</string>
+    <string name="tuto_styling_3_4">The layout has rotated \"%s\" degrees</string>
+
+
+    <string name="tuto_styling_4_0">Make a widget transparent by changing its "alpha" value</string>
+    <string name="tuto_styling_4_1">Every widget comes with a "alpha" property, which determines the transparency</string>
+    <string name="tuto_styling_4_2">Alpha value ranges from 0.0 to 1.0. By default, widgets have 1.0 alpha value--or 100% visibility</string>
+    <string name="tuto_styling_4_3">Let\'s try changing its alpha value</string>
+    <string name="tuto_styling_4_4">Try changing the alpha value to \"%s\"</string>
+    <string name="tuto_styling_4_5">The layout and the content inside now has \"%s\" transparency</string>
+
+    <string name="tuto_styling_5_0">Create a loading spinner</string>
+    <string name="tuto_styling_5_1">If you haven\'t completed the tutorials for "Timer" component, please complete them before trying this one</string>
+    <string name="tuto_styling_5_2">Here, we\'ve provided an ImageView with a loading spinner image</string>
+    <string name="tuto_styling_5_4">We will start rotating the spinner when the app starts</string>
+    <string name="tuto_styling_5_5">1. Create a "rotation" Number variable that keeps track of the current rotation value\n2. Using the "Timer every" block, increase the "rotation" value by 1 every 5 milliseconds\n3. Apply the new rotation value to the ImageView</string>
+    <string name="tuto_styling_5_6">Create a Number variable called \"%s\"</string>
+    <string name="tuto_styling_5_7">The rotation variable will be used to keep track of the rotation value. Its value defaults to 0</string>
+    <string name="tuto_styling_5_9">We will execute this block after \"%s\" millisecond</string>
+    <string name="tuto_styling_5_10">Let\'s update the rotation value every \"%s\" milliseconds</string>
+    <string name="tuto_styling_5_11">Select the \"%s\" Number variable</string>
+    <string name="tuto_styling_5_12">Select the \"%s\" ImageView</string>
+    <string name="tuto_styling_5_13">Using the "Timer every" block, we increase the "rotation" Number variable by 1 every 5 milliseconds. Then, we apply the new rotation value to the "spinner" ImageView</string>
+
+
+    <string name="tuto_intent_1_0">Navigate to a different screen</string>
+    <string name="tuto_intent_1_1">What is an Intent?</string>
+    <string name="tuto_intent_1_2">An Intent is an "intention" to perform an action, such as opening an app or moving to a new screen</string>
+    <string name="tuto_intent_1_3">By clicking on the navigate button, we will navigate to %s that we\'ve provided in this tutorial</string>
+    <string name="tuto_intent_1_4">We will use the Intent component to navigate to a different screen</string>
+    <string name="tuto_intent_1_5">Let\'s navigate to a different screen when the navigate button is clicked</string>
+    <string name="tuto_intent_1_6">When the button is clicked, use the "setScreen" and "startActivity" block to navigate to a different screen</string>
+    <string name="tuto_intent_1_8">Intent setScreen</string>
+    <string name="tuto_intent_1_9">We can use the "Intent setScreen" block to determine which screen we\'re trying to navigate to</string>
+    <string name="tuto_intent_1_10">We can use the "startActivity" block to carry out the intent of our action</string>
+
+
+    <string name="tuto_intent_2_0">Open the native Android Phone app</string>
+    <string name="tuto_intent_2_1">Functions of Intent</string>
+    <string name="tuto_intent_2_2">Intent can be used to open other applications, such as a browser or a phone app</string>
+    <string name="tuto_intent_2_3">Let\'s try opening the native phone app when this button is clicked</string>
+    <string name="tuto_intent_2_5">Let\'s edit the open button\'s onClick event</string>
+    <string name="tuto_intent_2_6">Select the \"%s\" option</string>
+    <string name="tuto_intent_2_7">The "setAction" block determines which action will follow. In this case, we set the action of the intent to open the "dial" or the phone app</string>
+    <string name="tuto_intent_2_8">Enter \"%s\" in the second parameter</string>
+    <string name="tuto_intent_2_9">The "setData" block can carry data along with the action. In this example, we\'re going to carry the telephone data of "1234". Note that the prefix of the data could change depending on the action</string>
+    <string name="tuto_intent_2_10">The "startActivity" block triggers the action of the Intent</string>
+
+    <string name="tuto_intent_3_0">Programmatically call a phone number</string>
+    <string name="tuto_intent_3_1">Functions of Intent</string>
+    <string name="tuto_intent_3_2">Intent Component can be also used to dial a phone number programmatically</string>
+    <string name="tuto_intent_3_3">We will call the desired number when the call button is pressed</string>
+    <string name="tuto_intent_3_5">Let\'s edit the call button\'s onClick event</string>
+    <string name="tuto_intent_3_6">Select the \"%s\" option</string>
+    <string name="tuto_intent_3_7">The \"%s\" action calls the desired number</string>
+    <string name="tuto_intent_3_8">Enter \"%s\" in the second parameter</string>
+    <string name="tuto_intent_3_9">The "setData" block can carry data along with the action. In this example, we\'re going to call the telephone number of "1234". Note that the prefix of the data could change depending on the action</string>
+    <string name="tuto_intent_3_10">The "startActivity" block triggers the action of the Intent</string>
+
+    <string name="tuto_intent_4_0">Programmatically open a web browser</string>
+    <string name="tuto_intent_4_1">We will open the browser when this button is clicked</string>
+    <string name="tuto_intent_4_3">Let\'s edit the open button\'s onClick event</string>
+    <string name="tuto_intent_4_4">Select the \"%s\" option</string>
+    <string name="tuto_intent_4_5">Enter \"%s\" in the second parameter</string>
+    <string name="tuto_intent_4_6">The "setData" block can carry data along with the action. In this example, we\'re giong to open a view with the data of ,"https://google.com"</string>
+    <string name="tuto_intent_4_7">The "startActivity" block triggers the action of the Intent. In this case, the Intent component will open a browser</string>
+
+    <string name="tuto_intent_5_0">Transfer data to another screen</string>
+    <string name="tuto_intent_5_1">When this button is clicked, we will navigate to \"%s\" and transfer the value of EditText above</string>
+    <string name="tuto_intent_5_2">Click on the file selector to navigate to the Logic Editor of \"%s\"</string>
+    <string name="tuto_intent_5_3">Let\'s receive the transferred data when the Activity is newly created inside "onCreate" event</string>
+
+
+    <string name="tuto_intent_6_0">Finish an activity</string>
+    <string name="tuto_intent_6_1">Finishing Activity</string>
+    <string name="tuto_intent_6_2">Just like how we can start an activity, we can finish an activity.Even though the function is not dependent on the Intent Component, it\'s closely related</string>
+    <string name="tuto_intent_6_3">When this button is clicked, we will close the current activity</string>
+    <string name="tuto_intent_6_4">Let\'s edit close button\'s onClick event to close the activity</string>
+    <string name="tuto_intent_6_5">When the close button is clicked, we will close the current activity. Again, note that this block is not dependent on the Intent Component</string>
+
+    <string name="tuto_intent_7_0">Understand "setFlag" block</string>
+    <string name="tuto_intent_7_1">What is Flag?</string>
+    <string name="tuto_intent_7_2">In programming, flag is a variable that usually indicates some program state</string>
+    <string name="tuto_intent_7_3">"For example, say you have a program that displays a view, but the user can toggle the visibility of the view with a boolean variable called \"visible\", with true indicating it\'s visible, and false indicating it\'s not. In this case, "visibility" variable is the flag that determines the visibility</string>
+    <string name="tuto_intent_7_4">When to use the "setFlags" block?</string>
+    <string name="tuto_intent_7_5">The "setFlags" block is really only useful when you want to navigate to another screen inside the app. It will be explained in greater detail later in this tutorial</string>
+    <string name="tuto_intent_7_7">Let\'s find the "setFlags" block inside the "onCreate" event</string>
+    <string name="tuto_intent_7_8">"setFlags" block is only given when you add the "Intent" component</string>
+    <string name="tuto_intent_7_9">Flag Types</string>
+    <string name="tuto_intent_7_10">Inside Sketchware, we provide two types of Intent flag for you:\n1. SINGLE_TOP\n2. CLEAR_TOP</string>
+    <string name="tuto_intent_7_11">Single top flag organizes the views in a way that if the view you\’re about to transition to was already called before, it would bring that view to the top rather than putting another copy on the top.</string>
+    <string name="tuto_intent_7_12">Clear top clears all the previous views after navigating to the desired screen</string>
+
+    <string name="tuto_file_1_0">1. Save data locally\n2. Load and display the saved data onto the TextView</string>
+    <string name="tuto_file_1_1">File Explained</string>
+    <string name="tuto_file_1_2">Using the File Component, you can save data using Android\'s native Shared Preference library</string>
+    <string name="tuto_file_1_3">"We will save the value of the EditText when we press this button</string>
+    <string name="tuto_file_1_4">Then, we will load the saved data value onto this TextView</string>
+    <string name="tuto_file_1_6">Let\'s edit save button\'s onClick event to save the data when needed</string>
+    <string name="tuto_file_1_7">Let\'s put \"%s\" as the key value</string>
+    <string name="tuto_file_1_8">Drop it inside the second parameter of the "File setData" block</string>
+    <string name="tuto_file_1_9">Select the \"%s\" EditText</string>
+    <string name="tuto_file_1_10">setData Block Explained</string>
+    <string name="tuto_file_1_11">The "setData" block saves the data locally in "[key,value]" format. We save and retrieve value using the same key</string>
+    <string name="tuto_file_1_12">Let\'s load the saved data inside the load button\'s onClick event</string>
+    <string name="tuto_file_1_13">Load Logic Goal</string>
+    <string name="tuto_file_1_14">We\'re going to load the saved value and change the TextView\'s text with the loaded value</string>
+    <string name="tuto_file_1_15">Drop it inside the first parameter of the TextView</string>
+    <string name="tuto_file_1_16">We are going to use the same key we used to load the value you saved, \"%s\"</string>
+    <string name="tuto_file_1_17">ile Load</string>
+    <string name="tuto_file_1_18">The File component can be used across all screens to save and load value from the same file, as long as the file name is the identical</string>
+
+    <string name="tuto_file_2_0">Remove data from the File compoonent</string>
+    <string name="tuto_file_2_1">Friendly Reminder</string>
+    <string name="tuto_file_2_2">This tutorial is very similar to the previous one. If you haven\'t, please complete the previous tutorial!</string>
+    <string name="tuto_file_2_3">We will save the value of the EditText when we press this button</string>
+    <string name="tuto_file_2_4">Then, we will load the saved data value onto this TextView</string>
+    <string name="tuto_file_2_5">We\'ve provided the File Component for you</string>
+    <string name="tuto_file_2_6">We also provided some logic for you</string>
+    <string name="tuto_file_2_7">Like the previous tutorial, we locally save the value of the EditText with the key of \"%s\"</string>
+    <string name="tuto_file_2_8">Let\'s check the \"%s\" event</string>
+    <string name="tuto_file_2_9">Here, we load the data with the key of \"%s\" and update the TextView\'s value</string>
+    <string name="tuto_file_2_10">Our job is to fill in the \"%s\" event</string>
+    <string name="tuto_file_2_11">Remove the value from the File Component with the key of \"%s\"</string>
+    <string name="tuto_file_2_12">Let\'s remove the data with the key value of \"%s\"</string>
+    <string name="tuto_file_2_13">Things to try after installing</string>
+    <string name="tuto_file_2_14">1. Save any data by entering any data into EditText and clicking on "save"\n2. Load the data by clicking on the "load" button\n3. Remove the data by clicking on the "remove" button and try loading the data again</string>
+
+    <string name="tuto_file_3_0">Create a Sign-up / Login page with local database</string>
+    <string name="tuto_file_3_1">We will create a page where we can both sign up and login</string>
+    <string name="tuto_file_3_2">User will input their username here</string>
+    <string name="tuto_file_3_3">And password here</string>
+    <string name="tuto_file_3_4">If the user tries to login with an account that doesn\'t exist, we\'ll tell them to sign up first</string>
+    <string name="tuto_file_3_5">And if an account exists, we will show a message that says "Login Success!"</string>
+    <string name="tuto_file_3_6" formatted="false">We\'ve provided a File component \"%s\" with the filename of \"%s\"</string>
+    <string name="tuto_file_3_7">Let\'s handle the signup event first</string>
+    <string name="tuto_file_3_9">1. Check if the user actually filled out the username and the password\n2.If one of them is empty, show a message saying that they need to fill out both forms\n3. If they are both filled out, check if the username exists\n4. If it doesn\'t exist, save their login information locally"</string>
+    <string name="tuto_file_3_10">Inside the if statement, we check for two conditions</string>
+    <string name="tuto_file_3_11">First, we check if the username has any text by measuring and comparing its length</string>
+    <string name="tuto_file_3_12">Also, we check if the user typed anything for the password</string>
+    <string name="tuto_file_3_13">If one or both of them are not filled out, we tell them to enter them</string>
+    <string name="tuto_file_3_15">Select the \"%s\" EditText</string>
+    <string name="tuto_file_3_16">Here, we\'re just checking if there already exists an account with the same username. We want each username to be unique so we don\'t overwrite the existing username</string>
+    <string name="tuto_file_3_17">Tell the user "Username already exists!</string>
+    <string name="tuto_file_3_18">We first check if both the username and the password is filled out. Then, we check if the username is already taken. If it\'s not taken, save the login information in "[key,value]" format, with key being the username and the value being the password</string>
+    <string name="tuto_file_3_19">Let\'s handle the login event now</string>
+    <string name="tuto_file_3_20">The logic is very similar to the Sign-up logic. We check if the user entered both the password and the username, and then check if the username exists in the file. Here, instead, when the username exsits, we try to login. If the password matches with the saved password, we log them in. If no username is saved in the file, we tell them to sign up first</string>
+    <string name="tuto_file_3_21">Note that there is a "not" block to check if the username exists</string>
+    <string name="tuto_file_3_22">Show the message %s</string>
+    <string name="tuto_file_3_23">Ther are two cases. If the username exists, we try to login--if the password matches with the saved one, we successfully logged in, else it fails. If the username doesn\'t exist, we alert the user to sign up first</string>
+
+
+    <string name="tuto_file_4_0">Remember an option for next launch</string>
+    <string name="tuto_file_4_1">When the app launches, we will remember the previous input and load it</string>
+    <string name="tuto_file_4_2" formatted="false">We\'ve provided a File component \"%s\" with the filename of \"%s\"</string>
+    <string name="tuto_file_4_3">We\'ll first try to load from the File when the app starts</string>
+    <string name="tuto_file_4_4">1. Check if the check value exists in the File\n2. If it exists, retrieve the value of the check value\n3. We will set the CheckBox to checked if the value is 1, else unchecked</string>
+    <string name="tuto_file_4_5">We will keep the check value under the key name of \"%s\"</string>
+    <string name="tuto_file_4_6">We\'re retrieving the value with the key of \"%s\"</string>
+    <string name="tuto_file_4_7">Check if the value equals to \"%s\"</string>
+    <string name="tuto_file_4_8">Select the \"%s\" CheckBox</string>
+    <string name="tuto_file_4_9">We first check if the check value exists in the file. When the app launches for the first time ever, it will not have this value. \nIf the value exists, we update the CheckBox depending on its value--0 or 1</string>
+    <string name="tuto_file_4_10">Saving CheckBox State</string>
+    <string name="tuto_file_4_11">We handled the loading part. Now, let\'s handle the saving part</string>
+    <string name="tuto_file_4_12">We will save the new CheckBox value whenever it updates</string>
+    <string name="tuto_file_4_13">Set the key as %s</string>
+    <string name="tuto_file_4_14">When the CheckBox\'s value updates, we update the "check" key inside the File component with the value of 0 or 1 depending on the check value</string>
+
+    <string name="tuto_calendar_1_0">Retrieve the current time and show it with TextView</string>
+    <string name="tuto_calendar_1_1">Let\'s edit the "onCreate" event to retrieve the time when the app starts</string>
+    <string name="tuto_calendar_1_2">Calendar component\'s "getNow" block retrieves the current time</string>
+    <string name="tuto_calendar_1_3">Calendar Format</string>
+    <string name="tuto_calendar_1_4">Calendar time can be formatted into numberous formats. For example,\n\n1-1-1990\n01-01-1990\nJanuary 1st, 1990\n\nall have different date formats</string>
+    <string name="tuto_calendar_1_5">Type in the format \"%s\"</string>
+    <string name="tuto_calendar_1_6">This format should display the date in the format of \"%s\"</string>
+    <string name="tuto_calendar_1_7">When the app starts, the "getNow" block will get the current time. Then, we will set the TextView\'s value to the formatted time</string>
+    <string name="tuto_calendar_1_8">Click the back button to return to the editor</string>
+
+    <string name="tuto_calendar_2_0">Add time to Calendar Component</string>
+    <string name="tuto_calendar_2_1">The TextView will show the current day</string>
+    <string name="tuto_calendar_2_2">When we click on the button, we will add a day to the current day</string>
+    <string name="tuto_calendar_2_3">Let\'s edit the "onCreate" event to display the day onto TextView when the app starts</string>
+    <string name="tuto_calendar_2_4">Change the TextView\'s value to current time\'s day value</string>
+    <string name="tuto_calendar_2_5">Select the \"%s\" TextView</string>
+    <string name="tuto_calendar_2_6">Let\'s return to the Component category</string>
+    <string name="tuto_calendar_2_7">Since we only want the day, set the format as \"%s\"</string>
+    <string name="tuto_calendar_2_8">When the app starts, the Calendar component will retrieve the current time and change the TextView\'s value to the according day</string>
+    <string name="tuto_calendar_2_9">Let\'s edit the Add Day button\'s onClick event to add the day</string>
+    <string name="tuto_calendar_2_11">1. Add a day to the Calendar Component\n2. Update the TextView\'s value to the updated Calendar value</string>
+    <string name="tuto_calendar_2_12">Choose the \"%s\" option</string>
+    <string name="tuto_calendar_2_13">Since we want to add a day, let\'s add 24 hours</string>
+    <string name="tuto_calendar_2_14">Whenever the button is clicked, it will add 24 hours to the current Calendar component and update the TextView with the new day value</string>
+
+    <string name="tuto_calendar_3_0">Find the difference between two time values</string>
+    <string name="tuto_calendar_3_1">We will show the difference of two times here</string>
+    <string name="tuto_calendar_3_2">One Calendar component can hold a single time value. We provided two Calendar components so that you can find the difference between the two</string>
+    <string name="tuto_calendar_3_3">Let\'s check out the "onCreate" event</string>
+    <string name="tuto_calendar_3_4">Here, we\'ve already provided the time for both Calendar components</string>
+    <string name="tuto_calendar_3_5">We first get the current time for the first Calendar component, \"%s\"</string>
+    <string name="tuto_calendar_3_6">Then, we get the current time for the second Calendar component, \"%s\"</string>
+    <string name="tuto_calendar_3_7">For the sake of the example, we\'ve added an extra second to the \"%s\" Calendar component</string>
+    <string name="tuto_calendar_3_8">Time Difference</string>
+    <string name="tuto_calendar_3_9">Now, we\'re going to find the difference between these two Calendar components and display the value onto the TextView</string>
+    <string name="tuto_calendar_3_10">Select the \"%s\" TextView</string>
+    <string name="tuto_calendar_3_11">toString Block</string>
+    <string name="tuto_calendar_3_12">Since the difference is a Number format, we can\'t immediately set the text to the difference value. We need to change the format from "Number" to "String" in order for the blocks to fit together</string>
+    <string name="tuto_calendar_3_13">toString without decimal</string>
+    <string name="tuto_calendar_3_14">The difference between "without decimal" and "with decimal" is that "without decimal" will display the Number without any decimal points</string>
+    <string name="tuto_calendar_3_15">Select the \"%s\" Calendar component</string>
+    <string name="tuto_calendar_3_16">1. Set the "c2" Calendar component so that it has 1 more second than the "c1" Calendar component\n2. Set the time difference value to the \"diff\" TextView using the \"toString\" and \"Difference\" block\n3. The difference will show in milliseconds. 1 second is equivalent to 1,000 milliseconds</string>
+
+    <string name="tuto_calendar_4_0">Set a specific time value</string>
+    <string name="tuto_calendar_4_1">Instead of retrieving the current time, we sometimes may need to assign a specific time value to the Calendar component</string>
+    <string name="tuto_calendar_4_2">Let\'s set a specific time value and display it on this TextView</string>
+    <string name="tuto_calendar_4_3">Let\'s edit the "onCreate" event to set a specific time and display it</string>
+    <string name="tuto_calendar_4_4">Select the \"%s\" option</string>
+    <string name="tuto_calendar_4_5">Let\'s input \"%s\" for the year</string>
+    <string name="tuto_calendar_4_6">Let\'s input \"%s\" for the month</string>
+    <string name="tuto_calendar_4_7">Even though we input 0 for the month, it would actually display January, since the months start from 0 in Java programming language</string>
+    <string name="tuto_calendar_4_8">Let\'s only display the year and the month by entering \"%s\"</string>
+    <string name="tuto_calendar_4_9">1. Set the YEAR value to 1990\n2. Set the MONTH value to 0 (Note that January is 0)\n3. Update the TextView with the appropriate format</string>
+
+    <string name="tuto_calendar_5_0">Create a digital clock app</string>
+    <string name="tuto_calendar_5_1">We are going to use the Calendar to retrieve time and display it onto this TextView</string>
+    <string name="tuto_calendar_5_2">We have provided two components, Timer and Calendar, for you</string>
+    <string name="tuto_calendar_5_3">Let\'s run the clock as soon as the app starts</string>
+    <string name="tuto_calendar_5_4">1. Using the "Timer ... every" block, we will retrieve the time every second\n2. With the retrieved time, we will format the text and display it on the TextView</string>
+    <string name="tuto_calendar_5_5">Let\'s start this block after %s ms</string>
+    <string name="tuto_calendar_5_6">We want this block to repeat every %s ms</string>
+    <string name="tuto_calendar_5_7">Select the \"%s\" TextView</string>
+    <string name="tuto_calendar_5_8">Enter "hh:mm:ss" for the format, since we want the clock in "hours:minutes:seconds" format</string>
+    <string name="tuto_calendar_5_9">1. "Timer every" block retrieves the time every 1 second\n2. We retrieve the current time using the "Calendar getNow" block and update the TextView with the retrieved value</string>
+
+
+    <string name="tuto_calendar_6_0">Create a birthday countdown app</string>
+    <string name="tuto_calendar_6_1">Let\'s first populate the spinner data in the "onCreate" event</string>
+    <string name="tuto_calendar_6_2">First, let\'s create a String list named \"%s\"</string>
+    <string name="tuto_calendar_6_3">"Let's create a Number variable called \"%s\"</string>
+    <string name="tuto_calendar_6_4">This Number variable will be used to add the years from 1990 to 2010 into the \"%s\"</string>
+    <string name="tuto_calendar_6_5">Select the \"%s\" Number variable</string>
+    <string name="tuto_calendar_6_6">Since we want the year to start from 1990, enter "1990" here </string>
+    <string name="tuto_calendar_6_7" formatted="false">Since we want to add %s years starting 1990, put \"%s\" here</string>
+    <string name="tuto_calendar_6_8">The reason why it\'s 21 is that 1990 is being added to the list before the "temp_year" is increased, unlike the months</string>
+    <string name="tuto_calendar_6_9">Select the \"%s\" String list</string>
+    <string name="tuto_calendar_6_10">Select the \"%s\" Spinner</string>
+    <string name="tuto_calendar_6_11">Select the \"%s\" List</string>
+    <string name="tuto_calendar_6_12">Let\'s populate the data for days now</string>
+    <string name="tuto_calendar_6_13">First, let\'s create a list String named \"%s\"</string>
+    <string name="tuto_calendar_6_14">Let\'s create a Number variable called \"%s\"</string>
+    <string name="tuto_calendar_6_15">This Number variable will be used to add the days from 1 to 31 into the \"%s\"</string>
+    <string name="tuto_calendar_6_16">Add %s to the repeat condition</string>
+    <string name="tuto_calendar_6_17">Two Calendar components will be used to calculate the difference of two dates</string>
+    <string name="tuto_calendar_6_18">Let\'s calculate the difference and show the difference when the calculate button is clicked</string>
+    <string name="tuto_calendar_6_19">1. Get the current time for c2 Calendar component\n2. Set the year, month, and day for the c1 Calendar component from the retrieved user input\n3. Calculate the difference in days and display it onto the TextView</string>
+
+
+    <string name="tuto_vibrator_1_0">Vibrate your device for x seconds</string>
+    <string name="tuto_vibrator_1_1">When the button is clicked, we will vibrate the device for 1 second</string>
+    <string name="tuto_vibrator_1_2">Let\'s edit the Button\'s onClick event to vibrate the device when it is clicked</string>
+    <string name="tuto_vibrator_1_3">Vibrate the device when the button is clicked</string>
+    <string name="tuto_vibrator_1_4">The first parameter determines how long the device will vibrate for in milliseconds</string>
+    <string name="tuto_vibrator_1_5" formatted="false">Since we want the device to vibrate for %s second, let\'s add \"%s\" inside the param</string>
+
+
+    <string name="tuto_timer_1_0">Show a message after %s seconds</string>
+    <string name="tuto_timer_1_1">Timer Component is used to delay certain actions, or repeat a certain action with a duration in between</string>
+    <string name="tuto_timer_1_2">Let\'s fire the timer inside the "onCreate" event</string>
+    <string name="tuto_timer_1_3">When the application starts, show a message after %s seconds</string>
+    <string name="tuto_timer_1_4" formatted="false">Let\'s add \"%s\" milliseconds inside the parameter, since we want the block to execute after %s seconds</string>
+    <string name="tuto_timer_1_5">Enter any String value you want to show</string>
+    <string name="tuto_timer_1_6">1. When the application starts\n2. Timer \"t\" after 3000 ms block gets executed\n3. ShowMessage inside the Timer block gets executed after 3,000 milliseconds or 3 seconds</string>
+
+    <string name="tuto_timer_2_0">Create an animating Cheetah using Sprite images</string>
+    <string name="tuto_timer_2_1">Definition of Sprite</string>
+    <string name="tuto_timer_2_2">Sprite is an image sheet that contains all the frames needed for an animation to happen</string>
+    <string name="tuto_timer_2_3">Cheetah Frames</string>
+    <string name="tuto_timer_2_4">In this tutorial, we\'ve provided %s frames of a cheetah running for you</string>
+    <string name="tuto_timer_2_5">Let\'s now animate this image using Timer Component</string>
+    <string name="tuto_timer_2_6">We\'re going to start animating the image right away when the application starts</string>
+    <string name="tuto_timer_2_7">1. Create a Number variable that keeps track of which frame the animation is on\n2. Use the \"Timer ... every\" block to update the frame variable every x milliseconds\n3. Update the image with the new frame index</string>
+    <string name="tuto_timer_2_8">Create a Number variable named \"%s\"</string>
+    <string name="tuto_timer_2_9" formatted="false">Great! You\'ve created a Number variable called \"%s\". The value of the number variables default to %s</string>
+    <string name="tuto_timer_2_10">Let\'s execute this block right when the application starts--input %s</string>
+    <string name="tuto_timer_2_11">Also, let\'s execute this every block every %s milliseconds</string>
+    <string name="tuto_timer_2_12" formatted="false">Add %s to the second parameter of the \"%s\" block</string>
+    <string name="tuto_timer_2_13" formatted="false">Add %s to the second parameter of the \"%s\" block</string>
+    <string name="tuto_timer_2_14">Let\'s understand why we need this condition before we move on</string>
+    <string name="tuto_timer_2_15">Every time the timer block gets executed, the frame variable increases by 1, indicating that the image should change to the next frame.\nAfter the frame variable updates, we should check which frame it is on, and update to the respective frame. Since there are 8 frames, we need 8 "if ... then" condition blocks</string>
+    <string name="tuto_timer_2_16">We want to update the frame to the first image if frame value is %s</string>
+    <string name="tuto_timer_2_17">Click on the "if then" block to copy it</string>
+    <string name="tuto_timer_2_18">Put 1 here to check for the first frame</string>
+    <string name="tuto_timer_2_19" formatted="false">When the frame is %s, we want the image to change to \"%s\"</string>
+    <string name="tuto_timer_2_20">Let\'s paste another "if then" block</string>
+    <string name="tuto_timer_2_21">Connect it under the first "if then" block</string>
+    <string name="tuto_timer_2_22">Put 2 here to check for the second frame</string>
+    <string name="tuto_timer_2_23">Put 3 here to check for the third frame</string>
+    <string name="tuto_timer_2_24">Put 4 here to check for the fourth frame</string>
+    <string name="tuto_timer_2_25">Put 5 here to check for the fifth frame</string>
+    <string name="tuto_timer_2_26">Put 6 here to check for the sixth frame</string>
+    <string name="tuto_timer_2_27">Put 7 here to check for the seventh frame</string>
+    <string name="tuto_timer_2_28">1. We use the Timer block to increase the "frame" variable by 1 every 150ms\n2. When the frame variable increases, 1, 2, 3 ... 15, we use the remainder block to only get a result between 1 and 7 no matter how big the \"frame variable is\"\n3. We use the "=" block to check the current value of the frame, and update the ImageView accordingly</string>
+
+
+    <string name="tuto_timer_3_0">Create a Stopwatch</string>
+    <string name="tuto_timer_3_1">There are five TextViews inside this layout in %s format</string>
+    <string name="tuto_timer_3_2">Minutes</string>
+    <string name="tuto_timer_3_3">Seconds</string>
+    <string name="tuto_timer_3_4">And Milliseconds</string>
+    <string name="tuto_timer_3_5">When the start button is clicked, we will start the stopwatch</string>
+    <string name="tuto_timer_3_6">And when the stop button is pressed, we will pause it if it\'s running, else clear the stop watch</string>
+    <string name="tuto_timer_3_7">The Timer component is used to update the TextView every x milliseconds</string>
+    <string name="tuto_timer_3_8">The c1 and c2 Calendar components are used to hold and find differnce between two times</string>
+    <string name="tuto_timer_3_9">Let\'s start the stopwatch timer when the start button is clicked</string>
+    <string name="tuto_timer_3_10">1. When the button is clicked, set the "started" Boolean varaible as true and get the current time for c1 Calendar component\n2. Start a timer that repeats every millisecond, and get the time for c2 Calendar component\n3. Find the difference between c2 and c1 time\n4. Calculate the minutes, seconds, and milliseconds from the difference and update the TextViews</string>
+    <string name="tuto_timer_3_11">Create a Boolean variable called \"%s\"</string>
+    <string name="tuto_timer_3_12">\"%s\" Boolean variable will let us know if the stopwatch is started or not</string>
+    <string name="tuto_timer_3_13">Create a Number variable called \"%s\"</string>
+    <string name="tuto_timer_3_14">\"%s\" Number variable will be used to hold the time difference</string>
+    <string name="tuto_timer_3_15">Select the \"%s\" Boolean variable</string>
+    <string name="tuto_timer_3_16">Select the \"%s\" Calendar component</string>
+    <string name="tuto_timer_3_17">Let\'s execute this after \"%s\"ms</string>
+    <string name="tuto_timer_3_18">Repeat this timer block every \"%s\" millisecond</string>
+    <string name="tuto_timer_3_19">Select the \"%s\" Number variable</string>
+    <string name="tuto_timer_3_20">Select the \"%s\" TextView</string>
+    <string name="tuto_timer_3_21">Since we only want the milliseconds, put \"%s\" here"</string>
+    <string name="tuto_timer_3_22">Milliseconds Logic Explained</string>
+    <string name="tuto_timer_3_23">The "Difference" block returns the time in milliseconds. Let\'s say the difference value is 5153ms--5153%1000 would be 153. The "%" block caps the maximum value of the milliseconds to 1,000</string>
+    <string name="tuto_timer_3_24">Put \"%s\" here, since we want to calculate the seconds only</string>
+    <string name="tuto_timer_3_25" formatted="false">Put \"%s\" here, since we want to put a %s second cap</string>
+    <string name="tuto_timer_3_26" formatted="false">Put \"%s\" here, since we want to calculate the minutes, and %s milliseconds equal %s minute</string>
+    <string name="tuto_timer_3_27" formatted="false">Put \"%s\" here, since we want to put a %s minute cap</string>
+    <string name="tuto_timer_3_28">1. When the "start" button is clicked, we get the time for "c1" Calendar component\n2. Starting the timer, we retrieve a new current time for \"c2\" Calendar component and find the difference\n3. Then, we parse the milliseconds into minutes, seconds, and milliseconds</string>
+    <string name="tuto_timer_3_29">Let\'s stop the timer when the stop button is clicked</string>
+    <string name="tuto_timer_3_30">1. Check if the stopwatch is started\n2. If started, we pause the stopwatch \n3. If it\'s stopped, we clear the time to 0:00:00 and set the "started" boolean to false</string>
+    <string name="tuto_timer_3_31">Click on the %s block</string>
+    <string name="tuto_timer_3_32">Put \"%s\" to reset the milliseconds</string>
+    <string name="tuto_timer_3_33">Put \"%s\" to reset the seconds</string>
+    <string name="tuto_timer_3_34">Put \"%s\" to reset the minutes</string>
+    <string name="tuto_timer_3_35">1. Check if the stopwatch is started\n2. If started, we pause the stopwatch \n3. If it\'s stopped, we clear the time to 0:00:00 and set the "started" boolean to false</string>
+
+
+    <string name="tuto_timer_4_0">Increase a Number variable by %s every second</string>
+    <string name="tuto_timer_4_1">When the app starts, we will increase this digit by %s every second</string>
+    <string name="tuto_timer_4_2">Let\'s start the timer when the app starts</string>
+    <string name="tuto_timer_4_3">1. Create a Number variable that will keep track of the current number value\n2. Using the "Timer every" block, we will increase the Number variable and update the TextView</string>
+    <string name="tuto_timer_4_4">Create a Number variable called \"%s\"</string>
+    <string name="tuto_timer_4_5">You\'ve successfully created a Number variable. Its value defaults to %s</string>
+    <string name="tuto_timer_4_6">Let\'s execute the timer after \"%s\"ms</string>
+    <string name="tuto_timer_4_7">Since we want to increment the number value every second, put \"%s\"ms</string>
+    <string name="tuto_timer_4_8">Select the \"%s\" Number variable</string>
+    <string name="tuto_timer_4_9">Select the \"%s\" TextView</string>
+    <string name="tuto_timer_4_10">1. Once the app starts, the "Timer every" block gets executed every 1000ms or 1 second\n2. Using the \"num\" Number variable, we keep track of the increasing value of the digit\n3. Since Number variables are in number format, we use the "toString" block to cast the number type to String before updating the TextView</string>
+
+
+    <string name="tuto_sound_media_1_0">Adding and playing a sound file</string>
+    <string name="tuto_sound_media_1_1">SoundPool vs MediaPlayer</string>
+    <string name="tuto_sound_media_1_2">"- SoundPool Component is used for loading and playing short sound files, such as a sound effect\n- MediaPlayer Component is used for playing longer sound files, such as a background music</string>
+    <string name="tuto_sound_media_1_3">We will use this button to play the sound using SoundPool Component</string>
+    <string name="tuto_sound_media_1_4">We will use this button to play the sound using MediaPlayer Component</string>
+    <string name="tuto_sound_media_1_5">Adding sound</string>
+    <string name="tuto_sound_media_1_6">First, let\'s try adding a sound file. Download and prepare a sound file to load</string>
+    <string name="tuto_sound_media_1_7">Sound Manager</string>
+    <string name="tuto_sound_media_1_8">You can add and manage sound files using the Sound Manager</string>
+    <string name="tuto_sound_media_1_9">Let\'s try playing the sound file using the SoundPool Component</string>
+    <string name="tuto_sound_media_1_11">SoundPool Explained</string>
+    <string name="tuto_sound_media_1_12">Playing a sound with SoundPool component is broken down into 4 steps: \n1. Create a pool that can hold x number of sounds\n2. Create a Number variable and load the ID of the sound into the variable\n3. Create another Number variable that plays the sound and holds the "playing ID"</string>
+    <string name="tuto_sound_media_1_13">Let\'s first create the pool in the "onCreate" event</string>
+    <string name="tuto_sound_media_1_14" formatted="false">Since we only have %s sound file, let\'s add \"%s\" here</string>
+    <string name="tuto_sound_media_1_15">Let\'s create the Number variable that can hold the ID of the sound</string>
+    <string name="tuto_sound_media_1_16">Create a Number variable named \"%s\"</string>
+    <string name="tuto_sound_media_1_18">%s variable will be used to load the sound file</string>
+    <string name="tuto_sound_media_1_19">%s variable will be used to play the sound file</string>
+    <string name="tuto_sound_media_1_20">Let\'s now load the ID of the sound into the Number variable we\'ve just created</string>
+    <string name="tuto_sound_media_1_21">Select the \"%s\" Number variable</string>
+    <string name="tuto_sound_media_1_22">Select the \"%s\" sound file you\'ve previously added</string>
+    <string name="tuto_sound_media_1_23">Let\'s now edit the Button\'s onClick event to play the sound when it is clicked</string>
+    <string name="tuto_sound_media_1_24">Click on play_soundspool\'s onClick event</string>
+    <string name="tuto_sound_media_1_25">You can determine how many times the sound will play here. By default, it plays one time. Let\'s add %s here</string>
+    <string name="tuto_sound_media_1_26">The reason why SoundPool requires you to create a Number variable to store the playingID is to make sure you can stop the sound if you need to, using the ID</string>
+    <string name="tuto_sound_media_1_27">Note that there is a stop block that can stop the sound using the playingID when needed</string>
+    <string name="tuto_sound_media_1_28">SoundPool is for Short Sounds</string>
+    <string name="tuto_sound_media_1_29">The sound you\'ve added may or may NOT play, since SoundPool can only play short sound files</string>
+    <string name="tuto_sound_media_1_30">Let\'s play the same sound file using the MediaPlayer component</string>
+    <string name="tuto_sound_media_1_31">Now let\'s try playing the sound using MediaPlayer Component</string>
+    <string name="tuto_sound_media_1_32">MediaPlayer Explained</string>
+    <string name="tuto_sound_media_1_33">"MediaPlayer Component procedure is broken down into 2 steps: \n1. Create a MediaPlayer that can hold 1 sound\n2. Play the MediaPlayer\nNote that MediaPlayer does not need a Number variable to operate, but it requires more system memory</string>
+    <string name="tuto_sound_media_1_34">Let\'s create the MediaPlayer that can hold a sound inside the "onCreate" event</string>
+    <string name="tuto_sound_media_1_35">Select the \"%s\" sound file you\'ve previously uploaded</string>
+    <string name="tuto_sound_media_1_36">Now, let\'s play the sound when the button is clicked</string>
+    <string name="tuto_sound_media_1_37">1. SoundPool Component is used to play short sounds--the sound may not play if the sound file is too long.\nYou need to create TWO Number variables to load the sound and play the sound\n2. MediaPlayer Component is used to play longer sounds. It doesn\'t need a Number variable, but it uses more system memory</string>
+
+
+    <string name="tuto_sound_media_2_0">Playing and pausing sounds</string>
+    <string name="tuto_sound_media_2_1">You can add and manage sound files using the Sound Manager</string>
+    <string name="tuto_sound_media_2_2">Here, we\'ve provided a song called \"%s\" for you to use</string>
+    <string name="tuto_sound_media_2_3">Whenever we click on the "Play" button, it will start playing the music</string>
+    <string name="tuto_sound_media_2_4">Whenever we click on the "Pause" button, it will pause the music</string>
+    <string name="tuto_sound_media_2_5">We\'ve also provided the MediaPlayer Component \"%s\" for you</string>
+    <string name="tuto_sound_media_2_6">Let\'s create the MediaPlayer inside the "onCreate" event</string>
+    <string name="tuto_sound_media_2_7">Select the sound file \"%s\"</string>
+    <string name="tuto_sound_media_2_8">Let\'s play the sound when the "play" button is clicked, and let\'s pause the sound when the "pause" button is clicked</string>
+    <string name="tuto_sound_media_2_9">Let\'s edit the play button\'s onClick event</string>
+    <string name="tuto_sound_media_2_11">Let\'s edit pause button\'s onClick event</string>
+    <string name="tuto_sound_media_2_12">1. We create the MediaPlayer with the appropriate sound file inside the "onCreate" event\n2. When the play button is clicked, we play the sound file using the \"MediaPlayer start\" block\n3. When the pause button is clicked, we pause the sound file using the "MediaPlayer pause" block</string>
+
+
+    <string name="tuto_sound_media_3_0">Infinitely loop a sound file</string>
+    <string name="tuto_sound_media_3_1">You can add and manage sound files using the Sound Manager</string>
+    <string name="tuto_sound_media_3_2">Here, we\'ve provided a song called \"%s\" for you to use</string>
+    <string name="tuto_sound_media_3_3">Let\'s edit the "onCreate" event to play the sound and set it on loop</string>
+    <string name="tuto_sound_media_3_4">Unlike the SoundPool component, MediaPlayer Component has more interesting features, such as "set looping," "get song duration," and more</string>
+    <string name="tuto_sound_media_3_5">Select the \"%s\" sound file you\'ve previously uploaded</string>
+    <string name="tuto_sound_media_3_6">1. Create a MediaPlayer Component\n2. Load the sound into the MediaPlayer\n3. Set looping to true\n4. Start the MediaPlayer</string>
+
+    <string name="tuto_sound_media_4_0">Getting the duration of the song</string>
+    <string name="tuto_sound_media_4_1">You can add and manage sound files using the Sound Manager</string>
+    <string name="tuto_sound_media_4_2">Here, we\'ve provided a song called \"%s\" for you to use</string>
+    <string name="tuto_sound_media_4_3">The duration of the song is 18 seconds (~18,000 milliseconds)</string>
+    <string name="tuto_sound_media_4_4">We will retrieve and display the total duration of the song here</string>
+    <string name="tuto_sound_media_4_5">Let\'s retrieve the duration of the song when the app starts</string>
+    <string name="tuto_sound_media_4_6">Select the \"%s\" sound file</string>
+    <string name="tuto_sound_media_4_7">Select the \"%s\" TextView</string>
+    <string name="tuto_sound_media_4_8">When the app starts, we first load the sound "tobu_mesmerize" into the MediaPlayer component.\nThen, we retrieve the duration of the song (in milliseconds) and update the TextView</string>
+
+    <string name="tuto_sound_media_5_0">Create a 3-key pian</string>
+    <string name="tuto_sound_media_5_1">Design Explained</string>
+    <string name="tuto_sound_media_5_2">We will walk through step by step and understand how this app is designed</string>
+    <string name="tuto_sound_media_5_3">Many different layouts are positioned inside this layout, which has the height of 200dp</string>
+    <string name="tuto_sound_media_5_4">We\'ve set the gravity of top and bottom layout to "center_horizontal" so that keys align to the center"</string>
+    <string name="tuto_sound_media_5_5">The keys are "Button" widgets with white or black background</string>
+    <string name="tuto_sound_media_5_6">They have a width of 50dp and height of 100dp</string>
+    <string name="tuto_sound_media_5_7">For the middle key, we\'ve given it a margin of 4dp to the left and the right so that it has a little spacing between the keys</string>
+    <string name="tuto_sound_media_5_8">The same applies for the black keys</string>
+    <string name="tuto_sound_media_5_9">Piano sound files</string>
+    <string name="tuto_sound_media_5_11">We\'ve provided five different sound files\n\nc1, c1s (black key), d1, d1s (black key), and e1</string>
+    <string name="tuto_sound_media_5_12">In this app, we only use the SoundPool component. The reason why we use SoundPool instead of MediaPlayer is that piano sounds are relatively short</string>
+    <string name="tuto_sound_media_5_13">Let\'s analyze the "onCreate" event</string>
+    <string name="tuto_sound_media_5_14">Inside the "onCreate" event, we initialize the SoundPool and load appropriate sound files</string>
+    <string name="tuto_sound_media_5_15" formatted="false">There are %s Number variables available. The variables that end with \"%s\" are used to load the sound</string>
+    <string name="tuto_sound_media_5_16">The variables that end with \"%s\" are used to play the sound</string>
+    <string name="tuto_sound_media_5_17" formatted="false">We initialize the SoundPool with %s stream counts. This lets us load %s sound files into the SoundPool</string>
+    <string name="tuto_sound_media_5_18">Note that we need to use the "set Number to" block to both load and play the sound files when using the SoundPool component</string>
+    <string name="tuto_sound_media_5_19">Here, we load the sound files using the "SoundPool load" block</string>
+    <string name="tuto_sound_media_5_20">Note that different sound files are loaded to different Number variables</string>
+    <string name="tuto_sound_media_5_21">Let\'s fill in the missing parameters in the last "set Number to" block</string>
+    <string name="tuto_sound_media_5_22">Select the \"%s\" Number variable</string>
+    <string name="tuto_sound_media_5_23">Select the \"%s\" sound file</string>
+    <string name="tuto_sound_media_5_24">Playing Sounds</string>
+    <string name="tuto_sound_media_5_25">"Now, let\'s understand how the sound files are being played</string>
+    <string name="tuto_sound_media_5_26">There are different Button onClick events available--one for each key</string>
+    <string name="tuto_sound_media_5_27">Let\'s play the sound for the \"%s\" key when it is clicked</string>
+    <string name="tuto_sound_media_5_28">Like loading the sound, "set Number to" block is also used to play the sound</string>
+    <string name="tuto_sound_media_5_29">First, we select the appropriate Number variable that ends in \"%s\"</string>
+    <string name="tuto_sound_media_5_30" formatted="false">Since this is for onClick event for \"%s\", select \"%s\"</string>
+    <string name="tuto_sound_media_5_31">Then we need the "SoundPool play" block to play the sound file</string>
+    <string name="tuto_sound_media_5_32">Let\'s make it play one time by putting 0 here</string>
+    <string name="tuto_sound_media_5_33">The logic for other key events are identical, so they\'ve been filled out for you</string>
+    <string name="tuto_sound_media_5_34">1. We created 10 Number variables, 5 with the suffix of "_sound" and 5 with "_play2. "_sound" variables were used to load the sound in "onCreate" event, and "_play" variables were used to play the sound on the key's onClick event</string>
+
+
+    <string name="tuto_sound_media_7_0">Design a music player</string>
+    <string name="tuto_sound_media_7_1">We\'ve provided %s images for you</string>
+    <string name="tuto_sound_media_7_2">Tobu - Mesmerize album art</string>
+    <string name="tuto_sound_media_7_3">Play button</string>
+    <string name="tuto_sound_media_7_4">Pause button</string>
+    <string name="tuto_sound_media_7_5">Fast-forward button</string>
+    <string name="tuto_sound_media_7_6">Rewind button</string>
+    <string name="tuto_sound_media_7_7">First, we changed the background color property of the layout that holds all other widgets</string>
+    <string name="tuto_sound_media_7_8">There are two Linear (V) layouts--this is the first one with the centered gravity</string>
+    <string name="tuto_sound_media_7_9">We applied the album art to an ImageView</string>
+    <string name="tuto_sound_media_7_11">We\'ve added the music and the artist title using a TextView</string>
+    <string name="tuto_sound_media_7_12">This is the second layout, with the centered gravity as well</string>
+    <string name="tuto_sound_media_7_13">This horizontal layout is inside the second layout, with three ImageViews</string>
+    <string name="tuto_sound_media_7_14">In this tutorial, we will only be concerned with the "play" button</string>
+    <string name="tuto_sound_media_7_15">Let\'s first load the song into the MediaPlayer when the app starts</string>
+    <string name="tuto_sound_media_7_16">Load the song \"%s\" into the MediaPlayer component</string>
+    <string name="tuto_sound_media_7_17">Select the song \"%s\"</string>
+    <string name="tuto_sound_media_7_18">Then, let\'s play the sound when the play button is clicked</string>
+    <string name="tuto_sound_media_7_19">1. Check if the song is already playing\n2. If playing, pause the song and change the icon to play icon\n3. Else, play the song and change the icon to pause icon</string>
+    <string name="tuto_sound_media_7_20">Create a Boolean variable called \"%s\"</string>
+    <string name="tuto_sound_media_7_21">Great! We\'ll use this variable to check if the song is playing or not. Its value defaults to "false"</string>
+    <string name="tuto_sound_media_7_22">Select the \"%s\" ImageView</string>
+    <string name="tuto_sound_media_7_23">Select the \"%s\" image</string>
+    <string name="tuto_sound_media_7_24">Select the \"%s\" Boolean variable</string>
+    <string name="tuto_sound_media_7_25">1. Check if the song is already playing\n2. If playing, pause the song and change the icon to play icon\n3. Else, play the song and change the icon to pause icon</string>
+
+    <string name="tuto_object_animator_1_0">Rotate a widget with Object Animator Component</string>
+    <string name="tuto_object_animator_1_1">What is Object Animator?</string>
+    <string name="tuto_object_animator_1_2">Object Animator is used to make creating animations more simple. Instead of using Timers, we can now use the Object Animator Component to animate widgets</string>
+    <string name="tuto_object_animator_1_3">We\'re going to rotate this TextView using Object Animator</string>
+    <string name="tuto_object_animator_1_4">The ObjectAnimator Component has been added</string>
+    <string name="tuto_object_animator_1_5">Let\'s animate the TextView when the app starts</string>
+    <string name="tuto_object_animator_1_6">Logic Goal</string>
+    <string name="tuto_object_animator_1_7">Use the ObjectAnimator component to animate the TextView</string>
+    <string name="tuto_object_animator_1_8">Click on the Component category</string>
+    <string name="tuto_object_animator_1_9">Logic Goal</string>
+    <string name="tuto_object_animator_1_10">Logic Goal</string>
+
+
+    <string name="tuto_algorithm_1_0">Swap values of two text values</string>
+    <string name="tuto_algorithm_1_1">After the value swap, the text will be displayed as\n\nB\nA</string>
+    <string name="tuto_algorithm_1_2">Let\'s swap the two values when the \"swap\" button is clicked</string>
+    <string formatted="false" name="tuto_algorithm_1_3">1. Create a temporary variable that holds the value of \"%s\"\n2. Change the value of \"%s\" to \"%s\"\n3. Set the value of \"%s\" to \"%s\"</string>
+    <string name="tuto_algorithm_1_4">Create a String variable named \"%s\"</string>
+    <string name="tuto_algorithm_1_5">In order to swap two values, we need to create a temporary placeholder that can temporarily hold one value while we make the swap</string>
+
+
+    <string name="tuto_algorithm_2_0">Print a triangle of asterisks</string>
+    <string name="tuto_algorithm_2_1">We will display the trinagle through the provided TextView</string>
+    <string name="tuto_algorithm_2_2">Let\'s generate the trinagle of asterisks in the onCreate event</string>
+    <string name="tuto_algorithm_2_3">We want to acquire a tringle of asterisks that look like this:\n*\n**\n***\n****\n*****</string>
+    <string name="tuto_algorithm_2_4">Create a Number variable called \"%s\"</string>
+    <string name="tuto_algorithm_2_5">This number variable will help us keep track of how many asterisks will be printed on each row</string>
+    <string name="tuto_algorithm_2_6">We set i to 1, since we want to print one * on the first row</string>
+    <string name="tuto_algorithm_2_7">Click on the Control category</string>
+    <string name="tuto_algorithm_2_8">Click on the Variable category</string>
+    <string name="tuto_algorithm_2_9">Create a String variable called \"%s\"</string>
+    <string name="tuto_algorithm_2_10">Select the \"%s\" block</string>
+    <string name="tuto_algorithm_2_11">We use two repeat blocks\n1. The first repeat block is used to determine how many rows of * we want to print by adding a new line every loop\n2. The repeat block inside the repeat block is used to print each row\n
+        3. The inside loop is repeated \"i\" times, which increments in the outer repeat loop. This lets us acquire the triangular looking print\n4. Finally, we set the TextView to the text we\'ve been joining on</string>
+    <string name="tuto_algorithm_2_12">\"stars\" variable will contain the value of what we want to print</string>
+
+    <string name="tuto_algorithm_3_0">Calculate if number is even or odd</string>
+    <string name="tuto_algorithm_3_1">After the user enters a numeric input and clicks on the button, we will toast either \"even\" or \"odd\"</string>
+    <string name="tuto_algorithm_3_2">Let\'s perform the calculation when the button is clicked</string>
+    <string name="tuto_algorithm_3_3">Even numbers are numbers that are divisible by 2. In order to check if the input is even, we just need to check if there are any remainders left when the number is divided by 2</string>
+    <string name="tuto_algorithm_3_4">When there is a remainder, we\'ll toast \"odd\"</string>
+    <string name="tuto_algorithm_3_5">When there is no remainder, we\'ll toast \"even\"</string>
+    <string name="tuto_algorithm_3_6">We decide if the number is even by calculating if the input has any remainders after it is divided by 2</string>
+    <string name="tuto_algorithm_3_7">Challenge</string>
+    <string name="tuto_algorithm_3_8">The application might crash if you enter no numbers at all. Try to create another if statement that helps you check if the EditText has any input</string>
+
+    <string name="tuto_algorithm_4_0">Reverse the items in the list</string>
+    <string name="tuto_algorithm_4_1">The provided ListView is going to display the items inside the list</string>
+    <string name="tuto_algorithm_4_2">When the Reverse button is pressed, the content of the list will be reversed</string>
+    <string name="tuto_algorithm_4_3">Let\'s check out the onCreate event</string>
+    <string name="tuto_algorithm_4_4">We\'ve already created and populated three items in a String list, \"a, b, c\"</string>
+    <string name="tuto_algorithm_4_5">Let\'s reverse the list inside the reverse button\'s onClick event</string>
+    <string name="tuto_algorithm_4_6">1. Create a new String list\n2. Iterate the existing list and copy the items in a backwards manner\n3.Update the listview with the new content</string>
+    <string name="tuto_algorithm_4_7">Create a String list named \"%s\"</string>
+    <string name="tuto_algorithm_4_8">Create a Number variable named \"%s\"</string>
+    <string name="tuto_algorithm_4_9">We initially clear the list, so that even when the reverse button is clicked multiple times, the \"r_list\" starts with the same blank state every time. We created a Number variable called index, which will help us iterate through the original list starting from the last item.</string>
+    <string name="tuto_algorithm_4_10">Create a Number variable named \"%s\"</string>
+    <string name="tuto_algorithm_4_11">We set the index to \"size - 1\", since the index of the first item in a list starts with 0, and we wanted to start from the last item. Since the size of the list is 3, we want to start from index 2, which is the index of the last item.\n\n
+        Using the repeat block, we iterate from the last item inside the \"list1\", and add them into \"r_list\". We decrease the index variable by 1 every iteration to get the previous item in the \"list1\".</string>
+    <string name="tuto_algorithm_4_12">Then, we reset the data for the ListView and update it, so that the ListView can display the new data of \"r_list\"</string>
+
+    <string name="tuto_algorithm_5_0">Create a Deck of playing cards</string>
+    <string name="tuto_algorithm_5_1">The provided ListView is going to display the cards after they have been generated</string>
+    <string name="tuto_algorithm_5_2">Let\'s generate and populate the ListView when the app starts</string>
+    <string name="tuto_algorithm_5_3">In playing cards, there are four suits and 13 cards for each suite. In the deck we\'re going to create, we will denote the suites with numbers:\n
+        1. Diamonds - 0\n2. Hearts - 1\n3. Spades - 2\n4. Clubs - 3\n\nFor example, an Ace of Spades would be denoted as 20, in suite-card number format</string>
+    <string name="tuto_algorithm_5_4">Create a Number variable named \"%s\"</string>
+    <string name="tuto_algorithm_5_5">Set the value to \"%s\" for the number of suits</string>
+    <string name="tuto_algorithm_5_6">Set the value to \"%s\" for the number of cards</string>
+    <string name="tuto_algorithm_5_7">Create a String List named \"%s\"</string>
+    <string name="tuto_algorithm_5_8">The inner repeat loop repeats 13 times every time the outer repeat loop happens one time. We add 13 different cards with every suit repeat, and resets the card value to 0 so that other suit will get the same 13 cards as well</string>
+    <string name="tuto_algorithm_5_9">We\'ve successfully created 52 cards. The format the cards are displayed may be a little funky, but in the world of programming, it\'s sometimes necessary to use various data foramts for different situations\n\n
+        The first digit indicates which suit it is, and the following number indicates the number of the card. For example, 09 would be a Jack of Diamonds, since first item starts with 0th index</string>
+
+    <string name="tuto_algorithm_6_0">Shuffle a Deck of playing cards</string>
+    <string name="tuto_algorithm_6_1">Prerequisite</string>
+    <string name="tuto_algorithm_6_2">If you haven\'t, please complete the previous tutorial, since this is a cumulative tutorial</string>
+    <string name="tuto_algorithm_6_3">We will use this ListView to display the shuffled deck</string>
+    <string name="tuto_algorithm_6_4">We\'ve already provided the logic for onCreate event</string>
+    <string name="tuto_algorithm_6_5">The logic is the same with the previous tutorial, except that we\'ve created a new MoreBlock function called \"shuffleDeck\"</string>
+    <string name="tuto_algorithm_6_6">Let\'s edit the shuffleDeck function to shuffle the deck and populate the ListView</string>
+    <string name="tuto_algorithm_6_7">1. Create a new List called \"s_deck\"\n2. Randomly choose 1 card from the \"deck\" list and copy it over to \"s_deck\"</string>
+    <string name="tuto_algorithm_6_8">Create a Number variable named \"%s\"</string>
+    <string name="tuto_algorithm_6_9">Create a String list named \"%s\"</string>
+    <string name="tuto_algorithm_6_10">Set the value to \"%s\", since there are 52 cards in the deck</string>
+    <string name="tuto_algorithm_6_11">Note that we subtract 1, since the 1st item inside the list starts with the index of 0, which means the index of the last item always be the length - 1</string>
+    <string name="tuto_algorithm_6_12">During the 52 repeat loops, we generate a random number variable that takes a random index from 0 to the length of the deck list - 1. Using the index, we copy the card from the deck list to the s_deck list, and delete it from the
+        deck list so the same card does not get copied over</string>
+
+    <string name="tuto_algorithm_7_0">Count how many times the word \"a\" repeats in a sentence</string>
+    <string name="tuto_algorithm_7_1">Here, we\'ve provided a TextView with the text of \"a b c a a\", we\'ll create an algorithm that counts how many times \"a\" has repeated</string>
+    <string name="tuto_algorithm_7_2">We\'ll calculate and show the count when the app starts</string>
+    <string name="tuto_algorithm_7_3">Go through each character using a for loop</string>
+    <string name="tuto_algorithm_7_4">We\'ve provided 4 variables for you</string>
+    <string name="tuto_algorithm_7_5">\"%s\" will help us iterate through each character</string>
+    <string name="tuto_algorithm_7_6">\"%s\" will be a a temporary variable that holds/updates each word</string>
+    <string name="tuto_algorithm_7_7">\"%s\" will temporarly hold the value of each character it iterates through</string>
+    <string name="tuto_algorithm_7_8">\"%s\" will keep count of how many times \"a\" has appeared</string>
+    <string name="tuto_algorithm_7_9">Store a character into the \"character\" variable</string>
+    <string name="tuto_algorithm_7_10">Check if the character is an empty space.\n1. If the character is not an empty space, join the character into the \"word\" variable by doing \"word\" join \"word + character\"\n
+        2. If the character is an empty space, check if the word equals \"a\". If it\'s equal, increment count. Finally, reset the \"word\" variable</string>
+    <string name="tuto_algorithm_7_11">1. Join the character into word until you reach an empty space\n 2. If the word equals \"a\", increment the count\n 3. Reset the word variable to an empty String and increment the index\n 4. Toast the number of count it happened</string>
+
+
+</resources>
