@@ -1,13 +1,13 @@
 # Language Setting Guide for Sketchware
-
 - [Language Setting Guide for Sketchware](#language-setting-guide-for-sketchware)
     - [Currently Available Language Files](#currently-available-language-files)
     - [How to Change the Language Setting for Sketchware](#how-to-change-the-language-setting-for-sketchware)
         - [Option 1: I already have downloaded the translated strings.xml file.](#option-1-i-already-have-downloaded-the-translated-stringsxml-file)
         - [Option 2: I don't have the strings.xml file, and I have to translate it.](#option-2-i-dont-have-the-stringsxml-file-and-i-have-to-translate-it)
     - [I Want to Contribute!](#i-want-to-contribute)
-        - [Option 1: Language file exists inside this repository. I found an error or  want to improve it](#option-1-language-file-exists-inside-this-repository-i-found-an-error-or-want-to-improve-it)
+        - [Option 1: Language file exists inside this repository. I found an error or  want to improve it](#a-namelang-option1a-option-1-language-file-exists-inside-this-repository-i-found-an-error-or-want-to-improve-it)
         - [Option 2: Language file doesn't exist, I want to translate it](#option-2-language-file-doesnt-exist-i-want-to-translate-it)
+
 
 ## Currently Available Language Files
 
@@ -70,7 +70,7 @@ Want to contribute your translation? Go to
 
 Do you want to translate or improve Sketchware into your favorite language?
 
-### Option 1: Language file exists inside this repository. I found an error or  want to improve it
+### <a name="lang-option1"></a> Option 1: Language file exists inside this repository. I found an error or  want to improve it
 
 If you have used GitHub before and are comfortable with using it, please fork this Repo, fix the errors, and send us a Pull request!
 
