@@ -13,23 +13,30 @@
 
 Languages currently avaiable in this repository
 
-[English 🇺🇸](https://github.com/sketchware/strings.xml/blob/master/strings_en.xml)
+[English 🇺🇸](https://raw.githubusercontent.com/sketchware/strings.xml/master/strings_en.xml)
 
-[Korean 🇰🇷](https://github.com/sketchware/strings.xml/blob/master/strings_kr.xml)
+[Korean 🇰🇷](https://raw.githubusercontent.com/sketchware/strings.xml/master/strings_kr.xml)
 
+
+Download Guide:
+
+1. Click on the desired language file below
+2. Right click on the page, and save it as `strings.xml` to your desired destination
+![](https://github.com/sketchware/strings.xml/blob/master/screenshots/save_as.png)
+3. Go to [How to Change the Language Settings for Sketchware](#how-to-change-the-language-setting-for-sketchware) step
 
 
 ## How to Change the Language Setting for Sketchware
 
 ### Option 1: I already have downloaded the translated strings.xml file.
 
-Rename the file from `strings_XX.xml` to `strings.xml`. (Note that `XX` in the file name can be any locale, en, kr...)
+If the file name is not `strings.xml`, rename the file from `strings_XX.xml` to `strings.xml`. (Note that `XX` in the file name can be any locale, en, kr...)
 
 Save the `strings.xml` file under `Device Storage -> sketchware -> localization`.
 
 For me, it was under `sdcard/sketchware/localization`, shown below:
 
-[](https://github.com/sketchware/strings.xml/blob/master/screenshots/localization.png)
+![](https://github.com/sketchware/strings.xml/blob/master/screenshots/localization.png)
 
 ### Option 2: I don't have the strings.xml file, and I have to translate it.
 
@@ -41,7 +48,7 @@ There will be a string file, `strings_provided.xml`, provided to you in this dir
 
 For me, it was under `sdcard/sketchware/localization`, shown below:
 
-[](https://github.com/sketchware/strings.xml/blob/master/screenshots/localization.png)
+![](https://github.com/sketchware/strings.xml/blob/master/screenshots/localization.png)
 
 Then, use your favorite text editor to open the `strings_provided.xml` file and translate it to your language.
 
@@ -49,7 +56,7 @@ After you're done modifying the string file, save it as `strings.xml`, and place
 
 When you restart Sketchware, you will see the message below:
 
-[](https://github.com/sketchware/strings.xml/blob/master/screenshots/patch_complete.png)
+![](https://github.com/sketchware/strings.xml/blob/master/screenshots/patch_complete.png)
 
 ## I Want to Contribute!
 
@@ -65,11 +72,11 @@ Else:
 
 2. Click on the "Issues" tab on the top left corner of this repository.
 
-[](https://github.com/sketchware/strings.xml/blob/master/screenshots/issues.png)
+![](https://github.com/sketchware/strings.xml/blob/master/screenshots/issues.png)
 
 3. Click on the "New Issue" button.
 
-[](https://github.com/sketchware/strings.xml/blob/master/screenshots/new_issues.png)
+![](https://github.com/sketchware/strings.xml/blob/master/screenshots/new_issues.png)
 
 4. Please describe the error in the language file in this format:
 
@@ -81,7 +88,7 @@ Example:
 
 It should look something like this:
 
-[](https://github.com/sketchware/strings.xml/blob/master/screenshots/issues_post.png)
+![](https://github.com/sketchware/strings.xml/blob/master/screenshots/issues_post.png)
 
 5. Submit the issue and wait for us to fix the change! We will comment directly on the issue, letting you know that the fix has been applied.
 
