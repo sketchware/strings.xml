@@ -11,7 +11,8 @@
 
 ## Currently Available Language Files
 
-Languages currently avaiable in this repository
+Languages currently avaiable in this repository. Don't see your language? Go to this 
+[step](#option-2-i-dont-have-the-stringsxml-file-and-i-have-to-translate-it).
 
 [English 🇺🇸](https://raw.githubusercontent.com/sketchware/strings.xml/master/strings_en.xml)
 
@@ -61,6 +62,9 @@ After you're done modifying the string file, save it as `strings.xml`, and place
 When you restart Sketchware, you will see the message below:
 
 ![](https://github.com/sketchware/strings.xml/blob/master/screenshots/patch_complete.png)
+
+Want to contribute your translation? Go to 
+        [Option 2: Language file doesn't exist, I want to translate it](#option-2-language-file-doesnt-exist-i-want-to-translate-it) step.
 
 ## I Want to Contribute!
 
