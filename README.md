@@ -14,17 +14,16 @@
 Languages currently avaiable in this repository. Don't see your language? Go to this 
 [step](#option-2-i-dont-have-the-stringsxml-file-and-i-have-to-translate-it).
 
-[English 🇺🇸](https://raw.githubusercontent.com/sketchware/strings.xml/master/strings_en.xml)
-
-[Korean 🇰🇷](https://raw.githubusercontent.com/sketchware/strings.xml/master/strings_kr.xml)
-
-
 Download Guide:
 
 1. Click on the desired language file below
 2. Right click on the page, and save it as `strings.xml` to your desired destination
 ![](https://github.com/sketchware/strings.xml/blob/master/screenshots/save_as.png)
 3. Go to [How to Change the Language Settings for Sketchware](#how-to-change-the-language-setting-for-sketchware) step
+
+[English 🇺🇸](https://raw.githubusercontent.com/sketchware/strings.xml/master/strings_en.xml)
+
+[Korean 🇰🇷](https://raw.githubusercontent.com/sketchware/strings.xml/master/strings_kr.xml)
 
 
 ## How to Change the Language Setting for Sketchware
