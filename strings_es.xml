@@ -1,0 +1,2130 @@
+<resources>
+  <string name="property_header_layout">Propiedades de diseño</string>
+  <string name="property_header_text">Propiedades del texto</string>
+  <string name="property_header_image">Propiedades de imagen</string>
+  <string name="property_header_view">Ver propiedades</string>
+  <string name="property_header_seekbar">Propiedades de SeekBar</string>
+  <string name="property_layout_width">layout_width</string>
+  <string name="property_layout_height">layout_height</string>
+  <string name="property_orientation">orientación</string>
+  <string name="property_text_size">text_size</string>
+  <string name="property_text_style">text_style</string>
+  <string name="property_input_type">input_type</string>
+  <string name="property_ime_option">ime_option</string>
+  <string name="property_spinner_mode">spinnerMode</string>
+  <string name="property_scale_type">scale_type</string>
+  <string name="property_resource">recurso</string>
+  <string name="property_gravity">gravedad</string>
+  <string name="property_layout_gravity">layout_gravity</string>
+  <string name="property_single_line">single_line</string>
+  <string name="property_lines">líneas</string>
+  <string name="property_enabled">activado</string>
+  <string name="property_clickable">clicable</string>
+  <string name="property_checked">marcada</string>
+  <string name="property_text_color">text_color</string>
+  <string name="property_hint_color">hint_color</string>
+  <string name="property_background_color">background_color</string>
+  <string name="property_background_resource">background_resource</string>
+  <string name="property_text">texto</string>
+  <string name="property_hint">pista</string>
+  <string name="property_weight">peso</string>
+  <string name="property_weight_sum">weightSum</string>
+  <string name="property_id">ID</string>
+  <string name="property_rotate">girar</string>
+  <string name="property_padding">relleno</string>
+  <string name="property_margin">margen</string>
+  <string name="property_divider_height">dividerHeight</string>
+  <string name="property_choice_mode">choiceMode</string>
+  <string name="property_image">imagen</string>
+  <string name="property_alpha">alfa</string>
+  <string name="property_max">max</string>
+  <string name="property_progress">progreso</string>
+  <string name="property_translation_x">translationX</string>
+  <string name="property_translation_y">translationY</string>
+  <string name="property_scale_x">scaleX</string>
+  <string name="property_scale_y">scaleY</string>
+  <string name="property_custom_view_listview">customView</string>
+  <string name="desc_component_intent">Intent se usa para iniciar una nueva Actividad</string>
+  <string name="desc_component_file">El archivo se usa para guardar los datos localmente</string>
+  <string name="desc_component_calendar">El calendario se usa para calcular la hora y la fecha</string>
+  <string name="desc_component_vibrator">Vibrador se usa vibre el dispositivo</string>
+  <string name="desc_component_timer">El temporizador se usa para retrasar ciertas acciones</string>
+  <string name="desc_component_soundpool">SoundPool se usa para reproducir efectos de sonido cortos</string>
+  <string name="desc_component_mediaplayer">MediaPlayer se usa para reproducir grandes archivos de sonido</string>
+  <string name="desc_component_dialog">Se usa un cuadro de diálogo para crear una ventana emergente</string>
+  <string name="desc_component_objectanimator">ObjectAnimator se usa para animar ciertas propiedades de una vista</string>
+  <string name="logic_event_initialize">En la actividad create</string>
+  <string name="logic_event_definefunc">MoreBlock</string>
+  <string name="logic_event_onbackpressed">En el botón Atrás presione</string>
+  <string name="logic_event_onpostcreated">Al iniciarse la actividad completa</string>
+  <string name="logic_event_onstart">Al activarse la actividad visible</string>
+  <string name="logic_event_onstop">En actividad ya no visible</string>
+  <string name="logic_event_onclick">onClick</string>
+  <string name="logic_event_oncheckchanged">onCheckChanged</string>
+  <string name="logic_event_onitemselected">onItemSelected</string>
+  <string name="logic_event_ontextchanged">onTextChanged</string>
+  <string name="logic_event_onprogresschanged">onProgressChanged</string>
+  <string name="logic_event_onstarttrackingtouch">onStartTrackingTouch</string>
+  <string name="logic_event_onstoptrackingtouch">onStopTrackingTouch</string>
+  <string name="logic_event_onpagestarted">onPageStarted</string>
+  <string name="logic_event_onpagefinished">onPageFinished</string>
+  <string name="logic_event_onanimationstart">onAnimationStart</string>
+  <string name="logic_event_onanimationend">onAnimationEnd</string>
+  <string name="logic_event_onanimationcancel">onAnimationCancel</string>
+  <string name="logic_event_onitemclicked">onItemClicked</string>
+  <string name="logic_event_onitemlongclicked">onItemLongClicked</string>
+  <string name="logic_event_onbindcustomview">onBindCustomView</string>
+  <!-- new root spec -->
+  <string name="root_spec_common_define">Definir</string>
+  <string name="root_spec_common_when">Cuándo</string>
+  <string name="root_spec_initialize_head">En la actividad crear</string>
+  <string name="root_spec_initialize_tail">
+  </string>
+  <string name="root_spec_on_back_pressed_head">En el botón Atrás presione</string>
+  <string name="root_spec_on_back_pressed_tail">
+  </string>
+  <string name="root_spec_on_post_created_head">Al iniciarse la actividad completa</string>
+  <string name="root_spec_on_post_created_tail">
+  </string>
+  <string name="root_spec_on_start_head">Al activarse la actividad visible</string>
+  <string name="root_spec_on_start_tail">
+  </string>
+  <string name="root_spec_on_stop_head">On la actividad ya no es visible</string>
+  <string name="root_spec_on_stop_tail">
+  </string>
+  <string name="root_spec_on_clicked_head">cliced</string>
+  <string name="root_spec_on_clicked_tail">
+  </string>
+  <string name="root_spec_on_check_changed_head">checkChanged</string>
+  <string name="root_spec_on_check_changed_tail">
+  </string>
+  <string name="root_spec_on_item_selected_head">itemSelected</string>
+  <string name="root_spec_on_item_selected_tail">
+  </string>
+  <string name="root_spec_on_text_changed_head">root_spec_on_item_selected_tail TextChanged</string>
+  <string name="root_spec_on_text_changed_tail">
+  </string>
+  <string name="root_spec_on_page_started_head">pageStarted</string>
+  <string name="root_spec_on_page_started_tail">
+  </string>
+  <string name="root_spec_on_page_finished_head">root_spec_on_page_started_tail pageFinished</string>
+  <string name="root_spec_on_page_finished_tail">
+  </string>
+  <string name="root_spec_on_progress_changed_head">progressChanged</string>
+  <string name="root_spec_on_progress_changed_tail">
+  </string>
+  <string name="root_spec_on_start_tracking_touch_head">root_spec_on_progress_changed_tail onStartTrackingTouch</string>
+  <string name="root_spec_on_start_tracking_touch_tail">
+  </string>
+  <string name="root_spec_on_stop_tracking_touch_head">onStopTrackingTouch</string>
+  <string name="root_spec_on_stop_tracking_touch_tail">
+  </string>
+  <string name="root_spec_on_animation_start_head">onAnimationStart</string>
+  <string name="root_spec_on_animation_start_tail">
+  </string>
+  <string name="root_spec_on_animation_end_head">onAnimationEnd</string>
+  <string name="root_spec_on_animation_end_tail">
+  </string>
+  <string name="root_spec_on_animation_cancel_head">onAnimationCancel</string>
+  <string name="root_spec_on_animation_cancel_tail">
+  </string>
+  <string name="root_spec_on_item_clicked_head">itemClicked</string>
+  <string name="root_spec_on_item_clicked_tail">
+  </string>
+  <string name="root_spec_on_item_long_clicked_head">root_spec_on_item_clicked_tail itemLongClicked</string>
+  <string name="root_spec_on_item_long_clicked_tail">
+  </string>
+  <string name="root_spec_on_bind_custom_view_head">onBindCustomView</string>
+  <string name="root_spec_on_bind_custom_view_body1">
+  </string>
+  <string name="root_spec_on_bind_custom_view_tail">
+  </string>
+  <string name="block_category_all">Todo</string>
+  <string name="block_category_var">Variable</string>
+  <string name="block_category_list">Lista</string>
+  <string name="block_category_control">Control</string>
+  <string name="block_category_math">Matemáticas</string>
+  <string name="block_category_operator">Operator</string>
+  <string name="block_category_view_func">View</string>
+  <string name="block_category_component_func">Componente</string>
+  <string name="block_category_moreblock">More Block</string>
+  <!-- new block spec -->
+  <string name="block_set_var_bool_head">set</string>
+  <string name="block_set_var_bool_body_1">to</string>
+  <string name="block_set_var_bool_tail">
+  </string>
+  <string name="block_set_var_int_head">set</string>
+  <string name="block_set_var_int_body_1">to</string>
+  <string name="block_set_var_int_tail">
+  </string>
+  <string name="block_increase_int_head">
+  </string>
+  <string name="block_increase_int_tail">increase 1</string>
+  <string name="block_decrease_int_head">
+  </string>
+  <string name="block_decrease_int_tail">decrease 1</string>
+  <string name="block_set_var_str_head">set</string>
+  <string name="block_set_var_str_body_1">to</string>
+  <string name="block_set_var_str_tail">
+  </string>
+  <string name="block_add_list_int_head">add</string>
+  <string name="block_add_list_int_body_1">to</string>
+  <string name="block_add_list_int_tail">
+  </string>
+  <string name="block_insert_list_int_head">insert</string>
+  <string name="block_insert_list_int_body_1">at</string>
+  <string name="block_insert_list_int_body_2">to</string>
+  <string name="block_insert_list_int_tail">
+  </string>
+  <string name="block_get_at_list_int_head">get at</string>
+  <string name="block_get_at_list_int_body_1">of</string>
+  <string name="block_get_at_list_int_tail">
+  </string>
+  <string name="block_indexof_list_int_head">index</string>
+  <string name="block_indexof_list_int_body_1">in</string>
+  <string name="block_indexof_list_int_tail">
+  </string>
+  <string name="block_contain_list_int_head">
+  </string>
+  <string name="block_contain_list_int_body_1">contiene</string>
+  <string name="block_contain_list_int_tail">
+  </string>
+  <string name="block_add_list_str_head">add</string>
+  <string name="block_add_list_str_body_1">to</string>
+  <string name="block_add_list_str_tail">
+  </string>
+  <string name="block_insert_list_str_head">insert</string>
+  <string name="block_insert_list_str_body_1">at</string>
+  <string name="block_insert_list_str_body_2">to</string>
+  <string name="block_insert_list_str_tail">
+  </string>
+  <string name="block_get_at_list_str_head">get at</string>
+  <string name="block_get_at_list_str_body_1">of</string>
+  <string name="block_get_at_list_str_tail">
+  </string>
+  <string name="block_indexof_list_str_head">index</string>
+  <string name="block_indexof_list_str_body_1">in</string>
+  <string name="block_indexof_list_str_tail">
+  </string>
+  <string name="block_contain_list_str_head">
+  </string>
+  <string name="block_contain_list_str_body_1">contains</string>
+  <string name="block_contain_list_str_tail">
+  </string>
+  <string name="block_add_list_map_head">add key</string>
+  <string name="block_add_list_map_body_1">valor</string>
+  <string name="block_add_list_map_body_2">to</string>
+  <string name="block_add_list_map_tail">
+  </string>
+  <string name="block_insert_list_map_head">insert key</string>
+  <string name="block_insert_list_map_body_1">value</string>
+  <string name="block_insert_list_map_body_2">at</string>
+  <string name="block_insert_list_map_body_3">to</string>
+  <string name="block_insert_list_map_tail">
+  </string>
+  <string name="block_get_at_list_map_head">get value at</string>
+  <string name="block_get_at_list_map_body_1">key</string>
+  <string name="block_get_at_list_map_body_2">of</string>
+  <string name="block_get_at_list_map_tail">
+  </string>
+  <string name="block_set_at_list_map_head">set key</string>
+  <string name="block_set_at_list_map_body_1">value</string>
+  <string name="block_set_at_list_map_body_2">at</string>
+  <string name="block_set_at_list_map_body_3">to</string>
+  <string name="block_set_at_list_map_tail">
+  </string>
+  <string name="block_contain_list_map_head">
+  </string>
+  <string name="block_contain_list_map_body_1">contiene en</string>
+  <string name="block_contain_list_map_body_2">key</string>
+  <string name="block_contain_list_map_tail">
+  </string>
+  <string name="block_delete_list_head">delete at</string>
+  <string name="block_delete_list_body_1">of</string>
+  <string name="block_delete_list_tail">
+  </string>
+  <string name="block_length_list_head">length of</string>
+  <string name="block_length_list_tail">
+  </string>
+  <string name="block_clear_list_head">clear</string>
+  <string name="block_clear_list_tail">
+  </string>
+  <string name="block_repeat_head">repetir</string>
+  <string name="block_repeat_tail">
+  </string>
+  <string name="block_forever_head">forever</string>
+  <string name="block_forever_tail">
+  </string>
+  <string name="block_break_head">stop</string>
+  <string name="block_break_tail">
+  </string>
+  <string name="block_if_head">if</string>
+  <string name="block_if_tail">then</string>
+  <string name="block_if_else_head">if</string>
+  <string name="block_if_else_tail">luego</string>
+  <string name="block_else_head">else</string>
+  <string name="block_else_tail">
+  </string>
+  <string name="block_true_head">true</string>
+  <string name="block_true_tail">
+  </string>
+  <string name="block_false_head">false</string>
+  <string name="block_false_tail">
+  </string>
+  <string name="block_smaller_head">
+  </string>
+  <string name="block_smaller_body_1">&lt;</string>
+  <string name="block_smaller_tail">
+  </string>
+  <string name="block_equal_head">
+  </string>
+  <string name="block_equal_body_1">=</string>
+  <string name="block_equal_tail">
+  </string>
+  <string name="block_bigger_head">
+  </string>
+  <string name="block_bigger_body_1">&gt;</string>
+  <string name="block_bigger_tail">
+  </string>
+  <string name="block_and_head">
+  </string>
+  <string name="block_and_body_1">y</string>
+  <string name="block_and_tail">
+  </string>
+  <string name="block_or_head">
+  </string>
+  <string name="block_or_body_1">o</string>
+  <string name="block_or_tail">
+  </string>
+  <string name="block_not_head">not</string>
+  <string name="block_not_tail">
+  </string>
+  <string name="block_plus_head">
+  </string>
+  <string name="block_plus_body_1">+</string>
+  <string name="block_plus_tail">
+  </string>
+  <string name="block_minus_head">
+  </string>
+  <string name="block_minus_body_1">-</string>
+  <string name="block_minus_tail">
+  </string>
+  <string name="block_times_head">
+  </string>
+  <string name="block_times_body_1">*</string>
+  <string name="block_times_tail">
+  </string>
+  <string name="block_divide_head">
+  </string>
+  <string name="block_divide_body_1">/</string>
+  <string name="block_divide_tail">
+  </string>
+  <string name="block_rest_head">
+  </string>
+  <string name="block_rest_body_1">%</string>
+  <string name="block_rest_tail">
+  </string>
+  <string name="block_random_head">pick randomly</string>
+  <string name="block_random_body_1">to</string>
+  <string name="block_random_tail">
+  </string>
+  <string name="block_string_length_head">length of</string>
+  <string name="block_string_length_tail">
+  </string>
+  <string name="block_string_join_head">join</string>
+  <string name="block_string_join_body_1">and</string>
+  <string name="block_string_join_tail">
+  </string>
+  <string name="block_string_index_head">index</string>
+  <string name="block_string_index_body_1">of</string>
+  <string name="block_string_index_tail">
+  </string>
+  <string name="block_string_sub_head">
+  </string>
+  <string name="block_string_sub_body_1">substring</string>
+  <string name="block_string_sub_body_2">to</string>
+  <string name="block_string_sub_tail">
+  </string>
+  <string name="block_string_equals_head">
+  </string>
+  <string name="block_string_equals_body_1">equals</string>
+  <string name="block_string_equals_tail">
+  </string>
+  <string name="block_string_contains_head">
+  </string>
+  <string name="block_string_contains_body_1">contains</string>
+  <string name="block_string_contains_tail">
+  </string>
+  <string name="block_string_replace_head">
+  </string>
+  <string name="block_string_replace_body_1">replace all</string>
+  <string name="block_string_replace_body_2">with</string>
+  <string name="block_string_replace_tail">
+  </string>
+  <string name="block_string_replace_first_head">
+  </string>
+  <string name="block_string_replace_first_body_1">replace first RegEx</string>
+  <string name="block_string_replace_first_body_2">with</string>
+  <string name="block_string_replace_first_tail">
+  </string>
+  <string name="block_string_replace_all_head">
+  </string>
+  <string name="block_string_replace_all_body_1">replace all RegEx</string>
+  <string name="block_string_replace_all_body_2">with</string>
+  <string name="block_string_replace_all_tail">
+  </string>
+  <string name="block_to_number_head">toNumber</string>
+  <string name="block_to_number_tail">
+  </string>
+  <string name="block_trim_head">trim</string>
+  <string name="block_trim_tail">
+  </string>
+  <string name="block_to_upper_case_head">toUpperCase</string>
+  <string name="block_to_upper_case_tail">
+  </string>
+  <string name="block_to_lower_case_head">toLowerCase</string>
+  <string name="block_to_lower_case_tail">
+  </string>
+  <string name="block_to_string_head">toString</string>
+  <string name="block_to_string_tail">sin decimal</string>
+  <string name="block_to_string_with_decimal_head">toString</string>
+  <string name="block_to_string_with_decimal_tail">con decimal</string>
+  <string name="block_to_string_format_head">
+  </string>
+  <string name="block_to_string_format_body_1">toDecimalFormat</string>
+  <string name="block_to_string_format_tail">
+  </string>
+  <string name="block_add_source_directly_head">agregar fuente directamente</string>
+  <string name="block_add_source_directly_tail">
+  </string>
+  <string name="block_math_get_dip_head">getDip</string>
+  <string name="block_math_get_dip_tail">
+  </string>
+  <string name="block_math_get_display_width_head">getDisplayWidthPixels</string>
+  <string name="block_math_get_display_width_tail">
+  </string>
+  <string name="block_math_get_display_height_head">getDisplayHeightPixels</string>
+  <string name="block_math_get_display_height_tail">
+  </string>
+  <string name="block_math_pi_head">PI (π)</string>
+  <string name="block_math_pi_tail">
+  </string>
+  <string name="block_math_e_head">E (e)</string>
+  <string name="block_math_e_tail">
+  </string>
+  <string name="block_math_pow_head">
+  </string>
+  <string name="block_math_pow_body_1">a</string>
+  <string name="block_math_pow_tail">power</string>
+  <string name="block_math_min_head">mínimo de</string>
+  <string name="block_math_min_body_1">y</string>
+  <string name="block_math_min_tail">
+  </string>
+  <string name="block_math_max_head">máximo de</string>
+  <string name="block_math_max_body_1">y</string>
+  <string name="block_math_max_tail">
+  </string>
+  <string name="block_math_sqrt_head">raíz cuadrada de</string>
+  <string name="block_math_sqrt_tail">
+  </string>
+  <string name="block_math_abs_head">valor absoluto de</string>
+  <string name="block_math_abs_tail">
+  </string>
+  <string name="block_math_round_head">round</string>
+  <string name="block_math_round_tail">
+  </string>
+  <string name="block_math_ceil_head">ceil</string>
+  <string name="block_math_ceil_tail">
+  </string>
+  <string name="block_math_floor_head">floor</string>
+  <string name="block_math_floor_tail">
+  </string>
+  <string name="block_math_sin_head">sin</string>
+  <string name="block_math_sin_tail">
+  </string>
+  <string name="block_math_cos_head">cos</string>
+  <string name="block_math_cos_tail">
+  </string>
+  <string name="block_math_tan_head">tan</string>
+  <string name="block_math_tan_tail">
+  </string>
+  <string name="block_math_asin_head">arcsin</string>
+  <string name="block_math_asin_tail">
+  </string>
+  <string name="block_math_acos_head">arccos</string>
+  <string name="block_math_acos_tail">
+  </string>
+  <string name="block_math_atan_head">arctan</string>
+  <string name="block_math_atan_tail">
+  </string>
+  <string name="block_math_exp_head">exp</string>
+  <string name="block_math_exp_tail">
+  </string>
+  <string name="block_math_log_head">ln</string>
+  <string name="block_math_log_tail">
+  </string>
+  <string name="block_math_log10_head">log</string>
+  <string name="block_math_log10_tail">
+  </string>
+  <string name="block_math_to_radian_head">Degree</string>
+  <string name="block_math_to_radian_tail">to Radian</string>
+  <string name="block_math_to_degree_head">Radian</string>
+  <string name="block_math_to_degree_tail">to Degree</string>
+  <string name="block_view_on_click_head">When</string>
+  <string name="block_view_on_click_tail">clicked</string>
+  <string name="block_set_enable_head">
+  </string>
+  <string name="block_set_enable_body_1">setEnable</string>
+  <string name="block_set_enable_tail">
+  </string>
+  <string name="block_get_enable_head">
+  </string>
+  <string name="block_get_enable_tail">getEnable</string>
+  <string name="block_set_visible_head">
+  </string>
+  <string name="block_set_visible_body_1">setVisible</string>
+  <string name="block_set_visible_tail">
+  </string>
+  <string name="block_set_clickable_head">
+  </string>
+  <string name="block_set_clickable_body_1">setClickable</string>
+  <string name="block_set_clickable_tail">
+  </string>
+  <string name="block_set_text_head">
+  </string>
+  <string name="block_set_text_body_1">setText</string>
+  <string name="block_set_text_tail">
+  </string>
+  <string name="block_get_text_head">
+  </string>
+  <string name="block_get_text_tail">getText</string>
+  <string name="block_set_bg_color_head">
+  </string>
+  <string name="block_set_bg_color_body_1">setBackgroundColor</string>
+  <string name="block_set_bg_color_tail">
+  </string>
+  <string name="block_set_bg_resource_head">
+  </string>
+  <string name="block_set_bg_resource_body_1">setBackgroundResource</string>
+  <string name="block_set_bg_resource_tail">
+  </string>
+  <string name="block_set_text_color_head">
+  </string>
+  <string name="block_set_text_color_body_1">setTextColor</string>
+  <string name="block_set_text_color_tail">
+  </string>
+  <string name="block_set_image_head">
+  </string>
+  <string name="block_set_image_body_1">setImage</string>
+  <string name="block_set_image_tail">
+  </string>
+  <string name="block_set_rotate_head">
+  </string>
+  <string name="block_set_rotate_body_1">setRotation</string>
+  <string name="block_set_rotate_tail">
+  </string>
+  <string name="block_get_rotate_head">
+  </string>
+  <string name="block_get_rotate_tail">getRotation</string>
+  <string name="block_set_alpha_head">
+  </string>
+  <string name="block_set_alpha_body_1">setAlpha</string>
+  <string name="block_set_alpha_tail">
+  </string>
+  <string name="block_get_alpha_head">
+  </string>
+  <string name="block_get_alpha_tail">getAlpha</string>
+  <string name="block_set_translation_x_head">
+  </string>
+  <string name="block_set_translation_x_body_1">setTranslationX</string>
+  <string name="block_set_translation_x_tail">
+  </string>
+  <string name="block_get_translation_x_head">
+  </string>
+  <string name="block_get_translation_x_tail">getTranslationX</string>
+  <string name="block_set_translation_y_head">
+  </string>
+  <string name="block_set_translation_y_body_1">setTranslationY</string>
+  <string name="block_set_translation_y_tail">
+  </string>
+  <string name="block_get_translation_y_head">
+  </string>
+  <string name="block_get_translation_y_tail">getTranslationY</string>
+  <string name="block_set_scale_x_head">
+  </string>
+  <string name="block_set_scale_x_body_1">setScaleX</string>
+  <string name="block_set_scale_x_tail">
+  </string>
+  <string name="block_get_scale_x_head">
+  </string>
+  <string name="block_get_scale_x_tail">getScaleX</string>
+  <string name="block_set_scale_y_head">
+  </string>
+  <string name="block_set_scale_y_body_1">setScaleY</string>
+  <string name="block_set_scale_y_tail">
+  </string>
+  <string name="block_get_scale_y_head">
+  </string>
+  <string name="block_get_scale_y_tail">getScaleY</string>
+  <string name="block_set_checked_head">
+  </string>
+  <string name="block_set_checked_body_1">setChecked</string>
+  <string name="block_set_checked_tail">
+  </string>
+  <string name="block_get_checked_head">
+  </string>
+  <string name="block_get_checked_tail">getChecked</string>
+  <string name="block_set_thumb_resource_head">
+  </string>
+  <string name="block_set_thumb_resource_body_1">block_set_thumb_resource_head setThumbResource</string>
+  <string name="block_set_thumb_resource_tail">
+  </string>
+  <string name="block_set_track_resource_head">
+  </string>
+  <string name="block_set_track_resource_body_1">block_set_track_resource_head setTrackResource</string>
+  <string name="block_set_track_resource_tail">
+  </string>
+  <string name="block_list_set_data_head">
+  </string>
+  <string name="block_list_set_data_body_1">block_list_set_data_head setListViewData</string>
+  <string name="block_list_set_data_tail">
+  </string>
+  <string name="block_list_set_custom_view_data_head">
+  </string>
+  <string name="block_list_set_custom_view_data_body_1">setListCustomViewData</string>
+  <string name="block_list_set_custom_view_data_tail">
+  </string>
+  <string name="block_spn_set_data_head">
+  </string>
+  <string name="block_spn_set_data_body_1">setSpinnerData</string>
+  <string name="block_spn_set_data_tail">
+  </string>
+  <string name="block_spn_set_selection_head">
+  </string>
+  <string name="block_spn_set_selection_body_1">setSelection</string>
+  <string name="block_spn_set_selection_tail">
+  </string>
+  <string name="block_spn_get_selection_head">
+  </string>
+  <string name="block_spn_get_selection_tail">getSelection</string>
+  <string name="block_seekbar_set_progress_head">
+  </string>
+  <string name="block_seekbar_set_progress_body_1">block_seekbar_set_progress_head setProgress</string>
+  <string name="block_seekbar_set_progress_tail">
+  </string>
+  <string name="block_seekbar_get_progress_head">
+  </string>
+  <string name="block_seekbar_get_progress_tail">getProgress</string>
+  <string name="block_seekbar_set_max_head">
+  </string>
+  <string name="block_seekbar_set_max_body_1">setMax</string>
+  <string name="block_seekbar_set_max_tail">
+  </string>
+  <string name="block_seekbar_get_max_head">
+  </string>
+  <string name="block_seekbar_get_max_tail">getMax</string>
+  <string name="block_list_refresh_head">
+  </string>
+  <string name="block_list_refresh_tail">refreshData</string>
+  <string name="block_spn_refresh_head">
+  </string>
+  <string name="block_spn_refresh_tail">refreshData</string>
+  <string name="block_webview_load_url_head">
+  </string>
+  <string name="block_webview_load_url_body_1">loadUrl</string>
+  <string name="block_webview_load_url_tail">
+  </string>
+  <string name="block_webview_get_url_head">
+  </string>
+  <string name="block_webview_get_url_tail">getUrl</string>
+  <string name="block_webview_set_cache_mode_head">
+  </string>
+  <string name="block_webview_set_cache_mode_body_1">block_webview_set_cache_mode_head setCacheMode</string>
+  <string name="block_webview_set_cache_mode_tail">
+  </string>
+  <string name="block_webview_can_go_back_head">
+  </string>
+  <string name="block_webview_can_go_back_tail">block_webview_can_go_back_head canGoBack</string>
+  <string name="block_webview_can_go_forward_head">
+  </string>
+  <string name="block_webview_can_go_forward_tail">canGoForward</string>
+  <string name="block_webview_go_back_head">
+  </string>
+  <string name="block_webview_go_back_tail">goBack</string>
+  <string name="block_webview_go_forward_head">
+  </string>
+  <string name="block_webview_go_forward_tail">goForward</string>
+  <string name="block_webview_clear_cache_head">
+  </string>
+  <string name="block_webview_clear_cache_tail">clearCache</string>
+  <string name="block_webview_clear_history_head">
+  </string>
+  <string name="block_webview_clear_history_tail">clearHistory</string>
+  <string name="block_webview_stop_loading_head">
+  </string>
+  <string name="block_webview_stop_loading_tail">stopLoading</string>
+  <string name="block_webview_zoom_in_head">
+  </string>
+  <string name="block_webview_zoom_in_tail">zoomIn</string>
+  <string name="block_webview_zoom_out_head">
+  </string>
+  <string name="block_webview_zoom_out_tail">zoomOut</string>
+  <string name="block_intent_set_action_head">
+  </string>
+  <string name="block_intent_set_action_body_1">setAction</string>
+  <string name="block_intent_set_action_tail">
+  </string>
+  <string name="block_intent_set_data_head">
+  </string>
+  <string name="block_intent_set_data_body_1">setData</string>
+  <string name="block_intent_set_data_tail">
+  </string>
+  <string name="block_intent_set_screen_head">
+  </string>
+  <string name="block_intent_set_screen_body_1">setScreen</string>
+  <string name="block_intent_set_screen_tail">
+  </string>
+  <string name="block_intent_put_extra_head">
+  </string>
+  <string name="block_intent_put_extra_body_1">putExtra key</string>
+  <string name="block_intent_put_extra_body_2">valor</string>
+  <string name="block_intent_put_extra_tail">
+  </string>
+  <string name="block_intent_set_flags_head">
+  </string>
+  <string name="block_intent_set_flags_body_1">setFlagss</string>
+  <string name="block_intent_set_flags_tail">
+  </string>
+  <string name="block_start_activity_head">clave block_intent_set_flags_head block_intent_set_flags_tail StartActivityt</string>
+  <string name="block_start_activity_tail">
+  </string>
+  <string name="block_intent_get_string_head">Actividad clave getExtra</string>
+  <string name="block_intent_get_string_tail">
+  </string>
+  <string name="block_finish_activity_head">Finish</string>
+  <string name="block_finish_activity_tail">Activity</string>
+  <string name="block_file_get_data_head">
+  </string>
+  <string name="block_file_get_data_body_1">getData key</string>
+  <string name="block_file_get_data_tail">
+  </string>
+  <string name="block_file_set_data_head">
+  </string>
+  <string name="block_file_set_data_body_1">setData key</string>
+  <string name="block_file_set_data_body_2">value</string>
+  <string name="block_file_set_data_tail">
+  </string>
+  <string name="block_file_remove_data_head">
+  </string>
+  <string name="block_file_remove_data_body_1">removeData key</string>
+  <string name="block_file_remove_data_tail">
+  </string>
+  <string name="block_calendar_get_now_head">
+  </string>
+  <string name="block_calendar_get_now_tail">getNow</string>
+  <string name="block_calendar_add_head">
+  </string>
+  <string name="block_calendar_add_body_1">add</string>
+  <string name="block_calendar_add_body_2">value</string>
+  <string name="block_calendar_add_tail">
+  </string>
+  <string name="block_calendar_set_head">
+  </string>
+  <string name="block_calendar_set_body_1">set</string>
+  <string name="block_calendar_set_body_2">value</string>
+  <string name="block_calendar_set_tail">
+  </string>
+  <string name="block_calendar_format_head">
+  </string>
+  <string name="block_calendar_format_body_1">Format</string>
+  <string name="block_calendar_format_tail">
+  </string>
+  <string name="block_calendar_diff_head">Diferencia</string>
+  <string name="block_calendar_diff_body_1">-</string>
+  <string name="block_calendar_diff_tail">
+  </string>
+  <string name="block_vibrator_action_head">
+  </string>
+  <string name="block_vibrator_action_body_1">vibrate for</string>
+  <string name="block_vibrator_action_tail">ms</string>
+  <string name="block_timer_after_head">
+  </string>
+  <string name="block_timer_after_body_1">after</string>
+  <string name="block_timer_after_tail">ms</string>
+  <string name="block_timer_every_head">
+  </string>
+  <string name="block_timer_every_body_1">after</string>
+  <string name="block_timer_every_body_2">ms for every</string>
+  <string name="block_timer_every_tail">ms</string>
+  <string name="block_timer_cancel_head">
+  </string>
+  <string name="block_timer_cancel_tail">cancel</string>
+  <string name="block_dialog_set_title_head">
+  </string>
+  <string name="block_dialog_set_title_body_1">set title</string>
+  <string name="block_dialog_set_title_tail">
+  </string>
+  <string name="block_dialog_set_message_head">
+  </string>
+  <string name="block_dialog_set_message_body_1">set message</string>
+  <string name="block_dialog_set_message_tail">
+  </string>
+  <string name="block_dialog_show_head">
+  </string>
+  <string name="block_dialog_show_tail">show</string>
+  <string name="block_dialog_dismiss_head">
+  </string>
+  <string name="block_dialog_dismiss_tail">dismiss</string>
+  <string name="block_dialog_ok_button_head">
+  </string>
+  <string name="block_dialog_ok_button_body_1">OK Button</string>
+  <string name="block_dialog_ok_button_tail">Clicked</string>
+  <string name="block_dialog_cancel_button_head">
+  </string>
+  <string name="block_dialog_cancel_button_body_1">Cancel Button</string>
+  <string name="block_dialog_cancel_button_tail">Clicked</string>
+  <string name="block_dialog_neutral_button_head">
+  </string>
+  <string name="block_dialog_neutral_button_body_1">Neutral Button</string>
+  <string name="block_dialog_neutral_button_tail">Clicked</string>
+  <string name="block_mediaplayer_create_head">
+  </string>
+  <string name="block_mediaplayer_create_body_1">create</string>
+  <string name="block_mediaplayer_create_tail">
+  </string>
+  <string name="block_mediaplayer_start_head">
+  </string>
+  <string name="block_mediaplayer_start_tail">start</string>
+  <string name="block_mediaplayer_pause_head">
+  </string>
+  <string name="block_mediaplayer_pause_tail">pause</string>
+  <string name="block_mediaplayer_seek_head">
+  </string>
+  <string name="block_mediaplayer_seek_body_1">seek to</string>
+  <string name="block_mediaplayer_seek_tail">
+  </string>
+  <string name="block_mediaplayer_get_current_head">
+  </string>
+  <string name="block_mediaplayer_get_current_tail">obtener duración actual</string>
+  <string name="block_mediaplayer_get_duration_head">
+  </string>
+  <string name="block_mediaplayer_get_duration_tail">obtener duración de la canción</string>
+  <string name="block_mediaplayer_reset_head">
+  </string>
+  <string name="block_mediaplayer_reset_tail">resetear</string>
+  <string name="block_mediaplayer_release_head">
+  </string>
+  <string name="block_mediaplayer_release_tail">release</string>
+  <string name="block_mediaplayer_is_playing_head">
+  </string>
+  <string name="block_mediaplayer_is_playing_tail">está jugando</string>
+  <string name="block_mediaplayer_set_looping_head">
+  </string>
+  <string name="block_mediaplayer_set_looping_body_1">set looping</string>
+  <string name="block_mediaplayer_set_looping_tail">
+  </string>
+  <string name="block_mediaplayer_is_looping_head">
+  </string>
+  <string name="block_mediaplayer_is_looping_tail">está en bucle</string>
+  <string name="block_soundpool_create_head">
+  </string>
+  <string name="block_soundpool_create_body_1">crear cuenta máxima de flujo</string>
+  <string name="block_soundpool_create_tail">
+  </string>
+  <string name="block_soundpool_load_head">SoundID:</string>
+  <string name="block_soundpool_load_body_1">load</string>
+  <string name="block_soundpool_load_tail">
+  </string>
+  <string name="block_soundpool_stream_play_head">StreamID:</string>
+  <string name="block_soundpool_stream_play_body_1">play Sound ID</string>
+  <string name="block_soundpool_stream_play_body_2">1 +</string>
+  <string name="block_soundpool_stream_play_tail">times</string>
+  <string name="block_soundpool_stream_stop_head">
+  </string>
+  <string name="block_soundpool_stream_stop_body_1">stop stream ID</string>
+  <string name="block_soundpool_stream_stop_tail">
+  </string>
+  <string name="block_objectanimator_set_target_head">
+  </string>
+  <string name="block_objectanimator_set_target_body_1">set target</string>
+  <string name="block_objectanimator_set_target_tail">
+  </string>
+  <string name="block_objectanimator_set_property_head">
+  </string>
+  <string name="block_objectanimator_set_property_body_1">set property</string>
+  <string name="block_objectanimator_set_property_tail">
+  </string>
+  <string name="block_objectanimator_set_value_head">
+  </string>
+  <string name="block_objectanimator_set_value_body_1">set value</string>
+  <string name="block_objectanimator_set_value_tail">
+  </string>
+  <string name="block_objectanimator_set_from_to_head">
+  </string>
+  <string name="block_objectanimator_set_from_to_body_1">valores establecidos desde block_objectanimator_set_from_to_body_1</string>
+  <string name="block_objectanimator_set_from_to_body_2">to</string>
+  <string name="block_objectanimator_set_from_to_tail">
+  </string>
+  <string name="block_objectanimator_set_duration_head">
+  </string>
+  <string name="block_objectanimator_set_duration_body_1">duración establecida</string>
+  <string name="block_objectanimator_set_duration_tail">
+  </string>
+  <string name="block_objectanimator_set_repeat_mode_head">
+  </string>
+  <string name="block_objectanimator_set_repeat_mode_body_1">set repeat mode</string>
+  <string name="block_objectanimator_set_repeat_mode_tail">
+  </string>
+  <string name="block_objectanimator_set_repeat_count_head">
+  </string>
+  <string name="block_objectanimator_set_repeat_count_body_1">set count repeat</string>
+  <string name="block_objectanimator_set_repeat_count_tail">
+  </string>
+  <string name="block_objectanimator_set_interpolator_head">
+  </string>
+  <string name="block_objectanimator_set_interpolator_body_1">set interpolator</string>
+  <string name="block_objectanimator_set_interpolator_tail">
+  </string>
+  <string name="block_objectanimator_start_head">
+  </string>
+  <string name="block_objectanimator_start_tail">start</string>
+  <string name="block_objectanimator_cancel_head">
+  </string>
+  <string name="block_objectanimator_cancel_tail">cancel</string>
+  <string name="block_objectanimator_is_running_head">
+  </string>
+  <string name="block_objectanimator_is_running_tail">está corriendo</string>
+  <string name="block_do_toast_head">Toast</string>
+  <string name="block_do_toast_tail">
+  </string>
+  <string name="block_copy_to_clipboard_head">copyToClipboard</string>
+  <string name="block_copy_to_clipboard_tail">
+  </string>
+  <string name="block_set_title_head">Título del conjunto de actividades</string>
+  <string name="block_set_title_tail">
+  </string>
+  <string name="desc_bl_invalid_1">Un índice es negativo o mayor que el tamaño de la lista</string>
+  <string name="desc_bl_invalid_2">Un número no se puede dividir por cero</string>
+  <string name="desc_bl_invalid_3">Un índice es negativo o mayor que el tamaño de la cadena</string>
+  <string name="desc_bl_invalid_4">Lanzado para indicar que la aplicación ha intentado convertir una cadena a uno de los tipos numéricos</string>
+  <string name="desc_bl_invalid_5">Declaración inalcanzable o bloque de detención fuera del bloque de repetición o bloqueo para siempre</string>
+  <string name="desc_bl_invalid_6">Ocurrió cuando los parámetros de Intent no son válidos</string>
+  <string name="desc_bl_and">Unir dos condiciones</string>
+  <string name="desc_bl_bool_set_to">Establezca la variable especificada en la condición</string>
+  <string name="desc_bl_bool_var">Variable booleana</string>
+  <string name="desc_bl_equals">La condición para verificar si dos cadenas son iguales</string>
+  <string name="desc_bl_str_contains">La condición para verificar si la cadena contiene un valor</string>
+  <string name="desc_bl_str_replace">Reemplaza todo el valor de la cadena al valor dado</string>
+  <string name="desc_bl_false">False condition</string>
+  <string name="desc_bl_forever">Un bucle que nunca terminará \ n * Esto debe usarse con stop block</string>
+  <string name="desc_bl_get_text">Obtenga el texto que el widget muestra</string>
+  <string name="desc_bl_get_enable">el estado habilitado para el widget</string>
+  <string name="desc_bl_if_else">Verificar la condición \ n - si la condición es verdadera, los bloques dentro de la primera C se activarán, \ ny si la condición es falsa, los bloques dentro de la segunda C se activará</string>
+  <string name="desc_bl_if_then">Verificar la condición \ n - si la condición es verdadera, los bloques dentro de ella se activarán</string>
+  <string name="desc_bl_init_logic">Cuando se ejecuta la aplicación, el bloque se activa</string>
+  <string name="desc_bl_int_set_to">Establece la variable especificada en el número</string>
+  <string name="desc_bl_int_var">Variable de número</string>
+  <string name="desc_bl_join">Los dos valores colocados uno junto al otro</string>
+  <string name="desc_bl_str_lengthof">La longitud de la cadena</string>
+  <string name="desc_bl_list_addto">Agregar un elemento a la lista (el elemento va al final de la lista de elementos) con el contenido especificado en él</string>
+  <string name="desc_bl_list_clear">Borrar la lista</string>
+  <string name="desc_bl_list_contains">La condición para verificar si el contenido de un elemento \ &amp;apos es el valor especificado</string>
+  <string name="desc_bl_list_delete_at_of">Elimina el elemento de la lista</string>
+  <string name="desc_bl_list_get_at_of">Obtiene el elemento \ &amp;apos; s valor</string>
+  <string name="desc_bl_list_index_in">El valor de la posición del elemento</string>
+  <string name="desc_bl_list_insert_at_to">Agrega un elemento a la lista (el elemento va donde se especifica en la lista de elementos) con el contenido especificado en él.</string>
+  <string name="desc_bl_list_lengthof">Cuántos elementos hay en la lista especificada</string>
+  <string name="desc_bl_map_add_list">Agregue un (String, String) Map a la lista de Maps</string>
+  <string name="desc_bl_map_insert_list">Inserta un par (clave, valor) en un Mapa en un cierto índice de la lista de mapas</string>
+  <string name="desc_bl_map_set_list">Modificar un par (clave, valor) dentro de un Mapa en un determinado índice de la Lista de mapas</string>
+  <string name="desc_bl_map_contain_list">Comprobar si el Mapa en un cierto índice de la Lista de Mapas contiene una clave</string>
+  <string name="desc_bl_map_get_at_list">Obtiene la (clave , valor) del Mapa en un determinado índice de la Lista de mapas</string>
+  <string name="desc_bl_math_divide">El valor de la división</string>
+  <string name="desc_bl_math_device_rest">El resto de la división</string>
+  <string name="desc_bl_math_math_equals">La condición para verificar si dos valores son iguales</string>
+  <string name="desc_bl_math_great">La condición para verificar si un valor es mayor que el otro</string>
+  <string name="desc_bl_math_less">La condición para verificar si un valor es menor que el otro</string>
+  <string name="desc_bl_math_minus">El valor de la resta</string>
+  <string name="desc_bl_math_multi">The valor de la multiplicación</string>
+  <string name="desc_bl_math_plus">El valor de la suma</string>
+  <string name="desc_bl_not">Marca la condición si es falso, no es cierto</string>
+  <string name="desc_bl_or">Une dos condiciones, pero funcionan por separado</string>
+  <string name="desc_bl_pic_num">Elige un número aleatorio entre los dos límites</string>
+  <string name="desc_bl_repeat">Un bucle que se repite para la cantidad especificada</string>
+  <string name="desc_bl_set_bg_color">Establece el color de fondo para el widget</string>
+  <string name="desc_bl_set_enable">Establezca el estado habilitado del widget</string>
+  <string name="desc_bl_set_image">Establecer la imagen seleccionada como el contenido de ImageView</string>
+  <string name="desc_bl_set_text">Establecer el texto del widget</string>
+  <string name="desc_bl_set_text_color">Establecer el color del texto del widget</string>
+  <string name="desc_bl_show_message">Mostrar el texto en la notificación popup</string>
+  <string name="desc_bl_stop">Detener el bucle envuelto</string>
+  <string name="desc_bl_str_indexof">El primer índice de la cadena dada, o -1</string>
+  <string name="desc_bl_str_set_to">Establecer la variable especificada en la cadena</string>
+  <string name="desc_bl_str_var">Variable de cadena</string>
+  <string name="desc_bl_substring">Una cadena que contiene el subsecuencia dada de la cadena</string>
+  <string name="desc_bl_to_number">Convierte al número</string>
+  <string name="desc_bl_to_string">Convierte a cadena</string>
+  <string name="desc_bl_true">Condición verdadera</string>
+  <string name="desc_bl_trim">Devuelve una cadena sin espacios al principio o al final</string>
+  <string name="desc_bl_intent_set_action">Establece la acción de Intento que se realizará \ nIntent: un componente para cargar una Actividad ( ver) \ n-ACTION_CALL: realizar una llamada a alguien especificado por los datos (permiso: CALL_PHONE) \ n-ACTION_DIAL: marcar un número según lo especificado por los datos (sin permiso) \ n-ACTION_VIEW: mostrar los datos al usuario \ n * Debe agregar \ &amp;apos; Intent \ &amp;apos; en [Componente] para usar esto</string>
+  <string name="desc_bl_intent_set_flag">Establecer condiciones especiales que controlan cómo se maneja esta intención \ n-SINGLE_TOP: Las vistas generalmente se mantienen como una baraja de cartas, apiladas una encima de la otra. Este bloque hace que la aplicación administre las vistas de manera tal que si la vista a la que está a punto de realizar la transición ya se llamaba antes, llevaría esa vista al frente en lugar de poner una nueva vista en la parte superior. \ N-CLEAR_TOP: borra todos las vistas anteriores en la vista actual. \ n * Debe agregar \ &amp;apos; Intent \ &amp;apos; en [Componente] para usar esto</string>
+  <string name="desc_bl_intent_set_data">Establezca los datos de este Intent en \ n-ACTION_CALL: debe comenzar con "tel:" \ n (EX: "tel: 021111111) \ n-ACTION_DIAL: debe comenzar con" tel: "\ n ( EX: "tel: 021111111) \ n-ACTION_VIEW: debe seguir el formulario de URL que comienza con" http: "o" https: "\ n (EX:" http://google.com ") \ n * Un error en tiempo de ejecución puede ocurrir si no sigue la recomendación \ n * Debe agregar \ &amp;apos; Intent \ &amp;apos; en [Componente] para usar esto</string>
+  <string name="desc_bl_intent_set_screen">Establezca la Actividad (Vista) a realizar \ n * Debe agregar \ &amp;apos; Intent \ &amp;apos; en [Componente] para usar esto</string>
+  <string name="desc_bl_intent_putextra">Enlazar los datos a Intención \ n * Enviar a la actividad con la tecla: formato de valor \ n * La intención puede tener varias claves y valores \ n * Debe agregar \ &amp;apos; Intención \ &amp;apos; en [Componente] para usar esto</string>
+  <string name="desc_bl_activity_getextra_s">Obtener los datos de Intent \ n * Solo se puede recuperar el valor guardado por el bloque Intent PutExtra \ n * Obtener la cadena vacía ("") cuando la clave no existe \ n * Debe agregar \ &amp;apos; Intent \ &amp;apos; en [Componente] para usar esto</string>
+  <string name="desc_bl_start_activity">Iniciar una nueva Actividad por Intención \ n * Puede ocurrir un error de tiempo de ejecución si los parámetros de Intención no son válidos \ n * Debe agregar \ &amp;apos; Intención \ &amp;apos; en [Componente] para usar esto</string>
+  <string name="desc_bl_finish_activity">Finalizar la actividad actual</string>
+  <string name="desc_bl_file_get_data">Recuperar un valor del archivo de preferencia \ nEl valor guardado por File SetData puede recuperarse \ n * Debe agregar \ &amp;apos; File (Preferencia compartida) \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_file_set_data">Establezca un valor en el archivo de preferencias \ n * La aplicación puede tener varios archivos y un archivo puede tener varios valores \ n * las claves en el archivo deben ser únicas. Si la misma tecla se utiliza varias veces, solo se puede acceder al último valor guardado \ n * formato - clave: valor \ nEx) clave: new_memo, valor: hello \ n * Debe agregar \ &amp;apos; Archivo (Shared Preference \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_file_remove_data">eliminar datos de archivo con la siguiente clave</string>
+  <string name="desc_bl_cal_getnow">Obtener la fecha y hora actual \ n * Debe agregar \ &amp;apos; Calendario \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_cal_addvalue">Agregue la cantidad de tiempo dada al campo Calendario \ n * Valor positivo: agrega tiempo \ n * Valor negativo: resta tiempo \ n * Necesita agregar \ &amp;apos; Calendario \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_cal_setvalue">Establezca el campo Calendario en un valor específico \ n * Debe agregar \ &amp;apos; Calendario \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_cal_format">Formatear el Calendario como una cadena usando el patrón \ nAño (y) | Mes (M) | Día (d) \ nHora (h) 1 ~ 12 | Hora (H) 0 ~ 23 | Minuto (m) | Segundo (s) \ nEx: aaaa-MM-dd hh: mm: ss (2106-01-01 03:01:02) \ nEx: aaaa-MM-dd HH: mm: ss (2106-01-01 15: 01:02) \ nEx: aaaa-MM-dd (2106-01-01) \ nEx: hh: mm: ss (12:01:02) \ n * Un error de tiempo de ejecución si el formato de cadena dado no es válido \ n * Debe agregar \ &amp;apos; Calendar \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_cal_difference">Obtenga las diferencias entre los calendarios (tiempo) \ nUnidad: milisegundos \ n * Debe agregar \ &amp;apos; Calendario \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_int_increase">Valor de incremento en 1</string>
+  <string name="desc_bl_int_decrease">Decrement Value by 1</string>
+  <string name="desc_bl_spn_refresh">Refresh Spinner \ nRefresh List Item usando Spinner</string>
+  <string name="desc_bl_set_spn_data">Set Data Spinner \ nDatos Format: String</string>
+  <string name="desc_bl_spn_set_selection">Seleccionar un elemento spinner en un índice dado \ nSetting un índice mayor que el número de elementos en el spinner dará como resultado un error de tiempo de ejecución</string>
+  <string name="desc_bl_spn_get_selection">Obtiene el índice del elemento spinner seleccionado \ nIndex comienza desde 0</string>
+  <string name="desc_bl_listview_set_data">Establecer ListView Data \ nEstablecimiento de datos para un ListView \ nData Formato: String</string>
+  <string name="desc_bl_listview_set_customview_data">Inflar el diseño CustomView en un elemento</string>
+  <string name="desc_bl_listview_refresh">Actualizar ListView \ nRefresh los datos ListView</string>
+  <string name="desc_bl_listview_setitem_chk_pos">Establecer el valor de un elemento ListView en un índice dado \ nSólo funciona cuando ChoiceMode para ListView es simple o múltiple \ nEstablecer un índice mayor que el número de elementos en ListView resultará en un error de tiempo de ejecución</string>
+  <string name="desc_bl_listview_getchk_pos">Obtiene el índice del elemento ListView seleccionado \ nOnly Works cuando ChoiceMode para ListView es único o múltiple</string>
+  <string name="desc_bl_listview_getchk_pos_arr">Obtiene una matriz de índices para los elementos ListView seleccionados \ nOnly Works cuando ChoiceMode para ListView es o bien único o múltiple</string>
+  <string name="desc_bl_listview_getchk_count">Obtiene el número de elementos de ListView seleccionados \ nSólo funciona cuando ChoiceMode para ListView es simple o múltiple</string>
+  <string name="desc_bl_chk_get_checked">Obtiene el estado de una casilla de verificación \ nEs cierto si está marcado, de lo contrario es falso</string>
+  <string name="desc_bl_chk_set_checked">Establezca el estado de una casilla de verificación \ nCompruebe si se establece como verdadero, de lo contrario se desmarca</string>
+  <string name="desc_bl_set_rotation">Establezca la rotación en un widget</string>
+  <string name="desc_bl_get_rotation">Obtenga la rotación de un widget</string>
+  <string name="desc_bl_set_alpha">Establecer el valor alfa de un widget</string>
+  <string name="desc_bl_get_alpha">Obtener el valor alfa actual de un widget</string>
+  <string name="desc_bl_set_translation_x">Establecer la traducción X valor de un widget</string>
+  <string name="desc_bl_get_translation_x">Obtener el valor X de la traducción actual de un widget</string>
+  <string name="desc_bl_set_translation_y">Establecer la traducción Y valor de un widget</string>
+  <string name="desc_bl_get_translation_y">Obtener la traducción actual Y valor de un widget</string>
+  <string name="desc_bl_set_scale_x">Establecer la escala X valor de un widget</string>
+  <string name="desc_bl_get_scale_x">Obtener el valor actual escala X valor de un widget</string>
+  <string name="desc_bl_set_scale_y">Establezca la escala Y del valor de un widget</string>
+  <string name="desc_bl_get_scale_y">Obtenga la escala actual Y del valor de un widget</string>
+  <string name="desc_bl_set_visible">Establezca la visibilidad de un widget \ nVisibilidad Propiedades \ n- VISIBLE: esta vista es visible \ n- INVISIBLE: esta vista es invisible, pero todavía ocupa espacio para fines de diseño \ n- GONE: esta vista es invisible, y no requiere espacio para propósitos de diseño.</string>
+  <string name="desc_bl_vibrator">Vibrar por la cantidad de tiempo establecida \ n- Unidad de tiempo: milisegundo \ n * Debe agregar \ &amp;apos; Vibrador \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_timer_after">Ejecutar los bloques después de un período de tiempo determinado \ n- Unidad de tiempo: milisegundos \ n * Solo puede configurar una tarea por temporizador \ n * Debe agregar \ &amp;apos; Temporizador \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_timer_every">Ejecutar los bloques después de un período de tiempo establecido para cada período de tiempo establecido \ n- Unidad de tiempo: milisegundos \ n * Solo puede configurar una tarea por temporizador \ n * Debe agregar \ &amp;apos; Timer \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_timer_cancel">Cancela la tarea del temporizador designado \ n- Unidad de tiempo: milisegundo \ n * Debe agregar \ &amp;apos; Temporizador \ &amp;apos; desde [Componente] para usar esto</string>
+  <string name="desc_bl_str_replace_first">Reemplaza el primer valor de cadena con el valor dado</string>
+  <string name="desc_bl_str_replace_all">Reemplaza todo el valor de cadena con el valor dado</string>
+  <string name="desc_bl_touppercase">Cambia todos los caracteres a valor de mayúscula</string>
+  <string name="desc_bl_tolowercase">Cambia todos los caracteres de la cadena a minúscula</string>
+  <string name="desc_bl_to_string_with_decimal">Convierte el número en una cadena que incluye el valor decimal</string>
+  <string name="desc_bl_to_string_format">Se utiliza para formatear números en un determinado punto decimal. \ nEx: Formando números a 2 decimales toma la entrada de 0.00</string>
+  <string name="desc_bl_math_pi">Valor de Pi, 3.14159...</string>
+  <string name="desc_bl_math_e">Valor de e, 2.71828...</string>
+  <string name="desc_bl_math_pow">Calcula la potencia nth del valor dado</string>
+  <string name="desc_bl_math_min">Calcula el valor más pequeño entre dos valores</string>
+  <string name="desc_bl_math_max">Calcula el valor más grande entre dos valores</string>
+  <string name="desc_bl_math_sqrt">Calcula la raíz cuadrada del valor dado</string>
+  <string name="desc_bl_math_abs">Calcular el valor absoluto del valor dado</string>
+  <string name="desc_bl_math_round">Redondear el valor dado arriba o abajo</string>
+  <string name="desc_bl_math_ceil">Redondear el valor dado arriba</string>
+  <string name="desc_bl_math_floor">Redondear el valor dado abajo</string>
+  <string name="desc_bl_math_sin">Calcule la función seno del valor dado</string>
+  <string name="desc_bl_math_cos">Calcule la función coseno del valor dado</string>
+  <string name="desc_bl_math_tan">Calcule la función tangente del valor dado</string>
+  <string name="desc_bl_math_asin">Calcula la función arcosine del valor dado</string>
+  <string name="desc_bl_math_acos">Calcula la función arccosine del valor dado</string>
+  <string name="desc_bl_math_atan">Calcula la función arctangent del valor dado</string>
+  <string name="desc_bl_math_exp">Calcula la función exponencial del valor dado</string>
+  <string name="desc_bl_math_log">Calcular el registro natural del valor dado</string>
+  <string name="desc_bl_math_log10">Calcular el registro basado en 10 del valor dado</string>
+  <string name="desc_bl_math_to_radian">Convertir el valor dado a Radian de Degree</string>
+  <string name="desc_bl_math_to_degree">Convertir el valor dado a Degree de Radian</string>
+  <string name="desc_bl_math_get_dip">Calcular el valor del dip de dispositivo (dp) usando la entrada</string>
+  <string name="desc_bl_math_get_display_width">Recupere el tamaño del ancho del dispositivo en píxeles</string>
+  <string name="desc_bl_math_get_display_height">Recupere el tamaño de altura del dispositivo en píxeles</string>
+  <string name="desc_bl_webview_load_url">Cargar la url al WebView</string>
+  <string name="desc_bl_webview_get_url">Recuperar la url del WebView actual</string>
+  <string name="desc_bl_webview_set_cachemode">Activar o desactivar el guardar el caché</string>
+  <string name="desc_bl_webview_can_go_back">Comprobar si la página anterior está disponible</string>
+  <string name="desc_bl_webview_can_go_forward">Comprobar si hay próxima página disponible</string>
+  <string name="desc_bl_webview_go_back">Volver a la página anterior</string>
+  <string name="desc_bl_webview_go_forward">Avanzar una página</string>
+  <string name="desc_bl_webview_clear_cache">Limpiar el caché de los sitios web</string>
+  <string name="desc_bl_webview_clear_history">Limpiar el historial de navegación anterior</string>
+  <string name="desc_bl_webview_stop_loading">Force detiene la carga</string>
+  <string name="desc_bl_webview_zoom_in">Zoom en el WebView</string>
+  <string name="desc_bl_webview_zoom_out">Zoom fuera del WebView</string>
+  <string name="desc_bl_set_title">Set el título de la actividad actual</string>
+  <string name="desc_bl_dialog_set_title">Establecer el mosaico para el diálogo actual</string>
+  <string name="desc_bl_dialog_set_message">Establecer el mensaje de cuerpo para el diálogo</string>
+  <string name="desc_bl_dialog_ok_button">Determinar la acción para OK Presionado</string>
+  <string name="desc_bl_dialog_cancel_button">Determinar la acción para Cancelar Presionado</string>
+  <string name="desc_bl_dialog_neutral_button">Determinar el action for Neutral Button Pressed</string>
+  <string name="desc_bl_dialog_show">Mostrar el cuadro de diálogo</string>
+  <string name="desc_bl_dialog_dismiss">Cerrar programadamente el diálogo</string>
+  <string name="desc_bl_mediaplayer_create">Inicializar el MediaPlayer con un sonido</string>
+  <string name="desc_bl_mediaplayer_start">Iniciar el MediaPlayer</string>
+  <string name="desc_bl_mediaplayer_pause">Pausar el MediaPlayer</string>
+  <string name="desc_bl_mediaplayer_seek">Busca el MediaPlayer en milisegundos determinados</string>
+  <string name="desc_bl_mediaplayer_get_current">Obtenga la duración actual en milisegundos</string>
+  <string name="desc_bl_mediaplayer_get_duration">Obtenga la duración del sonido en milisegundos</string>
+  <string name="desc_bl_mediaplayer_isplaying">Verifique si MediaPlayer está reproduciendo</string>
+  <string name="desc_bl_mediaplayer_setlooping">Habilite o deshabilite el ciclo para el sonido</string>
+  <string name="desc_bl_mediaplayer_islooping">Verifique si el sonido está en bucle</string>
+  <string name="desc_bl_mediaplayer_reset">Restablecer el MediaPlayer al estado inicial, buscando a 0 milisegundos</string>
+  <string name="desc_bl_mediaplayer_release">Liberar el sonido que MediaPlayer está manteniendo</string>
+  <string name="desc_bl_soundpool_create">Inicializar cuántos sonidos puede contener el grupo</string>
+  <string name="desc_bl_soundpool_load">Cargue la agrupación con un sonido. Devuelve soundID (número)</string>
+  <string name="desc_bl_soundpool_stream_play">Reproduce el sonido con el soundID correspondiente. Devuelve el streamID (número)</string>
+  <string name="desc_bl_soundpool_stream_stop">Detiene el sonido con el streamID correspondiente</string>
+  <string name="desc_bl_seekbar_set_progress">Establece el valor del progreso del SeekBar</string>
+  <string name="desc_bl_seekbar_get_progress">Recupera el valor actual del SeekBar</string>
+  <string name="desc_bl_seekbar_set_max">Establece el valor máximo del SeekBar</string>
+  <string name="desc_bl_seekbar_get_max">Recupera el valor máximo actual de SeekBar</string>
+  <string name="desc_bl_objectanimator_set_target">Establezca el objetivo deseado para la animación</string>
+  <string name="desc_bl_objectanimator_set_property">Establezca la propiedad de animación deseada</string>
+  <string name="desc_bl_objectanimator_set_value">Establezca el valor valor deseado para la propiedad</string>
+  <string name="desc_bl_objectanimator_set_from_to">Establezca el valor inicial y de resultado para la animación</string>
+  <string name="desc_bl_objectanimator_set_duration">Establezca la duración de la animación</string>
+  <string name="desc_bl_objectanimator_set_repeat_mode">Establezca si la animación debe repetirse o no</string>
+  <string name="desc_bl_objectanimator_set_repeat_count">Establezca cuántas veces debe repetirse la animación</string>
+  <string name="desc_bl_objectanimator_set_interpolator">Establezca el tipo de interpolador para la animación</string>
+  <string name="desc_bl_objectanimator_start">Inicie la animación</string>
+  <string name="desc_bl_objectanimator_cancel">Cancelar la animación</string>
+  <string name="desc_bl_objectanimator_isrunning">Comprobar si la animación está ejecutándose</string>
+  <string name="desc_bl_add_source_directly">Agregar el código fuente de Java directamente</string>
+  <string name="tuto_textview_group_title">Añadir texto en tu aplicación</string>
+  <string name="tuto_textview_title_1">Agregar TextView y cambiar el valor del texto</string>
+  <string name="tuto_textview_title_2">Incrementar el tamaño de fuente</string>
+  <string name="tuto_textview_title_3">Hacer el texto en negrita</string>
+  <string name="tuto_textview_title_4">Cambiar el color del texto</string>
+  <string name="tuto_textview_title_5">Usar el bloque setText para cambiar el valor del texto</string>
+  <string name="tuto_textview_title_6">tuto_textview_title_5 unirse a su nombre y apellido juntos</string>
+  <string name="tuto_textview_title_7">tuto_textview_title_6 Mostrando un mensaje tostada con el TextView \ &amp;apos; s de valor</string>
+  <string name="tuto_textview_title_8">tuto_textview_title_7 Creación de una aplicación de la magia 8-Ball</string>
+  <string name="tuto_layout_group_title">tuto_textview_title_8 lugar y posición de widgets diferente</string>
+  <string name="tuto_layout_title_1">La colocación de los widgets horizontalmente</string>
+  <string name="tuto_layout_title_2">Depositar verticalmente</string>
+  <string name="tuto_layout_title_3">diseños Cambio de tamaño a diferentes tamaños</string>
+  <string name="tuto_layout_title_4">Alinear widgets en el diseño</string>
+  <string name="tuto_layout_title_5">Crear diseños sensibles al tamaño de pantalla</string>
+  <string name="tuto_layout_title_6">Mezclar diseños verticales y horizontales</string>
+  <string name="tuto_layout_title_7">Hacer un diseño desplazable</string>
+  <string name="tuto_button_group_title">Realizar acciones cuando un botón se hace clic</string>
+  <string name="tuto_button_title_1">Similitudes y diferencias entre una vista de texto y un botón</string>
+  <string name="tuto_button_title_2">Deshabilitar un botón</string>
+  <string name="tuto_button_title_3">Cambiar el valor de View de TextView cuando se hace clic en un botón</string>
+  <string name="tuto_edittext_group_title">Tomar entrada de usuario</string>
+  <string name="tuto_edittext_title_1">Insinuar al usuario para la entrada</string>
+  <string name="tuto_edittext_title_2">Configurar el valor predeterminado del cuadro de entrada</string>
+  <string name="tuto_edittext_title_3">Configurar el número máximo de líneas que puede mostrar una entrada</string>
+  <string name="tuto_edittext_title_4">Deshabilitar el cuadro de entrada</string>
+  <string name="tuto_edittext_title_5">Cambiar el tipo de teclado para diferentes tipos de entrada</string>
+  <string name="tuto_edittext_title_6">Mostrar la entrada actual del usuario cuando se hace clic en un Botón</string>
+  <string name="tuto_edittext_title_7">Activar eventos cada vez que se cambia el valor de entrada</string>
+  <string name="tuto_edittext_title_8">Crear un validador de entrada personalizado</string>
+  <string name="tuto_imageview_group_title">Mostrar imágenes fascinantes</string>
+  <string name="tuto_imageview_title_1">Agregar una imagen</string>
+  <string name="tuto_imageview_title_2">Comprender diferentes tipos de escala</string>
+  <string name="tuto_imageview_title_3">Crear una presentación de diapositivas de imágenes usando un ScrollView</string>
+  <string name="tuto_imageview_title_4">Comprender las imágenes de 9 parches</string>
+  <string name="tuto_chk_switch_group_title">Activar y desactivar</string>
+  <string name="tuto_chk_switch_title_1">Comprender la casilla de verificación y cambiar</string>
+  <string name="tuto_chk_switch_title_2">Alternar el chequeo programáticamente</string>
+  <string name="tuto_chk_switch_title_3">Mostrar/ocultar una imagen basada en el estado verificado</string>
+  <string name="tuto_styling_group_title">Diseña profesionalmente tu aplicación</string>
+  <string name="tuto_styling_title_1">Comprensión de relleno y propiedad de margen</string>
+  <string name="tuto_styling_title_2">Diseño de gravedad vs gravedad</string>
+  <string name="tuto_styling_title_3">Girar un widget</string>
+  <string name="tuto_styling_title_4">Hacer un widget transparente</string>
+  <string name="tuto_styling_title_5">Crear una carga hilandero</string>
+  <string name="tuto_intent_group_title">Navega a una pantalla diferente o aplicaciones</string>
+  <string name="tuto_intent_title_1">Apertura de la aplicación nativa del teléfono Android</string>
+  <string name="tuto_intent_title_2">Abrir un navegador web mediante programación</string>
+  <string name="tuto_intent_title_3">Navegando a una pantalla diferente</string>
+  <string name="tuto_intent_title_4">Comprender el setFlag bloque</string>
+  <string name="tuto_file_group_title">Guardar y recuperar datos localmente</string>
+  <string name="tuto_file_title_1">Guardar y recuperar datos</string>
+  <string name="tuto_file_title_2">Eliminar datos</string>
+  <string name="tuto_file_title_3">Crear una página de inicio de sesión / inicio de sesión</string>
+  <string name="tuto_file_title_4">Recordar una opción para el próximo inicio</string>
+  <string name="tuto_calendar_group_title">Averigua a qué hora es</string>
+  <string name="tuto_calendar_title_1">Recuperación de la hora actual</string>
+  <string name="tuto_calendar_title_2">Agregar valor de tiempo al componente de calendario</string>
+  <string name="tuto_calendar_title_3">Encontrar la diferencia entre dos veces</string>
+  <string name="tuto_calendar_title_4">Configurar un valor de tiempo específico</string>
+  <string name="tuto_calendar_title_5">Crear un reloj digital aplicación</string>
+  <string name="tuto_vibrator_group_title">Vibrar tu dispositivo</string>
+  <string name="tuto_vibrator_title_1">Vibrar tu dispositivo</string>
+  <string name="tuto_timer_group_title">Retrasar tus acciones</string>
+  <string name="tuto_timer_title_1">Mostrar un mensaje después de 3 segundos</string>
+  <string name="tuto_timer_title_2">Aumentar un número cada 1 segundo</string>
+  <string name="tuto_timer_title_3">Animar a un guepardo en ejecución (Sprite)</string>
+  <string name="tuto_timer_title_4">Crear un cronómetro</string>
+  <string name="tuto_sound_media_group_title">Agregar un poco de sabor a tu aplicación</string>
+  <string name="tuto_sound_media_title_1">Agregar y reproducir un archivo de sonido</string>
+  <string name="tuto_sound_media_title_2">Reproducir y pausar archivo de sonido</string>
+  <string name="tuto_sound_media_title_3">Infinitamente enlazando un sonido</string>
+  <string name="tuto_sound_media_title_4">Obteniendo la duración de la canción</string>
+  <string name="tuto_sound_media_title_5">Crear un piano de 3 teclas</string>
+  <string name="tuto_sound_media_title_6">Diseñar un reproductor de música</string>
+  <string name="tuto_algorithm_group_title">Aprender y optimizar tu lógica</string>
+  <string name="tuto_algorithm_title_1">Intercambiar dos valores de TextViews</string>
+  <string name="tuto_algorithm_title_2">Imprimir un triángulo de asteriscos</string>
+  <string name="tuto_algorithm_title_3">Comprobar si un número es par o impar</string>
+  <string name="tuto_algorithm_title_4">Invertir los elementos de una lista creando una nueva lista</string>
+  <string name="tuto_algorithm_title_5">Crear una baraja de tarjeta (1/2 )</string>
+  <string name="tuto_algorithm_title_6">Barajar una baraja de cartas (2/2)</string>
+  <string name="tuto_algorithm_title_7">Calculando cuántas veces se repite una palabra</string>
+  <string name="tuto_com_welcome">¡Bienvenido al tutorial!</string>
+  <string name="tuto_com_tab_continue">Toque la pantalla para continuar</string>
+  <string name="tuto_com_goal">Objetivo</string>
+  <string name="tuto_com_view_goal">Ver objetivo</string>
+  <string name="tuto_com_logic_goal">Logic Goal</string>
+  <string name="tuto_com_logic_recap">Logic Recap</string>
+  <string name="tuto_com_logic_explained">Logic Explained</string>
+  <string name="tuto_com_logic_category">Haga clic en la categoría% s</string>
+  <string name="tuto_com_explained_continued">Explicación Continuación</string>
+  <string name="tuto_com_prerequisite">Prerrequisito</string>
+  <string name="tuto_com_summary">Resumen</string>
+  <string name="tuto_com_summary_continued">Resumen continuado</string>
+  <string name="tuto_com_click_copy">Haga clic en el botón "Copiar"</string>
+  <string name="tuto_com_click_paste">Haga clic en el botón "Pegar" para pegar el bloque que copió</string>
+  <string name="tuto_com_click_it_category">Haga clic en la categoría% s</string>
+  <!-- Variable, List,View,etc -->
+  <string name="tuto_com_click_it_tab">Haga clic en la pestaña% s</string>
+  <!-- VIEW, LOGIC -->
+  <string name="tuto_com_click_properties">Haga clic en propiedades</string>
+  <string name="tuto_com_longpress_widget">Mantenga presionada la tecla \ "% s \" widget</string>
+  <!-- TextView , Button, etc -->
+  <string name="tuto_com_longpress_layout">Mantenga presionada la tecla \ "% s \" layout</string>
+  <!-- Linear(H) , Linear(V) -->
+  <string name="tuto_com_longpress_block">Mantenga presionada la tecla \ "% s \" block</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_add_event">Agregue el evento% s haciendo clic en el botón +</string>
+  <!-- onTextChanged , onCheckChanged , etc -->
+  <string name="tuto_com_add_component" formatted="false">Agregue el componente% s con el nombre de \ "% s \"</string>
+  <!-- 1:Calendar,Timer 2:Variable name -->
+  <string name="tuto_com_add_component_file" formatted="false">Agregue el componente% s con el nombre de \ "% s \" y el nombre de archivo de \ "% s \"</string>
+  <!-- 1:Variable name 2:File name -->
+  <string name="tuto_com_properties_again">Algo salió mal. Haga clic en propiedades nuevamente</string>
+  <string name="tuto_com_event_again">Algo salió mal. Haga clic nuevamente en el evento</string>
+  <string name="tuto_com_select">Seleccione% s</string>
+  <!-- VISIBLE,GONE,right,AnyActivityName -->
+  <string name="tuto_com_select_appropriate">Seleccione la opción% s</string>
+  <!-- TextView,Calendar,etc -->
+  <string name="tuto_com_choose_manager">Elija el% s dentro del menú</string>
+  <!-- View,Image,Sound -->
+  <string name="tuto_com_choose_image">Elija la \ "% s \" image</string>
+  <!-- Variable name -->
+  <string name="tuto_com_add_activity">Agregar una vista de actividad named \ "% s \"</string>
+  <string name="tuto_com_add_sound_file">Agregue un archivo de sonido y asígnele un nombre \ "% s \"</string>
+  <!-- Sound file name -->
+  <string name="tuto_com_it_added">¡Tu \ "% s \" se ha agregado con éxito!</string>
+  <!-- 1:Calendar,Timer 2:Variable name -->
+  <string name="tuto_com_try_install">Intenta ejecutar e instalar este ejemplo para probarlo</string>
+  <string name="tuto_com_congratulations">¡Felicidades!</string>
+  <string name="tuto_com_tuto_completed">Has completado el tutorial</string>
+  <string name="tuto_com_goodjob">¡Buen trabajo!</string>
+  <string name="tuto_com_go_to_editor">Presione el botón Atrás para volver al editor</string>
+  <string name="tuto_com_back_button">Presione el botón Atrás para ver el cambio</string>
+  <string name="tuto_com_back_button_tosave">Presione el botón Atrás para guardar</string>
+  <string name="tuto_com_drop_onto_layout" formatted="false">Suelta el% s en el diseño% s</string>
+  <!-- 1:TextView , 2:root -->
+  <string name="tuto_com_drop_onto_editor">Suelta el \ "% s \ "en el editor</string>
+  <!--TextView-->
+  <string name="tuto_com_drop_under_block">Colóquelo debajo de \"% s \ "block</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_drop_into_block">Colóquelo en el bloque \ "% s \"</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_drop_inside_block">Colóquelo dentro del bloque \ "% s \" bloque</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_drop_inside_condition_block">Colóquelo dentro de la condición del bloque \ "% s \" block</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_drop_inside_1st_param_block">Colóquelo dentro del primer parámetro del bloque \ "% s \"</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_drop_inside_2nd_param_block">Colóquelo dentro del segundo parámetro del \ "% s \" block</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_select_1st_param">Seleccione \ "% s \" para el primer parámetro</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_select_2nd_param">Seleccionar \ "% s \" para el segundo parámetro</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_set_1st_param">Establecer \ "% s \" para el primer parámetro</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_set_2nd_param">Establecer \ "% s \" para el segundo parámetro</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_need_run">Dado que el cambio ocurre cuando se inicia la aplicación, necesitará EJECUTE la aplicación</string>
+  <string name="tuto_textview_1_0">¡Perfecto! Así es como puedes agregar widgets al editor</string>
+  <string name="tuto_textview_1_1">Podemos cambiar el valor del texto editando su propiedad</string>
+  <string name="tuto_textview_1_2">La propiedad "texto" se puede cambiar para alterar el valor del texto</string>
+  <string name="tuto_textview_1_3">Prueba a cambiar el valor del texto a lo que quieras</string>
+  <string name="tuto_textview_1_4">Intenta cambiarlo a cualquier otra cosa que no sea \ "% s \"</string>
+  <string name="tuto_textview_1_6">El valor del texto ha cambiado</string>
+  <string name="tuto_textview_2_0">Cambiar el tamaño de la fuente</string>
+  <string name="tuto_textview_2_1">Haga clic en TextView para mostrar la pestaña Propiedades</string>
+  <string name="tuto_textview_2_2">Intente aumentar o disminuir el tamaño de fuente</string>
+  <string name="tuto_textview_2_3">Pruebe a cambiar el tamaño de fuente a un valor diferente</string>
+  <string name="tuto_textview_2_4">El tamaño de fuente ha sido changed</string>
+  <string name="tuto_textview_3_0">Haz textView en negrita a través de sus Propiedades</string>
+  <string name="tuto_textview_3_1">Haz clic en TextView para mostrar la pestaña Propiedades</string>
+  <string name="tuto_textview_3_2">Elija la opción \ "bold \" para el estilo de texto</string>
+  <string name="tuto_textview_3_3">Pruebe a cambiar el estilo de texto a \ "% s \"!</string>
+  <string name="tuto_textview_3_4">¡TextView ahora está en negrita!</string>
+  <string name="tuto_textview_4_0">Cambiar el color de TextView</string>
+  <string name="tuto_textview_4_1">Hacer clic en TextView para mostrar la pestaña Propiedades</string>
+  <string name="tuto_textview_4_2">Elegir un nuevo color de texto</string>
+  <string name="tuto_textview_4_3">Elegir un nuevo color de texto que no sea \ "% s \ "</string>
+  <string name="tuto_textview_4_4">El color del TextView ha sido cambiado</string>
+  <string name="tuto_textview_5_0">Cambiar el valor de TextView usando el Editor de lógica</string>
+  <string name="tuto_textview_5_1">Esta es la pestaña Lógica</string>
+  <string name="tuto_textview_5_2">La pestaña lógica está compuesta de eventos. Por ejemplo, hacer clic en un botón sería un evento</string>
+  <string name="tuto_textview_5_3">[onCreate] evento se proporciona de manera predeterminada. Es un evento que siempre se activa una vez cuando se inicia la aplicación</string>
+  <string name="tuto_textview_5_4">Permita que \ &amp;apos; s edite este evento para cambiar el valor de TextView cuando se inicia la aplicación</string>
+  <string name="tuto_textview_5_5">Debes terminar este evento</string>
+  <string name="tuto_textview_5_6">Aquí programas cómo se comporta tu aplicación con bloques</string>
+  <string name="tuto_textview_5_7">Puedes usar el bloque setText para cambiar los valores de texto</string>
+  <string name="tuto_textview_5_9">Cambiar el texto valor a lo que quieras</string>
+  <string name="tuto_textview_5_10">Cambiarlo a cualquier otro que no sea \ "% s \"</string>
+  <string name="tuto_textview_6_0">Usa el bloque de operador para unirte con tu nombre y apellido</string>
+  <string name="tuto_textview_6_1">Edita este evento para cambiar el valor de TextView</string>
+  <string name="tuto_textview_6_2">Debes terminar este evento</string>
+  <string name="tuto_textview_6_4">Haz clic en el Operator tab</string>
+  <string name="tuto_textview_6_5">Escribe tu nombre aquí</string>
+  <string name="tuto_textview_6_6">Don \ &amp;apos; t déjalo vacío</string>
+  <string name="tuto_textview_6_7">Escribe aquí tu apellido</string>
+  <string name="tuto_textview_7_0">Use el bloque [Toast] y [getText]</string>
+  <string name="tuto_textview_7_1">Permita que \ &amp;apos; s edite este evento para mostrar un mensaje cuando comience la aplicación</string>
+  <string name="tuto_textview_7_2">Necesita terminar este evento</string>
+  <string name="tuto_textview_7_4">Since el cambio ocurre cuando se inicia la aplicación, deberá ejecutar la aplicación</string>
+  <string name="tuto_textview_9_0">Crear una aplicación Magic 8-Ball</string>
+  <string name="tuto_textview_9_1">¿Qué es un Magic 8-Ball?</string>
+  <string name="tuto_textview_9_2">El Magic 8-Ball es un juguete utilizado para adivinar o buscar consejos, desarrollado en la década de 1950 y fabricado por Mattel. A menudo se usa en la ficción, a menudo para el humor relacionado con sus respuestas precisas, imprecisas o estadísticamente improbables</string>
+  <string name="tuto_textview_9_3">Este es el Magic 8-Ball</string>
+  <string name="tuto_textview_9_4">Cuando se presiona el botón, cambiaremos el texto "respuesta"</string>
+  <string name="tuto_textview_9_5">Este es el texto de respuesta, que dará respuestas "Sí" o "No"</string>
+  <string name="tuto_textview_9_6">El evento [ask_button \ &amp;apos; onClick] se dispara cada vez que se hace clic en el botón. Permita que \ &amp;apos; s edite este evento</string>
+  <string name="tuto_textview_9_7">1. Cuando se hace clic en el botón preguntar \ n2. Genera un número aleatorio entre 0 y 1 \ n3. Si el número es 0, muestre "No"; de lo contrario, si 1, muestre "Sí"</string>
+  <string name="tuto_textview_9_8">Puesto que queremos un valor de 0 o 1, ponga "0" aquí</string>
+  <string name="tuto_textview_9_9">Let \ &amp;apos; s put \ "% s \" aquí</string>
+  <string name="tuto_textview_9_10">En nuestra primera condición, vamos a verificar si el número aleatorio es 0. Ponga \ "% s \" aquí</string>
+  <string name="tuto_textview_9_11">Seleccione el \ "% s \" TextView</string>
+  <string name="tuto_textview_9_12">Vamos a cambiar el valor del texto a \ "% s \"</string>
+  <string name="tuto_textview_9_15">Cada vez que se hace clic en el botón preguntar, generamos un número aleatorio entre 0 y 1. \ nSi el número generado es 0, hacemos que el Magic 8-ball diga "Sí", de lo contrario "No."</string>
+  <string name="tuto_layout_1_0">Coloca widgets horizontalmente</string>
+  <string name="tuto_layout_1_1">Coloca el diseño en el editor</string>
+  <string name="tuto_layout_1_2">tuto_layout_1_1 La disposición recibe automáticamente el ancho de "match_parent", ya que \ &amp;apos; sa horizontal diseño</string>
+  <string name="tuto_layout_1_3">Nos tuto_layout_1_2 \ &amp;apos; re va a añadir dos TextView \ &amp;apos; s para el diseño</string>
+  <string name="tuto_layout_1_4">tuto_layout_1_3 Añadir la Vista de Texto a la disposición</string>
+  <string name="tuto_layout_1_5">tuto_layout_1_4 la caída de la primera TextView dentro del diseño</string>
+  <string name="tuto_layout_1_6">tuto_layout_1_5 Let \ &amp;apos; s agregue más TextView a la disposición</string>
+  <string name="tuto_layout_1_7">tuto_layout_1_6 la caída de la Vista de Texto a la derecha de la primera TextView</string>
+  <string name="tuto_layout_1_8">tuto_layout_1_7 se puede ver que el diseño toma en niños horizontal</string>
+  <string name="tuto_layout_2_0">tuto_layout_1_8 Lugar widgets de forma vertical</string>
+  <string name="tuto_layout_2_1">La caída de la disposición en el editor</string>
+  <string name="tuto_layout_2_2">tuto_layout_2_1 La disposición recibe automáticamente la altura de "match_parent", ya que \ &amp;apos; sa disposición vertical</string>
+  <string name="tuto_layout_2_3">Nos tuto_layout_2_2 \ &amp;apos; re va a añadir dos TextView \ &amp;apos; s a la disposición vertical</string>
+  <string name="tuto_layout_2_4">tuto_layout_2_3 Añadir al TextView a la disposición</string>
+  <string name="tuto_layout_2_5">tuto_layout_2_4 la caída de la primera TextView dentro del diseño</string>
+  <string name="tuto_layout_2_6">tuto_layout_2_5 Let \ &amp;apos; s agregue más TextView a la disposición</string>
+  <string name="tuto_layout_2_7">Añadir tuto_layout_2_6 una TextView más a la disposición</string>
+  <string name="tuto_layout_2_8">"Suelta el TextView debajo del primer TextView</string>
+  <string name="tuto_layout_2_9">Puedes ver que el diseño toma verticalmente a los niños</string>
+  <string name="tuto_layout_3_0">Cambia el tamaño de los diseños a diferentes tamaños</string>
+  <string name="tuto_layout_3_1">Te proporcionamos este diseño. Haz clic en el layout</string>
+  <string name="tuto_layout_3_2">Vamos a cambiar el tamaño de este diseño modificando su propiedad</string>
+  <string name="tuto_layout_3_3">Primero trataremos de cambiar el ancho del diseño</string>
+  <string name="tuto_layout_3_4">Intenta cambiar el ancho a "match_parent"</string>
+  <string name="tuto_layout_3_5">La propiedad "match_parent" cambia el ancho del diseño para que coincida con su padre \ &amp;apos; s width</string>
+  <string name="tuto_layout_3_6">Dado que el diseño raíz es el padre y llena toda la pantalla, la El ancho de diseño de "match_parent" llena toda la pantalla</string>
+  <string name="tuto_layout_3_7">Vamos a probar otra opción</string>
+  <string name="tuto_layout_3_8">Intenta cambiar el ancho a \ "% s \"</string>
+  <string name="tuto_layout_3_9">La propiedad "wrap_content" cambia el ancho del diseño para envolver lo que está dentro</string>
+  <string name="tuto_layout_3_10">Como el diseño no tiene nada, se reduce a su tamaño más pequeño</string>
+  <string name="tuto_layout_3_11">Let \ &amp;apos; ¡Prueba la última opción!</string>
+  <string name="tuto_layout_3_12">Intenta cambiar el dp a cualquier valor mayor que \ "% s \"</string>
+  <string name="tuto_layout_3_13">"dp" asigna un ancho fijo al diseño</string>
+  <string name="tuto_layout_4_0">Alinea los widgets en el diseño</string>
+  <string name="tuto_layout_4_1">Le proporcionamos este diseño horizontal. Haga clic en el diseño</string>
+  <string name="tuto_layout_4_2">El diseño que proporcionamos tiene el ancho y la altura de "wrap_content"</string>
+  <string name="tuto_layout_4_3">Vamos a hacer que este diseño ocupe toda la pantalla</string>
+  <string name="tuto_layout_4_4">Intenta cambiar el ancho a " match_parent "</string>
+  <string name="tuto_layout_4_5">Intenta cambiar la altura a "match_parent"</string>
+  <string name="tuto_layout_4_6">Dado que el ancho y el alto son ambos "match_parent", el diseño llena toda la pantalla</string>
+  <string name="tuto_layout_4_7">Vamos a agregar un TextView al diseño</string>
+  <string name="tuto_layout_4_8">Coloca el TextView en el editor</string>
+  <string name="tuto_layout_4_9">¡Perfecto! Ahora, vamos a alinear el TextView al centro del diseño</string>
+  <string name="tuto_layout_4_10">Haz clic en el diseño lineal que contiene TextView</string>
+  <string name="tuto_layout_4_11">Vamos a cambiar sus propiedades</string>
+  <string name="tuto_layout_4_12">Gravity maneja el posicionamiento de sus widgets para niños</string>
+  <string name="tuto_layout_4_13">Selecciona "center_horizontal" de las opciones</string>
+  <string name="tuto_layout_4_14">Puedes ver que TextView ahora está alineado horizontalmente en el centro</string>
+  <string name="tuto_layout_4_15">Vamos a intentar agregar un diferente gravedad</string>
+  <string name="tuto_layout_4_16">Seleccione las opciones "center_horizontal" y "center_vertical" de las opciones</string>
+  <string name="tuto_layout_4_17">Puedes ver que TextView ahora está alineado en el centro</string>
+  <string name="tuto_layout_5_0">Crea diseños receptivos que son proporcionales en cualquier tamaño de pantalla del dispositivo</string>
+  <string name="tuto_layout_5_1">Proporcionamos dos diseños con el ancho de "match_parent"</string>
+  <string name="tuto_layout_5_2">Vamos a cambiar sus propiedades para que la altura de la relación de diseño Azul a Verde sea de 1: 3</string>
+  <string name="tuto_layout_5_3">Primero , vamos a editar la propiedad de disposición azul</string>
+  <string name="tuto_layout_5_4">La propiedad de peso determina la cantidad de "proporción" del diseño primario que debe tomar</string>
+  <string name="tuto_layout_5_5">El peso se compara proporcionalmente con otros niños \ &amp;apos; s peso en el mismo diseño</string>
+  <string name="tuto_layout_5_6">Intente cambiar el peso a \ "% s \"</string>
+  <string name="tuto_layout_5_7">Dado que el peso del diseño azul es 1 y el peso del diseño verde es 0, El diseño azul ocupa la mayor cantidad posible de espacio</string>
+  <string name="tuto_layout_5_8">Ahora, vamos a editar \ &amp;apos; s propiedad</string>
+  <string name="tuto_layout_5_9">También cambiaremos su peso</string>
+  <string name="tuto_layout_5_10">Dado que ambos diseños tienen una peso de 1, ocupan la misma cantidad de espacio con la proporción de 1: 1</string>
+  <string name="tuto_layout_5_11">Vamos a intentar cambiar el peso verde a \ "% s \"</string>
+  <string name="tuto_layout_5_12">Dado que el diseño azul tiene un peso de 1 y el diseño verde tiene un peso de 3, toman subir el espacio con la proporción de 1: 3</string>
+  <string name="tuto_layout_6_0">Mezclar diseños orientados de forma diferente</string>
+  <string name="tuto_layout_6_1">Suelta la disposición horizontal en el editor</string>
+  <string name="tuto_layout_6_2">Vamos a hacer que este diseño llene toda la pantalla</string>
+  <string name="tuto_layout_6_3">Prueba a cambiar la altura a "match_parent"</string>
+  <string name="tuto_layout_6_4">Dado que la ancho y alto son ambos "match_parent", el diseño llena toda la pantalla</string>
+  <string name="tuto_layout_6_5">Vamos a agregar diseños orientados de manera diferente al diseño que hemos colocado anteriormente</string>
+  <string name="tuto_layout_6_6">Coloca el diseño en la disposición horizontal colocamos previamente</string>
+  <string name="tuto_layout_6_7">Vamos a agregar dos vistas de texto a la disposición vertical que acabamos de colocar</string>
+  <string name="tuto_layout_6_8">Agregar dos vistas de texto a la disposición vertical</string>
+  <string name="tuto_layout_6_9">Coloca el primer TextView dentro del diseño vertical</string>
+  <string name="tuto_layout_6_10">Deja que \ &amp;apos; s agregue otro TextView</string>
+  <string name="tuto_layout_6_11">Coloca el TextView en cualquier lugar dentro del diseño vertical</string>
+  <string name="tuto_layout_6_12">Los widgets se colocan horizontal y verticalmente dependiendo de la orientación del diseño al que los agregue</string>
+  <string name="tuto_layout_6_13">Soltar el diseño a la derecha de la disposición vertical</string>
+  <string name="tuto_layout_6_14">Vamos a agregar dos TextView \ &amp;apos; s en el diseño horizontal que acabamos de colocar</string>
+  <string name="tuto_layout_6_15">añadir dos TextView \ &amp;apos; s en el diseño horizontal que acaba de colocar tuto_layout_6_15</string>
+  <string name="tuto_layout_6_16">La caída de la primera TextView a la disposición</string>
+  <string name="tuto_layout_6_17">tuto_layout_6_16 Let \ &amp;apos; s agregue más TextView a la disposición</string>
+  <string name="tuto_layout_6_18">tuto_layout_6_17 la caída de la TextView en cualquier lugar dentro de la disposición horizontal</string>
+  <string name="tuto_layout_6_19">tuto_layout_6_18 la TextView \ &amp;apos; s se colocan horizontalmente dentro de la disposición horizontal</string>
+  <string name="tuto_layout_6_20">Nos tuto_layout_6_19 \ &amp;apos; hemos añadido widgets de éxito en diferentes orientaciones utilizando diseños con orientación diferente</string>
+  <string name="tuto_layout_7_0">Haz un diseño desplazable</string>
+  <string name="tuto_layout_7_1">Suelta el diseño de desplazamiento en el editor</string>
+  <string name="tuto_layout_7_2">Los diseños de desplazamiento pueden tomar solo UN diseño o widget</string>
+  <string name="tuto_layout_7_3">Cualquier cosa dentro del diseño de desplazamiento se vuelve desplazable, incluso widgets</string>
+  <string name="tuto_layout_7_4">Sin embargo, es ideal para agregar un diseño lineal dentro del diseño de desplazamiento</string>
+  <string name="tuto_layout_7_5">Soltar el diseño lineal horizontal dentro del diseño de desplazamiento</string>
+  <string name="tuto_layout_7_6">El desplazamiento y el diseño lineal generalmente comparten la misma orientación. En este caso, ambos son horizontales</string>
+  <string name="tuto_layout_7_7">Vamos a agregar un TextView largo dentro del diseño horizontal para forzar el diseño a desplazarse</string>
+  <string name="tuto_layout_7_8">Coloca el TextView dentro del diseño lineal</string>
+  <string name="tuto_layout_7_9">Let \ &amp;apos; s aumenta este ancho de TextView \ &amp;apos; s por lo que el diseño se vuelve desplazable</string>
+  <string name="tuto_layout_7_10">Intenta cambiar el dp a \ "% s \"</string>
+  <string name="tuto_layout_7_11">Intenta ejecutar e instalar este ejemplo para probarlo</string>
+  <string name="tuto_button_1_0">Comprender las similitudes y las diferencias entre un TextView y un Botón</string>
+  <string name="tuto_button_1_1">Suelta el botón en el editor</string>
+  <string name="tuto_button_1_2">Un botón comparte las mismas propiedades de texto con TextView</string>
+  <string name="tuto_button_1_3">Por ejemplo, puede cambiar el texto de un botón editando la propiedad "text"</string>
+  <string name="tuto_button_1_4">Let \ &amp;apos; s volver al editor presionando el botón Atrás</string>
+  <string name="tuto_button_1_5">A diferencia de TextView, el evento "onClick" de Button \ "se genera automáticamente cada vez que se agrega un widget Button al Editor de vistas</string>
+  <string name="tuto_button_1_6">Este evento se dispararía cada vez que se haga clic en el Botón</string>
+  <string name="tuto_button_1_7">Necesitas terminar este evento</string>
+  <string name="tuto_button_2_0">Deshabilitar el botón</string>
+  <string name="tuto_button_2_1">Le proporcionamos este botón. Haga clic en él</string>
+  <string name="tuto_button_2_2">Puede desactivar el botón editando su propiedad "habilitada"</string>
+  <string name="tuto_button_2_3">Alternar el interruptor para deshabilitar el botón</string>
+  <string name="tuto_button_2_4">Dejar que \ &amp;apos; s volver al editor</string>
+  <string name="tuto_button_3_0">Deshabilitar el botón cuando se hace clic</string>
+  <string name="tuto_button_3_1">Soltar el botón aquí</string>
+  <string name="tuto_button_3_2">Vamos a editar el botón \ &amp;apos; s evento clickClick</string>
+  <string name="tuto_button_4_0">Cambiar el valor de TextView cuando el botón se hace clic</string>
+  <string name="tuto_button_4_1">Soltar el botón debajo de TextView</string>
+  <string name="tuto_button_4_2">El evento onClick del botón se dispara cada vez que se hace clic en el botón</string>
+  <string name="tuto_button_4_3">Vamos a editar el evento para que el texto cambie cuando se hace clic en el botón</string>
+  <string name="tuto_button_4_4">Haz clic en la pestaña Ver para encuentra el bloque setText</string>
+  <string name="tuto_button_4_6">Cambia el valor del texto a lo que quieras</string>
+  <string name="tuto_button_4_7">Cambia el valor a cualquier cosa que no sea \ "% s \"</string>
+  <string name="tuto_edittext_1_0">Cambia la sugerencia de un cuadro de entrada</string>
+  <string name="tuto_edittext_1_1">EditText tiene la sugerencia predeterminada de "Editar texto"</string>
+  <string name="tuto_edittext_1_2">"sugerencia" es el valor de texto que sugiere al usuario lo que debe ingresar</string>
+  <string name="tuto_edittext_1_3">Vamos a cambiar el valor de sugerencia editando su propiedad</string>
+  <string name="tuto_edittext_1_4">La "sugerencia" La propiedad maneja el valor del texto de la indirecta.</string>
+  <string name="tuto_edittext_1_5">Intente cambiarlo a cualquier valor sugerido que desee</string>
+  <string name="tuto_edittext_1_6">El valor sugerido ha cambiado</string>
+  <string name="tuto_edittext_2_0">Cambiar el valor de texto predeterminado de un cuadro de entrada</string>
+  <string name="tuto_edittext_2_1">EditText tiene un valor de texto vacío hasta que el usuario escriba algo en</string>
+  <string name="tuto_edittext_2_2">Puede establecer inicialmente el valor del texto editando su propiedad</string>
+  <string name="tuto_edittext_2_3">Vamos a cambiar el valor del texto predeterminado editando su propiedad</string>
+  <string name="tuto_edittext_2_4">La propiedad "text" maneja el valor de texto del EditText</string>
+  <string name="tuto_edittext_2_5">Prueba a cambiar el valor del texto a cualquier valor que desees</string>
+  <string name="tuto_edittext_2_6">¡Intenta cambiarlo a cualquier cosa que no sea un valor vacío!</string>
+  <string name="tuto_edittext_2_7">El valor de texto predeterminado se ha cambiado</string>
+  <string name="tuto_edittext_3_0">Establezca el número máximo de líneas que puede mostrar una entrada</string>
+  <string name="tuto_edittext_3_1">De forma predeterminada, EditText solo muestra una línea de texto</string>
+  <string name="tuto_edittext_3_2">Let \ \ n cambiar el número de líneas que muestra editando su propiedad</string>
+  <string name="tuto_edittext_3_3">La propiedad "líneas" determina cuántas líneas mostrará EditText</string>
+  <string name="tuto_edittext_3_4">Pruebe a cambiar el valor a% s</string>
+  <string name="tuto_edittext_3_5">El widget EditText ahora puede mostrar las líneas de texto% s</string>
+  <string name="tuto_edittext_4_0">Deshabilitar el cuadro de entrada</string>
+  <string name="tuto_edittext_4_1">A veces, podemos deshabilitar el widget EditText para que el usuario no pueda ingresar nada</string>
+  <string name="tuto_edittext_4_2">Let \ &amp;apos; s deshabilitarlo editando su propiedad</string>
+  <string name="tuto_edittext_4_3">Desactívelo haciendo clic en el modificador</string>
+  <string name="tuto_edittext_4_4">El EditText está deshabilitado y el usuario no podrá ingresar ningún valor</string>
+  <string name="tuto_edittext_5_0">Cambia la propiedad de tipo de entrada a "textPassword"</string>
+  <string name="tuto_edittext_5_1">A veces, podemos querer que el EditText tome información sensible como la contraseña y la censure</string>
+  <string name="tuto_edittext_5_2">Vamos \ &amp;apos; s cambiar el tipo de entrada editando su propiedad</string>
+  <string name="tuto_edittext_5_3">Vamos a cambiar el tipo de entrada a "textPassword"</string>
+  <string name="tuto_edittext_5_4">El texto de edición ahora censurará el valor de texto que toma</string>
+  <string name="tuto_edittext_6_0">Mostrar el valor de entrada actual cuando se hace clic en el botón</string>
+  <string name="tuto_edittext_6_1">Cuando se hace clic en el botón, deseamos mostrar el valor actual de EditText</string>
+  <string name="tuto_edittext_6_2">El botón \ &amp;apos; s evento onClick se dispara cada vez que se hace clic en el botón</string>
+  <string name="tuto_edittext_6_3">Permitir \ &amp;apos; s editar el evento para que el valor de texto de EditText aparezca cuando se hace clic en el botón</string>
+  <string name="tuto_edittext_7_0">Incendiar un evento siempre que se ingrese un nuevo valor</string>
+  <string name="tuto_edittext_7_1">Cuando el usuario ingrese cualquier valor en EditText, vamos a mostrarlo nuevamente en la pantalla</string>
+  <string name="tuto_edittext_7_2">A diferencia del widget Botón, los eventos de EditText \ &amp;apos no se agregan automáticamente</string>
+  <string name="tuto_edittext_7_3">El evento EditText \ "apuntaTextChanged" recibe el evento disparado cada vez que se cambia el valor del texto</string>
+  <string name="tuto_edittext_7_4">Permitir \ &amp;apos; s editar el evento para que el valor de texto de EditText aparezca cuando se cambia \ &amp;apos; s</string>
+  <string name="tuto_edittext_7_5">El bloque púrpura en el bloque raíz indica el valor de texto modificado</string>
+  <string name="tuto_edittext_7_6">Colóquelo en el parámetro del bloque Toast</string>
+  <string name="tuto_edittext_8_0">Cree un validador de entrada personalizado con un filtro de palabras</string>
+  <string name="tuto_edittext_8_1">Cualquier entrada con la palabra "odio" activará un mensaje de advertencia</string>
+  <string name="tuto_edittext_8_2">Vamos a mostrar el mensaje de advertencia aquí</string>
+  <string name="tuto_edittext_8_3">Vamos a ocultar inicialmente el mensaje de advertencia cuando se inicia la aplicación</string>
+  <string name="tuto_edittext_8_4">Establezca el mensaje de advertencia predeterminado en un mensaje vacío</string>
+  <string name="tuto_edittext_8_5">Seleccione el \ "% s \" TextView</string>
+  <string name="tuto_edittext_8_6">Dejaremos esto vacío, ya que queremos que sea una cadena vacía</string>
+  <string name="tuto_edittext_8_7">El evento "onTextChanged" se ha agregado correctamente</string>
+  <string name="tuto_edittext_8_8">Permitir \ &amp;apos; s editar este evento para validar la oración cada vez que se produce el cambio de texto</string>
+  <string name="tuto_edittext_8_9">1. Cada vez que ocurre un cambio, el evento "onTextChanged" se activa \ n2. Verifique si la entrada contiene la palabra "odio" \ n3. Si lo hace, muestre un mensaje de advertencia; de lo contrario, establezca el mensaje de advertencia como una cadena vacía</string>
+  <string name="tuto_edittext_8_10">Puesto que estamos filtrando la palabra "odio", pon "odio" aquí</string>
+  <string name="tuto_edittext_8_11">Colóquelo dentro de la subsección "if then"</string>
+  <string name="tuto_edittext_8_12">Colóquelo dentro de la subsección "else"</string>
+  <string name="tuto_edittext_8_13">Ingrese un mensaje de advertencia que desea mostrar, que no sea un valor de cadena vacío</string>
+  <string name="tuto_edittext_8_14">Dejaremos esto vacío, ya que no queremos ocultar el mensaje de advertencia si no contiene ninguna palabra filtrada</string>
+  <string name="tuto_imageview_1_0">Agregue una imagen de su elección</string>
+  <string name="tuto_imageview_1_2">El menú botón en la esquina superior derecha contiene diferentes administradores que manejan diferentes partes de la aplicación</string>
+  <string name="tuto_imageview_1_3">Dentro del Administrador de imágenes, puede agregar diferentes tipos de iconos e importar sus propias imágenes desde el rollo de la cámara</string>
+  <string name="tuto_imageview_1_4">Let \ Además, intenta agregar nuestra propia imagen haciendo clic en el botón +</string>
+  <string name="tuto_imageview_1_5">Importa la imagen y nómbrala \ "% s \"</string>
+  <string name="tuto_imageview_1_7">ImageView tiene un ícono de Android gris de forma predeterminada</string>
+  <string name="tuto_imageview_1_8">Vamos a cambiarlo a la imagen que acabamos de agregar</string>
+  <string name="tuto_imageview_1_9">La imagen ha sido cambiada</string>
+  <string name="tuto_imageview_2_0">Comprender diferentes propiedades del tipo de escala</string>
+  <string name="tuto_imageview_2_1">Hemos proporcionado esta ImageView con el ancho y la altura de "match_parent" para ti</string>
+  <string name="tuto_imageview_2_2">Haz clic en ImageView</string>
+  <string name="tuto_imageview_2_3">Diferentes tipos de escala cambian la forma en que se muestra la imagen</string>
+  <string name="tuto_imageview_2_4">Prueba a cambiar el tipo de escala a \ "% s \"</string>
+  <string name="tuto_imageview_2_5">El tipo de escala para ImageView ha cambiado a \ "% s \ "</string>
+  <string name="tuto_imageview_2_6">El tipo de escala" FIT_XY "se estira para ocupar el espacio dado, ignorando la relación de imagen</string>
+  <string name="tuto_imageview_2_7">Vamos a probar una propiedad de tipo de escala diferente</string>
+  <string name="tuto_imageview_2_8">" FIT_START "tipo de escala se estira para ocupar el espacio indicado, mantiene la relación de imagen y alinea la imagen superior</string>
+  <string name="tuto_imageview_2_9">El tipo de escala "FIT_CENTER" se estira para ocupar el espacio indicado, mantiene la relación de imagen y alinea el centro de la imagen</string>
+  <string name="tuto_imageview_2_10">El tipo de escala "FIT_END" es similar a "FIT_START" y "FIT_CENTER", excepto que alinea el fondo de la imagen</string>
+  <string name="tuto_imageview_2_11">"CENTER" mantiene el tamaño de la imagen mientras lo alinea con el centro</string>
+  <string name="tuto_imageview_2_12">"CENTER_CROP" escala la imagen uniformemente de modo que tanto el ancho como la altura de la imagen sean iguales o mayores que el dimensión correspondiente de la disposición</string>
+  <string name="tuto_imageview_2_13">"CENTER_INSIDE" escala la imagen de manera uniforme para que tanto la anchura como la altura de la imagen sean iguales o inferiores a la dimensión correspondiente del diseño</string>
+  <string name="tuto_imageview_2_14">Intente cambiar el tipo de escala a \ "% s \"</string>
+  <string name="tuto_imageview_3_0">Hacer una presentación de diapositivas de imágenes desplazables</string>
+  <string name="tuto_imageview_3_1">Vamos a intentar agregar nuestra propia imagen haciendo clic en el botón +</string>
+  <string name="tuto_imageview_3_2">Agregue una imagen de su elección con el nombre de \ "% s \"</string>
+  <string name="tuto_imageview_3_3">Nombre su imagen importada \ "% s \ "</string>
+  <string name="tuto_imageview_3_5">Los diseños de desplazamiento pueden tomar solo UNA disposición o widget</string>
+  <string name="tuto_imageview_3_6">Cualquier elemento dentro del diseño de desplazamiento se puede desplazar, incluso los widgets</string>
+  <string name="tuto_imageview_3_7">Sin embargo, es ideal para agregar una línea diseño dentro del diseño de desplazamiento</string>
+  <string name="tuto_imageview_3_8">Soltar el diseño lineal horizontal dentro del diseño de desplazamiento</string>
+  <string name="tuto_imageview_3_9">El desplazamiento y el diseño lineal generalmente comparten la misma orientación. En este caso, ambos son horizontales</string>
+  <string name="tuto_imageview_3_10">Vamos a agregar dos imágenes</string>
+  <string name="tuto_imageview_3_11">Coloca el ImageView dentro del diseño lineal</string>
+  <string name="tuto_imageview_3_12">Vamos a cambiar la imagen a través de sus propiedades</string>
+  <string name="tuto_imageview_3_13">Elija \ "% s \" image</string>
+  <string name="tuto_imageview_3_14">Let \ &amp;apos; s agregar un ImageView más en el diseño lineal</string>
+  <string name="tuto_imageview_3_15">Vamos a cambiar la imagen a través de sus propiedades</string>
+  <string name="tuto_imageview_3_16">Elija la imagen \ "% s \"</string>
+  <string name="tuto_imageview_4_0">Entienda nueve imágenes de parche</string>
+  <string name="tuto_imageview_4_1">Nueve imágenes de parche</string>
+  <string name="tuto_imageview_4_2">Nueve imágenes de parche son imágenes de mapa de bits que cambian de tamaño automáticamente para acomodar el contenido de la vista y el tamaño de la pantalla</string>
+  <string name="tuto_imageview_4_3">Nine Patch Images Continuación</string>
+  <string name="tuto_imageview_4_4">Vamos a aplicar una imagen de nueve parches a diferentes widgets para ver cómo se ven afectados</string>
+  <string name="tuto_imageview_4_5">Haz clic en el widget TextView para editar sus propiedades</string>
+  <string name="tuto_imageview_4_6">Vamos a cambiar la imagen de fondo a través de sus propiedades</string>
+  <string name="tuto_imageview_4_7">Haz clic en el diseño lineal para editar sus propiedades</string>
+  <string name="tuto_imageview_4_10">Haz clic en el widget Botón para editar sus propiedades</string>
+  <string name="tuto_imageview_4_12">Como puedas ver, aunque utilizamos un archivo de imagen, se ajusta automáticamente al tamaño de todos los widgets/diseños</string>
+  <string name="tuto_imageview_4_13">Es por eso que las imágenes de ninepatch son útiles para crear diseños sensibles en diferentes tamaños de pantalla</string>
+  <string name="tuto_chk_switch_1_0">Comprender la casilla de verificación y el interruptor widget</string>
+  <string name="tuto_chk_switch_1_1">Hemos proporcionado dos widgets para usted, una casilla de verificación y un conmutador</string>
+  <string name="tuto_chk_switch_1_2">Estos dos widgets se usan comúnmente \ n para tener usuarios \/apos; s YES/NO input</string>
+  <string name="tuto_chk_switch_1_3">Por ejemplo , por lo general, puede encontrar casillas de verificación en las pantallas de inicio de sesión, con descripciones como \ "% s \"</string>
+  <string name="tuto_chk_switch_1_4">Switch se puede usar con el mismo concepto, solo proporciona una interfaz de usuario diferente y experiencia</string>
+  <string name="tuto_chk_switch_1_6">Both Checkbox and Switch se utilizan para tomar la entrada SÍ/NO del usuario</string>
+  <string name="tuto_chk_switch_1_8">Para las casillas de verificación, más de una de ellas se coloca generalmente para tomar múltiples entradas</string>
+  <string name="tuto_chk_switch_1_9">Vamos a intentar cambiar esto para que se compruebe editando su propiedad</string>
+  <string name="tuto_chk_switch_1_10">Alternar el \ "% s \" switch</string>
+  <string name="tuto_chk_switch_1_11">Similar a Checkbox, puedes alternar en el Switch de la misma manera editando su propiedad</string>
+  <string name="tuto_chk_switch_2_0">Activa la casilla de verificación con un clic de un botón</string>
+  <string name="tuto_chk_switch_2_1">Suelta el botón debajo de CheckBox</string>
+  <string name="tuto_chk_switch_2_2">Cuando se hace clic en el botón, verificaremos/desmarcaremos la casilla de verificación según su estado actual</string>
+  <string name="tuto_chk_switch_2_3">Vamos a editar el botón de evento onClick para que el estado de verificación cambie cuando se hace clic en el botón</string>
+  <string name="tuto_chk_switch_2_4">Antes de continuar, pensemos en cómo deberían ser los bloques colocado</string>
+  <string name="tuto_chk_switch_2_5">1. Obtenga el estado actual de la casilla \ n2. Si la casilla de verificación está marcada, desactívela \ n3. De lo contrario, compruébelo</string>
+  <string name="tuto_chk_switch_2_6">Vamos a aprender más sobre% s block</string>
+  <string name="tuto_chk_switch_2_7">Los bloques en "if (condition) then" se ejecutan si la condición es verdadera, de lo contrario los bloques en "else" se ejecutará</string>
+  <string name="tuto_chk_switch_3_0">Alternar la visibilidad de una imagen con a con un CheckBox</string>
+  <string name="tuto_chk_switch_3_1">Suelta la casilla de verificación debajo de ImageView</string>
+  <string name="tuto_chk_switch_3_2">Cuando se hace clic en la casilla de verificación, mostraremos/ocultaremos la imagen</string>
+  <string name="tuto_chk_switch_3_3">Primero, vamos a cambiar el texto de la casilla</string>
+  <string name="tuto_chk_switch_3_4">Prueba a cambiar el valor del texto a \ "% s \"</string>
+  <string name="tuto_chk_switch_3_5">Alterna el modificador \ "% s \", ya que la imagen será visible en el primer lanzamiento</string>
+  <string name="tuto_chk_switch_3_6">¡Agradable! El CheckBox ha sido editado</string>
+  <string name="tuto_chk_switch_3_7">"El evento CheckBox &amp;apos; s onCheckChanged" se activa cada vez que se activa el valor de control</string>
+  <string name="tuto_chk_switch_3_8">Vamos a editar el evento para que la imagen se muestre/oculte según el valor de verificación</string>
+  <string name="tuto_chk_switch_3_9">Antes de continuar, piense en cómo deberían colocarse los bloques</string>
+  <string name="tuto_chk_switch_3_10">1. Si CheckBox está marcado, muestre la imagen \ n2. De lo contrario, oculte</string>
+  <string name="tuto_chk_switch_3_11">Let \ &amp;apos; s revisa el bloque if/else</string>
+  <string name="tuto_chk_switch_3_12">Los bloques en "if (condition) then" se ejecutan si la condición es verdadera, de lo contrario los bloques en "else" serán ejecutados</string>
+  <string name="tuto_chk_switch_3_13">El bloque morado en el bloque raíz indica el valor CheckBox modificado</string>
+  <string name="tuto_styling_1_0">Comprender la propiedad de relleno y margen</string>
+  <string name="tuto_styling_1_2">Espaciado</string>
+  <string name="tuto_styling_1_3">El espaciado entre widgets es muy importante para el diseño de la aplicación. Usamos margen y relleno para mantener el contenido separado de otros widgets, dando espacio adicional alrededor o dentro de él</string>
+  <string name="tuto_styling_1_4">Relleno</string>
+  <string name="tuto_styling_1_5">El relleno representa el espacio interior de un elemento. De forma predeterminada, Sketchware proporciona 8dp de relleno a cada widget cuando se coloca</string>
+  <string name="tuto_styling_1_6">El diseño azul tiene un relleno de% dp, por lo que hay un espacio entre dos diseños</string>
+  <string name="tuto_styling_1_7">Primero, vamos \ &amp;apos; s haga clic en el diseño azul</string>
+  <string name="tuto_styling_1_8">Pruebe a cambiar el relleno a \ "% s \"</string>
+  <string name="tuto_styling_1_9">El relleno aplicado proporcionó más espacio entre dos diseños</string>
+  <string name="tuto_styling_1_10">El margen representa el espacio exterior de un elemento. De forma predeterminada, Sketchware no proporciona margen al widget cuando se coloca</string>
+  <string name="tuto_styling_1_11">Ahora, deje que \ &amp;apos; s haga clic en el diseño azul para editar el margen</string>
+  <string name="tuto_styling_1_12">Intenta cambiar el margen a \ "% s \"</string>
+  <string name="tuto_styling_1_13">Ahora hay espacio en el exterior del diseño azul</string>
+  <string name="tuto_styling_2_0">Comprensión de Gravedad vs Gravedad de diseño</string>
+  <string name="tuto_styling_2_1">En el tutorial "Diseño" categoría, aprendimos a alinear los widgets usando la propiedad "gravedad"</string>
+  <string name="tuto_styling_2_2">La propiedad "gravedad" establece la gravedad del contenido de la vista que se usa en</string>
+  <string name="tuto_styling_2_3">La propiedad "layout_gravity" establece la gravedad de sí misma en su elemento primario</string>
+  <string name="tuto_styling_2_4">Vamos a intentar \ cambiar el \ "% s \"</string>
+  <string name="tuto_styling_2_5">El diseño se ha alineado al lado derecho de its parent</string>
+  <string name="tuto_styling_3_0">Rotar un widget cambiando la propiedad "rotate"</string>
+  <string name="tuto_styling_3_1">Cada widget viene con una propiedad "rotate". Por defecto, los widgets tienen un valor de rotación de 0</string>
+  <string name="tuto_styling_3_2">Vamos a intentar cambiar su valor de rotación</string>
+  <string name="tuto_styling_3_3">Intenta cambiar el valor de rotación a \ "% s \"</string>
+  <string name="tuto_styling_3_4">El diseño ha girado \ "% s \" degrees</string>
+  <string name="tuto_styling_4_0">Haz un widget transparente cambiando su valor "alfa"</string>
+  <string name="tuto_styling_4_1">Cada widget viene con una propiedad "alpha", que determina la transparencia</string>
+  <string name="tuto_styling_4_2">El valor alfa va de 0.0 a 1.0. De forma predeterminada, los widgets tienen un valor alfa 1.0 o una visibilidad del 100%</string>
+  <string name="tuto_styling_4_3">tuto_styling_4_2 Let \ &amp;apos; s intentan cambiar su valor alfa</string>
+  <string name="tuto_styling_4_4">tuto_styling_4_3 Intente cambiar el valor alpha a \ "% s \"</string>
+  <string name="tuto_styling_4_5">tuto_styling_4_4 La disposición y el contenido en el interior tiene ahora \% s \ " "transparencia</string>
+  <string name="tuto_styling_5_0">tuto_styling_4_5 Crear una ruleta de carga</string>
+  <string name="tuto_styling_5_1">tuto_styling_5_0 Si usted no ha \ &amp;apos; t completaron los tutoriales para 'componente Timer', por favor complete antes de probar este</string>
+  <string name="tuto_styling_5_2">Aquí, hemos proporcionado una ImageView con una imagen de rotación de carga</string>
+  <string name="tuto_styling_5_4">Empezaremos a girar la ruleta cuando se inicie la aplicación</string>
+  <string name="tuto_styling_5_5">1. Crear una variable de número de "rotación" que mantenga un registro de el valor de rotación actual \ n2. Usando el bloque "Temporizador cada", aumente el valor de "rotación" en 1 cada 5 milisegundos \ n3. Aplica el nuevo valor de rotación a ImageView</string>
+  <string name="tuto_styling_5_6">Crear una variable de número llamada \ "% s \"</string>
+  <string name="tuto_styling_5_7">La variable de rotación se utilizará para realizar un seguimiento del valor de rotación. Su valor predeterminado es 0</string>
+  <string name="tuto_styling_5_9">Vamos a ejecutar este bloque después de \ "% s \" milisegundo</string>
+  <string name="tuto_styling_5_10">Vamos a actualizar el valor de rotación cada \ "% s \" milisegundos</string>
+  <string name="tuto_styling_5_11">Seleccione la \ "% s \" Variable de número</string>
+  <string name="tuto_styling_5_12">Seleccione el \ "% s \" ImageView</string>
+  <string name="tuto_styling_5_13">Usando el bloque "Temporizador cada", aumentamos la variable de número "rotación" en 1 cada 5 milisegundos. Luego, aplicamos el nuevo valor de rotación al "spinner" ImageView</string>
+  <string name="tuto_intent_1_0">Navega a una pantalla diferente</string>
+  <string name="tuto_intent_1_1">¿Qué es una Intención?</string>
+  <string name="tuto_intent_1_2">Una intención es una "intención" para realizar una acción, como abrir una aplicación o pasar a una nueva pantalla</string>
+  <string name="tuto_intent_1_3">Al hacer clic en el botón de navegación, navegaremos a% s que \ &amp;apos ; visto en este tutorial</string>
+  <string name="tuto_intent_1_4">Usaremos el componente Intent para navegar a una pantalla diferente</string>
+  <string name="tuto_intent_1_5">Vamos \ &amp;apos; s navegar a una pantalla diferente cuando se hace clic en el botón de navegación</string>
+  <string name="tuto_intent_1_6">Cuando se hace clic en el botón, use el bloque "setScreen" y "startActivity" para navegar a una pantalla diferente</string>
+  <string name="tuto_intent_1_8">Intención setScreen</string>
+  <string name="tuto_intent_1_9">Podemos usar el bloque "Intent setScreen" para determinar a qué pantalla intentamos navegar</string>
+  <string name="tuto_intent_1_10">Podemos usar el bloque "startActivity" para llevar a cabo el intento de nuestra acción</string>
+  <string name="tuto_intent_2_0">Abra la aplicación nativa del teléfono Android</string>
+  <string name="tuto_intent_2_1">Funciones de intención</string>
+  <string name="tuto_intent_2_2">El intento se puede usar para abrir otras aplicaciones, como un navegador o una aplicación de teléfono</string>
+  <string name="tuto_intent_2_3">Vamos a intentar abrir la aplicación del teléfono nativo cuando se haga clic en este botón</string>
+  <string name="tuto_intent_2_5">Permitir \ &amp;apos; s editar el botón abierto \ ondeClick evento</string>
+  <string name="tuto_intent_2_6">Seleccione la opción \ "% s \"</string>
+  <string name="tuto_intent_2_7">El bloque "setAction" determina qué acción seguirá. En este caso, establecemos la acción de la intención de abrir el "dial" o la aplicación del teléfono</string>
+  <string name="tuto_intent_2_8">Enter \ "% s \" en el segundo parámetro</string>
+  <string name="tuto_intent_2_9">El bloque "setData" puede transportar datos junto con la acción. En este ejemplo, vamos a llevar los datos telefónicos de "1234". Tenga en cuenta que el prefijo de los datos podría cambiar dependiendo de la acción</string>
+  <string name="tuto_intent_2_10">El bloque "startActivity" desencadena la acción de la Intención</string>
+  <string name="tuto_intent_3_0">Programáticamente llama a un número de teléfono</string>
+  <string name="tuto_intent_3_1">Funciones de Intento</string>
+  <string name="tuto_intent_3_2">Intent Component también se puede usar para marcar un número de teléfono mediante programación</string>
+  <string name="tuto_intent_3_3">Vamos a llamar al número deseado cuando se presione el botón de llamada</string>
+  <string name="tuto_intent_3_5">Vamos a editar el botón de llamada \ ondeClick evento</string>
+  <string name="tuto_intent_3_6">Seleccione el \ "% s \" opción</string>
+  <string name="tuto_intent_3_7">La acción \ "% s \" llama al número deseado</string>
+  <string name="tuto_intent_3_8">Enter \ "% s \" en el segundo parámetro</string>
+  <string name="tuto_intent_3_9">El bloque "setData" puede transportar datos junto con la acción. En este ejemplo, vamos a llamar al número de teléfono "1234". Tenga en cuenta que el prefijo de los datos podría cambiar dependiendo de la acción</string>
+  <string name="tuto_intent_3_10">El bloque "startActivity" desencadena la acción de la Intención</string>
+  <string name="tuto_intent_4_0">Programáticamente abre un navegador web</string>
+  <string name="tuto_intent_4_1">Abriremos el navegador cuando se hace clic en este botón</string>
+  <string name="tuto_intent_4_3">Permitir \ &amp;apos; s editar el botón Abrir \ &amp;apos; s evento onClick</string>
+  <string name="tuto_intent_4_4">Seleccione la opción \ "% s \"</string>
+  <string name="tuto_intent_4_5">Enter \ "% s \" en el segundo parámetro</string>
+  <string name="tuto_intent_4_6">El bloque "setData" puede transportar datos junto con la acción. En este ejemplo, \ &amp;apos; re giong para abrir una vista con los datos de "https://google.com"</string>
+  <string name="tuto_intent_4_7">El bloque "startActivity" activa la acción de Intent. En este caso, el componente Intent abrirá un navegador</string>
+  <string name="tuto_intent_5_0">Transferir datos a otra pantalla</string>
+  <string name="tuto_intent_5_1">Cuando se hace clic en este botón, navegaremos a \ "% s \" y transferiremos el valor de EditText arriba</string>
+  <string name="tuto_intent_5_2">Haz clic en el selector de archivos para navegar al Editor lógico de \ "% s \"</string>
+  <string name="tuto_intent_5_3">Vamos a recibir los datos transferidos cuando la Actividad haya sido creada nuevamente dentro del evento "onCreate"</string>
+  <string name="tuto_intent_6_0">Finalizar una actividad</string>
+  <string name="tuto_intent_6_1">Actividad de acabado</string>
+  <string name="tuto_intent_6_2">Al igual que cómo podemos iniciar una actividad, podemos terminar una actividad. Aunque la función no depende del Componente de intención, está muy relacionada</string>
+  <string name="tuto_intent_6_3">Cuando esto haga clic en el botón, cerraremos la actividad actual</string>
+  <string name="tuto_intent_6_4">Vamos a editar el botón cerrar \ &amp;apos; s evento onClick para cerrar la actividad</string>
+  <string name="tuto_intent_6_5">Cuando se hace clic en el botón Cerrar, cerraremos la actividad. Una vez más, tenga en cuenta que este bloque no depende del Componente de intención</string>
+  <string name="tuto_intent_7_0">Entender "bloque setFlag"</string>
+  <string name="tuto_intent_7_1">¿Qué es Flag?</string>
+  <string name="tuto_intent_7_2">En la programación, el indicador es una variable que generalmente indica algún estado del programa</string>
+  <string name="tuto_intent_7_3">"Por ejemplo, supongamos que tiene un programa que muestra una vista, pero el usuario puede alternar la visibilidad de la vista con un booleano variable llamada \ "visible \", con verdadero que lo indica \ &amp;apos; s visible y falso que lo indica \ &amp;apos; s no. En este caso, la variable "visibilidad" es el indicador que determina la visibilidad</string>
+  <string name="tuto_intent_7_4">Cuándo use el bloque "setFlags"?</string>
+  <string name="tuto_intent_7_5">El bloque "setFlags" solo es útil cuando quiere navegar a otra pantalla dentro de la aplicación. Se explicará con más detalle más adelante en este tutorial</string>
+  <string name="tuto_intent_7_7">Let \ &amp;apos; s encuentra el bloque "setFlags" dentro del evento "onCreate"</string>
+  <string name="tuto_intent_7_8">El bloque "setFlags" solo se da cuando agrega el componente "Intent"</string>
+  <string name="tuto_intent_7_9">Tipos de banderas</string>
+  <string name="tuto_intent_7_10">Dentro de Sketchware, le proporcionamos dos tipos de bandera de intención: \ n1. SINGLE_TOP \ n2. CLEAR_TOP</string>
+  <string name="tuto_intent_7_11">El indicador superior único organiza las vistas de manera tal que si la vista a la que estás a punto de realizar la transición ya se llamaba antes, llevaría esa vista a la parte superior en lugar de poner otra copia en la parte superior.</string>
+  <string name="tuto_intent_7_12">Borrar arriba borra todas las vistas anteriores después de navegar a la pantalla deseada</string>
+  <string name="tuto_file_1_0">1. Guarde los datos localmente \ n2. Cargue y muestre los datos guardados en TextView</string>
+  <string name="tuto_file_1_1">Archivo explicado</string>
+  <string name="tuto_file_1_2">Utilizando el Componente de archivo, puede guardar datos utilizando la biblioteca de preferencia compartida nativa de Android \ &amp;apos; s</string>
+  <string name="tuto_file_1_3">"Guardaremos el valor del EditText cuando presionemos este botón</string>
+  <string name="tuto_file_1_4">Luego, cargaremos el valor de los datos guardados en este TextView</string>
+  <string name="tuto_file_1_6">Vamos a editar el botón de guardar \ &amp;apos; s evento onClick para guardar los datos cuando sea necesario</string>
+  <string name="tuto_file_1_7">Let \ &amp;apos ; s poner \ "% s \" como valor de clave</string>
+  <string name="tuto_file_1_8">Colóquelo dentro del segundo parámetro del bloque "Archivo setData"</string>
+  <string name="tuto_file_1_9">Seleccione el \ "% s \" EditText</string>
+  <string name="tuto_file_1_10">setData Block Explained</string>
+  <string name="tuto_file_1_11">El bloque "setData" guarda los datos localmente en el formato "[clave, valor]". Guardamos y recuperamos el valor con la misma clave</string>
+  <string name="tuto_file_1_12">Vamos a cargar los datos guardados dentro del botón de carga \ ones evento onClick</string>
+  <string name="tuto_file_1_13">Load Logic Goal</string>
+  <string name="tuto_file_1_14">We \ &amp;apos; volverá a cargar el valor guardado y cambiará el texto de TextView con el valor cargado</string>
+  <string name="tuto_file_1_15">Colóquelo dentro del primer parámetro de TextView</string>
+  <string name="tuto_file_1_16">Vamos a usar la misma clave que usamos para cargue el valor que guardó, \ "% s \"</string>
+  <string name="tuto_file_1_17">ile Load</string>
+  <string name="tuto_file_1_18">El componente File se puede usar en todas las pantallas para guardar y cargar el valor del mismo archivo, siempre que el nombre del archivo sea idéntico</string>
+  <string name="tuto_file_2_0">Eliminar datos del archivo compoonent</string>
+  <string name="tuto_file_2_1">Friendly Reminder</string>
+  <string name="tuto_file_2_2">Este tutorial es muy similar al anterior. Si tiene \ &amp;apos; t, ¡complete el tutorial anterior!</string>
+  <string name="tuto_file_2_3">Guardaremos el valor del EditText cuando presionemos este botón</string>
+  <string name="tuto_file_2_4">Entonces, cargaremos el valor de los datos guardados en este TextView</string>
+  <string name="tuto_file_2_5">Nosotros hemos proporcionado el Componente de Archivos para usted</string>
+  <string name="tuto_file_2_6">También le hemos proporcionado cierta lógica</string>
+  <string name="tuto_file_2_7">Al igual que el anterior tutorial, guardamos localmente el valor del EditText con la clave de \ "% s \"</string>
+  <string name="tuto_file_2_8">Let \ &amp;apos; s verifique el \ "% s \" event</string>
+  <string name="tuto_file_2_9">Aquí, cargamos los datos con la clave de \ "% s \" y actualice el valor de TextView \\</string>
+  <string name="tuto_file_2_10">Nuestro trabajo es completar el evento \ "% s \"</string>
+  <string name="tuto_file_2_11">Eliminar el valor del componente de archivo con la clave de \ "% s \"</string>
+  <string name="tuto_file_2_12">Let \ &amp;apos; s eliminar los datos con el valor clave de \ "% s \"</string>
+  <string name="tuto_file_2_13">Cosas que probar después de la instalación</string>
+  <string name="tuto_file_2_14">1. Guarde cualquier dato ingresando cualquier dato en EditText y haciendo clic en "guardar" \ n2. Cargue los datos haciendo clic en el botón "cargar" \ n3. Elimine los datos haciendo clic en el botón "eliminar" e intente cargar los datos nuevamente</string>
+  <string name="tuto_file_3_0">Crear una página de inicio de sesión / inicio de sesión con la base de datos local</string>
+  <string name="tuto_file_3_1">Crearemos una página donde podamos suscribirse y login</string>
+  <string name="tuto_file_3_2">El usuario ingresará su nombre de usuario aquí</string>
+  <string name="tuto_file_3_3">Y aquí la contraseña</string>
+  <string name="tuto_file_3_4">Si el usuario intenta iniciar sesión con una cuenta que no existe, les diremos Regístrese primero</string>
+  <string name="tuto_file_3_5">Y si existe una cuenta, le mostraremos un mensaje que dice "Login Success!"</string>
+  <string name="tuto_file_3_6" formatted="false">Hemos proporcionado un componente de archivo \ "% s \" con el nombre de archivo de \ "% s \"</string>
+  <string name="tuto_file_3_7">Vamos a manejar el evento de registro primero</string>
+  <string name="tuto_file_3_9">1. Compruebe si el usuario realmente completó el nombre de usuario y la contraseña \ n2.Si uno de ellos está vacío, muestre un mensaje que indique que deben completar ambos formularios \ n3. Si ambos están completados, verifique si existe el nombre de usuario \ n4. Si no existe, guarde su información de inicio de sesión localmente "</string>
+  <string name="tuto_file_3_10">Dentro de la instrucción if, comprobamos dos condiciones</string>
+  <string name="tuto_file_3_11">Primero, comprobamos si el nombre de usuario tiene texto midiendo y comparando su longitud</string>
+  <string name="tuto_file_3_12">Además, comprobamos si el usuario tecleó algo para la contraseña</string>
+  <string name="tuto_file_3_13">Si uno o ambos no se completan, les decimos que ingresen</string>
+  <string name="tuto_file_3_15">Seleccione el \ "% s \ "EditText</string>
+  <string name="tuto_file_3_16">Aquí, estamos? comprobando si ya existe una cuenta con el mismo nombre de usuario. Queremos que cada nombre de usuario sea único, así que no podemos sobrescribir el nombre de usuario existente</string>
+  <string name="tuto_file_3_17">Dígale al usuario "¡El nombre de usuario ya existe!</string>
+  <string name="tuto_file_3_18">Primero comprobamos si se ha completado el nombre de usuario y la contraseña. Luego, comprobamos si el nombre de usuario ya está tomado. Si no se toma, guarde la información de inicio de sesión en el formato "[clave, valor]", con la clave siendo el nombre de usuario y el valor que es la contraseña</string>
+  <string name="tuto_file_3_19">Vamos a manejar el evento de inicio de sesión ahora</string>
+  <string name="tuto_file_3_20">La lógica es muy similar a la lógica de registro. Verificamos si el usuario ingresó la contraseña y el nombre de usuario, y luego verifica si el nombre de usuario existe en el archivo . Aquí, en cambio, cuando el nombre de usuario expira, intentamos iniciar sesión. Si la contraseña coincide con la contraseña guardada, las iniciamos. Si no se guarda ningún nombre de usuario en el archivo, les decimos que se registren primero</string>
+  <string name="tuto_file_3_21">Tenga en cuenta que hay un bloque "no" para verificar si el nombre de usuario existe</string>
+  <string name="tuto_file_3_22">Mostrar el mensaje% s</string>
+  <string name="tuto_file_3_23">Hay dos casos. Si el nombre de usuario existe, intentamos iniciar sesión; si la contraseña coincide con la que se guardó, logramos iniciar sesión correctamente, de lo contrario, falla. Si el nombre de usuario no existe, alertamos al usuario para que se registre primero</string>
+  <string name="tuto_file_4_0">Recuerde una opción para el próximo lanzamiento</string>
+  <string name="tuto_file_4_1">Cuando se abra la aplicación, recordaremos la entrada anterior y la cargaremos</string>
+  <string name="tuto_file_4_2" formatted="false">Hemos proporcionado un componente de archivo \ "% s \" con el nombre de archivo de \ "% s \"</string>
+  <string name="tuto_file_4_3">Primero intentamos cargar desde el archivo cuando se inicia la aplicación</string>
+  <string name="tuto_file_4_4">1. Compruebe si el valor de verificación existe en el archivo \ n2. Si existe, recupere el valor del valor de comprobación \ n3. Vamos a configurar CheckBox para que se compruebe si el valor es 1, de lo contrario no se marca</string>
+  <string name="tuto_file_4_5">Mantendremos el valor de verificación bajo el nombre de clave de \ "% s \"</string>
+  <string name="tuto_file_4_6">Estamos recuperando el valor con la clave de \ "% s \"</string>
+  <string name="tuto_file_4_7">Compruebe si el valor es igual a \ "% s \"</string>
+  <string name="tuto_file_4_8">Seleccione el \ "% s \ "CheckBox</string>
+  <string name="tuto_file_4_9">Primero comprobamos si existe el valor de verificación en el archivo. Cuando la aplicación se abra por primera vez, no tendrá este valor. \ nSi el valor existe, actualizamos el CheckBox según su valor - 0 o 1</string>
+  <string name="tuto_file_4_10">Guardando CheckBox State</string>
+  <string name="tuto_file_4_11">Manejamos la parte de carga. Ahora, dejemos que \ &amp;apos; s manejemos la parte salvadora</string>
+  <string name="tuto_file_4_12">Guardaremos el nuevo valor de CheckBox cada vez que se actualice</string>
+  <string name="tuto_file_4_13">Establezca la clave como% s</string>
+  <string name="tuto_file_4_14">Cuando el valor del CheckBox se actualice, actualizaremos la clave de "check" dentro del Componente de archivo con el valor de 0 o 1 según el valor de verificación</string>
+  <string name="tuto_calendar_1_0">Recuperar la hora actual y mostrarla con TextView</string>
+  <string name="tuto_calendar_1_1">Permitir \ &amp;apos; s editar el evento "onCreate" para recuperar la hora en que el la aplicación comienza</string>
+  <string name="tuto_calendar_1_2">El componente de calendario \ &amp;apos; s "getNow" bloquea recupera la hora actual</string>
+  <string name="tuto_calendar_1_3">Formato del calendario</string>
+  <string name="tuto_calendar_1_4">El calendario se puede formatear en formatos numéricos. Por ejemplo, \ n \ n1-1-1990 \ n01-01-1990 \ n1 de enero de 1990 \ n \ ntodos los formatos de fecha</string>
+  <string name="tuto_calendar_1_5">Escribe el formato \ "% s \"</string>
+  <string name="tuto_calendar_1_6">Este formato debería mostrar la fecha en el formato de \ "% s \"</string>
+  <string name="tuto_calendar_1_7">Cuando se inicia la aplicación, el bloque "getNow" obtendrá la hora actual. Luego, estableceremos el valor de TextView \ 's en el tiempo formateado</string>
+  <string name="tuto_calendar_1_8">Haz clic en el botón Atrás para volver al editor</string>
+  <string name="tuto_calendar_2_0">Agregar tiempo al componente Calendario</string>
+  <string name="tuto_calendar_2_1">El TextView mostrará el día actual</string>
+  <string name="tuto_calendar_2_2">Cuando hagamos clic en el botón, agregaremos un día al día actual</string>
+  <string name="tuto_calendar_2_3">Vamos a editar el evento "onCreate" para mostrar el día en TextView cuando se inicia la aplicación</string>
+  <string name="tuto_calendar_2_4">Cambia el valor de TextView \ to a la hora actual \ &amp;apos; s valor de día</string>
+  <string name="tuto_calendar_2_5">Selecciona el \ "% s \" TextView</string>
+  <string name="tuto_calendar_2_6">Vamos a volver a la categoría de Componentes</string>
+  <string name="tuto_calendar_2_7">Dado que solo queremos el día, configura el formato como \ "% s \"</string>
+  <string name="tuto_calendar_2_8">Cuando se inicia la aplicación, el componente Calendario recuperará el hora actual y cambiar el valor de TextView al día correspondiente</string>
+  <string name="tuto_calendar_2_9">Permitir editar el botón Agregar día sobre el evento onClick para agregar el día</string>
+  <string name="tuto_calendar_2_11">1. Agregar un día al componente de calendario \ n2. Actualice el valor de TextView \ to los valores actualizados del Calendario</string>
+  <string name="tuto_calendar_2_12">Elija la opción \ "% s \"</string>
+  <string name="tuto_calendar_2_13">Puesto que queremos agregar un día, agregue 24 horas</string>
+  <string name="tuto_calendar_2_14">Siempre que haga clic en el botón, agregará 24 horas hasta el componente Calendario actual y actualice TextView con el nuevo valor del día</string>
+  <string name="tuto_calendar_3_0">Encuentre la diferencia entre dos valores temporales</string>
+  <string name="tuto_calendar_3_1">Vamos a mostrar la diferencia de dos veces aquí</string>
+  <string name="tuto_calendar_3_2">Un componente de calendario puede contener un único valor de tiempo. Proporcionamos dos componentes de calendario para que pueda encontrar la diferencia entre los dos</string>
+  <string name="tuto_calendar_3_3">Vamos a ver el evento "onCreate"</string>
+  <string name="tuto_calendar_3_4">Aquí, ya hemos proporcionado la hora para los dos componentes del Calendario</string>
+  <string name="tuto_calendar_3_5">Primero obtenemos la hora actual para el primer componente del Calendario , \ "% s \"</string>
+  <string name="tuto_calendar_3_6">Entonces, obtenemos la hora actual para el segundo componente del Calendario, \ "% s \"</string>
+  <string name="tuto_calendar_3_7">Por el bien del ejemplo, hemos agregado una segundo adicional al componente de calendario \ "% s \"</string>
+  <string name="tuto_calendar_3_8">Diferencia horaria</string>
+  <string name="tuto_calendar_3_9">Ahora, vamos a encontrar la diferencia entre estos dos componentes del calendario y mostrar el valor en TextView</string>
+  <string name="tuto_calendar_3_10">Seleccione el \ "% s \" TextView</string>
+  <string name="tuto_calendar_3_11">toString Block</string>
+  <string name="tuto_calendar_3_12">Dado que la diferencia es un formato de número, podemos \ &amp;apos; t establecer inmediatamente el texto en el valor de la diferencia. Necesitamos cambiar el formato de "Número" a "Cadena" para que los bloques coincidan</string>
+  <string name="tuto_calendar_3_13">toString sin decimal</string>
+  <string name="tuto_calendar_3_14">La diferencia entre "sin decimal" y "con decimal" es que " sin decimal "mostrará el Número sin ningún punto decimal</string>
+  <string name="tuto_calendar_3_15">Seleccione el componente \"% s \ "Calendario</string>
+  <string name="tuto_calendar_3_16">1. Establezca el componente Calendario" c2 "para que tenga 1 segundo más que el" c1 "Componente del calendario \ n2. Establezca el valor de diferencia de tiempo en el \ "diff \" TextView utilizando el bloque \ "toString \" y \ "Diferencia \" \ n3. La diferencia se mostrará en milisegundos. 1 segundo es equivalente a 1,000 milisegundos</string>
+  <string name="tuto_calendar_4_0">Establecer un valor de tiempo específico</string>
+  <string name="tuto_calendar_4_1">En lugar de recuperar la hora actual, a veces es posible que tengamos que asignar un valor de tiempo específico al componente Calendario</string>
+  <string name="tuto_calendar_4_2">Vamos a \ &amp;apos; s establecer un valor de tiempo específico y mostrarlo en este TextView</string>
+  <string name="tuto_calendar_4_3">Permitir \ &amp;apos; s editar el evento "onCreate" para establecer una hora específica y mostrarla</string>
+  <string name="tuto_calendar_4_4">Seleccionar la opción \ "% s \"</string>
+  <string name="tuto_calendar_4_5">Let \ &amp;apos; s input \ "% s \ "para el año</string>
+  <string name="tuto_calendar_4_6">Let \ &amp;apos; s input \"% s \ "para el mes</string>
+  <string name="tuto_calendar_4_7">A pesar de que ingresamos 0 para el mes, en realidad mostraría enero, ya que los meses comienzan desde 0 en el lenguaje de programación Java</string>
+  <string name="tuto_calendar_4_8">Let \ &amp;apos; s solo muestra el año y el mes ingresando \ "% s \ "</string>
+  <string name="tuto_calendar_4_9">1. Establezca el valor AÑO en 1990 \ n2. Establezca el valor MONTH en 0 (Tenga en cuenta que enero es 0) \ n3. Actualiza TextView con el formato adecuado</string>
+  <string name="tuto_calendar_5_0">Crea una aplicación de reloj digital</string>
+  <string name="tuto_calendar_5_1">Vamos a usar el Calendario para recuperar el tiempo y mostrarlo en este TextView</string>
+  <string name="tuto_calendar_5_2">Hemos proporcionado dos componentes, Temporizador y Calendario, para usted</string>
+  <string name="tuto_calendar_5_3">Vamos a ejecutar el reloj tan pronto como comience la aplicación</string>
+  <string name="tuto_calendar_5_4">1. Usando el bloque "Temporizador... cada", recuperaremos el tiempo cada segundo \ n2 Con el tiempo recuperado, formatearemos el texto y lo mostraremos en TextView</string>
+  <string name="tuto_calendar_5_5">Vamos \ &amp;apos; s iniciar este bloque después de% s ms</string>
+  <string name="tuto_calendar_5_6">Queremos que este bloque para repetir todos los% s ms</string>
+  <string name="tuto_calendar_5_7">Seleccione la tuto_calendar_5_6 \ "% s \" Vista de Texto</string>
+  <string name="tuto_calendar_5_8">tuto_calendar_5_7 Enter "hh: mm: ss" para el formato, ya que queremos que el reloj " horas: minutos: segundos"</string>
+  <string name="tuto_calendar_5_9">tuto_calendar_5_8 1. 'temporizador de cada' bloque recupera el tiempo cada 1 segundo \ n2. Recuperamos la hora actual usando el bloque "Calendario getNow" y actualizar el TextView con el valor recuperado</string>
+  <string name="tuto_calendar_6_0">tuto_calendar_5_9 Crear una aplicación de cuenta regresiva de cumpleaños</string>
+  <string name="tuto_calendar_6_1">tuto_calendar_6_0 Let \ &amp;apos; s primero llenar los datos del hilandero en el "onCreate"</string>
+  <string name="tuto_calendar_6_2">caso tuto_calendar_6_1 en primer lugar, vamos a \ &amp;apos; s crear una lista de cadena denominado \ "% s \"</string>
+  <string name="tuto_calendar_6_3">"Permita que se cree una variable de número llamada \"% s \ "</string>
+  <string name="tuto_calendar_6_4">Esta variable de número se usará para agregar los años de 1990 a 2010 en \"% s \ "</string>
+  <string name="tuto_calendar_6_5">Seleccione el \ "% s \" Variable de número</string>
+  <string name="tuto_calendar_6_6">Puesto que queremos que el año comience a partir de 1990, ingrese "1990" aquí</string>
+  <string name="tuto_calendar_6_7" formatted="false">Puesto que queremos agregar% s años a partir de 1990, "% s \" here</string>
+  <string name="tuto_calendar_6_8">La razón por la cual \ &amp;apos; s 21 es que 1990 se agrega a la lista antes de que aumente "temp_year", a diferencia de los meses</string>
+  <string name="tuto_calendar_6_9">Seleccione la \ "% s \" Lista de cadenas</string>
+  <string name="tuto_calendar_6_10">Seleccione el \ "% s \" Spinner</string>
+  <string name="tuto_calendar_6_11">Seleccione la \ "% s \" Lista</string>
+  <string name="tuto_calendar_6_12">Let \ &amp;apos; s poblar los datos por días ahora</string>
+  <string name="tuto_calendar_6_13">Primero, vamos a \ &amp;apos; s crear una lista String named \ "% s \"</string>
+  <string name="tuto_calendar_6_14">Let \ &amp;apos; s crear una variable de número llamada \ "% s \"</string>
+  <string name="tuto_calendar_6_15">Esta variable de número se usará para agregar los días del 1 al 31 al \ "% s \"</string>
+  <string name="tuto_calendar_6_16">Agregue% s a la condición de repetición</string>
+  <string name="tuto_calendar_6_17">Se utilizarán dos componentes de calendario para calcular la diferencia de dos fechas</string>
+  <string name="tuto_calendar_6_18">Vamos a calcular la diferencia y mostrar la diferencia cuando el cálculo se hace clic en el botón</string>
+  <string name="tuto_calendar_6_19">1. Obtenga la hora actual para c2 Calendar component \ n2. Establezca el año, el mes y el día para el componente Calendario c1 a partir de la entrada del usuario recuperado \ n3. Calcule la diferencia en días y visualícela en TextView</string>
+  <string name="tuto_vibrator_1_0">Vibre su dispositivo por x segundos</string>
+  <string name="tuto_vibrator_1_1">Cuando haga clic en el botón, vibraremos el dispositivo durante 1 segundo</string>
+  <string name="tuto_vibrator_1_2">tuto_vibrator_1_1 Let \ &amp;apos; s botón Editar la \ &amp;apos; s evento de clic para hacer vibrar el dispositivo cuando se hace clic</string>
+  <string name="tuto_vibrator_1_3">tuto_vibrator_1_2 vibrar el dispositivo cuando se hace clic en el botón</string>
+  <string name="tuto_vibrator_1_4">tuto_vibrator_1_3 El primer parámetro determina cómo tiempo que el dispositivo vibrará en milisegundos</string>
+  <string name="tuto_vibrator_1_5" formatted="false">tuto_vibrator_1_4 Como queremos que el dispositivo vibre para% s segundos, deje que \ &amp;apos; s agregar \ "% s \" dentro del parámetro</string>
+  <string name="tuto_timer_1_0">muestran una mensaje después de% s segundos</string>
+  <string name="tuto_timer_1_1">Timer componente se utiliza para retrasar ciertas acciones, o repetir una determinada acción con una duración entre</string>
+  <string name="tuto_timer_1_2">Let \ &amp;apos; s disparar el temporizador dentro del evento "onCreate"</string>
+  <string name="tuto_timer_1_3">Cuando se inicia la aplicación, muestra un mensaje después de% s segundos</string>
+  <string name="tuto_timer_1_4" formatted="false">Let \ &amp;apos; s add \ "% s \ "milisegundos dentro del parámetro, ya que queremos que el bloque se ejecute después de% s segundos</string>
+  <string name="tuto_timer_1_5">Ingresa cualquier valor de cadena que quieras mostrar</string>
+  <string name="tuto_timer_1_6">1. Cuando la aplicación comienza \ n2. El temporizador \ "t \" después de 3000 ms bloque se ejecuta \ n3. ShowMessage dentro del bloque Timer se ejecuta después de 3,000 milisegundos o 3 segundos</string>
+  <string name="tuto_timer_2_0">Crea una Cheetah animadora usando imágenes de Sprite</string>
+  <string name="tuto_timer_2_1">Definición de Sprite</string>
+  <string name="tuto_timer_2_2">Sprite es una hoja de imagen que contiene todos los fotogramas necesarios para una animación para pasar</string>
+  <string name="tuto_timer_2_3">Cheetah Frames</string>
+  <string name="tuto_timer_2_4">En este tutorial, \ &amp;apos; he proporcionado% s fotogramas de un guepardo corriendo para usted</string>
+  <string name="tuto_timer_2_5">tuto_timer_2_4 Let \ &amp;apos; s ahora animar esta imagen con temporizador Componente</string>
+  <string name="tuto_timer_2_6">tuto_timer_2_5 Nosotros \ &amp;apos; re va a empezar a animar la imagen de inmediato cuando se inicia la aplicación</string>
+  <string name="tuto_timer_2_7">tuto_timer_2_6 1. Crear una variable Número que realiza un seguimiento de las cuales marco de la animación está en \ n2. Utilice la \ bloque "Temporizador... cada \" para actualizar la variable de frame cada x milisegundos \ n3. Actualizar la imagen con el nuevo índice de trama</string>
+  <string name="tuto_timer_2_8">tuto_timer_2_7 Crear una variable Número llamado \ "% s \"</string>
+  <string name="tuto_timer_2_9" formatted="false">Gran tuto_timer_2_8! Ha creado una variable de número llamada \ "% s \". El valor por defecto del número de variables a tuto_timer_2_9</string>
+  <string name="tuto_timer_2_10">falsa Let \ &amp;apos; s ejecutar este bloque justo cuando se inicia la aplicación - de entrada% s tuto_timer_2_10</string>
+  <string name="tuto_timer_2_11">También, dejar que \ &amp;apos; s ejecutar este cada bloque cada% s milisegundos</string>
+  <string name="tuto_timer_2_12" formatted="false">Agregue% s al segundo parámetro del bloque \ "% s \"</string>
+  <string name="tuto_timer_2_13" formatted="false">Agregar% s al segundo parámetro del bloque \ "% s \"</string>
+  <string name="tuto_timer_2_14">Vamos a entender por qué necesitamos esta condición antes de seguir</string>
+  <string name="tuto_timer_2_15">Cada vez que se ejecuta el bloque del temporizador, la variable de cuadro aumenta en 1, lo que indica que la imagen debe cambiar al siguiente cuadro. \ NDespués de las actualizaciones de la variable de cuadro, debemos verificar en qué marco está activado y actualizar el cuadro respectivo . Dado que hay 8 cuadros, necesitamos 8 "si... entonces" bloques de condición</string>
+  <string name="tuto_timer_2_16">Queremos actualizar el marco a la primera imagen si el valor del marco es% s</string>
+  <string name="tuto_timer_2_17">Haz clic en "si" "bloque para copiarlo</string>
+  <string name="tuto_timer_2_18">Pon aquí 1 para verificar el primer fotograma</string>
+  <string name="tuto_timer_2_19" formatted="false">Cuando el fotograma es% s, queremos que la imagen cambie a \"% s \ "</string>
+  <string name="tuto_timer_2_20">Let \ &amp;apos; s pegar otro bloque "if then"</string>
+  <string name="tuto_timer_2_21">Conéctelo bajo el primer bloque "si luego"</string>
+  <string name="tuto_timer_2_22">Pon aquí 2 para verificar el segundo fotograma</string>
+  <string name="tuto_timer_2_23">Ponga 3 aquí para verificar el tercer fotograma</string>
+  <string name="tuto_timer_2_24">Ponga 4 aquí para comprobar el cuarto fotograma</string>
+  <string name="tuto_timer_2_25">Ponga 5 aquí para verificar la quinta trama</string>
+  <string name="tuto_timer_2_26">Pon aquí 6 para verificar la sexta trama</string>
+  <string name="tuto_timer_2_27">Pon aquí 7 para comprobar la séptima trama</string>
+  <string name="tuto_timer_2_28">1. Utilizamos el bloque Temporizador para aumentar el " marco "variable por 1 cada 150 ms \ n2. Cuando la variable de cuadro aumenta, 1, 2, 3... 15, utilizamos el bloque restante para obtener solo un resultado entre 1 y 7, sin importar cuán grande sea \ "la variable de cuadro \" \ n3. Usamos el bloque "=" para verificar el valor actual del marco y actualizar el ImageView en consecuencia</string>
+  <string name="tuto_timer_3_0">Crear un cronómetro</string>
+  <string name="tuto_timer_3_1">Hay cinco TextView dentro de este diseño en formato% s</string>
+  <string name="tuto_timer_3_2">Minutos</string>
+  <string name="tuto_timer_3_3">Segundos</string>
+  <string name="tuto_timer_3_4">And Milliseconds</string>
+  <string name="tuto_timer_3_5">Cuando se hace clic en el botón de inicio, comenzaremos el cronómetro</string>
+  <string name="tuto_timer_3_6">Y cuando se presione el botón de detención, haremos una pausa si se ejecuta \ &amp;apos; s borre el cronómetro</string>
+  <string name="tuto_timer_3_7">El componente Temporizador se utiliza para actualizar el TextView cada x milisegundos</string>
+  <string name="tuto_timer_3_8">Los componentes del calendario c1 y c2 se usan para mantener y encontrar diferencias entre dos veces</string>
+  <string name="tuto_timer_3_9">Let \ &amp;apos ; s inicia el cronómetro cuando se hace clic en el botón de inicio</string>
+  <string name="tuto_timer_3_10">1. Cuando se hace clic en el botón, configura la variable booleana "iniciada" como verdadera y obtén la hora actual para el componente c1 Calendar \ n2. Inicie un temporizador que se repite cada milisegundo y obtenga el tiempo para el componente c2 Calendar \ n3. Encuentra la diferencia entre c2 y c1 time \ n4. Calcule los minutos, segundos y milisegundos de la diferencia y actualice TextViews</string>
+  <string name="tuto_timer_3_11">Crear una variable booleana llamada \ "% s \"</string>
+  <string name="tuto_timer_3_12">\ "% s \" La variable booleana nos avisará si el cronómetro se inicia o no</string>
+  <string name="tuto_timer_3_13">Crear una variable de número llamada \ "% s \"</string>
+  <string name="tuto_timer_3_14">\ "% s \" La variable de número se utilizará para mantener la diferencia de tiempo</string>
+  <string name="tuto_timer_3_15">Seleccione la variable booleana \ "% s \"</string>
+  <string name="tuto_timer_3_16">Seleccione el componente \ "% s \" Calendar</string>
+  <string name="tuto_timer_3_17">Let \ &amp;apos; s ejecutar esto después de \ "% s \" ms</string>
+  <string name="tuto_timer_3_18">Repita este bloque de temporizador cada \ "% s \ "milisegundo</string>
+  <string name="tuto_timer_3_19">Seleccione la \"% s \ "Variable de número</string>
+  <string name="tuto_timer_3_20">Seleccione el \"% s \ "TextView</string>
+  <string name="tuto_timer_3_21">Dado que solo queremos los milisegundos, ponga \"% s \ " aquí "</string>
+  <string name="tuto_timer_3_22">Milisegundos Lógica Explicada</string>
+  <string name="tuto_timer_3_23">El bloque" Diferencia "devuelve el tiempo en milisegundos. Digamos que \ &amp;apos; s dice que el valor de la diferencia es 5153 ms - 5153% 1000 sería 153. El"% " bloque caps el valor máximo de milisegundos a 1,000</string>
+  <string name="tuto_timer_3_24">Poner \ "% s \" aquí, ya que queremos calcular los segundos solamente</string>
+  <string name="tuto_timer_3_25" formatted="false">Poner \ "% s \" aquí, ya que queremos ponga un segundo casquillo% s</string>
+  <string name="tuto_timer_3_26" formatted="false">Pon aquí \ "% s \", ya que queremos calcular los minutos, y% s milisegundos igual% s minuto</string>
+  <string name="tuto_timer_3_27" formatted="false">Pon aquí \ "% s \", ya que queremos para poner un% de minutos de límite</string>
+  <string name="tuto_timer_3_28">1. Cuando se hace clic en el botón "inicio", obtenemos el tiempo para el componente de calendario "c1" \ n2. Comenzando el temporizador, recuperamos una nueva hora actual para el componente Calendario \ "c2 \" y encontramos la diferencia \ n3. Luego, analizamos los milisegundos en minutos, segundos y milisegundos</string>
+  <string name="tuto_timer_3_29">Deje que \ &amp;apos; s detener el temporizador cuando se hace clic en el botón de parada</string>
+  <string name="tuto_timer_3_30">1. Compruebe si se inicia el cronómetro \ n2. Si se inicia, detenemos el cronómetro \ n3. Si se detiene, borramos la hora a 0:00:00 y establecemos el booleano "iniciado" en falso</string>
+  <string name="tuto_timer_3_31">Haz clic en el bloque% s</string>
+  <string name="tuto_timer_3_32">Poner \ "% s \" para restablecer los milisegundos</string>
+  <string name="tuto_timer_3_33">Poner \ "% s \" para restablecer los segundos</string>
+  <string name="tuto_timer_3_34">Poner \ "% s \" para restablecer los minutos</string>
+  <string name="tuto_timer_3_35">1. Comprobar si se inicia el cronómetro \ n2 Si se inicia, detenemos el cronómetro \ n3. Si se detiene, borramos la hora a 0:00:00 y establecemos el booleano "iniciado" en falso</string>
+  <string name="tuto_timer_4_0">Aumenta una variable de número en% s por segundo</string>
+  <string name="tuto_timer_4_1">Cuando se inicia la aplicación , aumentaremos este dígito en% s por segundo</string>
+  <string name="tuto_timer_4_2">Let \ &amp;apos; s inicia el temporizador cuando se inicia la aplicación</string>
+  <string name="tuto_timer_4_3">1. Cree una variable de número que hará un seguimiento del valor numérico actual \ n2. Usando el bloque "Timer every", aumentaremos la variable Number y actualizaremos TextView</string>
+  <string name="tuto_timer_4_4">Crear una variable de número llamada \ "% s \"</string>
+  <string name="tuto_timer_4_5">You \ &amp;apos; ve creó con éxito una variable de número. Su valor predeterminado es% s</string>
+  <string name="tuto_timer_4_6">Let \ &amp;apos; s ejecutar el temporizador después de \ "% s \" ms</string>
+  <string name="tuto_timer_4_7">Dado que queremos aumentar el valor numérico cada segundo, ponemos \ "% s \" ms</string>
+  <string name="tuto_timer_4_8">Seleccione la \ "% s \" Variable de número</string>
+  <string name="tuto_timer_4_9">Seleccione el \ "% s \" TextView</string>
+  <string name="tuto_timer_4_10">1. Una vez que se inicia la aplicación, se ejecuta el bloque "Temporizador cada" cada 1000 ms o 1 segundo \ n2. Usando la variable numérica \ "num \", hacemos un seguimiento del valor creciente del dígito \ n3. Como las variables de número están en formato numérico, usamos el bloque "toString" para convertir el tipo de número en String antes de actualizar TextView</string>
+  <string name="tuto_sound_media_1_0">Agregar y reproducir un archivo de sonido</string>
+  <string name="tuto_sound_media_1_1">SoundPool vs MediaPlayer</string>
+  <string name="tuto_sound_media_1_2">"- SoundPool Component se utiliza para cargar y reproducir archivos de sonido cortos, como un efecto de sonido \ n- MediaPlayer Component se utiliza para reproducir archivos de sonido más largos, como una música de fondo</string>
+  <string name="tuto_sound_media_1_3">Usaremos este botón para reproducir el sonido con SoundPool Component</string>
+  <string name="tuto_sound_media_1_4">Usaremos este botón para reproducir el sonido con MediaPlayer Component</string>
+  <string name="tuto_sound_media_1_5">Adición de sonido</string>
+  <string name="tuto_sound_media_1_6">Primero, vamos a \ Además, intenta agregar un archivo de sonido. Descarga y prepara un archivo de sonido para cargar</string>
+  <string name="tuto_sound_media_1_7">Sound Manager</string>
+  <string name="tuto_sound_media_1_8">Puedes agregar y administrar archivos de sonido con Sound Manager</string>
+  <string name="tuto_sound_media_1_9">Vamos a intentar reproducir el archivo de sonido con SoundPool Component</string>
+  <string name="tuto_sound_media_1_11">SoundPool Explained</string>
+  <string name="tuto_sound_media_1_12">Reproducción de un sonido con el componente SoundPool se divide en 4 etapas: \ n1. Crear un grupo que puede contener un número x de sonidos \ n2. Crear una variable Número y cargar el ID del sonido en la variable \ n3. Crea otra variable de número que reproduce el sonido y contiene la "ID de reproducción"</string>
+  <string name="tuto_sound_media_1_13">Let \ &amp;apos; s primero crea el grupo en el evento "onCreate"</string>
+  <string name="tuto_sound_media_1_14" formatted="false">Dado que solo tenemos el archivo de sonido% s, vamos a \ &amp;apos; s agregar \ "% s \" aquí</string>
+  <string name="tuto_sound_media_1_15">false tuto_sound_media_1_14 Let \ &amp;apos; s crean la variable Número que puede contener el ID del sonido</string>
+  <string name="tuto_sound_media_1_16">tuto_sound_media_1_15 Crear una variable Número llamado \ "% s \"</string>
+  <string name="tuto_sound_media_1_18">% s se utilizará para cargar el archivo de sonido</string>
+  <string name="tuto_sound_media_1_19">% s se usará para reproducir el archivo de sonido</string>
+  <string name="tuto_sound_media_1_20">Let \ &amp;apos; s ahora carga la ID del sonido en la variable Número que \ &amp;apos; ve acaba de crear</string>
+  <string name="tuto_sound_media_1_21">Seleccione la \ "% s \" Variable de número</string>
+  <string name="tuto_sound_media_1_22">Seleccione el archivo de sonido \ "% s \" que ha agregado anteriormente</string>
+  <string name="tuto_sound_media_1_23">Let \ &amp;apos; s ahora edita el botón onClick on evento para reproducir el sonido cuando se hace clic</string>
+  <string name="tuto_sound_media_1_24">Haga clic en play_soundspool \ &amp;apos; s evento onClick</string>
+  <string name="tuto_sound_media_1_25">Puedes determinar cuántas veces se reproducirá el sonido aquí. Por defecto, se reproduce una vez. Deje que \ &amp;apos; s agregue% s aquí</string>
+  <string name="tuto_sound_media_1_26">La razón por la que SoundPool requiere que se cree una variable Número para almacenar el ID de reproducción es asegurarse de que puede detener el sonido si lo necesita, usando la ID</string>
+  <string name="tuto_sound_media_1_27">Tenga en cuenta que hay un bloque de detención que puede detener el sonido utilizando el ID de reproducción cuando sea necesario</string>
+  <string name="tuto_sound_media_1_28">SoundPool es para Sonidos Cortos</string>
+  <string name="tuto_sound_media_1_29">El sonido que has añadido puede o no ser reproducido, ya que SoundPool solo puede reproducir archivos de sonido cortos</string>
+  <string name="tuto_sound_media_1_30">Vamos a jugar igual archivo de sonido con el componente MediaPlayer</string>
+  <string name="tuto_sound_media_1_31">Ahora, deje que \ &amp;apos; intente reproducir el sonido con MediaPlayer Component</string>
+  <string name="tuto_sound_media_1_32">MediaPlayer Explicated</string>
+  <string name="tuto_sound_media_1_33">"El procedimiento del Componente MediaPlayer se divide en 2 pasos: \ n1. Crea un MediaPlayer que puede contener 1 sonido \ n2. Reproduce MediaPlayer \ nTenga en cuenta que MediaPlayer no necesita una variable Número para operar, pero requiere más memoria del sistema</string>
+  <string name="tuto_sound_media_1_34">Permita que \ &amp;apos; s cree el MediaPlayer que puede contener un sonido dentro del evento "onCreate"</string>
+  <string name="tuto_sound_media_1_35">Seleccione el archivo de sonido \ "% s \" que desea subido previamente</string>
+  <string name="tuto_sound_media_1_36">Ahora, vamos a reproducir el sonido cuando se hace clic en el botón</string>
+  <string name="tuto_sound_media_1_37">1. SoundPool Component se usa para reproducir sonidos cortos; es posible que el sonido no se reproduzca si el archivo de sonido también está largo. \ nTiene que crear DOS variables de número para cargar el sonido y reproducir el sonido \ n2. MediaPlayer Component se utiliza para reproducir sonidos más largos. No necesita una variable de número, pero utiliza más memoria del sistema</string>
+  <string name="tuto_sound_media_2_0">Reproducción y pausa de sonidos</string>
+  <string name="tuto_sound_media_2_1">Puedes agregar y administrar archivos de sonido con Sound Manager</string>
+  <string name="tuto_sound_media_2_2">Aquí, hemos proporcionado una canción llamada \ "% s \" para que la uses</string>
+  <string name="tuto_sound_media_2_3">Siempre que hagamos clic en el botón "Reproducir", comenzará a reproducir la música</string>
+  <string name="tuto_sound_media_2_4">Cada vez que hagamos clic en el botón "Pausa", hará una pausa en la música</string>
+  <string name="tuto_sound_media_2_5">También hemos proporcionado el Componente MediaPlayer \ " % s \ "para usted</string>
+  <string name="tuto_sound_media_2_6">Permita que \ &amp;apos; s cree el MediaPlayer dentro del evento" onCreate "</string>
+  <string name="tuto_sound_media_2_7">Seleccione la tuto_sound_media_2_6 \ archivo de sonido "% s \"</string>
+  <string name="tuto_sound_media_2_8">tuto_sound_media_2_7 Let \ &amp;apos; s reproducir el sonido cuando el "juego" se hace clic en el botón, y dejar que \ &amp;apos; s hacer una pausa en el sonido cuando la "pausa "se hace clic en el botón</string>
+  <string name="tuto_sound_media_2_9">tuto_sound_media_2_8 Let \ &amp;apos; s de editar el botón play \ &amp;apos; s evento de clic</string>
+  <string name="tuto_sound_media_2_11">tuto_sound_media_2_9 Let \ &amp;apos; s editar botón de pausa \ &amp;apos; s evento de clic</string>
+  <string name="tuto_sound_media_2_12">1. Creamos el MediaPlayer con el archivo de sonido apropiado dentro del evento "onCreate" \ n2. Cuando se hace clic en el botón de reproducción, se juega el archivo de sonido utilizando la \ "MediaPlayer inicio \" bloqueo \ n3. Cuando se hace clic en el botón de pausa, hacemos una pausa el archivo de sonido utilizando el bloque "MediaPlayer pausa"</string>
+  <string name="tuto_sound_media_3_0">tuto_sound_media_2_12 bucle Infinitamente un archivo de sonido</string>
+  <string name="tuto_sound_media_3_1">tuto_sound_media_3_0 Puede añadir y gestionar archivos de sonido con el Administrador de sonido</string>
+  <string name="tuto_sound_media_3_2">tuto_sound_media_3_1 aquí, \ &amp;apos; hemos proporcionado una canción que se llama \ "% s \" para que pueda utilizar</string>
+  <string name="tuto_sound_media_3_3">tuto_sound_media_3_2 Let \ &amp;apos; s de editar el evento "onCreate" para reproducir el sonido y la puso en bucle</string>
+  <string name="tuto_sound_media_3_4">A diferencia del componente SoundPool, MediaPlayer Component tiene características más interesantes, como "configurar bucle", "obtener duración de la canción", y más</string>
+  <string name="tuto_sound_media_3_5">Seleccione el archivo de sonido \ "% s \" antes que usted uploaded</string>
+  <string name="tuto_sound_media_3_6">1. Cree un componente MediaPlayer \ n2. Cargue el sonido en MediaPlayer \ n3. Establecer bucle a verdadero \ n4. Inicie MediaPlayer</string>
+  <string name="tuto_sound_media_4_0">Obteniendo la duración de la canción</string>
+  <string name="tuto_sound_media_4_1">Puedes agregar y administrar archivos de sonido con Sound Manager</string>
+  <string name="tuto_sound_media_4_2">Aquí, hemos proporcionado una canción llamada \ "% s \" para que la uses</string>
+  <string name="tuto_sound_media_4_3">La duración de la canción es de 18 segundos (~ 18,000 milisegundos)</string>
+  <string name="tuto_sound_media_4_4">Recuperaremos y mostraremos la duración total de la canción aquí</string>
+  <string name="tuto_sound_media_4_5">Vamos a recuperar la duración de la canción aquí canción cuando se inicia la aplicación</string>
+  <string name="tuto_sound_media_4_6">Seleccione el archivo de sonido \ "% s \"</string>
+  <string name="tuto_sound_media_4_7">Seleccione el \ "% s \" TextView</string>
+  <string name="tuto_sound_media_4_8">Cuando se inicia la aplicación, primero carga el sonido " tobu_mesmerize "en el componente MediaPlayer. \ nA continuación, recuperamos la duración de la canción (en milisegundos) y actualizamos TextView</string>
+  <string name="tuto_sound_media_5_0">Crea un pian de 3 teclas</string>
+  <string name="tuto_sound_media_5_1">Explicación del diseño</string>
+  <string name="tuto_sound_media_5_2">Pasaremos paso a paso y entenderemos cómo está diseñada esta aplicación</string>
+  <string name="tuto_sound_media_5_3">Muchos diseños diferentes están posicionados dentro de este diseño, que tiene la altura de 200dp</string>
+  <string name="tuto_sound_media_5_4">Hemos configurado la gravedad de la disposición superior e inferior en "center_horizontal" para que las teclas se alineen con el centro "</string>
+  <string name="tuto_sound_media_5_5">Las teclas son widgets de" botón "con blanco o negro background</string>
+  <string name="tuto_sound_media_5_6">Tienen un ancho de 50dp y alto de 100dp</string>
+  <string name="tuto_sound_media_5_7">Para la tecla central, le damos un margen de 4dp a la izquierda y la derecha para que tenga un poco de espacio entre las llaves</string>
+  <string name="tuto_sound_media_5_8">Lo mismo se aplica a las teclas negras</string>
+  <string name="tuto_sound_media_5_9">Archivos de sonido del piano</string>
+  <string name="tuto_sound_media_5_11">Hemos proporcionado cinco archivos de sonido diferentes \ n \ nc1, c1s (tecla negra), d1, d1s ( tecla negra) y e1</string>
+  <string name="tuto_sound_media_5_12">En esta aplicación, solo usamos el componente SoundPool. La razón por la que usamos SoundPool en lugar de MediaPlayer es que los sonidos de piano son relativamente cortos</string>
+  <string name="tuto_sound_media_5_13">Vamos a analizar el evento "onCreate"</string>
+  <string name="tuto_sound_media_5_14">Dentro del evento "onCreate", inicializamos el SoundPool y cargamos archivos de sonido apropiados</string>
+  <string name="tuto_sound_media_5_15" formatted="false">Hay% s variables de número disponibles. Las variables que terminan con \ "% s \" se utilizan para cargar el sonido</string>
+  <string name="tuto_sound_media_5_16">Las variables que finalizan con \ "% s \" se utilizan para reproducir el sonido</string>
+  <string name="tuto_sound_media_5_17" formatted="false">Inicializamos el archivo SoundPool con flujo de% s cuenta. Esto nos permite cargar% s archivos de sonido en SoundPool</string>
+  <string name="tuto_sound_media_5_18">Tenga en cuenta que necesitamos usar el bloque "establecer número a" para cargar y reproducir los archivos de sonido cuando se utiliza el componente SoundPool</string>
+  <string name="tuto_sound_media_5_19">Aquí, cargamos los archivos de sonido con el bloque "SoundPool load"</string>
+  <string name="tuto_sound_media_5_20">Tenga en cuenta que diferentes archivos de sonido se cargan en diferentes variables de Número</string>
+  <string name="tuto_sound_media_5_21">Vamos a completar los parámetros que faltan en el último bloque "Definir número a"</string>
+  <string name="tuto_sound_media_5_22">Seleccione el \ "% s \" Variable de número</string>
+  <string name="tuto_sound_media_5_23">Seleccione el archivo de sonido \ "% s \"</string>
+  <string name="tuto_sound_media_5_24">Reproducción de sonidos</string>
+  <string name="tuto_sound_media_5_25">"Ahora, vamos a entender cómo se reproducen los archivos de sonido</string>
+  <string name="tuto_sound_media_5_26">Hay diferentes eventos de Button onClick disponibles, uno para cada tecla</string>
+  <string name="tuto_sound_media_5_27">Let \ \ npuede reproducir el sonido de la tecla \ "% s \" cuando se hace clic</string>
+  <string name="tuto_sound_media_5_28">Al igual que para cargar el sonido, el bloque "set to" también se usa para reproducir el sonido</string>
+  <string name="tuto_sound_media_5_29">Primero, seleccionamos la variable Number apropiada que termina en \ "% s \"</string>
+  <string name="tuto_sound_media_5_30" formatted="false">Como esto es para el evento onClick para \ "% s \", seleccione \ "% s \"</string>
+  <string name="tuto_sound_media_5_31">Luego necesitamos el bloque "SoundPool play" para reproducir el archivo de sonido</string>
+  <string name="tuto_sound_media_5_32">Let \ &amp;apos; s haz que juegue una vez poniendo 0 aquí</string>
+  <string name="tuto_sound_media_5_33">La lógica para otros eventos clave son idénticos, por lo que \ &amp;apos; ha sido completada por usted</string>
+  <string name="tuto_sound_media_5_34">1. Creamos 10 variables de número, 5 con el sufijo "_sound" y 5 con " _play2. Se usaron variables "sonoras" para cargar el sonido en el evento "onCreate", y se usaron variables "_play" para reproducir el sonido en la tecla. evento onClick</string>
+  <string name="tuto_sound_media_7_0">Diseñar un reproductor de música</string>
+  <string name="tuto_sound_media_7_1">Hemos proporcionado% s imágenes para ti</string>
+  <string name="tuto_sound_media_7_2">Tobu - Mesmerize album art</string>
+  <string name="tuto_sound_media_7_3">Botón de reproducción</string>
+  <string name="tuto_sound_media_7_4">Botón de pausa</string>
+  <string name="tuto_sound_media_7_5">Botón de avance rápido</string>
+  <string name="tuto_sound_media_7_6">Rebobinado button</string>
+  <string name="tuto_sound_media_7_7">Primero, cambiamos la propiedad de color de fondo del diseño que contiene todos los otros widgets</string>
+  <string name="tuto_sound_media_7_8">Hay dos diseños lineales (V): este es el primero con la gravedad centrada</string>
+  <string name="tuto_sound_media_7_9">Aplicamos la carátula del álbum a ImageView</string>
+  <string name="tuto_sound_media_7_11">Hemos agregado la música y el título del artista usando un TextView</string>
+  <string name="tuto_sound_media_7_12">Este es el segundo diseño, con la gravedad centrada también</string>
+  <string name="tuto_sound_media_7_13">Esta disposición horizontal está dentro del segundo diseño, con tres ImageViews</string>
+  <string name="tuto_sound_media_7_14">En este tutorial, solo nos ocuparemos del botón "play"</string>
+  <string name="tuto_sound_media_7_15">Let \ &amp;apos; s cargar primero canción en MediaPlayer cuando se inicia la aplicación</string>
+  <string name="tuto_sound_media_7_16">Cargar la canción \ "% s \" en el componente MediaPlayer</string>
+  <string name="tuto_sound_media_7_17">Seleccionar la canción \ "% s \"</string>
+  <string name="tuto_sound_media_7_18">Entonces, vamos a \ &amp;apos ; s reproducir el sonido cuando se hace clic en el botón de reproducción</string>
+  <string name="tuto_sound_media_7_19">1. Compruebe si la canción ya está en reproducción \ n2. Si reproduce, pause la canción y cambie el icono para reproducir el icono \ n3. De lo contrario, reproduzca la canción y cambie el icono para detener el icono</string>
+  <string name="tuto_sound_media_7_20">Cree una variable booleana llamada \ "% s \"</string>
+  <string name="tuto_sound_media_7_21">¡Genial! Usamos esta variable para verificar si la canción está sonando o no. Su valor predeterminado es "falso"</string>
+  <string name="tuto_sound_media_7_22">Seleccione el \ "% s \" ImageView</string>
+  <string name="tuto_sound_media_7_23">Seleccione la \ "% s \" image</string>
+  <string name="tuto_sound_media_7_24">Seleccione la variable booleana \ "% s \"</string>
+  <string name="tuto_sound_media_7_25">1. Compruebe si la canción ya está en reproducción \ n2. Si reproduce, pause la canción y cambie el icono para reproducir el icono \ n3. De lo contrario, reproduzca la canción y cambie el icono para detener el icono</string>
+  <string name="tuto_object_animator_1_0">Rotar un widget con Object Animator Component</string>
+  <string name="tuto_object_animator_1_1">¿Qué es Object Animator?</string>
+  <string name="tuto_object_animator_1_2">Object Animator se usa para hacer la creación de animaciones más simple. En lugar de usar temporizadores, ahora podemos usar el componente de animador de objetos para animar los widgets</string>
+  <string name="tuto_object_animator_1_3">Nosotros \ &amp;apos; vamos a rotar este TextView usando Object Animator</string>
+  <string name="tuto_object_animator_1_4">El componente ObjectAnimator se ha agregado</string>
+  <string name="tuto_object_animator_1_5">Let \ &amp;apos; s animar el TextView cuando se inicia la aplicación</string>
+  <string name="tuto_object_animator_1_6">Logic Goal</string>
+  <string name="tuto_object_animator_1_7">Usar el componente ObjectAnimator para animar TextView</string>
+  <string name="tuto_object_animator_1_8">Hacer clic en la categoría de Componentes</string>
+  <string name="tuto_object_animator_1_9">Logic Goal</string>
+  <string name="tuto_object_animator_1_10">Logic Goal</string>
+  <string name="tuto_algorithm_1_0">Intercambiar valores de dos valores de texto</string>
+  <string name="tuto_algorithm_1_1">Después del intercambio de valor, el texto se mostrará como \ n \ nB \ nA</string>
+  <string name="tuto_algorithm_1_2">Let \ &amp;apos; s intercambian los dos valores cuando se hace clic en el botón \ "swap \"</string>
+  <string formatted="false" name="tuto_algorithm_1_3">1. Cree una variable temporal que contenga el valor de \ "% s \" \ n2. Cambie el valor de \ "% s \" a \ "% s \" \ n3. Establezca el valor de \ "% s \" en \ "% s \"</string>
+  <string name="tuto_algorithm_1_4">Cree una variable String llamada \ "% s \"</string>
+  <string name="tuto_algorithm_1_5">Para intercambiar dos valores, necesitamos para crear un marcador de posición temporal que puede contener temporalmente un valor mientras hacemos el intercambio</string>
+  <string name="tuto_algorithm_2_0">Imprimir un triángulo de asteriscos</string>
+  <string name="tuto_algorithm_2_1">Vamos a mostrar el trinagle a través de la vista de texto proporcionada</string>
+  <string name="tuto_algorithm_2_2">Let \ &amp;apos; s generar el trinagle de asteriscos en el evento onCreate</string>
+  <string name="tuto_algorithm_2_3">Queremos adquirir una tringle de asteriscos que se vea así: \ n * \ n ** \ n *** \ n **** \ n *** **</string>
+  <string name="tuto_algorithm_2_4">Crear una variable de número llamada \ "% s \"</string>
+  <string name="tuto_algorithm_2_5">Esta variable de número nos ayudará a llevar un registro de cuántos asteriscos se imprimirán en cada fila</string>
+  <string name="tuto_algorithm_2_6">Ajustamos i a 1, ya que queremos imprimir un * en la primera fila</string>
+  <string name="tuto_algorithm_2_7">Haz clic en la categoría Control</string>
+  <string name="tuto_algorithm_2_8">Haz clic en la categoría Variable</string>
+  <string name="tuto_algorithm_2_9">Crea una variable String llamada \ "% s \"</string>
+  <string name="tuto_algorithm_2_10">Selecciona el \ "% s \" block</string>
+  <string name="tuto_algorithm_2_11">Usamos dos bloques de repetición \ n1. El primer bloque de repetición se utiliza para determinar cuántas filas de * queremos imprimir al agregar una nueva línea a cada bucle \ n2. El bloque de repetición dentro del bloque de repetición se utiliza para imprimir cada fila \ n
+3. El bucle interno se repite \ "i \" veces, que se incrementa en el bucle de repetición externo. Esto nos permite adquirir la impresión de aspecto triangular \ n4. Finalmente, establecemos el TextView en el texto en el que estamos participando</string>
+  <string name="tuto_algorithm_2_12">\ "stars \" La variable contendrá el valor de lo que queremos imprimir</string>
+  <string name="tuto_algorithm_3_0">Calcular si el número es par o impar</string>
+  <string name="tuto_algorithm_3_1">Después de que el usuario ingrese una entrada numérica y haga clic en el botón, brindaremos \ "even \" o \ "odd \"</string>
+  <string name="tuto_algorithm_3_2">Vamos a hacer el cálculo cuando se hace clic en el botón</string>
+  <string name="tuto_algorithm_3_3">Los números pares son números que son divisibles por 2. Para comprobar si la entrada es pareja, solo necesitamos verificar si hay quedan restos cuando el número se divide por 2</string>
+  <string name="tuto_algorithm_3_4">Cuando hay un resto, vamos a tostar \ "impar \"</string>
+  <string name="tuto_algorithm_3_5">Cuando no hay resto, haremos tostadas \"incluso\"</string>
+  <string name="tuto_algorithm_3_6">Decidimos si el número está incluso calculando si la entrada tiene algún residuo después de que se divide por 2</string>
+  <string name="tuto_algorithm_3_7">Desafío</string>
+  <string name="tuto_algorithm_3_8">La aplicación puede fallar si no ingresas ningún número. Intenta crear otra instrucción if que te ayude a comprobar si el EditText tiene alguna entrada</string>
+  <string name="tuto_algorithm_4_0">Invertir los elementos en la lista</string>
+  <string name="tuto_algorithm_4_1">El ListView proporcionado mostrará los elementos dentro de la lista</string>
+  <string name="tuto_algorithm_4_2">Cuando se presiona el botón Invertir, el contenido de la lista se invertirá</string>
+  <string name="tuto_algorithm_4_3">Vamos a ver el evento onCreate</string>
+  <string name="tuto_algorithm_4_4">Nosotros ya hemos creado y poblado tres elementos en una lista de String, \ "a, b, c \"</string>
+  <string name="tuto_algorithm_4_5">Vamos a invertir la lista dentro del botón inverso \ &amp;apos; s onClick evento</string>
+  <string name="tuto_algorithm_4_6">1. Cree una nueva lista de cadenas \ n2. Itere la lista existente y copie los elementos de forma inversa \ n3.Actualice la vista de lista con el nuevo contenido</string>
+  <string name="tuto_algorithm_4_7">Crea una lista de cadenas llamada \ "% s \"</string>
+  <string name="tuto_algorithm_4_8">Crea una variable de número llamada \ "% s \"</string>
+  <string name="tuto_algorithm_4_9">Inicialmente eliminamos la lista, de modo que incluso cuando el botón inverso se hace clic varias veces, la \ "r_list \" comienza con el mismo estado en blanco cada vez. Creamos una variable de número denominada índice, que nos ayudará a repetir la lista original a partir del último elemento.</string>
+  <string name="tuto_algorithm_4_10">Crear una variable de número llamada \ "% s \"</string>
+  <string name="tuto_algorithm_4_11">Ajustamos el índice a \ "tamaño - 1 \", ya que el índice del primer elemento de una lista comienza con 0, y nosotros Quería comenzar desde el último elemento. Dado que el tamaño de la lista es 3, queremos comenzar desde el índice 2, que es el índice del último ítem. \ N \ n
+Usando el bloque de repetición, iteraremos desde el último ítem dentro de \ "list1 \ ", y agréguelos a \" r_list \ ". Reducimos la variable de índice en 1 cada iteración para obtener el elemento anterior en \ "list1 \".</string>
+  <string name="tuto_algorithm_4_12">Luego, restablecemos los datos para el ListView y lo actualizamos, para que el ListView pueda mostrar los nuevos datos de \ "r_list \"</string>
+  <string name="tuto_algorithm_5_0">Crear una baraja de naipes</string>
+  <string name="tuto_algorithm_5_1">The siempre que ListView muestre las tarjetas después de que se hayan generado</string>
+  <string name="tuto_algorithm_5_2">Vamos a generar \ y aparezca el ListView cuando se inicie la aplicación</string>
+  <string name="tuto_algorithm_5_3">En las cartas, hay cuatro palos y 13 cartas para cada suite. En el mazo que vamos a crear, denotaremos las suites con números: \ n
+1. Diamantes - 0 \ n2. Corazones - 1 \ n3. Picas - 2 \ n4. Clubs - 3 \ n \ nPor ejemplo, un As de espadas se denotaría como 20, en formato de número de tarjeta de visita</string>
+  <string name="tuto_algorithm_5_4">Crear una variable de Número llamada \ "% s \"</string>
+  <string name="tuto_algorithm_5_5">Establezca el valor a \ "% s \" para el número de juegos</string>
+  <string name="tuto_algorithm_5_6">Establezca el valor a \ "% s \" para el número de tarjetas</string>
+  <string name="tuto_algorithm_5_7">Crear una lista de cadenas llamada \ "% s \"</string>
+  <string name="tuto_algorithm_5_8">El bucle de repetición interno se repite 13 veces cada vez que ocurre un bucle de repetición externo. Añadimos 13 cartas diferentes con cada repetición de juego, y restablece el valor de la carta a 0 para que el otro palo también obtenga las mismas 13 cartas</string>
+  <string name="tuto_algorithm_5_9">Hemos creado con éxito 52 cartas. El formato en el que se muestran las tarjetas puede ser un poco funky, pero en el mundo de la programación, a veces es necesario usar varios formatos de datos para diferentes situaciones \ n \ n
+El primer dígito indica qué traje es , y el siguiente número indica el número de la tarjeta. Por ejemplo, 09 sería un Jack of Diamonds, ya que el primer artículo comienza con el índice 0</string>
+  <string name="tuto_algorithm_6_0">Baraja una baraja de naipes</string>
+  <string name="tuto_algorithm_6_1">Prerrequisito</string>
+  <string name="tuto_algorithm_6_2">Si tiene \ &amp;apos; t, complete el tutorial anterior, ya que se trata de un tutorial acumulativo</string>
+  <string name="tuto_algorithm_6_3">Usaremos este ListView para mostrar el mazo barajado</string>
+  <string name="tuto_algorithm_6_4">We \ Ya se ha proporcionado la lógica para el evento onCreate</string>
+  <string name="tuto_algorithm_6_5">La lógica es la misma que en el tutorial anterior, excepto que hemos creado una nueva función MoreBlock llamada \ "shuffleDeck \"</string>
+  <string name="tuto_algorithm_6_6">Let \ &amp;apos; s edite la función shuffleDeck para mezclar el deck y llenar ListView</string>
+  <string name="tuto_algorithm_6_7">1. Cree una nueva lista llamada \ "s_deck \" \ n2. Elija aleatoriamente 1 tarjeta de la lista \ "deck \" y cópiela en \ "s_deck \"</string>
+  <string name="tuto_algorithm_6_8">Cree una variable de número llamada \ "% s \"</string>
+  <string name="tuto_algorithm_6_9">Cree una lista de cadenas llamada \ " % s \ "</string>
+  <string name="tuto_algorithm_6_10">Establezca el valor en \"% s \ ", ya que hay 52 cartas en el mazo</string>
+  <string name="tuto_algorithm_6_11">Tenga en cuenta que restamos 1, ya que el primer elemento dentro de la lista comienza con el índice de 0, lo que significa que el índice del último elemento siempre será la longitud - 1</string>
+  <string name="tuto_algorithm_6_12">Durante los 52 bucles de repetición, generamos una variable de número aleatorio que toma un índice aleatorio de 0 a la longitud de la lista de mazos: 1. Usando el índice, copiamos la tarjeta de la lista de mazos a la lista de s_deck, y la eliminamos del mazo
+lista para que la misma tarjeta no se copie sobre</string>
+  <string name="tuto_algorithm_7_0">Cuente cuántas veces se repite la palabra \ "a \" en una oración</string>
+  <string name="tuto_algorithm_7_1">Aquí, hemos proporcionado un TextView con el texto de \ "abcaa \", creamos un algoritmo que cuenta cuántas veces \ "a \" ha repetido</string>
+  <string name="tuto_algorithm_7_2">Nosotros calculamos y mostramos el recuento cuando se inicia la aplicación</string>
+  <string name="tuto_algorithm_7_3">Go a través de cada carácter usando un bucle for</string>
+  <string name="tuto_algorithm_7_4">Hemos proporcionado 4 variables para ti</string>
+  <string name="tuto_algorithm_7_5">\ "% s \" nos ayudará a iterar a través de cada carácter</string>
+  <string name="tuto_algorithm_7_6">\ "% s \" será una variable temporal que contiene/actualiza cada palabra</string>
+  <string name="tuto_algorithm_7_7">\ "% s \" mantendrá temporalmente el valor de cada carácter que se repite a través de</string>
+  <string name="tuto_algorithm_7_8">\ "% s \" mantendrá el recuento de cuántas veces ha aparecido \ "a \"</string>
+  <string name="tuto_algorithm_7_9">Guarda un personaje en la variable \ "carácter \"</string>
+  <string name="tuto_algorithm_7_10">Verifica si el personaje es un espacio vacío. \ N1. Si el personaje no es un espacio vacío, únase al personaje a la variable \ "palabra \" haciendo \ "palabra \" join \ "palabra + carácter \" \ n
+2. Si el personaje es un espacio vacío , comprueba si la palabra es igual a \ "a \". Si \ &amp;apos; s igual, incremento de conteo. Finalmente, restablezca la variable \ "palabra \"</string>
+  <string name="tuto_algorithm_7_11">1. Únete al personaje en word hasta llegar a un espacio vacío \ n 2. Si la palabra es igual a \ "a \", incrementa el conteo \ n 3. Restablece la variable word a una cadena vacía e incrementa el índice \ n 4. Brindar el número de cuenta que sucedió</string>
+</resources>
