@@ -5,7 +5,7 @@
         - [Option 1: I already have downloaded the translated strings.xml file.](#option-1-i-already-have-downloaded-the-translated-stringsxml-file)
         - [Option 2: I don't have the strings.xml file, and I have to translate it.](#option-2-i-dont-have-the-stringsxml-file-and-i-have-to-translate-it)
     - [I Want to Contribute!](#i-want-to-contribute)
-        - [<a name="lang-option1"></a> Option 1: Language file exists inside this repository. I found an error or  want to improve it](#a-namelang-option1a-option-1-language-file-exists-inside-this-repository-i-found-an-error-or-want-to-improve-it)
+        - [Option 1: Language file exists inside this repository. I found an error or  want to improve it](#lang-option1)
         - [Option 2: Language file doesn't exist, I want to translate it](#option-2-language-file-doesnt-exist-i-want-to-translate-it)
 
 
