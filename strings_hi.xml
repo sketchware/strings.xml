@@ -1,0 +1,2132 @@
+<resources>
+  <string name="property_header_layout">लेआउट गुण</string>
+  <string name="property_header_text">पाठ गुण</string>
+  <string name="property_header_image">छवि गुण</string>
+  <string name="property_header_view">गुण देखें</string>
+  <string name="property_header_seekbar">SeekBar गुण</string>
+  <string name="property_layout_width">लेआउट_विधि</string>
+  <string name="property_layout_height">layout_height</string>
+  <string name="property_orientation">अभिविन्यास</string>
+  <string name="property_text_size">text_size</string>
+  <string name="property_text_style">text_style</string>
+  <string name="property_input_type">input_type</string>
+  <string name="property_ime_option">ime_option</string>
+  <string name="property_spinner_mode">spinnerMode</string>
+  <string name="property_scale_type">पैमाने_प्रकार</string>
+  <string name="property_resource">संसाधन</string>
+  <string name="property_gravity">गुरुत्वाकर्षण</string>
+  <string name="property_layout_gravity">लेआउट_ग्राविटी</string>
+  <string name="property_single_line">एकल_लाइन</string>
+  <string name="property_lines">पंक्तियाँ</string>
+  <string name="property_enabled">सक्षम</string>
+  <string name="property_clickable">क्लिक करने योग्य</string>
+  <string name="property_checked">चेक</string>
+  <string name="property_text_color">text_color</string>
+  <string name="property_hint_color">hint_color</string>
+  <string name="property_background_color">background_color</string>
+  <string name="property_background_resource">background_resource</string>
+  <string name="property_text">पाठ</string>
+  <string name="property_hint">संकेत</string>
+  <string name="property_weight">वजन</string>
+  <string name="property_weight_sum">वजनशुंड</string>
+  <string name="property_id">आईडी</string>
+  <string name="property_rotate">घुमाएँ</string>
+  <string name="property_padding">पैडिंग</string>
+  <string name="property_margin">मार्जिन</string>
+  <string name="property_divider_height">विभक्त</string>
+  <string name="property_choice_mode">पसंदमोड</string>
+  <string name="property_image">छवि</string>
+  <string name="property_alpha">अल्फा</string>
+  <string name="property_max">अधिकतम</string>
+  <string name="property_progress">प्रगति</string>
+  <string name="property_translation_x">अनुवाद X</string>
+  <string name="property_translation_y">अनुवाद Y</string>
+  <string name="property_scale_x">scaleX</string>
+  <string name="property_scale_y">scaleY</string>
+  <string name="property_custom_view_listview">कस्टमव्यू</string>
+  <string name="desc_component_intent">आशय का एक नया गतिविधि शुरू करने के लिए उपयोग किया जाता है</string>
+  <string name="desc_component_file">फ़ाइल स्थानीय रूप से डेटा सहेजने के लिए उपयोग की जाती है</string>
+  <string name="desc_component_calendar">कैलेंडर है समय और तारीख की गणना करने के लिए उपयोग किया जाता है</string>
+  <string name="desc_component_vibrator">थरथानेवाला का उपयोग किया जाता है डिवाइस</string>
+  <string name="desc_component_timer">टाइमर का इस्तेमाल कुछ कार्यों को देरी करने के लिए किया जाता है</string>
+  <string name="desc_component_soundpool">ध्वनिपूल का प्रयोग छोटे ध्वनि प्रभावों को चलाने के लिए किया जाता है</string>
+  <string name="desc_component_mediaplayer">मीडियाप्लेयर बड़ी ध्वनि फाइलों को चलाने के लिए प्रयोग किया जाता है</string>
+  <string name="desc_component_dialog">डायलॉग को पॉप-अप बनाने के लिए प्रयोग किया जाता है</string>
+  <string name="desc_component_objectanimator">ObjectAnimator का प्रयोग कुछ गुणों को चेतन करने के लिए किया जाता है एक दृश्य</string>
+  <string name="logic_event_initialize">गतिविधि पर निर्माण</string>
+  <string name="logic_event_definefunc">MoreBlock</string>
+  <string name="logic_event_onbackpressed">वापस बटन दबाएं</string>
+  <string name="logic_event_onpostcreated">गतिविधि की शुरूआत पूरी हुई</string>
+  <string name="logic_event_onstart">गतिविधि पर दिखाई जाने वाली</string>
+  <string name="logic_event_onstop">गतिविधि पर अब दिखाई नहीं दे रहा</string>
+  <string name="logic_event_onclick">onClick</string>
+  <string name="logic_event_oncheckchanged">पर चेचक बदल दिया गया</string>
+  <string name="logic_event_onitemselected">onItemSelected</string>
+  <string name="logic_event_ontextchanged">onTextChanged</string>
+  <string name="logic_event_onprogresschanged">पर प्रगति परिवर्तित</string>
+  <string name="logic_event_onstarttrackingtouch">onStartTrackingTouch</string>
+  <string name="logic_event_onstoptrackingtouch">onStopTrackingTouch</string>
+  <string name="logic_event_onpagestarted">पर पेज स्टार्टेड</string>
+  <string name="logic_event_onpagefinished">onPageFinished</string>
+  <string name="logic_event_onanimationstart">onAnimationStart</string>
+  <string name="logic_event_onanimationend">onAnimationEnd</string>
+  <string name="logic_event_onanimationcancel">onAnimationCancel</string>
+  <string name="logic_event_onitemclicked">onItemClicked</string>
+  <string name="logic_event_onitemlongclicked">onItemLongClicked</string>
+  <string name="logic_event_onbindcustomview">onBindCustomView</string>
+  <!-- new root spec -->
+  <string name="root_spec_common_define">परिभाषित</string>
+  <string name="root_spec_common_when">जब</string>
+  <string name="root_spec_initialize_head">गतिविधि पर बना</string>
+  <string name="root_spec_initialize_tail">
+  </string>
+  <string name="root_spec_on_back_pressed_head">वापस बटन दबाएं</string>
+  <string name="root_spec_on_back_pressed_tail">
+  </string>
+  <string name="root_spec_on_post_created_head">गतिविधि के शुरू होने पर पूरा</string>
+  <string name="root_spec_on_post_created_tail">
+  </string>
+  <string name="root_spec_on_start_head">गतिविधि पर दिखाई जाने वाली</string>
+  <string name="root_spec_on_start_tail">
+  </string>
+  <string name="root_spec_on_stop_head">गतिविधि पर अब दिखाई नहीं दे रहा</string>
+  <string name="root_spec_on_stop_tail">
+  </string>
+  <string name="root_spec_on_clicked_head">क्लिक किया</string>
+  <string name="root_spec_on_clicked_tail">
+  </string>
+  <string name="root_spec_on_check_changed_head">चेक परिवर्तित</string>
+  <string name="root_spec_on_check_changed_tail">
+  </string>
+  <string name="root_spec_on_item_selected_head">आइटम चयनित</string>
+  <string name="root_spec_on_item_selected_tail">
+  </string>
+  <string name="root_spec_on_text_changed_head">textChanged</string>
+  <string name="root_spec_on_text_changed_tail">
+  </string>
+  <string name="root_spec_on_page_started_head">पृष्ठ स्टार्टेड</string>
+  <string name="root_spec_on_page_started_tail">
+  </string>
+  <string name="root_spec_on_page_finished_head">पृष्ठपूर्ण</string>
+  <string name="root_spec_on_page_finished_tail">
+  </string>
+  <string name="root_spec_on_progress_changed_head">प्रगति परिवर्तित</string>
+  <string name="root_spec_on_progress_changed_tail">
+  </string>
+  <string name="root_spec_on_start_tracking_touch_head">onStartTrackingTouch</string>
+  <string name="root_spec_on_start_tracking_touch_tail">
+  </string>
+  <string name="root_spec_on_stop_tracking_touch_head">onStopTrackingTouch</string>
+  <string name="root_spec_on_stop_tracking_touch_tail">
+  </string>
+  <string name="root_spec_on_animation_start_head">onAnimationStart</string>
+  <string name="root_spec_on_animation_start_tail">
+  </string>
+  <string name="root_spec_on_animation_end_head">परएनिमेशनईंड</string>
+  <string name="root_spec_on_animation_end_tail">
+  </string>
+  <string name="root_spec_on_animation_cancel_head">onAnimationCancel</string>
+  <string name="root_spec_on_animation_cancel_tail">
+  </string>
+  <string name="root_spec_on_item_clicked_head">आइटम चुराया</string>
+  <string name="root_spec_on_item_clicked_tail">
+  </string>
+  <string name="root_spec_on_item_long_clicked_head">आइटमलेँगक्लिक किया</string>
+  <string name="root_spec_on_item_long_clicked_tail">
+  </string>
+  <string name="root_spec_on_bind_custom_view_head">onBindCustomView</string>
+  <string name="root_spec_on_bind_custom_view_body1">
+  </string>
+  <string name="root_spec_on_bind_custom_view_tail">
+  </string>
+  <string name="block_category_all">सभी</string>
+  <string name="block_category_var">चर</string>
+  <string name="block_category_list">सूची</string>
+  <string name="block_category_control">नियंत्रण</string>
+  <string name="block_category_math">गणित</string>
+  <string name="block_category_operator">ऑपरेटर</string>
+  <string name="block_category_view_func">देखें</string>
+  <string name="block_category_component_func">घटक</string>
+  <string name="block_category_moreblock">अधिक ब्लॉक</string>
+  <!-- new block spec -->
+  <string name="block_set_var_bool_head">सेट</string>
+  <string name="block_set_var_bool_body_1">to</string>
+  <string name="block_set_var_bool_tail">
+  </string>
+  <string name="block_set_var_int_head">सेट</string>
+  <string name="block_set_var_int_body_1">से</string>
+  <string name="block_set_var_int_tail">
+  </string>
+  <string name="block_increase_int_head">
+  </string>
+  <string name="block_increase_int_tail">1 वृद्धि</string>
+  <string name="block_decrease_int_head">
+  </string>
+  <string name="block_decrease_int_tail">कमी 1</string>
+  <string name="block_set_var_str_head">सेट</string>
+  <string name="block_set_var_str_body_1">के लिए</string>
+  <string name="block_set_var_str_tail">
+  </string>
+  <string name="block_add_list_int_head">जोड़</string>
+  <string name="block_add_list_int_body_1">से</string>
+  <string name="block_add_list_int_tail">
+  </string>
+  <string name="block_insert_list_int_head">सम्मिलित करें</string>
+  <string name="block_insert_list_int_body_1">पर</string>
+  <string name="block_insert_list_int_body_2">को</string>
+  <string name="block_insert_list_int_tail">
+  </string>
+  <string name="block_get_at_list_int_head">पर प्राप्त करें</string>
+  <string name="block_get_at_list_int_body_1">के</string>
+  <string name="block_get_at_list_int_tail">
+  </string>
+  <string name="block_indexof_list_int_head">सूचकांक</string>
+  <string name="block_indexof_list_int_body_1">में</string>
+  <string name="block_indexof_list_int_tail">
+  </string>
+  <string name="block_contain_list_int_head">
+  </string>
+  <string name="block_contain_list_int_body_1">में शामिल है</string>
+  <string name="block_contain_list_int_tail">
+  </string>
+  <string name="block_add_list_str_head">जोड़ें</string>
+  <string name="block_add_list_str_body_1">के लिए</string>
+  <string name="block_add_list_str_tail">
+  </string>
+  <string name="block_insert_list_str_head">सम्मिलित करें</string>
+  <string name="block_insert_list_str_body_1">पर</string>
+  <string name="block_insert_list_str_body_2">को</string>
+  <string name="block_insert_list_str_tail">
+  </string>
+  <string name="block_get_at_list_str_head">पर मिलता है</string>
+  <string name="block_get_at_list_str_body_1">का</string>
+  <string name="block_get_at_list_str_tail">
+  </string>
+  <string name="block_indexof_list_str_head">सूचकांक</string>
+  <string name="block_indexof_list_str_body_1">में</string>
+  <string name="block_indexof_list_str_tail">
+  </string>
+  <string name="block_contain_list_str_head">
+  </string>
+  <string name="block_contain_list_str_body_1">में शामिल है</string>
+  <string name="block_contain_list_str_tail">
+  </string>
+  <string name="block_add_list_map_head">कुंजी जोड़ें</string>
+  <string name="block_add_list_map_body_1">मान</string>
+  <string name="block_add_list_map_body_2">को</string>
+  <string name="block_add_list_map_tail">
+  </string>
+  <string name="block_insert_list_map_head">डालें कुंजी</string>
+  <string name="block_insert_list_map_body_1">मान</string>
+  <string name="block_insert_list_map_body_2">पर</string>
+  <string name="block_insert_list_map_body_3">के लिए</string>
+  <string name="block_insert_list_map_tail">
+  </string>
+  <string name="block_get_at_list_map_head">मूल्य प्राप्त करें</string>
+  <string name="block_get_at_list_map_body_1">कुंजी</string>
+  <string name="block_get_at_list_map_body_2">का</string>
+  <string name="block_get_at_list_map_tail">
+  </string>
+  <string name="block_set_at_list_map_head">सेट कुंजी</string>
+  <string name="block_set_at_list_map_body_1">मूल्य</string>
+  <string name="block_set_at_list_map_body_2">पर</string>
+  <string name="block_set_at_list_map_body_3">से</string>
+  <string name="block_set_at_list_map_tail">
+  </string>
+  <string name="block_contain_list_map_head">
+  </string>
+  <string name="block_contain_list_map_body_1">इसमें शामिल है</string>
+  <string name="block_contain_list_map_body_2">कुंजी</string>
+  <string name="block_contain_list_map_tail">
+  </string>
+  <string name="block_delete_list_head">पर हटा दें</string>
+  <string name="block_delete_list_body_1">के</string>
+  <string name="block_delete_list_tail">
+  </string>
+  <string name="block_length_list_head">की लंबाई</string>
+  <string name="block_length_list_tail">
+  </string>
+  <string name="block_clear_list_head">स्पष्ट</string>
+  <string name="block_clear_list_tail">
+  </string>
+  <string name="block_repeat_head">दोहराने</string>
+  <string name="block_repeat_tail">
+  </string>
+  <string name="block_forever_head">हमेशा के लिए</string>
+  <string name="block_forever_tail">
+  </string>
+  <string name="block_break_head">रोक</string>
+  <string name="block_break_tail">
+  </string>
+  <string name="block_if_head">यदि</string>
+  <string name="block_if_tail">तब</string>
+  <string name="block_if_else_head">अगर</string>
+  <string name="block_if_else_tail">तब</string>
+  <string name="block_else_head">else</string>
+  <string name="block_else_tail">
+  </string>
+  <string name="block_true_head">सच</string>
+  <string name="block_true_tail">
+  </string>
+  <string name="block_false_head">गलत</string>
+  <string name="block_false_tail">
+  </string>
+  <string name="block_smaller_head">
+  </string>
+  <string name="block_smaller_body_1">&lt;</string>
+  <string name="block_smaller_tail">
+  </string>
+  <string name="block_equal_head">
+  </string>
+  <string name="block_equal_body_1">=</string>
+  <string name="block_equal_tail">
+  </string>
+  <string name="block_bigger_head">
+  </string>
+  <string name="block_bigger_body_1">&gt;</string>
+  <string name="block_bigger_tail">
+  </string>
+  <string name="block_and_head">
+  </string>
+  <string name="block_and_body_1">और</string>
+  <string name="block_and_tail">
+  </string>
+  <string name="block_or_head">
+  </string>
+  <string name="block_or_body_1">या</string>
+  <string name="block_or_tail">
+  </string>
+  <string name="block_not_head">नहीं</string>
+  <string name="block_not_tail">
+  </string>
+  <string name="block_plus_head">
+  </string>
+  <string name="block_plus_body_1">+</string>
+  <string name="block_plus_tail">
+  </string>
+  <string name="block_minus_head">
+  </string>
+  <string name="block_minus_body_1">-</string>
+  <string name="block_minus_tail">
+  </string>
+  <string name="block_times_head">
+  </string>
+  <string name="block_times_body_1">*</string>
+  <string name="block_times_tail">
+  </string>
+  <string name="block_divide_head">
+  </string>
+  <string name="block_divide_body_1">/</string>
+  <string name="block_divide_tail">
+  </string>
+  <string name="block_rest_head">
+  </string>
+  <string name="block_rest_body_1">%</string>
+  <string name="block_rest_tail">
+  </string>
+  <string name="block_random_head">यादृच्छिक उठाओ</string>
+  <string name="block_random_body_1">को</string>
+  <string name="block_random_tail">
+  </string>
+  <string name="block_string_length_head">की लंबाई</string>
+  <string name="block_string_length_tail">
+  </string>
+  <string name="block_string_join_head">जुड़ें</string>
+  <string name="block_string_join_body_1">और</string>
+  <string name="block_string_join_tail">
+  </string>
+  <string name="block_string_index_head">सूचकांक</string>
+  <string name="block_string_index_body_1">का</string>
+  <string name="block_string_index_tail">
+  </string>
+  <string name="block_string_sub_head">
+  </string>
+  <string name="block_string_sub_body_1">सबस्ट्रिंग</string>
+  <string name="block_string_sub_body_2">को</string>
+  <string name="block_string_sub_tail">
+  </string>
+  <string name="block_string_equals_head">
+  </string>
+  <string name="block_string_equals_body_1">बराबर</string>
+  <string name="block_string_equals_tail">
+  </string>
+  <string name="block_string_contains_head">
+  </string>
+  <string name="block_string_contains_body_1">में शामिल हैं</string>
+  <string name="block_string_contains_tail">
+  </string>
+  <string name="block_string_replace_head">
+  </string>
+  <string name="block_string_replace_body_1">सभी को बदलें</string>
+  <string name="block_string_replace_body_2">with</string>
+  <string name="block_string_replace_tail">
+  </string>
+  <string name="block_string_replace_first_head">
+  </string>
+  <string name="block_string_replace_first_body_1">पहले RegEx बदलें</string>
+  <string name="block_string_replace_first_body_2">के साथ</string>
+  <string name="block_string_replace_first_tail">
+  </string>
+  <string name="block_string_replace_all_head">
+  </string>
+  <string name="block_string_replace_all_body_1">सभी RegEx</string>
+  <string name="block_string_replace_all_body_2">को प्रतिस्थापित करें</string>
+  <string name="block_string_replace_all_tail">
+  </string>
+  <string name="block_to_number_head">toNumber</string>
+  <string name="block_to_number_tail">
+  </string>
+  <string name="block_trim_head">ट्रिम</string>
+  <string name="block_trim_tail">
+  </string>
+  <string name="block_to_upper_case_head">toUpperCase</string>
+  <string name="block_to_upper_case_tail">
+  </string>
+  <string name="block_to_lower_case_head">toLowerCase</string>
+  <string name="block_to_lower_case_tail">
+  </string>
+  <string name="block_to_string_head">toString</string>
+  <string name="block_to_string_tail">without decimal</string>
+  <string name="block_to_string_with_decimal_head">toString</string>
+  <string name="block_to_string_with_decimal_tail">के साथ दशमलव</string>
+  <string name="block_to_string_format_head">
+  </string>
+  <string name="block_to_string_format_body_1">toDecimalFormat</string>
+  <string name="block_to_string_format_tail">
+  </string>
+  <string name="block_add_source_directly_head">स्रोत सीधे जोड़ें</string>
+  <string name="block_add_source_directly_tail">
+  </string>
+  <string name="block_math_get_dip_head">getDip</string>
+  <string name="block_math_get_dip_tail">
+  </string>
+  <string name="block_math_get_display_width_head">getDisplayWidthPixels</string>
+  <string name="block_math_get_display_width_tail">
+  </string>
+  <string name="block_math_get_display_height_head">getDisplayHeightPixels</string>
+  <string name="block_math_get_display_height_tail">
+  </string>
+  <string name="block_math_pi_head">पीआई (π)</string>
+  <string name="block_math_pi_tail">
+  </string>
+  <string name="block_math_e_head">ई (ई)</string>
+  <string name="block_math_e_tail">
+  </string>
+  <string name="block_math_pow_head">
+  </string>
+  <string name="block_math_pow_body_1">से</string>
+  <string name="block_math_pow_tail">शक्ति</string>
+  <string name="block_math_min_head">न्यूनतम</string>
+  <string name="block_math_min_body_1">और</string>
+  <string name="block_math_min_tail">
+  </string>
+  <string name="block_math_max_head">अधिकतम</string>
+  <string name="block_math_max_body_1">और</string>
+  <string name="block_math_max_tail">
+  </string>
+  <string name="block_math_sqrt_head">का वर्गमूल</string>
+  <string name="block_math_sqrt_tail">
+  </string>
+  <string name="block_math_abs_head">पूर्ण मूल्य</string>
+  <string name="block_math_abs_tail">
+  </string>
+  <string name="block_math_round_head">गोल</string>
+  <string name="block_math_round_tail">
+  </string>
+  <string name="block_math_ceil_head">छत</string>
+  <string name="block_math_ceil_tail">
+  </string>
+  <string name="block_math_floor_head">मंजिल</string>
+  <string name="block_math_floor_tail">
+  </string>
+  <string name="block_math_sin_head">पाप</string>
+  <string name="block_math_sin_tail">
+  </string>
+  <string name="block_math_cos_head">cos</string>
+  <string name="block_math_cos_tail">
+  </string>
+  <string name="block_math_tan_head">तन</string>
+  <string name="block_math_tan_tail">
+  </string>
+  <string name="block_math_asin_head">arcsin</string>
+  <string name="block_math_asin_tail">
+  </string>
+  <string name="block_math_acos_head">arccos</string>
+  <string name="block_math_acos_tail">
+  </string>
+  <string name="block_math_atan_head">arctan</string>
+  <string name="block_math_atan_tail">
+  </string>
+  <string name="block_math_exp_head">exp</string>
+  <string name="block_math_exp_tail">
+  </string>
+  <string name="block_math_log_head">ln</string>
+  <string name="block_math_log_tail">
+  </string>
+  <string name="block_math_log10_head">लॉग</string>
+  <string name="block_math_log10_tail">
+  </string>
+  <string name="block_math_to_radian_head">डिग्री</string>
+  <string name="block_math_to_radian_tail">to Radian</string>
+  <string name="block_math_to_degree_head">radian</string>
+  <string name="block_math_to_degree_tail">डिग्री से</string>
+  <string name="block_view_on_click_head">जब</string>
+  <string name="block_view_on_click_tail">clicked</string>
+  <string name="block_set_enable_head">
+  </string>
+  <string name="block_set_enable_body_1">सेट = सक्षम करें</string>
+  <string name="block_set_enable_tail">
+  </string>
+  <string name="block_get_enable_head">
+  </string>
+  <string name="block_get_enable_tail">getEnable</string>
+  <string name="block_set_visible_head">
+  </string>
+  <string name="block_set_visible_body_1">सेट विजिबल</string>
+  <string name="block_set_visible_tail">
+  </string>
+  <string name="block_set_clickable_head">
+  </string>
+  <string name="block_set_clickable_body_1">setClickable</string>
+  <string name="block_set_clickable_tail">
+  </string>
+  <string name="block_set_text_head">
+  </string>
+  <string name="block_set_text_body_1">setText</string>
+  <string name="block_set_text_tail">
+  </string>
+  <string name="block_get_text_head">
+  </string>
+  <string name="block_get_text_tail">getText</string>
+  <string name="block_set_bg_color_head">
+  </string>
+  <string name="block_set_bg_color_body_1">सेटबैकग्रामरंग</string>
+  <string name="block_set_bg_color_tail">
+  </string>
+  <string name="block_set_bg_resource_head">
+  </string>
+  <string name="block_set_bg_resource_body_1">setBackgroundResource</string>
+  <string name="block_set_bg_resource_tail">
+  </string>
+  <string name="block_set_text_color_head">
+  </string>
+  <string name="block_set_text_color_body_1">setTextColor</string>
+  <string name="block_set_text_color_tail">
+  </string>
+  <string name="block_set_image_head">
+  </string>
+  <string name="block_set_image_body_1">सेट इमेज</string>
+  <string name="block_set_image_tail">
+  </string>
+  <string name="block_set_rotate_head">
+  </string>
+  <string name="block_set_rotate_body_1">सेटरोटेशन</string>
+  <string name="block_set_rotate_tail">
+  </string>
+  <string name="block_get_rotate_head">
+  </string>
+  <string name="block_get_rotate_tail">getRotation</string>
+  <string name="block_set_alpha_head">
+  </string>
+  <string name="block_set_alpha_body_1">setAlpha</string>
+  <string name="block_set_alpha_tail">
+  </string>
+  <string name="block_get_alpha_head">
+  </string>
+  <string name="block_get_alpha_tail">getAlpha</string>
+  <string name="block_set_translation_x_head">
+  </string>
+  <string name="block_set_translation_x_body_1">सेट ट्रांसस्लेशन x</string>
+  <string name="block_set_translation_x_tail">
+  </string>
+  <string name="block_get_translation_x_head">
+  </string>
+  <string name="block_get_translation_x_tail">getTranslationX</string>
+  <string name="block_set_translation_y_head">
+  </string>
+  <string name="block_set_translation_y_body_1">सेट ट्रान्सस्लेक्शन Y</string>
+  <string name="block_set_translation_y_tail">
+  </string>
+  <string name="block_get_translation_y_head">
+  </string>
+  <string name="block_get_translation_y_tail">getTranslationY</string>
+  <string name="block_set_scale_x_head">
+  </string>
+  <string name="block_set_scale_x_body_1">सेटस्केलएक्स</string>
+  <string name="block_set_scale_x_tail">
+  </string>
+  <string name="block_get_scale_x_head">
+  </string>
+  <string name="block_get_scale_x_tail">getScaleX</string>
+  <string name="block_set_scale_y_head">
+  </string>
+  <string name="block_set_scale_y_body_1">सेटस्केलवाई</string>
+  <string name="block_set_scale_y_tail">
+  </string>
+  <string name="block_get_scale_y_head">
+  </string>
+  <string name="block_get_scale_y_tail">getScaleY</string>
+  <string name="block_set_checked_head">
+  </string>
+  <string name="block_set_checked_body_1">सेट करें चेक किया गया</string>
+  <string name="block_set_checked_tail">
+  </string>
+  <string name="block_get_checked_head">
+  </string>
+  <string name="block_get_checked_tail">getChecked</string>
+  <string name="block_set_thumb_resource_head">
+  </string>
+  <string name="block_set_thumb_resource_body_1">सेटथंभ संसाधनों</string>
+  <string name="block_set_thumb_resource_tail">
+  </string>
+  <string name="block_set_track_resource_head">
+  </string>
+  <string name="block_set_track_resource_body_1">setTrackResource</string>
+  <string name="block_set_track_resource_tail">
+  </string>
+  <string name="block_list_set_data_head">
+  </string>
+  <string name="block_list_set_data_body_1">setListViewData</string>
+  <string name="block_list_set_data_tail">
+  </string>
+  <string name="block_list_set_custom_view_data_head">
+  </string>
+  <string name="block_list_set_custom_view_data_body_1">setListCustomViewData</string>
+  <string name="block_list_set_custom_view_data_tail">
+  </string>
+  <string name="block_spn_set_data_head">
+  </string>
+  <string name="block_spn_set_data_body_1">सेटस्पिनरडाटा</string>
+  <string name="block_spn_set_data_tail">
+  </string>
+  <string name="block_spn_set_selection_head">
+  </string>
+  <string name="block_spn_set_selection_body_1">सेट चयन</string>
+  <string name="block_spn_set_selection_tail">
+  </string>
+  <string name="block_spn_get_selection_head">
+  </string>
+  <string name="block_spn_get_selection_tail">getSelection</string>
+  <string name="block_seekbar_set_progress_head">
+  </string>
+  <string name="block_seekbar_set_progress_body_1">सेट प्रगति</string>
+  <string name="block_seekbar_set_progress_tail">
+  </string>
+  <string name="block_seekbar_get_progress_head">
+  </string>
+  <string name="block_seekbar_get_progress_tail">getprogress</string>
+  <string name="block_seekbar_set_max_head">
+  </string>
+  <string name="block_seekbar_set_max_body_1">सेटमैक्स</string>
+  <string name="block_seekbar_set_max_tail">
+  </string>
+  <string name="block_seekbar_get_max_head">
+  </string>
+  <string name="block_seekbar_get_max_tail">getMax</string>
+  <string name="block_list_refresh_head">
+  </string>
+  <string name="block_list_refresh_tail">ताज़ा करेंटाटा</string>
+  <string name="block_spn_refresh_head">
+  </string>
+  <string name="block_spn_refresh_tail">ताज़ा करेंटाटा</string>
+  <string name="block_webview_load_url_head">
+  </string>
+  <string name="block_webview_load_url_body_1">loadUrl</string>
+  <string name="block_webview_load_url_tail">
+  </string>
+  <string name="block_webview_get_url_head">
+  </string>
+  <string name="block_webview_get_url_tail">getUrl</string>
+  <string name="block_webview_set_cache_mode_head">
+  </string>
+  <string name="block_webview_set_cache_mode_body_1">सेट करेंकैकमोड</string>
+  <string name="block_webview_set_cache_mode_tail">
+  </string>
+  <string name="block_webview_can_go_back_head">
+  </string>
+  <string name="block_webview_can_go_back_tail">जानेवाले</string>
+  <string name="block_webview_can_go_forward_head">
+  </string>
+  <string name="block_webview_can_go_forward_tail">canGoForward</string>
+  <string name="block_webview_go_back_head">
+  </string>
+  <string name="block_webview_go_back_tail">goBack</string>
+  <string name="block_webview_go_forward_head">
+  </string>
+  <string name="block_webview_go_forward_tail">goForward</string>
+  <string name="block_webview_clear_cache_head">
+  </string>
+  <string name="block_webview_clear_cache_tail">स्पष्ट करेंकैच</string>
+  <string name="block_webview_clear_history_head">
+  </string>
+  <string name="block_webview_clear_history_tail">स्पष्टहै इतिहास</string>
+  <string name="block_webview_stop_loading_head">
+  </string>
+  <string name="block_webview_stop_loading_tail">रोकें लोड हो रहा है</string>
+  <string name="block_webview_zoom_in_head">
+  </string>
+  <string name="block_webview_zoom_in_tail">ज़ूम इन</string>
+  <string name="block_webview_zoom_out_head">
+  </string>
+  <string name="block_webview_zoom_out_tail">ज़ूमऑट</string>
+  <string name="block_intent_set_action_head">
+  </string>
+  <string name="block_intent_set_action_body_1">setAction</string>
+  <string name="block_intent_set_action_tail">
+  </string>
+  <string name="block_intent_set_data_head">
+  </string>
+  <string name="block_intent_set_data_body_1">setData</string>
+  <string name="block_intent_set_data_tail">
+  </string>
+  <string name="block_intent_set_screen_head">
+  </string>
+  <string name="block_intent_set_screen_body_1">सेटस्क्रीन</string>
+  <string name="block_intent_set_screen_tail">
+  </string>
+  <string name="block_intent_put_extra_head">
+  </string>
+  <string name="block_intent_put_extra_body_1">putExtra कुंजी</string>
+  <string name="block_intent_put_extra_body_2">मान</string>
+  <string name="block_intent_put_extra_tail">
+  </string>
+  <string name="block_intent_set_flags_head">
+  </string>
+  <string name="block_intent_set_flags_body_1">सेटफ़्लैग्स</string>
+  <string name="block_intent_set_flags_tail">
+  </string>
+  <string name="block_start_activity_head">प्रारंभ गतिविधि</string>
+  <string name="block_start_activity_tail">
+  </string>
+  <string name="block_intent_get_string_head">गतिविधि getExtra कुंजी</string>
+  <string name="block_intent_get_string_tail">
+  </string>
+  <string name="block_finish_activity_head">समाप्त करें</string>
+  <string name="block_finish_activity_tail">गतिविधि</string>
+  <string name="block_file_get_data_head">
+  </string>
+  <string name="block_file_get_data_body_1">getData कुंजी</string>
+  <string name="block_file_get_data_tail">
+  </string>
+  <string name="block_file_set_data_head">
+  </string>
+  <string name="block_file_set_data_body_1">सेटडेटा कुंजी</string>
+  <string name="block_file_set_data_body_2">मूल्य</string>
+  <string name="block_file_set_data_tail">
+  </string>
+  <string name="block_file_remove_data_head">
+  </string>
+  <string name="block_file_remove_data_body_1">removeData key</string>
+  <string name="block_file_remove_data_tail">
+  </string>
+  <string name="block_calendar_get_now_head">
+  </string>
+  <string name="block_calendar_get_now_tail">getNow</string>
+  <string name="block_calendar_add_head">
+  </string>
+  <string name="block_calendar_add_body_1">add</string>
+  <string name="block_calendar_add_body_2">value</string>
+  <string name="block_calendar_add_tail">
+  </string>
+  <string name="block_calendar_set_head">
+  </string>
+  <string name="block_calendar_set_body_1">set</string>
+  <string name="block_calendar_set_body_2">value</string>
+  <string name="block_calendar_set_tail">
+  </string>
+  <string name="block_calendar_format_head">
+  </string>
+  <string name="block_calendar_format_body_1">Format</string>
+  <string name="block_calendar_format_tail">
+  </string>
+  <string name="block_calendar_diff_head">Difference</string>
+  <string name="block_calendar_diff_body_1">-</string>
+  <string name="block_calendar_diff_tail">
+  </string>
+  <string name="block_vibrator_action_head">
+  </string>
+  <string name="block_vibrator_action_body_1">vibrate for</string>
+  <string name="block_vibrator_action_tail">ms</string>
+  <string name="block_timer_after_head">
+  </string>
+  <string name="block_timer_after_body_1">after</string>
+  <string name="block_timer_after_tail">ms</string>
+  <string name="block_timer_every_head">
+  </string>
+  <string name="block_timer_every_body_1">after</string>
+  <string name="block_timer_every_body_2">ms for every</string>
+  <string name="block_timer_every_tail">ms</string>
+  <string name="block_timer_cancel_head">
+  </string>
+  <string name="block_timer_cancel_tail">रद्द</string>
+  <string name="block_dialog_set_title_head">
+  </string>
+  <string name="block_dialog_set_title_body_1">शीर्षक सेट</string>
+  <string name="block_dialog_set_title_tail">
+  </string>
+  <string name="block_dialog_set_message_head">
+  </string>
+  <string name="block_dialog_set_message_body_1">संदेश सेट</string>
+  <string name="block_dialog_set_message_tail">
+  </string>
+  <string name="block_dialog_show_head">
+  </string>
+  <string name="block_dialog_show_tail">शो</string>
+  <string name="block_dialog_dismiss_head">
+  </string>
+  <string name="block_dialog_dismiss_tail">खारिज</string>
+  <string name="block_dialog_ok_button_head">
+  </string>
+  <string name="block_dialog_ok_button_body_1">ओके बटन</string>
+  <string name="block_dialog_ok_button_tail">क्लिक किया</string>
+  <string name="block_dialog_cancel_button_head">
+  </string>
+  <string name="block_dialog_cancel_button_body_1">रद्द करें बटन</string>
+  <string name="block_dialog_cancel_button_tail">क्लिक किया</string>
+  <string name="block_dialog_neutral_button_head">
+  </string>
+  <string name="block_dialog_neutral_button_body_1">तटस्थ बटन</string>
+  <string name="block_dialog_neutral_button_tail">क्लिक किया</string>
+  <string name="block_mediaplayer_create_head">
+  </string>
+  <string name="block_mediaplayer_create_body_1">बनाने</string>
+  <string name="block_mediaplayer_create_tail">
+  </string>
+  <string name="block_mediaplayer_start_head">
+  </string>
+  <string name="block_mediaplayer_start_tail">प्रारंभ</string>
+  <string name="block_mediaplayer_pause_head">
+  </string>
+  <string name="block_mediaplayer_pause_tail">रोकें</string>
+  <string name="block_mediaplayer_seek_head">
+  </string>
+  <string name="block_mediaplayer_seek_body_1">
+  </string>
+  <string name="block_mediaplayer_seek_tail">
+  </string>
+  <string name="block_mediaplayer_get_current_head">
+  </string>
+  <string name="block_mediaplayer_get_current_tail">वर्तमान अवधि प्राप्त करें</string>
+  <string name="block_mediaplayer_get_duration_head">
+  </string>
+  <string name="block_mediaplayer_get_duration_tail">गीत अवधि प्राप्त करें</string>
+  <string name="block_mediaplayer_reset_head">
+  </string>
+  <string name="block_mediaplayer_reset_tail">रीसेट</string>
+  <string name="block_mediaplayer_release_head">
+  </string>
+  <string name="block_mediaplayer_release_tail">रिलीज़</string>
+  <string name="block_mediaplayer_is_playing_head">
+  </string>
+  <string name="block_mediaplayer_is_playing_tail">चल रहा है</string>
+  <string name="block_mediaplayer_set_looping_head">
+  </string>
+  <string name="block_mediaplayer_set_looping_body_1">सेट लूपिंग</string>
+  <string name="block_mediaplayer_set_looping_tail">
+  </string>
+  <string name="block_mediaplayer_is_looping_head">
+  </string>
+  <string name="block_mediaplayer_is_looping_tail">लूपिंग है</string>
+  <string name="block_soundpool_create_head">
+  </string>
+  <string name="block_soundpool_create_body_1">अधिकतम स्ट्रीम गिनती बनाएं</string>
+  <string name="block_soundpool_create_tail">
+  </string>
+  <string name="block_soundpool_load_head">ध्वनिआईडी:</string>
+  <string name="block_soundpool_load_body_1">लोड</string>
+  <string name="block_soundpool_load_tail">
+  </string>
+  <string name="block_soundpool_stream_play_head">स्ट्रीमआईडी:</string>
+  <string name="block_soundpool_stream_play_body_1">ध्वनि आईडी खेलें</string>
+  <string name="block_soundpool_stream_play_body_2">1 +</string>
+  <string name="block_soundpool_stream_play_tail">समय</string>
+  <string name="block_soundpool_stream_stop_head">
+  </string>
+  <string name="block_soundpool_stream_stop_body_1">स्ट्रीम आईडी रोकें</string>
+  <string name="block_soundpool_stream_stop_tail">
+  </string>
+  <string name="block_objectanimator_set_target_head">
+  </string>
+  <string name="block_objectanimator_set_target_body_1">सेट लक्ष्य</string>
+  <string name="block_objectanimator_set_target_tail">
+  </string>
+  <string name="block_objectanimator_set_property_head">
+  </string>
+  <string name="block_objectanimator_set_property_body_1">सेट संपत्ति</string>
+  <string name="block_objectanimator_set_property_tail">
+  </string>
+  <string name="block_objectanimator_set_value_head">
+  </string>
+  <string name="block_objectanimator_set_value_body_1">सेट मूल्य</string>
+  <string name="block_objectanimator_set_value_tail">
+  </string>
+  <string name="block_objectanimator_set_from_to_head">
+  </string>
+  <string name="block_objectanimator_set_from_to_body_1">मूल्यों से निर्धारित</string>
+  <string name="block_objectanimator_set_from_to_body_2">को</string>
+  <string name="block_objectanimator_set_from_to_tail">
+  </string>
+  <string name="block_objectanimator_set_duration_head">
+  </string>
+  <string name="block_objectanimator_set_duration_body_1">सेट अवधि</string>
+  <string name="block_objectanimator_set_duration_tail">
+  </string>
+  <string name="block_objectanimator_set_repeat_mode_head">
+  </string>
+  <string name="block_objectanimator_set_repeat_mode_body_1">सेट दोहराने मोड</string>
+  <string name="block_objectanimator_set_repeat_mode_tail">
+  </string>
+  <string name="block_objectanimator_set_repeat_count_head">
+  </string>
+  <string name="block_objectanimator_set_repeat_count_body_1">सेट दोहराने गिनती</string>
+  <string name="block_objectanimator_set_repeat_count_tail">
+  </string>
+  <string name="block_objectanimator_set_interpolator_head">
+  </string>
+  <string name="block_objectanimator_set_interpolator_body_1">सेट क्षेपक</string>
+  <string name="block_objectanimator_set_interpolator_tail">
+  </string>
+  <string name="block_objectanimator_start_head">
+  </string>
+  <string name="block_objectanimator_start_tail">शुरू</string>
+  <string name="block_objectanimator_cancel_head">
+  </string>
+  <string name="block_objectanimator_cancel_tail">रद्द</string>
+  <string name="block_objectanimator_is_running_head">
+  </string>
+  <string name="block_objectanimator_is_running_tail">चल रहा है</string>
+  <string name="block_do_toast_head">टोस्ट</string>
+  <string name="block_do_toast_tail">
+  </string>
+  <string name="block_copy_to_clipboard_head">copyToClipboard</string>
+  <string name="block_copy_to_clipboard_tail">
+  </string>
+  <string name="block_set_title_head">गतिविधि सेट शीर्षक</string>
+  <string name="block_set_title_tail">
+  </string>
+  <string name="desc_bl_invalid_1">सूचकांक या तो ऋणात्मक या सूची के आकार के बराबर या उसके बराबर है</string>
+  <string name="desc_bl_invalid_2">एक संख्या शून्य से विभाजित नहीं की जा सकती</string>
+  <string name="desc_bl_invalid_3">एक सूचकांक नकारात्मक या स्ट्रिंग के आकार से अधिक है</string>
+  <string name="desc_bl_invalid_4">यह इंगित करने के लिए कि एप्लिकेशन ने स्ट्रिंग को संख्यात्मक प्रकारों में से किसी एक में कनवर्ट करने का प्रयास किया है</string>
+  <string name="desc_bl_invalid_5">अपरिवर्तनीय बयान या फिर दोहराने वाले ब्लॉक के बाहर ब्लॉक को रोकें या हमेशा ब्लॉक करें</string>
+  <string name="desc_bl_invalid_6">जब आशय के पैरामीटर अमान्य है</string>
+  <string name="desc_bl_and">दो स्थितियों में शामिल हों</string>
+  <string name="desc_bl_bool_set_to">स्थिति में निर्दिष्ट चर सेट करें</string>
+  <string name="desc_bl_bool_var">बूलियन चर</string>
+  <string name="desc_bl_equals">यदि दो स्ट्रिंग समान हैं, तो जाँचने की शर्त</string>
+  <string name="desc_bl_str_contains">स्ट्रिंग में मान शामिल है या नहीं, यह जाँचने की स्थिति</string>
+  <string name="desc_bl_str_replace">दिए गए मान के लिए सभी स्ट्रिंग मान को बदलता है</string>
+  <string name="desc_bl_false">गलत स्थिति</string>
+  <string name="desc_bl_forever">एक लूप जो कभी खत्म नहीं होगा \ n * यह स्टॉप ब्लॉक के साथ प्रयोग किया जाना चाहिए</string>
+  <string name="desc_bl_get_text">विजेट प्रदर्शित हो रहा है विजेट प्राप्त करें</string>
+  <string name="desc_bl_get_enable">विजेट के लिए सक्षम स्थिति</string>
+  <string name="desc_bl_if_else">जांचें हालत \ n - यदि शर्त सही है, तो पहले सी के अंदर वाले ब्लॉकों को सक्रिय कर दिया जाएगा, \ n और यदि स्थिति झूठी है, तो दूसरी सी के अंदर वाले ब्लॉक सक्रिय होंगे</string>
+  <string name="desc_bl_if_then">स्थिति की जांच करें \ n - यदि स्थिति सच है, इसके अंदर का ब्लॉक सक्रिय होगा</string>
+  <string name="desc_bl_init_logic">जब आवेदन निष्पादित होता है, तो ब्लॉक सक्रिय करता है</string>
+  <string name="desc_bl_int_set_to">निर्दिष्ट चर को संख्या में सेट करता है</string>
+  <string name="desc_bl_int_var">संख्या चर</string>
+  <string name="desc_bl_join">दो मान एक दूसरे के बगल में डालते हैं</string>
+  <string name="desc_bl_str_lengthof">लंबाई स्ट्रिंग</string>
+  <string name="desc_bl_list_addto">सूची में एक आइटम जोड़ें (आइटम आइटम की सूची के नीचे जाता है) इसमें निर्दिष्ट सामग्री के साथ</string>
+  <string name="desc_bl_list_clear">सूची को साफ़ करें</string>
+  <string name="desc_bl_list_contains">अगर कोई आइटम \ 'apo; s सामग्री निर्दिष्ट मान है</string>
+  <string name="desc_bl_list_delete_at_of">आइटम को सूची से हटाता है</string>
+  <string name="desc_bl_list_get_at_of">आइटम \\ apos; s value</string>
+  <string name="desc_bl_list_index_in">आइटम के स्थिति का मान</string>
+  <string name="desc_bl_list_insert_at_to">सूची में एक आइटम जोड़ता है (उस आइटम को जाता है जहां आप आइटम की सूची में निर्दिष्ट करते हैं) इसमें निर्दिष्ट सामग्री के साथ</string>
+  <string name="desc_bl_list_lengthof">निर्दिष्ट सूची में कितने वस्तुएं हैं</string>
+  <string name="desc_bl_map_add_list">मैप्स की सूची में (स्ट्रिंग, स्ट्रिंग) मानचित्र जोड़ें</string>
+  <string name="desc_bl_map_insert_list">एक (कुंजी, मान) जोड़ी को एक मैप में डालें मानचित्र सूची के कुछ सूचकांक</string>
+  <string name="desc_bl_map_set_list">मानचित्र सूची</string>
+  <string name="desc_bl_map_contain_list">के मानचित्र के अंदर एक (कुंजी, मान) जोड़ी को संशोधित करें मानचित्र सूची के एक निश्चित सूचकांक पर मानचित्र कुंजी</string>
+  <string name="desc_bl_map_get_at_list">नक्शा सूची के एक निश्चित सूचकांक पर (कुंजी, मान) जोड़ी हो जाती है</string>
+  <string name="desc_bl_math_divide">विभाजन का मान</string>
+  <string name="desc_bl_math_device_rest">विभाजन के शेष</string>
+  <string name="desc_bl_math_math_equals">जांच के लिए शर्त यदि दो मान बराबर हैं</string>
+  <string name="desc_bl_math_great">यदि मान दूसरे से अधिक है, तो जाँचने की स्थिति</string>
+  <string name="desc_bl_math_less">एक मूल्य अन्य</string>
+  <string name="desc_bl_math_minus">The value of the subtraction</string>
+  <string name="desc_bl_math_multi">गुणा का मूल्य</string>
+  <string name="desc_bl_math_plus">अतिरिक्त के मान</string>
+  <string name="desc_bl_not">स्थिति की जाँच करें अगर यह गलत है, सच नहीं है</string>
+  <string name="desc_bl_or">दो स्थितियों में शामिल हों, लेकिन वे अलग से कार्य करते हैं</string>
+  <string name="desc_bl_pic_num">दो सीमाओं के बीच एक यादृच्छिक संख्या चुनें</string>
+  <string name="desc_bl_repeat">एक लूप जो निर्दिष्ट राशि के लिए दोहराता है</string>
+  <string name="desc_bl_set_bg_color">विजेट के लिए पृष्ठभूमि का रंग सेट करें</string>
+  <string name="desc_bl_set_enable">विजेट की सक्षम स्थिति को सेट करें</string>
+  <string name="desc_bl_set_image">चयनित छवि को छवि दृश्य की सामग्री के रूप में सेट करें</string>
+  <string name="desc_bl_set_text">विजेट का टेक्स्ट सेट करें</string>
+  <string name="desc_bl_set_text_color">विजेट का टेक्स्ट रंग सेट करें</string>
+  <string name="desc_bl_show_message">नोटिफिकेशन पॉपअप में टेक्स्ट प्रदर्शित करें</string>
+  <string name="desc_bl_stop">लपेटा हुआ लूप रोकें</string>
+  <string name="desc_bl_str_indexof">दिए गए स्ट्रिंग का पहला सूचकांक, या -1</string>
+  <string name="desc_bl_str_set_to">स्ट्रिंग के लिए निर्दिष्ट चर सेट करें</string>
+  <string name="desc_bl_str_var">स्ट्रिंग चर</string>
+  <string name="desc_bl_substring">स्ट्रिंग के दिए गए अनुक्रम वाले स्ट्रिंग</string>
+  <string name="desc_bl_to_number">संख्याओं में कनवर्ट करता है</string>
+  <string name="desc_bl_to_string">स्ट्रिंग में कनवर्ट करता है</string>
+  <string name="desc_bl_true">सही स्थिति</string>
+  <string name="desc_bl_trim">शुरुआत या अंत में कोई रिक्त स्थान नहीं के साथ एक स्ट्रिंग देता है</string>
+  <string name="desc_bl_intent_set_action">प्रदर्शन करने के लिए इन्टेंट एक्शन सेट करें \ n इन्न्टेंट : एक गतिविधि (दृश्य) लोड करने के लिए एक घटक \ n-ACTION_CALL: डेटा (अनुमति: CALL_PHONE) द्वारा निर्दिष्ट किसी व्यक्ति को कॉल करें। \ n-ACTION_DIAL: डेटा द्वारा निर्दिष्ट किसी नंबर को डायल करें (कोई अनुमति नहीं) \ n-ACTION_VIEW : डेटा को उपयोगकर्ता को प्रदर्शित करें \ n * आपको \ &amp;apos; आशय \ &amp;apos; इस का उपयोग करने के लिए [घटक] में</string>
+  <string name="desc_bl_intent_set_flag">इस आशय का कैसे नियंत्रित किया जाता है, यह नियंत्रित करने के लिए विशेष शर्तों को सेट करें \ n-SINGLE_TOP: दृश्य आमतौर पर कार्ड के एक डेक की तरह बनाए जाते हैं, जो एक दूसरे के ऊपर स्टैक्ड होते हैं। इस ब्लॉक से इस तरह के विचारों को प्रबंधित किया जाता है कि यदि आप जिस दृश्य को पहले से ही संक्रमित कर रहे थे, पहले से ही पहले ही कहलाया गया था, तो वह उस दृश्य को शीर्ष पर एक नया दृश्य देने के बजाय सामने लाएगा। \ N-CLEAR_TOP: सभी को साफ़ करें वर्तमान दृश्य के अंतर्गत पिछले विचार। \ n * आपको \ &amp;apos; आशय \ &amp;apos; इसका उपयोग करने के लिए [घटक] में</string>
+  <string name="desc_bl_intent_set_data">इस इंटेंट को \ N-ACTION_CALL पर चल रहे डेटा सेट करें: "टेलि:" \ n (EX: "tel: 021111111) \ n-ACTION_DIAL:" tel: "से प्रारंभ होना चाहिए \ n (EX:" tel: 021111111) \ n-ACTION_VIEW: "http:" या "https:" \ n (EX: "http://google.com") से शुरू होने वाले यूआरएल फॉर्म का पालन करना चाहिए \ n * एक रन-टाइम त्रुटि तब हो सकती है जब आप डॉन \ &amp;apo; t अनुशंसा का पालन करें \ n * आपको \ &amp;apos; आशय \ &amp;apos; जोड़ने की आवश्यकता है; इस का उपयोग करने के लिए [घटक]</string>
+  <string name="desc_bl_intent_set_screen">प्रदर्शन करने के लिए गतिविधि (देखें) सेट करें \ n * आपको \ &amp;apos; आशय \ &amp;apos; इन का उपयोग करने के लिए [घटक]</string>
+  <string name="desc_bl_intent_putextra">आशय के लिए डेटा बाइंड करें \ n * कुंजी के साथ गतिविधि पर भेजें: मान प्रारूप \ n * आशय में कई चाबियाँ और मूल्य हो सकते हैं \ n * आपको \ &amp;apos; intent \ सका इन का उपयोग करने के लिए [घटक]</string>
+  <string name="desc_bl_activity_getextra_s">आशय से डेटा प्राप्त करें \ n * केवल इंटेंट पुट्टएक्स्ट्रा ब्लॉक द्वारा सहेजे गए मान को पुनः प्राप्त किया जा सकता है \ n * कुंजी मौजूद नहीं है जब खाली स्ट्रिंग ("") प्राप्त करें \ n * आपको \ &amp;apos; आशय \ &amp;apos; जोड़ने की आवश्यकता है; इसका उपयोग करने के लिए [घटक] में</string>
+  <string name="desc_bl_start_activity">आशय द्वारा एक नई गतिविधि लॉन्च करें \ n * यदि एकमात्र पैरामीटर अमान्य है, तो एक रन-टाइम त्रुटि उत्पन्न हो सकती है \ n * आपको \ &amp;apos; आशय \ &amp;apos; इस का उपयोग करने के लिए [घटक] में</string>
+  <string name="desc_bl_finish_activity">वर्तमान गतिविधि समाप्त करें</string>
+  <string name="desc_bl_file_get_data">वरीयता फ़ाइल से मान पुनः प्राप्त करें \ n फाइल सेटडेटा ब्लॉक द्वारा सहेजा गया मान पुनः प्राप्त किया जा सकता है \ n * आपको \ &amp;apos; (साझा प्राथमिकता) \ &amp;apos; इस से उपयोग करने के लिए [घटक] से</string>
+  <string name="desc_bl_file_set_data">वरीयता फ़ाइल में एक मान सेट करें \ n * अनुप्रयोग में कई फाइलें हो सकती हैं और फाइल में एकाधिक मान हो सकते हैं \ n * फाइल में की जाने वाली चाबियाँ अद्वितीय होना चाहिए। यदि एक ही कुंजी कई बार उपयोग की जाती है, तो केवल नवीनतम सहेजे गए मान पहुंच योग्य \ n * प्रारूप - कुंजी: मान \ nEx) कुंजी: new_memo, मान: हैलो \ n * आपको \ &amp;apos; फ़ाइल (साझा वरीयता \ &amp;apos; [Component] से इसका उपयोग करने के लिए</string>
+  <string name="desc_bl_file_remove_data">निम्न कुंजी के साथ फ़ाइल डेटा निकालें</string>
+  <string name="desc_bl_cal_getnow">वर्तमान दिनांक और समय प्राप्त करें \ n * आपको \ &amp;apos; कैलेंडर \ &amp;apos; [घटक] से इसका उपयोग करने के लिए</string>
+  <string name="desc_bl_cal_addvalue">कैलेंडर फ़ील्ड में दिए गए समय की मात्रा जोड़ें \ n * सकारात्मक मान: समय जोड़ता है \ n * नकारात्मक मान: समय का समय निकालता है \ n * आपको \ &amp;apos; कैलेंडर \ सका [Component] से इसका उपयोग करने के लिए</string>
+  <string name="desc_bl_cal_setvalue">एक विशिष्ट मान के लिए कैलेंडर फ़ील्ड सेट करें \ n * आपको \ &amp;apos; कैलेंडर \ &amp;apos; [Component] से इसका उपयोग करने के लिए</string>
+  <string name="desc_bl_cal_format">पैटर्न का उपयोग करके कैलेंडर को एक स्ट्रिंग के रूप में प्रारूपित करें \ nYear (y) | महीना (एम) | दिन (डी) \ nHour (एच) 1 ~ 12 | घंटा (एच) 0 ~ 23 | मिनट (मी) | दूसरा (एस) \ nEx: yyyy-MM-dd hh: mm: ss (2106-01-01 03:01:02) \ nEx: yyyy-MM-dd एचएच: मिमी: एसएस (2106-01-01 15: 01:02) \ nEx: yyyy-MM-dd (2106-01-01) \ nEx: hh: mm: ss (12:01:02) \ n * एक रन-टाइम त्रुटि अगर दिए गए स्ट्रिंग फ़ॉर्मेट अमान्य है \ n * आपको \ &amp;apos; कैलेंडर \ &amp;apos; जोड़ने की आवश्यकता है; इस से उपयोग करने के लिए [घटक] से</string>
+  <string name="desc_bl_cal_difference">दिए गए कैलेंडर (समय) के बीच मतभेद प्राप्त करें \ n उएंट: मिलीसेकंड \ n * आपको \ &amp;apos; कैलेंडर \ &amp;apos; इसका उपयोग करने के लिए [घटक] से</string>
+  <string name="desc_bl_int_increase">1 से बढ़ता मूल्य</string>
+  <string name="desc_bl_int_decrease">घटाता मान 1</string>
+  <string name="desc_bl_spn_refresh">ताज़ा करें स्पिनर \ n स्पिनर का उपयोग करके सूची को पुनः लोड करें</string>
+  <string name="desc_bl_set_spn_data">स्पिनर डेटा सेट करें \ n डेटा स्वरूप: स्ट्रिंग</string>
+  <string name="desc_bl_spn_set_selection">किसी दिए गए इंडेक्स पर स्पिनर वस्तु का चयन करें \ n स्पिनर की मदों की संख्या से अधिक सूचकांक चलाने से रनटाइम त्रुटि मिलेगी</string>
+  <string name="desc_bl_spn_get_selection">चयनित स्पिनर आइटम का सूचकांक प्राप्त करें \ n इंडेक्स 0 से शुरू होता है</string>
+  <string name="desc_bl_listview_set_data">सूची सेट करेंदृश्य डेटा \ n एक सूची दृश्य के लिए डेटा सेट करना \ nडेटा प्रारूप: स्ट्रिंग</string>
+  <string name="desc_bl_listview_set_customview_data">एक आइटम में कस्टमव्यू लेआउट को बढ़ाना</string>
+  <string name="desc_bl_listview_refresh">सूची को रीफ्रेश करें सूची \ n सूची दृश्य डेटा को रीफ्रेश करें</string>
+  <string name="desc_bl_listview_setitem_chk_pos">एक सूची दृश्य का मान सेट करें किसी दिए गए इंडेक्स पर आइटम \ n केवल जब वर्चुअल एमएक्स सूचीईव्यू के लिए एक या एकतर है, तो केवल काम करता है \ n ListView में मदों की संख्या से अधिक एक अनुक्रमणिका सेट करने से रनटाइम त्रुटि होती है</string>
+  <string name="desc_bl_listview_getchk_pos">चयनित ListView आइटम का सूचक प्राप्त करें \ n केवल तब काम करता है जब ListView के लिए ChoiceMode या तो एक या बहु है</string>
+  <string name="desc_bl_listview_getchk_pos_arr">चयनित सूचीदृश्य आइटम के लिए सूचकांक प्राप्त करें \ n केवल तब काम करता है जब ListView के लिए ChoiceMode या तो एकल या बहु</string>
+  <string name="desc_bl_listview_getchk_count">चयनित सूची दृश्य वस्तुओं की संख्या प्राप्त करें \ n केवल तब काम करता है जब ListView के लिए ChoiceMode एकल या बहु है</string>
+  <string name="desc_bl_chk_get_checked">चेकबॉक्स की स्थिति प्राप्त करें \ n यदि चेक किया गया है तो सही, अन्य गलत</string>
+  <string name="desc_bl_chk_set_checked">सेट की स्थिति एक चेकबॉक्स \ n चेक किया गया है, तो सत्य सेट है, और अनचेक करें</string>
+  <string name="desc_bl_set_rotation">विजेट पर रोटेशन सेट करें</string>
+  <string name="desc_bl_get_rotation">विजेट का रोटेशन प्राप्त करें</string>
+  <string name="desc_bl_set_alpha">विजेट का अल्फा मान सेट करें</string>
+  <string name="desc_bl_get_alpha">विजेट का वर्तमान अल्फा मान प्राप्त करें</string>
+  <string name="desc_bl_set_translation_x">विजेट का अनुवाद एक्स मान सेट करें</string>
+  <string name="desc_bl_get_translation_x">विजेट का वर्तमान अनुवाद एक्स मान प्राप्त करें</string>
+  <string name="desc_bl_set_translation_y">अनुवाद वाई मान सेट करें एक विजेट का</string>
+  <string name="desc_bl_get_translation_y">वर्तमान अनुवाद प्राप्त करें विजेट का यू मान</string>
+  <string name="desc_bl_set_scale_x">विजेट के पैमाने एक्स मान सेट करें</string>
+  <string name="desc_bl_get_scale_x">एक विजेट के वर्तमान स्केल एक्स मान प्राप्त करें</string>
+  <string name="desc_bl_set_scale_y">एक के पैमाने वाई मान सेट करें विजेट</string>
+  <string name="desc_bl_get_scale_y">विजेट का वर्तमान स्केल वाई मान प्राप्त करें</string>
+  <string name="desc_bl_set_visible">विजेट की दृश्यता सेट करें \ n दृश्यता गुण \ n- विजुअल: यह दृश्य दृश्यमान है \ n- इनवीज़बल: यह दृश्य अदृश्य है, लेकिन यह अभी भी है लेआउट प्रयोजनों के लिए जगह लेता है \ n- चला गया: यह दृश्य अदृश्य है, और यह लेआउट के उद्देश्य के लिए कोई भी स्थान नहीं लेता है</string>
+  <string name="desc_bl_vibrator">समय की निर्धारित मात्रा के लिए कंपन \ n- टाइम यूनिट: मिलीसेकंड \ n * आपको \ &amp;apos; व्हाइब्रेटर \ &amp;apos; जोड़ने की आवश्यकता है; [Component] से इसका उपयोग करने के लिए</string>
+  <string name="desc_bl_timer_after">सेट समय अवधि के बाद ब्लॉक निष्पादित करें \ n- टाइम यूनिट: मिलीसेकंड \ n * आप केवल एक कार्य प्रति टाइमर सेट कर सकते हैं \ n * आपको \ &amp;apos; टाइमर \ सका [Component] से इसका उपयोग करने के लिए</string>
+  <string name="desc_bl_timer_every">प्रत्येक सेट टाइम अवधि के लिए निर्धारित समय अवधि के बाद ब्लॉक निष्पादित करें \ n- टाइम यूनिट: मिलीसेकंड \ n * आप केवल एक कार्य प्रति टाइमर सेट कर सकते हैं \ n * आपको जोड़ना होगा \ सका टाइमर \ सका इस से उपयोग करने के लिए [घटक] से</string>
+  <string name="desc_bl_timer_cancel">नामित टाइमर कार्य को रद्द कर देता है \ n- टाइम यूनिट: मिलीसेकंड \ n * आपको \ &amp;apos; टाइमर \ &amp;apos; [Component] से इसका उपयोग करने के लिए</string>
+  <string name="desc_bl_str_replace_first">दिए गए मान के साथ प्रथम स्ट्रिंग मान को बदलता है</string>
+  <string name="desc_bl_str_replace_all">दिए गए मान के साथ सभी स्ट्रिंग मान को बदलता है</string>
+  <string name="desc_bl_touppercase">सभी वर्णों को अपरकेस मान में बदल जाता है</string>
+  <string name="desc_bl_tolowercase">स्ट्रिंग में लोअरकेस के सभी अक्षरों को बदलता है</string>
+  <string name="desc_bl_to_string_with_decimal">दशमलव मान सहित संख्या को स्ट्रिंग में रूपांतरित करता है</string>
+  <string name="desc_bl_to_string_format">एक निश्चित दशमलव स्थान पर संख्याओं को स्वरूपित करने के लिए प्रयुक्त। \ nEx: 2 दशमलव स्थानों में संख्या को रूपांकित करना 0.00</string>
+  <string name="desc_bl_math_pi">मान के इनपुट में लेता है, 3.14159...</string>
+  <string name="desc_bl_math_e">ई मूल्य, 2.71828...</string>
+  <string name="desc_bl_math_pow">nth शक्ति की गणना दिए गए मान का</string>
+  <string name="desc_bl_math_min">दो मूल्यों के बीच के छोटे मूल्य की गणना</string>
+  <string name="desc_bl_math_max">दो मानों के बीच बड़ा मान की गणना करें</string>
+  <string name="desc_bl_math_sqrt">दिए गए मान के वर्गमूल की गणना करें</string>
+  <string name="desc_bl_math_abs">दिए गए मान के पूर्ण मूल्य की गणना करें</string>
+  <string name="desc_bl_math_round">दिए गए मान को ऊपर या नीचे दें</string>
+  <string name="desc_bl_math_ceil">दिए गए मान को गोल करें</string>
+  <string name="desc_bl_math_floor">दिए गए मान को गोल करें</string>
+  <string name="desc_bl_math_sin">दिए गए मान के साइन समारोह की गणना</string>
+  <string name="desc_bl_math_cos">दिए गए मान के कोसाइन फ़ंक्शन</string>
+  <string name="desc_bl_math_tan">दिए गए मान के स्पर्शरेखा कार्य की गणना</string>
+  <string name="desc_bl_math_asin">दिए गए मान के आर्सेनइन फ़ंक्शन का मूल्यांकन करें</string>
+  <string name="desc_bl_math_acos">दिए गए मान के आर्कोकॉइस फ़ंक्शन की गणना करें</string>
+  <string name="desc_bl_math_atan">दिए गए मान के आर्कटैगेंट फ़ंक्शन की गणना</string>
+  <string name="desc_bl_math_exp">दिए गए मान के घातीय कार्य की गणना करें</string>
+  <string name="desc_bl_math_log">दिए गए मान के प्राकृतिक लॉग की गणना करें</string>
+  <string name="desc_bl_math_log10">दिए गए मान के लॉग आधारित 10 की गणना करें</string>
+  <string name="desc_bl_math_to_radian">दिए गए मान को डिग्री से रेडियन में कनवर्ट करें</string>
+  <string name="desc_bl_math_to_degree">रेडियन से डिग्री के लिए दिए गए मान को कनवर्ट करें</string>
+  <string name="desc_bl_math_get_dip">डिवाइस की गणना करें \ &amp;apos; s dip डीपी) इनपुट का उपयोग कर मूल्य</string>
+  <string name="desc_bl_math_get_display_width">पिक्सेल में डिवाइस \ 's चौड़ाई आकार पुनर्प्राप्त करें</string>
+  <string name="desc_bl_math_get_display_height">पिक्सेल में डिवाइस \ 's ऊँचाई आकार पुनर्प्राप्त करें</string>
+  <string name="desc_bl_webview_load_url">वेबव्यू पर यूआरएल लोड करें</string>
+  <string name="desc_bl_webview_get_url">मौजूदा वेब वीव्यू के यूआरएल को प्राप्त करें</string>
+  <string name="desc_bl_webview_set_cachemode">कैश को सहेजने या अक्षम करें</string>
+  <string name="desc_bl_webview_can_go_back">जांचें कि क्या पिछले पृष्ठ उपलब्ध है</string>
+  <string name="desc_bl_webview_can_go_forward">अगर अगले पृष्ठ उपलब्ध है तो जांचें</string>
+  <string name="desc_bl_webview_go_back">पिछले पृष्ठ पर वापस जाएं</string>
+  <string name="desc_bl_webview_go_forward">एक पृष्ठ आगे जाएं</string>
+  <string name="desc_bl_webview_clear_cache">वेबसाइटों से कैश साफ़ करें</string>
+  <string name="desc_bl_webview_clear_history">पिछले ब्राउज़िंग इतिहास को साफ़ करें</string>
+  <string name="desc_bl_webview_stop_loading">बल बंद हो जाता है</string>
+  <string name="desc_bl_webview_zoom_in">वेबव्यू में ज़ूम इन करें</string>
+  <string name="desc_bl_webview_zoom_out">वेबव्यू से ज़ूम आउट करें</string>
+  <string name="desc_bl_set_title">वर्तमान गतिविधि के लिए शीर्षक सेट करें</string>
+  <string name="desc_bl_dialog_set_title">वर्तमान संवाद के लिए टाइल सेट करें</string>
+  <string name="desc_bl_dialog_set_message">डायलॉग के लिए बॉडी संदेश सेट करें</string>
+  <string name="desc_bl_dialog_ok_button">ठीक दबाए जाने के लिए कार्रवाई का निर्धारण करें</string>
+  <string name="desc_bl_dialog_cancel_button">रद्द करें दबाए जाने के लिए कार्रवाई का निर्धारण करें</string>
+  <string name="desc_bl_dialog_neutral_button">तटस्थ बटन दबाए जाने के लिए कार्रवाई का निर्धारण</string>
+  <string name="desc_bl_dialog_show">डायलॉग दिखाएँ</string>
+  <string name="desc_bl_dialog_dismiss">प्रोग्रामैटिक डायलॉग बंद करें</string>
+  <string name="desc_bl_mediaplayer_create">एक ध्वनि के साथ MediaPlayer प्रारंभ करें</string>
+  <string name="desc_bl_mediaplayer_start">मीडियाप्लेयर प्रारंभ करें</string>
+  <string name="desc_bl_mediaplayer_pause">मीडियाप्लेयर को रोकें</string>
+  <string name="desc_bl_mediaplayer_seek">दिए गए मिलिसेकंड में मीडियाप्लेयर की खोज करता है</string>
+  <string name="desc_bl_mediaplayer_get_current">मिलीसेकंड में वर्तमान अवधि प्राप्त करें</string>
+  <string name="desc_bl_mediaplayer_get_duration">मिलीसेकंड में ध्वनि की अवधि प्राप्त करें</string>
+  <string name="desc_bl_mediaplayer_isplaying">जांचें कि क्या मीडियाप्लेयर खेल रहा है</string>
+  <string name="desc_bl_mediaplayer_setlooping">ध्वनि के लिए लूप को सक्षम या अक्षम करें</string>
+  <string name="desc_bl_mediaplayer_islooping">जांच करें कि ध्वनि लूप पर है</string>
+  <string name="desc_bl_mediaplayer_reset">प्रारंभिक अवस्था में मीडियाप्लेयर को रीसेट करें, 0 मिलीसेकंड की मांग करें</string>
+  <string name="desc_bl_mediaplayer_release">मीडियाप्लेयर पर चलने वाली ध्वनि रिलीज करें</string>
+  <string name="desc_bl_soundpool_create">शुरूआत कितनी ध्वनि करता है पूल पकड़</string>
+  <string name="desc_bl_soundpool_load">एक ध्वनि के साथ पूल लोड करें ध्वनि आईडी (संख्या) देता है</string>
+  <string name="desc_bl_soundpool_stream_play">मेलिंग ध्वनि आईडी से ध्वनि चलाएं स्ट्रीम आईडी (नंबर) लौटाता है</string>
+  <string name="desc_bl_soundpool_stream_stop">मिलान स्ट्रीमिंग के साथ ध्वनि को रोकता है</string>
+  <string name="desc_bl_seekbar_set_progress">SeekBar</string>
+  <string name="desc_bl_seekbar_get_progress">की प्रगति मान सेट करता है SeekBar</string>
+  <string name="desc_bl_seekbar_set_max">SeekBar</string>
+  <string name="desc_bl_seekbar_get_max">का अधिकतम मान सेट करता है SeekBar</string>
+  <string name="desc_bl_objectanimator_set_target">का वर्तमान अधिकतम मान प्राप्त करता है एनीमेशन के लिए वांछित लक्ष्य निर्धारित करें</string>
+  <string name="desc_bl_objectanimator_set_property">इच्छित एनीमेशन गुण सेट करें</string>
+  <string name="desc_bl_objectanimator_set_value">संपत्ति के लिए वांछित मूल्य निर्धारित करें</string>
+  <string name="desc_bl_objectanimator_set_from_to">एनीमेशन के लिए प्रारंभिक और परिणाम मान सेट करें</string>
+  <string name="desc_bl_objectanimator_set_duration">एनीमेशन के लिए अवधि सेट करें</string>
+  <string name="desc_bl_objectanimator_set_repeat_mode">सेट करें कि एनीमेशन को दोहराएं या नहीं</string>
+  <string name="desc_bl_objectanimator_set_repeat_count">एनीमेशन को कितनी बार दोहराएं</string>
+  <string name="desc_bl_objectanimator_set_interpolator">एनीमेशन के लिए इंटरपोलेटर का प्रकार सेट करें</string>
+  <string name="desc_bl_objectanimator_start">एनीमेशन प्रारंभ करें</string>
+  <string name="desc_bl_objectanimator_cancel">एनीमेशन रद्द करें</string>
+  <string name="desc_bl_objectanimator_isrunning">एनीमेशन चल रहा है या नहीं जांचें</string>
+  <string name="desc_bl_add_source_directly">जावा स्रोत कोड सीधे जोड़ें</string>
+  <string name="tuto_textview_group_title">अपने ऐप में टेक्स्ट जोड़ें</string>
+  <string name="tuto_textview_title_1">टेक्स्टव्यू जोड़ना और टेक्स्ट वैल्यू बदलना</string>
+  <string name="tuto_textview_title_2">फ़ॉन्ट आकार बढ़ाने से</string>
+  <string name="tuto_textview_title_3">पाठ को बोल्ड</string>
+  <string name="tuto_textview_title_4">पाठ का रंग बदल रहा है बनाना</string>
+  <string name="tuto_textview_title_5">पाठ मान</string>
+  <string name="tuto_textview_title_6">अपने पहले में शामिल होने से बदलने के लिए setText ब्लॉक का उपयोग करना और अंतिम नाम एक साथ</string>
+  <string name="tuto_textview_title_7">TextView \ सका के साथ एक टोस्ट संदेश दिखाया जा रहा की मूल्य</string>
+  <string name="tuto_textview_title_8">एक जादू 8-गेंद एप्लिकेशन बनाना</string>
+  <string name="tuto_layout_group_title">प्लेस और स्थिति अलग ढंग से विजेट</string>
+  <string name="tuto_layout_title_1">क्षैतिज विगेट्स रखने</string>
+  <string name="tuto_layout_title_2">विगेट्स को खड़ी रूप से रखकर</string>
+  <string name="tuto_layout_title_3">लेआउट को अलग-अलग आकारों में बदलना</string>
+  <string name="tuto_layout_title_4">लेआउट में विगेट्स को संरेखित करना</string>
+  <string name="tuto_layout_title_5">बनाना स्क्रीन आकार उत्तरदायी लेआउट</string>
+  <string name="tuto_layout_title_6">ऊर्ध्वाधर और क्षैतिज लेआउट मिश्रण</string>
+  <string name="tuto_layout_title_7">बनाना</string>
+  <string name="tuto_button_group_title">कार्यों जब एक बटन क्लिक</string>
+  <string name="tuto_button_title_1">समानताएं और एक TextView के बीच मतभेद को पूरा करें और एक बटन</string>
+  <string name="tuto_button_title_2">एक बटन को अक्षम करना</string>
+  <string name="tuto_button_title_3">एक बटन क्लिक किए जाने पर टेक्स्ट विज़ू को बदलना</string>
+  <string name="tuto_edittext_group_title">उपयोगकर्ता इनपुट लें</string>
+  <string name="tuto_edittext_title_1">इनपुट के लिए उपयोगकर्ता को संकेत देना</string>
+  <string name="tuto_edittext_title_2">इनपुट बॉक्स का डिफ़ॉल्ट मान सेट करना</string>
+  <string name="tuto_edittext_title_3">एक इनपुट प्रदर्शित कर सकने वाली पंक्तियों की अधिकतम संख्या निर्धारित करना</string>
+  <string name="tuto_edittext_title_4">इनपुट बॉक्स को अक्षम करना</string>
+  <string name="tuto_edittext_title_5">विभिन्न इनपुट प्रकारों के लिए कीबोर्ड प्रकार बदलना</string>
+  <string name="tuto_edittext_title_6">एक बटन क्लिक किए जाने पर वर्तमान उपयोगकर्ता इनपुट दिखा रहा है</string>
+  <string name="tuto_edittext_title_7">फायरिंग इवेंट जब भी इनपुट वैल्यू बदल जाता है</string>
+  <string name="tuto_edittext_title_8">एक कस्टम इनपुट वैदिकेटर बनाना</string>
+  <string name="tuto_imageview_group_title">आकर्षक चित्र प्रदर्शित करें</string>
+  <string name="tuto_imageview_title_1">एक छवि को जोड़ना</string>
+  <string name="tuto_imageview_title_2">विभिन्न स्तर प्रकारों को समझना</string>
+  <string name="tuto_imageview_title_3">एक ScrollView का उपयोग करके एक छवि स्लाइड शो बनाना</string>
+  <string name="tuto_imageview_title_4">9-पैच छवियों को समझना</string>
+  <string name="tuto_chk_switch_group_title">टॉगल चालू और बंद करें</string>
+  <string name="tuto_chk_switch_title_1">चेकबॉक्स को समझना और स्विच करें</string>
+  <string name="tuto_chk_switch_title_2">प्रोग्राम के रूप में जांच टॉगल करने से</string>
+  <string name="tuto_chk_switch_title_3">दिखा/जाँच की स्थिति के आधार पर एक छवि छुपा</string>
+  <string name="tuto_styling_group_title">पेशेवर रूप से अपने ऐप को डिज़ाइन</string>
+  <string name="tuto_styling_title_1">समझौता गद्दी और मार्जिन संपत्ति</string>
+  <string name="tuto_styling_title_2">लेआउट गुरुत्वाकर्षण  बनाम गुरुत्वाकर्षण </string>
+  <string name="tuto_styling_title_3">एक विजेट घूर्णन</string>
+  <string name="tuto_styling_title_4">एक विजेट को पारदर्शी बनाना</string>
+  <string name="tuto_styling_title_5">एक लोडिंग स्पिनर बनाना</string>
+  <string name="tuto_intent_group_title">किसी भिन्न स्क्रीन या ऐप्स पर जाएं</string>
+  <string name="tuto_intent_title_1">मूल एंड्रॉइड फोन ऐप खोलना</string>
+  <string name="tuto_intent_title_2">एक वेब ब्राउज़र को प्रोग्राम खोलना</string>
+  <string name="tuto_intent_title_3">किसी भिन्न स्क्रीन पर नेविग करना</string>
+  <string name="tuto_intent_title_4">सेटफ़्लैग ब्लॉक को समझना</string>
+  <string name="tuto_file_group_title">डेटा स्थानीय रूप से सहेजें और पुनः प्राप्त करें</string>
+  <string name="tuto_file_title_1">डेटा को सहेजना और पुनर्प्राप्त करना</string>
+  <string name="tuto_file_title_2">डेटा निकाल रहा है</string>
+  <string name="tuto_file_title_3">एक साइन-अप / लॉगिन पृष्ठ बनाना</string>
+  <string name="tuto_file_title_4">अगले लॉन्च के लिए एक विकल्प याद रखना</string>
+  <string name="tuto_calendar_group_title">चित्रा है कि यह समय क्या है</string>
+  <string name="tuto_calendar_title_1">वर्तमान समय को प्राप्त करना</string>
+  <string name="tuto_calendar_title_2">कैलेंडर घटक में समय मूल्य जोड़ना</string>
+  <string name="tuto_calendar_title_3">दो बार के बीच का अंतर ढूँढना</string>
+  <string name="tuto_calendar_title_4">एक विशिष्ट समय मान सेट करना</string>
+  <string name="tuto_calendar_title_5">एक डिजिटल घड़ी ऐप तैयार करना</string>
+  <string name="tuto_vibrator_group_title">अपने डिवाइस को कंपन करें</string>
+  <string name="tuto_vibrator_title_1">अपने डिवाइस को हिलाना</string>
+  <string name="tuto_timer_group_title">अपने कार्यों में देरी</string>
+  <string name="tuto_timer_title_1">3 सेकंड के बाद एक संदेश दिखाएं</string>
+  <string name="tuto_timer_title_2">प्रत्येक 1 सेकंड में एक संख्या बढ़ाएं</string>
+  <string name="tuto_timer_title_3">एक चलने वाली चीता (स्प्राइट) एनीमेट करें</string>
+  <string name="tuto_timer_title_4">एक स्टॉपवॉच बनाएं</string>
+  <string name="tuto_sound_media_group_title">अपने ऐप में कुछ स्वाद जोड़ें</string>
+  <string name="tuto_sound_media_title_1">एक ध्वनि फ़ाइल को जोड़ना और खेलना</string>
+  <string name="tuto_sound_media_title_2">ध्वनि फ़ाइल बजाना और रोकना</string>
+  <string name="tuto_sound_media_title_3">असीम रूप से एक ध्वनि को पालना</string>
+  <string name="tuto_sound_media_title_4">गीत की अवधि प्राप्त करना</string>
+  <string name="tuto_sound_media_title_5">एक 3-कुंजी पियानो बनाना</string>
+  <string name="tuto_sound_media_title_6">एक म्यूजिक प्लेयर को डिजाइन करना</string>
+  <string name="tuto_algorithm_group_title">जानें और अपने तर्क को अनुकूलित करें</string>
+  <string name="tuto_algorithm_title_1">TextViews के दो मूल्यों को स्वैप करें</string>
+  <string name="tuto_algorithm_title_2">तारों का एक त्रिकोण छापना</string>
+  <string name="tuto_algorithm_title_3">एक संख्या भी या अजीब है अगर जाँच कर रहा है</string>
+  <string name="tuto_algorithm_title_4">एक नई सूची बनाकर एक सूची में आइटम उल्टा</string>
+  <string name="tuto_algorithm_title_5">कार्ड (1/2) का एक डेक बनाना</string>
+  <string name="tuto_algorithm_title_6">Shuffling कार्ड का एक डेक (2/2)</string>
+  <string name="tuto_algorithm_title_7">कितनी बार एक शब्द दोहराया जाता है</string>
+  <string name="tuto_com_welcome">ट्यूटोरियल में आपका स्वागत है!</string>
+  <string name="tuto_com_tab_continue">जारी रखने के लिए स्क्रीन को टैप करें</string>
+  <string name="tuto_com_goal">लक्ष्य</string>
+  <string name="tuto_com_view_goal">लक्ष्य देखें</string>
+  <string name="tuto_com_logic_goal">तर्क लक्ष्य</string>
+  <string name="tuto_com_logic_recap">तर्क रिकैप</string>
+  <string name="tuto_com_logic_explained">तर्क समझाया</string>
+  <string name="tuto_com_logic_category">% s वर्ग पर क्लिक करें</string>
+  <string name="tuto_com_explained_continued">स्पष्टीकरण जारी</string>
+  <string name="tuto_com_prerequisite">पूर्वापेक्षित</string>
+  <string name="tuto_com_summary">सारांश</string>
+  <string name="tuto_com_summary_continued">सारांश जारी रखा</string>
+  <string name="tuto_com_click_copy">"प्रतिलिपि" बटन पर क्लिक करें</string>
+  <string name="tuto_com_click_paste">आप कॉपी किए गए ब्लॉक पेस्ट करने के लिए "पेस्ट" बटन पर क्लिक करें</string>
+  <string name="tuto_com_click_it_category">% s वर्ग पर क्लिक करें</string>
+  <!-- Variable, List,View,etc -->
+  <string name="tuto_com_click_it_tab">% s टैब पर क्लिक करें</string>
+  <!-- VIEW, LOGIC -->
+  <string name="tuto_com_click_properties">गुणों पर क्लिक करें</string>
+  <string name="tuto_com_longpress_widget">\ "% s \" विजेट को लंबे समय से दबाएं</string>
+  <!-- TextView , Button, etc -->
+  <string name="tuto_com_longpress_layout">\ "% s \" लेआउट को लंबे समय से दबाएं</string>
+  <!-- Linear(H) , Linear(V) -->
+  <string name="tuto_com_longpress_block">\ "% s \" ब्लॉक को दबाए रखें</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_add_event">+ बटन पर क्लिक करके% s इवेंट जोड़ें</string>
+  <!-- onTextChanged , onCheckChanged , etc -->
+  <string name="tuto_com_add_component" formatted="false">\ "% s \" के नाम से% s घटक जोड़ें। "</string>
+  <!-- 1:Calendar,Timer 2:Variable name -->
+  <string name="tuto_com_add_component_file" formatted="false">\ "% s \" के नाम से% s घटक जोड़ें और \ "% s \" का फ़ाइल नाम</string>
+  <!-- 1:Variable name 2:File name -->
+  <string name="tuto_com_properties_again">कुछ गलत हो गया है गुणों पर फिर से क्लिक करें</string>
+  <string name="tuto_com_event_again">कुछ गलत हो गया फिर से ईवेंट पर क्लिक करें</string>
+  <string name="tuto_com_select">चुनें% s</string>
+  <!-- VISIBLE,GONE,right,AnyActivityName -->
+  <string name="tuto_com_select_appropriate">उपयुक्त% s चुनें</string>
+  <!-- TextView,Calendar,etc -->
+  <string name="tuto_com_choose_manager">मेनू के अंदर% s चुनें</string>
+  <!-- View,Image,Sound -->
+  <string name="tuto_com_choose_image">\ "% s \" छवि चुनें</string>
+  <!-- Variable name -->
+  <string name="tuto_com_add_activity">\ "% s नामक एक गतिविधि दृश्य जोड़ें \ "</string>
+  <string name="tuto_com_add_sound_file">एक ध्वनि फ़ाइल जोड़ें और इसे नाम दें \ "% s \"</string>
+  <!-- Sound file name -->
+  <string name="tuto_com_it_added">आपका \ "% s \" सफलतापूर्वक जोड़ दिया गया है!</string>
+  <!-- 1:Calendar,Timer 2:Variable name -->
+  <string name="tuto_com_try_install">इसे चलाने के लिए कोशिश करने और इस उदाहरण को स्थापित करने की कोशिश करें</string>
+  <string name="tuto_com_congratulations">बधाई हो!</string>
+  <string name="tuto_com_tuto_completed">आपने ट्यूटोरियल पूरा किया है</string>
+  <string name="tuto_com_goodjob">अच्छा काम!</string>
+  <string name="tuto_com_go_to_editor">संपादक पर वापस जाने के लिए वापस बटन दबाएं</string>
+  <string name="tuto_com_back_button">परिवर्तन देखने के लिए वापस बटन दबाएं</string>
+  <string name="tuto_com_back_button_tosave">बचाने के लिए वापस बटन दबाएं</string>
+  <string name="tuto_com_drop_onto_layout" formatted="false">% s को% s लेआउट पर छोड़ दें</string>
+  <!-- 1:TextView , 2:root -->
+  <string name="tuto_com_drop_onto_editor">संपादक पर \ "% s \" ड्रॉप करें</string>
+  <!--TextView-->
+  <string name="tuto_com_drop_under_block">ड्रॉप यह \ "% s \" ब्लॉक</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_drop_into_block">Drop it into the \"%s\" block</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_drop_inside_block">इसे \ "% s \" ब्लॉक के अंदर छोड़ दें</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_drop_inside_condition_block">इसे \ "% s \" ब्लॉक की स्थिति में छोड़ दें</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_drop_inside_1st_param_block">\ "% s \" ब्लॉक</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_drop_inside_2nd_param_block">के पहले पैरामीटर के अंदर इसे ड्रॉप करें \ "% s \" ब्लॉक</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_select_1st_param">के दूसरे पैरामीटर में इसे छोड़ दें = \ "% s \" चुनें पहला पैरामीटर</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_select_2nd_param">दूसरे पैरामीटर के लिए \ "% s \" चुनें</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_set_1st_param">पहले पैरामीटर के लिए \ "% s \" सेट करें</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_set_2nd_param">दूसरे पैरामीटर के लिए \ "% s \" सेट करें</string>
+  <!-- Toast , setText , etc -->
+  <string name="tuto_com_need_run">चूंकि एप शुरू होने पर परिवर्तन होता है, आपको आवेदन को चलाने की आवश्यकता होगी</string>
+  <string name="tuto_textview_1_0">बिल्कुल सही! इस तरह आप संपादक को विगेट्स जोड़ सकते हैं</string>
+  <string name="tuto_textview_1_1">हम उसकी संपत्ति को संपादित करके टेक्स्ट वैल्यू बदल सकते हैं</string>
+  <string name="tuto_textview_1_2">पाठ मूल्य को बदलने के लिए "टेक्स्ट" प्रॉपर्टी को बदला जा सकता है</string>
+  <string name="tuto_textview_1_3">पाठ मान को जो कुछ भी आप चाहते हैं, उसे बदलने का प्रयास करें</string>
+  <string name="tuto_textview_1_4">\ "% s \"</string>
+  <string name="tuto_textview_1_6">के अलावा अन्य किसी भी चीज़ को बदलने की कोशिश करें</string>
+  <string name="tuto_textview_2_0">tuto_textview_1_6</string>
+  <string name="tuto_textview_2_1">गुण टैब को दिखाने के लिए TextView पर क्लिक करें</string>
+  <string name="tuto_textview_2_2">फ़ॉन्ट आकार को बढ़ाने या घटाना कोशिश करें</string>
+  <string name="tuto_textview_2_3">भिन्न आकार में फ़ॉन्ट आकार बदलने की कोशिश करें</string>
+  <string name="tuto_textview_2_4">फ़ॉन्ट आकार बदल दिया गया है</string>
+  <string name="tuto_textview_3_0">इसके गुणों के माध्यम से TextView बोल्ड बनायें</string>
+  <string name="tuto_textview_3_1">टेक्स्टएव पर गुणों को दिखाने के लिए क्लिक करें टैब</string>
+  <string name="tuto_textview_3_2">पाठ शैली के लिए \ "बोल्ड \" विकल्प चुनें</string>
+  <string name="tuto_textview_3_3">पाठ शैली को \ "% s \" में बदलने की कोशिश करो!</string>
+  <string name="tuto_textview_3_4">TextView अब बोल्ड है!</string>
+  <string name="tuto_textview_4_0">टेक्स्टव्यू का रंग बदलें</string>
+  <string name="tuto_textview_4_1">गुण टैब को दिखाने के लिए TextView पर क्लिक करें</string>
+  <string name="tuto_textview_4_2">एक नया टेक्स्ट रंग चुनें</string>
+  <string name="tuto_textview_4_3">एक नया टेक्स्ट रंग चुनें \ "% s \ "</string>
+  <string name="tuto_textview_4_4">TextView का रंग बदल दिया गया है</string>
+  <string name="tuto_textview_5_0">तर्क संपादक का उपयोग कर TextView का मूल्य बदलें</string>
+  <string name="tuto_textview_5_1">यह तर्क टैब है</string>
+  <string name="tuto_textview_5_2">लॉजिक टैब घटनाओं से बना है उदाहरण के लिए, एक बटन क्लिक करना एक घटना होगी</string>
+  <string name="tuto_textview_5_3">[onCreate] ईवेंट डिफ़ॉल्ट रूप से प्रदान किया जाता है। यह एक ऐसी घटना है जो हमेशा आपका आवेदन शुरू होने पर एक बार ट्रिगर हो जाता है</string>
+  <string name="tuto_textview_5_4">ऐप शुरू होने पर टेक्स्टव्यू के मूल्य को बदलने के लिए इस घटना को संपादित करने दें</string>
+  <string name="tuto_textview_5_5">आपको इस घटना को समाप्त करना होगा</string>
+  <string name="tuto_textview_5_6">यह वह जगह है जहां आप प्रोग्राम करते हैं कि आपका एप्लिकेशन ब्लॉक के साथ कैसे व्यवहार करता है</string>
+  <string name="tuto_textview_5_7">आप पाठ मूल्यों को बदलने के लिए settext ब्लॉक का उपयोग कर सकते हैं</string>
+  <string name="tuto_textview_5_9">पाठ मान को जो भी आप चाहते हैं, उसे बदलें</string>
+  <string name="tuto_textview_5_10">\ "% s \"</string>
+  <string name="tuto_textview_6_0">अपने पहले और अंतिम नाम में शामिल होने के लिए ऑपरेटर ब्लॉक का प्रयोग करें</string>
+  <string name="tuto_textview_6_1">TextView</string>
+  <string name="tuto_textview_6_2">का मान बदलने के लिए इस ईवेंट को संपादित करें आपको इस घटना को समाप्त करना होगा</string>
+  <string name="tuto_textview_6_4">ऑपरेटर टैब पर क्लिक करें</string>
+  <string name="tuto_textview_6_5">अपना पहला नाम यहां लिखें</string>
+  <string name="tuto_textview_6_6">डॉन \ &amp;apos; टी इसे खाली रूप से छोड़ दें</string>
+  <string name="tuto_textview_6_7">अपना अंतिम नाम यहाँ लिखें</string>
+  <string name="tuto_textview_7_0">[टोस्ट] और [gettext] ब्लॉक का प्रयोग करें</string>
+  <string name="tuto_textview_7_1">ऐप शुरू होने पर संदेश दिखाने के लिए इस घटना को संपादित करें।</string>
+  <string name="tuto_textview_7_2">आपको इस घटना को समाप्त करना होगा</string>
+  <string name="tuto_textview_7_4">चूंकि ऐप शुरू होता है तब परिवर्तन होता है, आपको इसकी आवश्यकता होगी एप्लिकेशन को चलाएं</string>
+  <string name="tuto_textview_9_0">एक जादू 8-बॉल ऐप बनाएं</string>
+  <string name="tuto_textview_9_1">मैजिक 8-बॉल क्या है?</string>
+  <string name="tuto_textview_9_2">मैजिक 8-बॉल एक खिलौना है जिसे 1 9 50 के दशक में विकसित और सलाह देने के लिए इस्तेमाल किया जाने वाला खिलौना है और मैटल द्वारा निर्मित। इसका प्रयोग अक्सर उपन्यास में किया जाता है, अक्सर हास्य के लिए सटीक, गलत, या अन्यथा सांख्यिकीय रूप से असंभव उत्तर देने से संबंधित है</string>
+  <string name="tuto_textview_9_3">यह जादू 8 बॉल है</string>
+  <string name="tuto_textview_9_4">जब बटन दबाया जाता है, हम "उत्तर" पाठ को बदल देंगे</string>
+  <string name="tuto_textview_9_5">यह उत्तर पाठ है, जो "हाँ" या "नहीं" जवाब</string>
+  <string name="tuto_textview_9_6">[ask_button \\ on on click] घटना हर बार बटन क्लिक किया जाता है निकाल दिया जाता है। चलो इस घटना को संपादित करें</string>
+  <string name="tuto_textview_9_7">1. जब पूछा बटन क्लिक किया जाता है \ n2। 0 और 1 \ n3 के बीच यादृच्छिक संख्या उत्पन्न करें यदि संख्या 0 है, तो "नहीं" दिखाएं, और यदि 1, "हां"</string>
+  <string name="tuto_textview_9_8">चूंकि हम 0 या 1 का मान चाहते हैं, यहां "0" डाल दिया है</string>
+  <string name="tuto_textview_9_9">यहाँ \ "% s \" को \ "\" डाल दो</string>
+  <string name="tuto_textview_9_10">हमारी पहली स्थिति में, \ \ apos; की जांच करें कि संख्या यादृच्छिक 0 है। यहाँ \ "% s \" रखो</string>
+  <string name="tuto_textview_9_11">\ "% s \" पाठदृश्य का चयन करें</string>
+  <string name="tuto_textview_9_12">\\ \\ पाठ का मूल्य \ "% s \" में बदल दें।</string>
+  <string name="tuto_textview_9_15">जब भी पूछें बटन क्लिक किया जाता है, हम 0 और 1 के बीच एक यादृच्छिक संख्या उत्पन्न करते हैं। \ n यदि उत्पन्न संख्या 0 है, तो हम जादू 8-गेंद को "हां" कहते हैं, और नहीं "नहीं"।</string>
+  <string name="tuto_layout_1_0">प्लेस विजेट्स क्षैतिज रूप से</string>
+  <string name="tuto_layout_1_1">संपादक पर लेआउट ड्रॉप करें</string>
+  <string name="tuto_layout_1_2">लेआउट स्वचालित रूप से "match_parent" की चौड़ाई प्राप्त करता है क्योंकि यह एक क्षैतिज लेआउट</string>
+  <string name="tuto_layout_1_3">हम \ सका दो TextView \ सका जोड़ने जा रहे है जो लेआउट के लिए रों</string>
+  <string name="tuto_layout_1_4">लेआउट के लिए TextView जोड़े</string>
+  <string name="tuto_layout_1_5">लेआउट के अंदर 1 TextView ड्रॉप</string>
+  <string name="tuto_layout_1_6">दें \ सका की लेआउट के लिए एक और TextView जोड़ने</string>
+  <string name="tuto_layout_1_7">पहली TextView के दाईं ओर TextView ड्रॉप करें</string>
+  <string name="tuto_layout_1_8">आप देख सकते हैं कि लेआउट क्षैतिज रूप से बच्चों में लेता है</string>
+  <string name="tuto_layout_2_0">प्लेस विजेट्स लंबवत</string>
+  <string name="tuto_layout_2_1">संपादक पर लेआउट ड्रॉप करें</string>
+  <string name="tuto_layout_2_2">tuto_layout_2_3</string>
+  <string name="tuto_layout_2_3">लेआउट स्वचालित रूप से यह के बाद से "match_parent" \ सका की ऊंचाई को प्राप्त करता है; सा ऊर्ध्वाधर लेआउट</string>
+  <string name="tuto_layout_2_4">हम \ सका दो TextView \ सका जोड़ने जा रहा फिर से लेआउट में TextView</string>
+  <string name="tuto_layout_2_5">लेआउट के अंदर पहला टेक्स्टदृश्य ड्रॉप करें</string>
+  <string name="tuto_layout_2_6">लेआउट के लिए एक और टेक्स्टव्यू जोड़ें</string>
+  <string name="tuto_layout_2_7">लेआउट में एक और टेक्स्टव्यू जोड़ें</string>
+  <string name="tuto_layout_2_8">"टेक्स्टव्यूड को पहले से नीचे रखें व्याख्यान दर्शन</string>
+  <string name="tuto_layout_2_9">आप देख सकते हैं कि लेआउट बच्चों में खड़ी है</string>
+  <string name="tuto_layout_3_0">विभिन्न आकारों में लेआउट का आकार बदलें</string>
+  <string name="tuto_layout_3_1">हमने आपके लिए यह लेआउट प्रदान किया है। लेआउट पर क्लिक करें</string>
+  <string name="tuto_layout_3_2">इस लेआउट को बदल दें \\ apos; इसकी संपत्ति को संपादित करके आकार</string>
+  <string name="tuto_layout_3_3">हम सबसे पहले लेआउट को बदलने का प्रयास करेंगे</string>
+  <string name="tuto_layout_3_4">"match_parent" के लिए चौड़ाई बदलने की कोशिश करें</string>
+  <string name="tuto_layout_3_5">"match_parent" गुण उसके माता पिता \ &amp;apos से मिलान करने के लिए लेआउट \ ; s width</string>
+  <string name="tuto_layout_3_6">चूंकि मूल लेआउट माता-पिता है और यह पूरी स्क्रीन को भरता है, लेआउट \ "aps \" की चौड़ाई "match_parent" पूरी स्क्रीन भरती है</string>
+  <string name="tuto_layout_3_7">आइए... अलग विकल्प!</string>
+  <string name="tuto_layout_3_8">चौड़ाई को \ "% s \" में बदलने का प्रयास करें</string>
+  <string name="tuto_layout_3_9">"wrap_content" प्रॉपर्टी लेआउट को बदल देती है \\\ 's चौड़ाई जो अंदर होती है</string>
+  <string name="tuto_layout_3_10">क्योंकि लेआउट में कुछ नहीं है, यह उसके सबसे छोटा आकार</string>
+  <string name="tuto_layout_3_11">चलो \ &amp;apos; आखिरी विकल्प की कोशिश करो!</string>
+  <string name="tuto_layout_3_12">\ "% s \"</string>
+  <string name="tuto_layout_3_13">"डीपी" लेआउट में एक निश्चित चौड़ाई प्रदान करता है</string>
+  <string name="tuto_layout_4_0">लेआउट में विगेट संरेखित करें</string>
+  <string name="tuto_layout_4_1">हमने आपके लिए यह क्षैतिज लेआउट प्रदान किया है लेआउट पर क्लिक करें</string>
+  <string name="tuto_layout_4_2">हमारे द्वारा प्रदान किए गए लेआउट की "चौड़ाई और ऊंचाई" wrap_content है</string>
+  <string name="tuto_layout_4_3">इस लेआउट को पूरी स्क्रीन भरने दें</string>
+  <string name="tuto_layout_4_4">"match_parent" के लिए चौड़ाई बदलने की कोशिश करें</string>
+  <string name="tuto_layout_4_5">ऊंचाई को "match_parent" में बदलने की कोशिश करें</string>
+  <string name="tuto_layout_4_6">चूंकि चौड़ाई और ऊंचाई दोनों "match_parent" हैं, लेआउट पूरे स्क्रीन को भरता है</string>
+  <string name="tuto_layout_4_7">हम \\\\\\ लेआउट में एक TextView जोड़ने के लिए जा रहे हैं</string>
+  <string name="tuto_layout_4_8">Drop the TextView onto the editor</string>
+  <string name="tuto_layout_4_9">बिल्कुल सही! अब, \\\\\\\\\\\\\\\\\\\\ \\ \\ लेआउट के केंद्र में TextView संरेखित करें</string>
+  <string name="tuto_layout_4_10">रैखिक लेआउट पर क्लिक करें जिसमें TextView</string>
+  <string name="tuto_layout_4_11">दें \ &amp;apos; इसके गुणों को परिवर्तित करें</string>
+  <string name="tuto_layout_4_12">ग्रेविटी अपने बच्चों के विजेट की स्थिति को संभालती है</string>
+  <string name="tuto_layout_4_13">विकल्पों में से "center_horizontal" चुनें</string>
+  <string name="tuto_layout_4_14">आप देख सकते हैं कि TextView अब क्षैतिज केंद्र में गठबंधन है</string>
+  <string name="tuto_layout_4_15">एक अलग गुरुत्वाकर्षण जोड़ने का प्रयास करें</string>
+  <string name="tuto_layout_4_16">विकल्प से "center_horizontal" और "center_vertical" दोनों का चयन करें</string>
+  <string name="tuto_layout_4_17">आप देख सकते हैं कि TextView को अब केंद्र में संरेखित किया गया है</string>
+  <string name="tuto_layout_5_0">किन्हीं भी डिवाइस स्क्रीन आकार में आनुपातिक लेआउट जो बनाएँ</string>
+  <string name="tuto_layout_5_1">हमने "match_parent" की चौड़ाई के साथ दो लेआउट प्रदान किए हैं</string>
+  <string name="tuto_layout_5_2">उनके गुणों को बदल दें, ताकि ब्लू टू ग्रीन लेआउट अनुपात की ऊंचाई 1: 3</string>
+  <string name="tuto_layout_5_3">सबसे पहले, चलो \ ब्लू लेआउट \ &amp;apos; s property</string>
+  <string name="tuto_layout_5_4">वजन की संपत्ति को संपादित करता है यह निर्धारित करता है कि पैरेंट लेआउट का कितना "अनुपात" लेना चाहिए</string>
+  <string name="tuto_layout_5_5">भार आनुपातिक अन्य बच्चों की तुलना में है \ सका रों, एक ही लेआउट में रों वजन</string>
+  <string name="tuto_layout_5_6">वजन को बदलने को \ "% s \"</string>
+  <string name="tuto_layout_5_7">के बाद से ब्लू लेआउट \ सका प्रयास करें वज़न 1 होता है और ग्रीन लेआउट \ सका रों वजन 0 है, ब्लू लेआउट संभव</string>
+  <string name="tuto_layout_5_8">अब, ग्रीन लेआउट \ &amp;apos; s संपत्ति को संपादित करने दें</string>
+  <string name="tuto_layout_5_9">हम इसके वजन</string>
+  <string name="tuto_layout_5_10">चूंकि दोनों लेआउट में 1 का भार है, वे 1: 1 के अनुपात के बराबर स्थान लेते हैं</string>
+  <string name="tuto_layout_5_11">चलो \\\\\\ 'ग्रीन \ "के वजन को \"% s \ "में परिवर्तित करने का प्रयास करें।</string>
+  <string name="tuto_layout_5_12">चूंकि ब्लू लेआउट का वजन 1 है और ग्रीन लेआउट का वजन 3 है, वे 1: 3 के अनुपात के साथ स्थान लेते हैं</string>
+  <string name="tuto_layout_6_0">एक साथ अलग-अलग ओरिएंटेड लेआउट को मिलाएं</string>
+  <string name="tuto_layout_6_1">संपादक पर क्षैतिज लेआउट ड्रॉप करें</string>
+  <string name="tuto_layout_6_2">इस लेआउट को पूरी स्क्रीन भरने दें</string>
+  <string name="tuto_layout_6_3">ऊंचाई को "मैच_पेरेंट" में बदलने की कोशिश करें</string>
+  <string name="tuto_layout_6_4">चूंकि चौड़ाई और ऊंचाई दोनों "मैच_पेरिंट" हैं, लेआउट पूरी स्क्रीन को भरता है</string>
+  <string name="tuto_layout_6_5">हम पहले लेआउट पर अलग-अलग ओरिएंटेड लेआउट जोड़ने जा रहे हैं</string>
+  <string name="tuto_layout_6_6">लेआउट ड्रॉप करें हम पहले रखा क्षैतिज लेआउट पर</string>
+  <string name="tuto_layout_6_7">हम \ 'दो पाठदृश्यों \ "को ऊर्ध्वाधर लेआउट में जोड़ने के लिए जा रहे हैं हम सिर्फ</string>
+  <string name="tuto_layout_6_8">दो पाठ दृश्यों को ऊर्ध्वाधर लेआउट में जोड़ें</string>
+  <string name="tuto_layout_6_9">अंदर पहला टेक्स्टदृश्य ड्रॉप करें ऊर्ध्वाधर लेआउट</string>
+  <string name="tuto_layout_6_10">चलो \ &amp;apos; एक और TextView जोड़ें</string>
+  <string name="tuto_layout_6_11">ऊर्ध्वाधर लेआउट के अंदर कहीं भी TextView ड्रॉप करें</string>
+  <string name="tuto_layout_6_12">विजेट्स को क्षैतिज रूप से और लंबवत रखा जाता है, लेआउट के उन्मुखीकरण के आधार पर आप उन्हें जोड़ते हैं</string>
+  <string name="tuto_layout_6_13">लंबवत के दाहिनी ओर लेआउट ड्रॉप करें लेआउट</string>
+  <string name="tuto_layout_6_14">हम \\\\\\\\\\\\\ क्षैतिज लेआउट में दो TextView जोड़ने के लिए जा रहे हैं हम सिर्फ</string>
+  <string name="tuto_layout_6_15">क्षैतिज लेआउट में दो टेक्स्टदृश्य जोड़ें। हम सिर्फ</string>
+  <string name="tuto_layout_6_16">लेआउट में पहला टेक्स्टदृश्य ड्रॉप करें</string>
+  <string name="tuto_layout_6_17">लेआउट में एक और टेक्स्टदृश्य जोड़ें</string>
+  <string name="tuto_layout_6_18">क्षैतिज लेआउट के अंदर कहीं भी TextView ड्रॉप करें</string>
+  <string name="tuto_layout_6_19">क्षैतिज लेआउट के अंदर TextView \ क्षो: क्षैतिज रूप से रखा गया है</string>
+  <string name="tuto_layout_6_20">हम \ &amp;apos; सफलतापूर्वक विभिन्न ओरिएंटेशन में अलग-अलग ओरिएंटेड लेआउट्स का उपयोग करते हुए विजेट जोड़ सकते हैं</string>
+  <string name="tuto_layout_7_0">एक स्क्रॉल करने योग्य लेआउट बनाएं</string>
+  <string name="tuto_layout_7_1">संपादक पर स्क्रॉल लेआउट ड्रॉप करें</string>
+  <string name="tuto_layout_7_2">स्क्रॉल लेआउट केवल एक लेआउट या विजेट में ले सकते हैं</string>
+  <string name="tuto_layout_7_3">स्क्रॉल लेआउट के अंदर कुछ भी स्क्रॉल होता है, यहां तक कि विगेट्स</string>
+  <string name="tuto_layout_7_4">हालांकि, यह एक रैखिक लेआउट को अंदर जोड़ने के लिए आदर्श है स्क्रॉल लेआउट</string>
+  <string name="tuto_layout_7_5">स्क्रॉल लेआउट के अंदर क्षैतिज रैखिक लेआउट ड्रॉप करें</string>
+  <string name="tuto_layout_7_6">स्क्रॉल और रैखिक लेआउट आमतौर पर एक ही ओरिएंटेशन को साझा करते हैं। इस मामले में, वे दोनों क्षैतिज हैं</string>
+  <string name="tuto_layout_7_7">हम स्क्रॉल करने के लिए लेआउट को मजबूर करने के लिए क्षैतिज लेआउट के अंदर एक लंबा टेक्स्टव्यू जोड़ने जा रहे हैं</string>
+  <string name="tuto_layout_7_8">रैखिक लेआउट के अंदर TextView ड्रॉप करें</string>
+  <string name="tuto_layout_7_9">चलो \ इस TextView \\\\\\ 'चौड़ाई में वृद्धि हुई है ताकि लेआउट स्क्रॉल हो जाए</string>
+  <string name="tuto_layout_7_10">डीपी से \ "% s \" को बदलने की कोशिश करें</string>
+  <string name="tuto_layout_7_11">इसे चलाने के लिए कोशिश करने और इस उदाहरण को स्थापित करने की कोशिश करें</string>
+  <string name="tuto_button_1_0">समानता को समझना और टेक्स्टव्यू और एक बटन के बीच अंतर</string>
+  <string name="tuto_button_1_1">संपादक पर बटन ड्रॉप करें</string>
+  <string name="tuto_button_1_2">एक बटन TextView के साथ एक ही पाठ गुण साझा करता है</string>
+  <string name="tuto_button_1_3">उदाहरण के लिए, आप "पाठ" प्रॉपर्टी संपादित करके एक बटन का टेक्स्ट बदल सकते हैं</string>
+  <string name="tuto_button_1_4">वापस बटन दबाकर संपादक पर वापस जाएं</string>
+  <string name="tuto_button_1_5">इसके विपरीत टेक्स्ट व्यू, बटन \\ "onClick" ईवेंट स्वचालित रूप से तब उत्पन्न होता है जब भी बटन संपादक को दृश्य संपादक पर जोड़ दिया जाता है</string>
+  <string name="tuto_button_1_6">जब भी बटन क्लिक किया जाता है तो यह इवेंट आग जाएगा</string>
+  <string name="tuto_button_1_7">आपको इस घटना को समाप्त करना होगा</string>
+  <string name="tuto_button_2_0">बटन को अक्षम करें</string>
+  <string name="tuto_button_2_1">हमने आपके लिए यह बटन प्रदान किया है। उस पर क्लिक करें</string>
+  <string name="tuto_button_2_2">आप अपनी "सक्षम" संपत्ति को संपादित करके बटन को अक्षम कर सकते हैं</string>
+  <string name="tuto_button_2_3">बटन को अक्षम करने के लिए स्विच टॉगल करें</string>
+  <string name="tuto_button_2_4">आइए संपादक पर वापस जाएं</string>
+  <string name="tuto_button_3_0">जब इसे क्लिक किया जाता है तो बटन को अक्षम करें</string>
+  <string name="tuto_button_3_1">यहां बटन ड्रॉप करें</string>
+  <string name="tuto_button_3_2">बटन को संपादित करें \\ बटन पर क्लिक करें</string>
+  <string name="tuto_button_4_0">बटन क्लिक किए जाने पर टेक्स्टव्यू के मान को बदलें</string>
+  <string name="tuto_button_4_1">नीचे दिए गए बटन को नीचे रखें TextView</string>
+  <string name="tuto_button_4_2">बटन पर क्लिक किए जाने पर बटन \\\\\\\\\\ बटन बटन दबाया जाता है</string>
+  <string name="tuto_button_4_3">घटना को संपादित करने दें, ताकि बटन को क्लिक करने पर बटन को बदल दिया जाए</string>
+  <string name="tuto_button_4_4">सेटटैक्स ब्लॉक</string>
+  <string name="tuto_button_4_6">को खोजने के लिए व्यू टैब पर क्लिक करें टेक्स्ट वैल्यू बदलें जो आप चाहते हैं</string>
+  <string name="tuto_button_4_7">\ "% s \" के अलावा अन्य किसी भी चीज़ को मान बदलें</string>
+  <string name="tuto_edittext_1_0">बदलें एक इनपुट बॉक्स का संकेत</string>
+  <string name="tuto_edittext_1_1">EditText में "टेक्स्ट संपादित करें" का डिफ़ॉल्ट संकेत है</string>
+  <string name="tuto_edittext_1_2">"संकेत" टेक्स्ट वैल्यू है जो उपयोगकर्ता को इंगित करता है कि वह क्या इनपुट चाहिए</string>
+  <string name="tuto_edittext_1_3">चलो \ &amp;apos; इसकी संपत्ति को संपादित करना</string>
+  <string name="tuto_edittext_1_4">"संकेत" गुण संकेत के पाठ मान को संभालता है</string>
+  <string name="tuto_edittext_1_5">इसे किसी भी संकेत मूल्य को बदलने की कोशिश करें जिसे आप चाहें</string>
+  <string name="tuto_edittext_1_6">संकेत मूल्य बदल दिया गया है</string>
+  <string name="tuto_edittext_2_0">इनपुट बॉक्स के डिफ़ॉल्ट टेक्स्ट मान को बदलें</string>
+  <string name="tuto_edittext_2_1">संपादन टेक्स्ट में रिक्त पाठ मान होता है जब तक कि उपयोगकर्ता में कुछ भी न हो</string>
+  <string name="tuto_edittext_2_2">आप शुरू में अपनी संपत्ति को संपादित करके टेक्स्ट वैल्यू सेट कर सकते हैं</string>
+  <string name="tuto_edittext_2_3">चलो \ &amp;apos; अपनी संपत्ति को संपादित करके डिफ़ॉल्ट पाठ मान को बदल दें</string>
+  <string name="tuto_edittext_2_4">"पाठ" प्रॉपर्टी का टेक्स्ट वैल्यू संभालती है संपादन टेक्स्ट</string>
+  <string name="tuto_edittext_2_5">किसी भी मान को टेक्स्ट वैल्यू बदलने की कोशिश करें</string>
+  <string name="tuto_edittext_2_6">खाली मूल्य के अलावा किसी और चीज़ को बदलने की कोशिश करो!</string>
+  <string name="tuto_edittext_2_7">डिफ़ॉल्ट पाठ मान बदल दिया गया है</string>
+  <string name="tuto_edittext_3_0">एक इनपुट प्रदर्शित कर सकते हैं लाइनों की अधिकतम संख्या निर्धारित करें</string>
+  <string name="tuto_edittext_3_1">डिफ़ॉल्ट रूप से, संपादन टेक्स्ट केवल एक पंक्ति की पाठ्य को दर्शाता है</string>
+  <string name="tuto_edittext_3_2">चलो \ &amp;apos ; यह अपनी संपत्ति को संपादित करके दिखाता लाइनों की संख्या को बदलता है;</string>
+  <string name="tuto_edittext_3_3">"लाइन" संपत्ति निर्धारित करती है कि संपादन टेक्स्ट कितने लाइनें प्रदर्शित करने जा रहे हैं</string>
+  <string name="tuto_edittext_3_4">मान बदलकर% s</string>
+  <string name="tuto_edittext_3_5">संपादनटैक्स विजेट अब पाठ की% s लाइनों को प्रदर्शित कर सकते हैं</string>
+  <string name="tuto_edittext_4_0">इनपुट बॉक्स को अक्षम करें</string>
+  <string name="tuto_edittext_4_1">कभी-कभी, हम संपादन टेक्स्ट विजेट को अक्षम करना चाहते हैं, ताकि उपयोगकर्ता इनपुट से कुछ भी कर सकता है</string>
+  <string name="tuto_edittext_4_2">चलो \ &amp;apos; अपनी संपत्ति को संपादित करके इसे अक्षम करें</string>
+  <string name="tuto_edittext_4_3">स्विच पर क्लिक करके इसे अक्षम करें</string>
+  <string name="tuto_edittext_4_4">संपादन टेक्स्ट अब अक्षम है, और उपयोगकर्ता कोई मूल्य इनपुट नहीं कर पाएगा</string>
+  <string name="tuto_edittext_5_0">इनपुट प्रकार की संपत्ति को "पाठ पासवर्ड" में परिवर्तित करें</string>
+  <string name="tuto_edittext_5_1">कभी कभी, हम EditText पासवर्ड जैसी संवेदनशील जानकारी में लेने के लिए और</string>
+  <string name="tuto_edittext_5_2">Let \ सका यह सेंसर करने के लिए कर सकते की अपनी संपत्ति का संपादन करके इनपुट प्रकार बदलने</string>
+  <string name="tuto_edittext_5_3">Let \ सका रों input_type को "पाठ पासवर्ड" में बदलें</string>
+  <string name="tuto_edittext_5_4">संपादन टेक्स्ट अब टेक्स्ट वैल्यू को सेंसर करेगा जो इसे</string>
+  <string name="tuto_edittext_6_0">बटन क्लिक होने पर वर्तमान इनपुट मान दिखाएं</string>
+  <string name="tuto_edittext_6_1">जब बटन क्लिक किया जाता है, तो हम वर्तमान मान को दिखाना चाहेंगे संपादन टेक्स्ट का</string>
+  <string name="tuto_edittext_6_2">बटन पर क्लिक होने पर बटन \ एपीसीओ की घटना आग लगाती है</string>
+  <string name="tuto_edittext_6_3">घटना को संपादित करते हैं, ताकि बटन को क्लिक किए जाने पर संपादन टेक्स्ट के पाठ का मूल्य दिखाया जाए।</string>
+  <string name="tuto_edittext_7_0">जब भी कोई नया मान दर्ज किया जाता है, तब एक घटना को आग।</string>
+  <string name="tuto_edittext_7_1">जब उपयोगकर्ता किसी भी मूल्य में संपादन टेक्स्ट में प्रवेश करता है, तो हम उसे स्क्रीन पर वापस दिखाने जा रहे हैं</string>
+  <string name="tuto_edittext_7_2">बटन विजेट, संपादन टेक्स्ट '' के विपरीत घटनाओं को स्वचालित रूप से जोड़ नहीं दिया जाता है</string>
+  <string name="tuto_edittext_7_3">संपादन टेक्स्ट "हर समय" पाठ मूल्य को बदल दिया जाता है, तो "ऑनटैक्स्ट चेंजेड" घटना निकाल दी जाती है</string>
+  <string name="tuto_edittext_7_4">घटना को संपादित करने दें, ताकि संपादन टेक्स्ट का पाठ मूल्य दिखाता है जब भी इसे बदल दिया जाता है।</string>
+  <string name="tuto_edittext_7_5">जड़ ब्लॉक में बैंगनी ब्लॉक परिवर्तित पाठ मान इंगित करता है</string>
+  <string name="tuto_edittext_7_6">इसे ड्रॉप करें टोस्ट ब्लॉक पैरामीटर</string>
+  <string name="tuto_edittext_8_0">एक शब्द फिल्टर के साथ एक कस्टम इनपुट सत्यापनकर्ता बनाएं</string>
+  <string name="tuto_edittext_8_1">"नफरत" शब्द के साथ कोई भी इनपुट एक चेतावनी संदेश ट्रिगर होगा</string>
+  <string name="tuto_edittext_8_2">हम यहाँ चेतावनी संदेश प्रदर्शित करेंगे</string>
+  <string name="tuto_edittext_8_3">ऐप शुरू होने पर \ \ अनुप्रयोग शुरू में चेतावनी संदेश छुपाएं</string>
+  <string name="tuto_edittext_8_4">एक खाली संदेश को डिफ़ॉल्ट चेतावनी संदेश सेट करें</string>
+  <string name="tuto_edittext_8_5">\ "% s \" TextView</string>
+  <string name="tuto_edittext_8_6">हम इसे खाली छोड़ देंगे, क्योंकि हम इसे खाली स्ट्रिंग मानना चाहते हैं</string>
+  <string name="tuto_edittext_8_7">"onTextChanged" घटना को सफलतापूर्वक जोड़ दिया गया है</string>
+  <string name="tuto_edittext_8_8">जब भी पाठ परिवर्तन होता है, वाक्य को मान्य करने के लिए इस घटना को संपादित करें</string>
+  <string name="tuto_edittext_8_9">1. जब भी कोई परिवर्तन होता है, "ऑन-टेक्स्ट चंचल" ईवेंट प्राप्त होता है निकाल दिया \ n2। जांचें कि इनपुट में शब्द "नफरत" शब्द \ n3 है यदि ऐसा होता है, तो चेतावनी संदेश दिखाएं, अन्यथा चेतावनी संदेश को एक खाली स्ट्रिंग के रूप में सेट करें</string>
+  <string name="tuto_edittext_8_10">चूंकि हम "नफरत" शब्द के लिए फ़िल्टरिंग कर रहे हैं, "यहाँ" नफरत "डाल"</string>
+  <string name="tuto_edittext_8_11">"यदि तब" उप-अनुभाग के अंदर उसे छोड़ दें</string>
+  <string name="tuto_edittext_8_12">"दूसरे" उप-अनुभाग के अंदर इसे ड्रॉप करें</string>
+  <string name="tuto_edittext_8_13">इनपुट चेतावनी संदेश जिसे आप प्रदर्शित करना चाहते हैं, एक खाली स्ट्रिंग मान के अलावा</string>
+  <string name="tuto_edittext_8_14">हम इसे खाली छोड़ देंगे, क्योंकि हम चेतावनी संदेश को छिपाना नहीं चाहते हैं, यदि यह कोई फ़िल्टर किए गए शब्द नहीं है तो</string>
+  <string name="tuto_imageview_1_0">अपनी पसंद की एक छवि जोड़ें</string>
+  <string name="tuto_imageview_1_2">मेनू शीर्ष-दाएं कोने पर स्थित बटन में विभिन्न प्रबंधकों होते हैं जो एप के विभिन्न हिस्सों को संभालते हैं</string>
+  <string name="tuto_imageview_1_3">इमेज मैनेजर के अंदर, आप विभिन्न प्रकार के आइकन जोड़ सकते हैं और अपने कैमरे के रोल से अपनी छवियां आयात कर सकते हैं</string>
+  <string name="tuto_imageview_1_4">चलो \ बटन क्लिक करके + बटन क्लिक करके हमारी अपनी छवि को जोड़ने का प्रयास करें</string>
+  <string name="tuto_imageview_1_5">छवि आयात करें और इसे नाम दें \ "% s \"</string>
+  <string name="tuto_imageview_1_7">ImageView में डिफ़ॉल्ट रूप से एक सफ़ेद एंड्रॉयड आइकन होता है</string>
+  <string name="tuto_imageview_1_8">हम इसे इस छवि में बदल सकते हैं जिसे हमने अभी जोड़ा है</string>
+  <string name="tuto_imageview_1_9">छवि को बदल दिया गया है</string>
+  <string name="tuto_imageview_2_0">विभिन्न पैमाने के प्रकार गुणों को समझें</string>
+  <string name="tuto_imageview_2_1">हम \ u2019; यह छवि दृश्य प्रदान किया है आपके लिए "match_parent" की चौड़ाई और ऊंचाई के साथ</string>
+  <string name="tuto_imageview_2_2">ImageView पर क्लिक करें</string>
+  <string name="tuto_imageview_2_3">अलग-अलग प्रकार के प्रकार बदलते हैं कि कैसे छवि प्रदर्शित होती है</string>
+  <string name="tuto_imageview_2_4">पैमाने प्रकार को \ "% s \" में बदलने की कोशिश करें</string>
+  <string name="tuto_imageview_2_5">ImageView के पैमाने का प्रकार \ "% s \"</string>
+  <string name="tuto_imageview_2_6">"FIT_XY" स्केलेड प्रकार, चित्र अनुपात को नजरअंदाज कर दिया गया, दिए गए स्थान को लेने के लिए फैला है</string>
+  <string name="tuto_imageview_2_7">चलो एक अलग पैमाने पर टाइप की संपत्ति का प्रयास करें</string>
+  <string name="tuto_imageview_2_8">"FIT_START" स्केल प्रकार फैलता है दिया गया स्थान, छवि अनुपात बनाए रखता है, और छवि को शीर्ष संरेखित करता है</string>
+  <string name="tuto_imageview_2_9">"FIT_CENTER" दिया गया स्थान लेने के लिए स्केल प्रकार फैला हुआ है, छवि अनुपात बनाए रखता है, और छवि केंद्र को संरेखित करता है</string>
+  <string name="tuto_imageview_2_10">"FIT_END" "स्केल प्रकार" FIT_START "और" FIT_CENTER "के समान है, सिवाय इसके कि वह छवि नीचे संरेखित करती है</string>
+  <string name="tuto_imageview_2_11">"केंद्र" छवि को बनाए रखता है, जबकि इसे केंद्र में संरेखित करता है</string>
+  <string name="tuto_imageview_2_12">"CENTER_CROP" छवि समान रूप से तराजू ताकि छवि की दोनों चौड़ाई और ऊंचाई लेआउट के संबंधित आयाम से बराबर या उससे अधिक हो</string>
+  <string name="tuto_imageview_2_13">"CENTER_INSIDE" छवि समान रूप से तराजू ताकि छवि की दोनों चौड़ाई और ऊंचाई लेआउट के संबंधित आयाम से बराबर या उससे कम हो</string>
+  <string name="tuto_imageview_2_14">पैमाने प्रकार को \ "% s \" में बदलने का प्रयास करें</string>
+  <string name="tuto_imageview_3_0">एक स्क्रॉल छवि स्लाइड शो बनाएं</string>
+  <string name="tuto_imageview_3_1">चलो \ &amp;apos; + बटन पर क्लिक करके हमारी अपनी छवि को जोड़ने का प्रयास करें</string>
+  <string name="tuto_imageview_3_2">\ "% s \"</string>
+  <string name="tuto_imageview_3_3">के नाम से अपनी पसंद की एक छवि जोड़ें अपनी आयातित छवि को नाम दें \ "% s \ "</string>
+  <string name="tuto_imageview_3_5">स्क्रॉल लेआउट केवल एक लेआउट या विजेट में ले जा सकते हैं</string>
+  <string name="tuto_imageview_3_6">स्क्रॉल लेआउट के अंदर कुछ भी स्क्रॉल होता है, यहां तक कि विगेट्स</string>
+  <string name="tuto_imageview_3_7">हालांकि, यह एक रैखिक लेआउट को अंदर जोड़ने के लिए आदर्श है स्क्रॉल लेआउट</string>
+  <string name="tuto_imageview_3_8">स्क्रॉल लेआउट के अंदर क्षैतिज रैखिक लेआउट ड्रॉप करें</string>
+  <string name="tuto_imageview_3_9">स्क्रॉल और रैखिक लेआउट आमतौर पर एक ही अभिविन्यास साझा करते हैं। इस स्थिति में, वे दोनों क्षैतिज हैं</string>
+  <string name="tuto_imageview_3_10">हम दो छवियों को जोड़ना चाहते हैं</string>
+  <string name="tuto_imageview_3_11">रैखिक लेआउट के अंदर ImageView ड्रॉप करें</string>
+  <string name="tuto_imageview_3_12">आइए इसके गुणों के माध्यम से छवि को बदल दें</string>
+  <string name="tuto_imageview_3_13">\ "% s \" छवि चुनें</string>
+  <string name="tuto_imageview_3_14">रैखिक लेआउट में एक और छवि दृश्य जोड़ने दें</string>
+  <string name="tuto_imageview_3_15">आइए इसके गुणों के माध्यम से छवि को बदल दें</string>
+  <string name="tuto_imageview_3_16">\ "% s \" छवि चुनें</string>
+  <string name="tuto_imageview_4_0">नौ पैच छवियों को समझें</string>
+  <string name="tuto_imageview_4_1">नौ पैच छवियाँ</string>
+  <string name="tuto_imageview_4_2">नौ पैच छवियाँ बिटमैप छवियां हैं जो स्वचालित रूप से देखने की सामग्री और स्क्रीन के आकार को समायोजित करने के लिए आकार बदलती है</string>
+  <string name="tuto_imageview_4_3">नौ पैच छवियां जारी रखें</string>
+  <string name="tuto_imageview_4_4">हम \ &amp;apos; फिर 9 फुट पैच की छवि को विभिन्न विगेट्स पर लागू करने के लिए जा रहे हैं ताकि वे प्रभावित हो सकें</string>
+  <string name="tuto_imageview_4_5">इसके गुणों को संपादित करने के लिए टेक्स्ट विज़ेट विजेट पर क्लिक करें</string>
+  <string name="tuto_imageview_4_6">पृष्ठभूमि छवि को इसके गुणों के माध्यम से बदलने दें</string>
+  <string name="tuto_imageview_4_7">इसके गुणों को संपादित करने के लिए रैखिक लेआउट पर क्लिक करें</string>
+  <string name="tuto_imageview_4_10">इसके गुणों को संपादित करने के लिए बटन विजेट पर क्लिक करें</string>
+  <string name="tuto_imageview_4_12">जैसा कि आप देख सकते हैं, हालांकि हम एक छवि फ़ाइल का इस्तेमाल करते हैं, यह स्वचालित रूप से सभी विगेट्स/लेआउट्स के आकार में फिट होता है</string>
+  <string name="tuto_imageview_4_13">यही कारण है कि नौ स्क्रीन पैच अलग-अलग स्क्रीन आकारों पर उत्तरदायी डिजाइन बनाने के लिए उपयोगी है</string>
+  <string name="tuto_chk_switch_1_0">चेकबॉक्स और स्विच विजेट को समझें</string>
+  <string name="tuto_chk_switch_1_1">हमने आपके लिए दो विजेट्स, एक चेकबॉक्स और एक स्विच</string>
+  <string name="tuto_chk_switch_1_2">इन दोनों विगेट्स का प्रयोग आम तौर पर उपयोगकर्ता के लिए \ n उपयोग करने के लिए किया जाता है \</string>
+  <string name="tuto_chk_switch_1_3">उदाहरण के लिए, आप आम तौर पर लॉगिन स्क्रीन में चेकबॉक्स प्राप्त कर सकते हैं, जैसे कि \ "% s \"</string>
+  <string name="tuto_chk_switch_1_4">स्विच को उसी अवधारणा के साथ प्रयोग किया जा सकता है, यह सिर्फ अलग यूजर इंटरफेस और अनुभव देता है</string>
+  <string name="tuto_chk_switch_1_6">चेकबॉक्स और स्विच दोनों के लिए उपयोगकर्ता से हां/कोई इनपुट लेने के लिए उपयोग किया जाता है</string>
+  <string name="tuto_chk_switch_1_8">चेकबॉक्स के लिए, उनमें से एक से अधिकतर आमतौर पर एकाधिक इनपुटों में ले जाने के लिए रखा जाता है</string>
+  <string name="tuto_chk_switch_1_9">चलो टॉगल करने का प्रयास करें यह उसकी संपत्ति को संपादित करके जांचने के लिए</string>
+  <string name="tuto_chk_switch_1_10">टॉगल करें \ "% s \" स्विच</string>
+  <string name="tuto_chk_switch_1_11">चेकबॉक्स के समान, आप अपनी संपत्ति को संपादित करके उसी तरह स्विच पर टॉगल कर सकते हैं</string>
+  <string name="tuto_chk_switch_2_0">एक बटन के एक क्लिक के साथ चेकबॉक्स को टॉगल करें</string>
+  <string name="tuto_chk_switch_2_1">चेकबॉक्स के नीचे बटन ड्रॉप करें</string>
+  <string name="tuto_chk_switch_2_2">जब बटन क्लिक किया जाता है, हम इसके वर्तमान स्थिति के आधार पर चेकबॉक्स को चेक/अनचेक करेंगे</string>
+  <string name="tuto_chk_switch_2_3">बटन को क्लिक करें \\ बटन पर क्लिक करें ताकि बटन को क्लिक करने पर बटन को टॉगल किया जाए।</string>
+  <string name="tuto_chk_switch_2_4">इससे पहले कि हम जारी रखें, चलो \ &amp;apos; के बारे में सोचें कि ब्लॉकों को कैसे रखा जाना चाहिए</string>
+  <string name="tuto_chk_switch_2_5">1. चेकबॉक्स की वर्तमान स्थिति प्राप्त करें \ n2। यदि चेकबॉक्स चेक किया गया है, तो इसे अन-चेक करें \ n3। अन्यथा, इसे जांचें</string>
+  <string name="tuto_chk_switch_2_6">% s ब्लॉक के बारे में अधिक जानने के लिए</string>
+  <string name="tuto_chk_switch_2_7">"यदि (स्थिति) तब" के तहत ब्लॉक किया जाता है यदि स्थिति सही है, अन्यथा ब्लॉक "अन्य" निष्पादित किया जाएगा</string>
+  <string name="tuto_chk_switch_3_0">एक चेकबॉक्स के साथ एक के साथ एक छवि की दृश्यता टॉगल</string>
+  <string name="tuto_chk_switch_3_1">imageView नीचे दिए गए चेकबॉक्स ड्रॉप</string>
+  <string name="tuto_chk_switch_3_2">जब चेकबॉक्स क्लिक किया जाता है, हम/छवि</string>
+  <string name="tuto_chk_switch_3_3">छिपाने पहले दिखाएगा, चलो \ &amp;apos; चेकबॉक्स का टेक्स्ट बदलता है</string>
+  <string name="tuto_chk_switch_3_4">पाठ मान को \ "% s \" से बदलने की कोशिश करें</string>
+  <string name="tuto_chk_switch_3_5">\ "% s \" स्विच को टॉगल करें, चूंकि छवि पहले लॉन्च पर दिखाई देगी</string>
+  <string name="tuto_chk_switch_3_6">अच्छा! चेकबॉक्स को संपादित किया गया है</string>
+  <string name="tuto_chk_switch_3_7">"चेक बॉक्स" पर "चेक चेंजेड" घटना हर बार चेक मान टोग्गल से निकाल दिया जाता है</string>
+  <string name="tuto_chk_switch_3_8">घटना को संपादित करने दें, ताकि चेक मान के आधार पर छवि दिखाती/छिपती</string>
+  <string name="tuto_chk_switch_3_9">इससे पहले कि हम जारी रखें, चलो \ &amp;apos; के बारे में सोचें कि ब्लॉक कैसे बनाए जाएं</string>
+  <string name="tuto_chk_switch_3_10">1. यदि चेकबॉक्स की जांच हो गई है, तो छवि \ n2 दिखाएं अन्यथा, इसे छिपा दें</string>
+  <string name="tuto_chk_switch_3_11">अगर/दूसरे ब्लॉक</string>
+  <string name="tuto_chk_switch_3_12">"यदि (शर्त)" के तहत ब्लॉक हालत सही है, तो उसे निष्पादित किया जाता है, अन्यथा "अन्य" के तहत ब्लॉक निष्पादित हो जाएगा</string>
+  <string name="tuto_chk_switch_3_13">जड़ ब्लॉक में बैंगनी ब्लॉक परिवर्तित चेकबॉक्स मान इंगित करता है</string>
+  <string name="tuto_styling_1_0">पैडिंग और मार्जिन प्रॉपर्टी को समझें</string>
+  <string name="tuto_styling_1_2">स्पेसिंग</string>
+  <string name="tuto_styling_1_3">ऐप डिजाइन के लिए विगेट्स के बीच की रिक्ति बहुत महत्वपूर्ण है हम सामग्री को अन्य विगेट्स से अलग रखने के लिए मार्जिन और पैडिंग का उपयोग करते हैं, इसके आस-पास या इसके अंदर अतिरिक्त स्थान देकर</string>
+  <string name="tuto_styling_1_4">पैडिंग</string>
+  <string name="tuto_styling_1_5">पैडिंग एक तत्व के भीतर का स्थान दर्शाता है। डिफ़ॉल्ट रूप से, Sketchware प्रत्येक विजेट में 8dp padding प्रदान करता है जब इसे रखा जाता है</string>
+  <string name="tuto_styling_1_6">नीले रंग के लेआउट में% dp का एक पैडिंग होता है, इसलिए दो लेआउट्स के बीच एक रिक्ति है</string>
+  <string name="tuto_styling_1_7">पहले, चलो \ &amp;apos; s ब्लू लेआउट पर क्लिक करें</string>
+  <string name="tuto_styling_1_8">पैडिंग को \ "% s \" में बदलने की कोशिश करें</string>
+  <string name="tuto_styling_1_9">लागू पैडिंग ने दो लेआउटों के बीच अधिक स्थान दिया है</string>
+  <string name="tuto_styling_1_10">हाशिए एक तत्व के बाह्य अंतरिक्ष को दर्शाता है। डिफ़ॉल्ट रूप से, स्केचवेयर विजेट पर कोई मार्जिन प्रदान नहीं करता है जब इसे रखा जाता है</string>
+  <string name="tuto_styling_1_11">अब, मार्जिन को संपादित करने के लिए ब्लू लेआउट पर \ 'क्लिक करें'</string>
+  <string name="tuto_styling_1_12">मार्जिन को \ "% s \" में बदलने की कोशिश करें</string>
+  <string name="tuto_styling_1_13">अब ब्लू लेआउट के बाहर रिक्ति है</string>
+  <string name="tuto_styling_2_0">ग्रेविटी बनाम लेआउट ग्रेविटी को समझना</string>
+  <string name="tuto_styling_2_1">" लेआउट "ट्यूटोरियल श्रेणी, हमने" गुरुत्वाकर्षण "संपत्ति का इस्तेमाल करते हुए विजेट को कैसे संरेखित करें</string>
+  <string name="tuto_styling_2_2">"गुरुत्वाकर्षण" संपत्ति देखें की सामग्री की गंभीरता को सेट अपने</string>
+  <string name="tuto_styling_2_3">"layout_gravity" संपत्ति ही की गंभीरता को अपनी मूल में सेट</string>
+  <string name="tuto_styling_2_4">Let \ सका रों कोशिश करते हैं और \ "% s \"</string>
+  <string name="tuto_styling_2_5">लेआउट अपनी मूल के दाईं ओर गठबंधन कर दिया गया है बदल</string>
+  <string name="tuto_styling_3_0">"घुमाने के लिए" संपत्ति को बदलकर एक विजेट को घुमाएं</string>
+  <string name="tuto_styling_3_1">प्रत्येक विजेट "घुमाएगी" संपत्ति के साथ आता है डिफ़ॉल्ट रूप से, विगेट्स में 0 रोटेशन मान है</string>
+  <string name="tuto_styling_3_2">चलो \ &amp;apos; इसके रोटेशन मान को परिवर्तित करने का प्रयास करें</string>
+  <string name="tuto_styling_3_3">रोटेशन मान को \ "% s \" में बदलने की कोशिश करें</string>
+  <string name="tuto_styling_3_4">लेआउट ने \ "% s \" डिग्री को घुमाया है</string>
+  <string name="tuto_styling_4_0">अपनी "अल्फा" मान</string>
+  <string name="tuto_styling_4_1">प्रत्येक विजेट "अल्फा" संपत्ति के साथ आता है, जो पारदर्शिता निर्धारित करता है</string>
+  <string name="tuto_styling_4_2">अल्फा मूल्य पर्वतमाला 0.0 से 1.0 तक बदलकर एक विजेट पारदर्शी बनाएं। डिफ़ॉल्ट रूप से, विजेट में 1.0 अल्फा मान - या 100% दृश्यता है</string>
+  <string name="tuto_styling_4_3">चलो \ &amp;apos; इसके अल्फा मान को बदलने का प्रयास करें</string>
+  <string name="tuto_styling_4_4">\ "% s \"</string>
+  <string name="tuto_styling_4_5">अल्फा मान को बदलने की कोशिश करें \\ लेआउट और अब के अंदर की सामग्री \ "% s \ "पारदर्शिता</string>
+  <string name="tuto_styling_5_0">एक लोडिंग स्पिनर बनाएं</string>
+  <string name="tuto_styling_5_1">यदि आप "टिमर" घटक के लिए ट्यूटोरियल पूरा करते हैं, तो कृपया इसे एक से पहले पूरा करें</string>
+  <string name="tuto_styling_5_2">यहां, हम \ &amp;apos; प्रदान किए हैं लोडिंग स्पिनर छवि के साथ एक छवि दृश्य</string>
+  <string name="tuto_styling_5_4">जब ऐप शुरू होता है तो हम स्पिनर को घूर्णन करना शुरू कर देंगे</string>
+  <string name="tuto_styling_5_5">1. एक "रोटेशन" नंबर वैरिएबल बनाएँ जो वर्तमान रोटेशन मान का ट्रैक रखता है \ n2 "टाइमर प्रत्येक" ब्लॉक का उपयोग करके, "रोटेशन" मान को 1 प्रत्येक 5 मिलीसेकंड्स में बढ़ाएं \ n3 ImageView</string>
+  <string name="tuto_styling_5_6">\ "% s \" नामक एक संख्या चर बनाएँ</string>
+  <string name="tuto_styling_5_7">रोटेशन वेरिएबल का उपयोग रोटेशन वेल्यू का ट्रैक रखने के लिए किया जाएगा। इसका मूल्य 0</string>
+  <string name="tuto_styling_5_9">हम इस ब्लॉक को \ "% s \" मिलीसेकंड के बाद निष्पादित करेंगे</string>
+  <string name="tuto_styling_5_10">चलो \ "% s \" मिलीसेकंडों को रोटेशन मान अपडेट करें \ "% s \" मिली</string>
+  <string name="tuto_styling_5_11">\ "% s \" का चयन करें संख्या चर</string>
+  <string name="tuto_styling_5_12">\ "% s \" चुनें ImageView</string>
+  <string name="tuto_styling_5_13">"टाइमर प्रत्येक" ब्लॉक का प्रयोग करते हुए, हम "रोटेशन" नंबर वैरिएबल 1 प्रत्येक 5 मिलीसेकेंड में बढ़ाते हैं। इसके बाद, हम "स्पिनर" इमेजिव्यू</string>
+  <string name="tuto_intent_1_0">एक अलग स्क्रीन पर जाएं</string>
+  <string name="tuto_intent_1_1">एक आशय क्या है?</string>
+  <string name="tuto_intent_1_2">एक आशय एक एक्शन को खोलने के लिए एक "इरादा" है, जैसे कि किसी ऐप को खोलना या एक नई स्क्रीन पर जाना</string>
+  <string name="tuto_intent_1_3">नेविगेट बटन पर क्लिक करके, हम% s पर जाएँगे कि हम \ &amp;apos ; इस ट्यूटोरियल में दिए गए हैं</string>
+  <string name="tuto_intent_1_4">हम एक अलग स्क्रीन पर नेविगेट करने के लिए इन्टेंट घटक का प्रयोग करेंगे</string>
+  <string name="tuto_intent_1_5">जब नेविगेट बटन पर क्लिक किया जाता है तो एक अलग स्क्रीन पर नेविगेट करें</string>
+  <string name="tuto_intent_1_6">जब बटन क्लिक किया जाता है, तो "सेटस्क्रीन "और" चालू गतिविधि "ब्लॉक को एक अलग स्क्रीन पर नेविगेट करने के लिए</string>
+  <string name="tuto_intent_1_8">आशय सेट स्क्रीन</string>
+  <string name="tuto_intent_1_9">हम "आन्तरिक सेटस्क्रीन" ब्लॉक का उपयोग कर सकते हैं यह निर्धारित करने के लिए कि हम किस स्क्रीन पर \ u2019s नेविगेट करने की कोशिश कर रहे हैं</string>
+  <string name="tuto_intent_1_10">हम "startActivity" ब्लॉक का उपयोग हमारी कार्रवाई के इरादे को पूरा करने के लिए कर सकते हैं</string>
+  <string name="tuto_intent_2_0">मूल एंड्रॉइड फोन ऐप को खोलें</string>
+  <string name="tuto_intent_2_1">आशय के कार्य</string>
+  <string name="tuto_intent_2_2">आशय का उपयोग किसी अन्य एप्लिकेशन को खोलने के लिए किया जा सकता है, जैसे कि ब्राउज़र या फ़ोन ऐप</string>
+  <string name="tuto_intent_2_3">चलो \ &amp;apos; जब इस बटन को क्लिक किया जाता है तो मूल फ़ोन ऐप खोलने का प्रयास करें</string>
+  <string name="tuto_intent_2_5">ओपन बटन को संपादित करने दें \ apos; onClick event</string>
+  <string name="tuto_intent_2_6">\ "% s \" विकल्प का चयन करें</string>
+  <string name="tuto_intent_2_7">"setAction" ब्लॉक निर्धारित करता है कि कौन सी कार्रवाई की जाएगी। इस मामले में, हम "डायल" या फोन ऐप को खोलने के इरादे की कार्रवाई सेट करते हैं</string>
+  <string name="tuto_intent_2_8">दूसरे पैरामीटर में \ "% s \" दर्ज करें</string>
+  <string name="tuto_intent_2_9">"सेटडेटा" ब्लॉक कार्रवाई के साथ डेटा ले सकता है इस उदाहरण में, हम "1234" का टेलीफोन डेटा ले जाने के लिए जा रहे हैं नोट करें कि डेटा का उपसर्ग, कार्रवाई के आधार पर बदल सकता है</string>
+  <string name="tuto_intent_2_10">"startActivity" ब्लॉक इंट्रेंट की कार्रवाई को चालू करता है</string>
+  <string name="tuto_intent_3_0">प्रोग्रामाम तौर पर एक फ़ोन नंबर पर कॉल करें</string>
+  <string name="tuto_intent_3_1">आशय के कार्य</string>
+  <string name="tuto_intent_3_2">आशय घटक का उपयोग एक फोन नंबर को डायलॉग करने के लिए भी किया जा सकता है</string>
+  <string name="tuto_intent_3_3">हम कॉल बटन दबाए जाने पर वांछित नंबर पर कॉल करेंगे</string>
+  <string name="tuto_intent_3_5">कॉल बटन को संपादित करें \ &amp;apos; ; s onClick ईवेंट</string>
+  <string name="tuto_intent_3_6">\ "% s \" विकल्प चुनें</string>
+  <string name="tuto_intent_3_7">\ "% s \" क्रिया अपेक्षित संख्या बताती है</string>
+  <string name="tuto_intent_3_8">दूसरे पैरामीटर में \ "% s \" दर्ज करें</string>
+  <string name="tuto_intent_3_9">"setData" ब्लॉक कार्रवाई के साथ डेटा ले सकता है इस उदाहरण में, हम "1234" के टेलीफोन नंबर पर कॉल करने जा रहे हैं। नोट करें कि डेटा का उपसर्ग, कार्रवाई के आधार पर बदल सकता है</string>
+  <string name="tuto_intent_3_10">"startActivity" ब्लॉक इंट्रेंट की कार्रवाई को चालू करता है</string>
+  <string name="tuto_intent_4_0">प्रोग्रामामक रूप से एक वेब ब्राउज़र खोलें</string>
+  <string name="tuto_intent_4_1">हम इस बटन को क्लिक करते समय ब्राउज़र खुलेंगे</string>
+  <string name="tuto_intent_4_3">चलो ओपन बटन को संपादित \ &amp;apos; s onClick event</string>
+  <string name="tuto_intent_4_4">\ "% s \" विकल्प चुनें</string>
+  <string name="tuto_intent_4_5">दूसरे पैरामीटर में \ "% s \" प्रविष्ट करें</string>
+  <string name="tuto_intent_4_6">"सेटडेटा" ब्लॉक क्रिया के साथ डेटा ले सकता है इस उदाहरण में, हम "https://google.com"</string>
+  <string name="tuto_intent_4_7">"प्रारंभ गतिविधि" ब्लॉक के डेटा के साथ एक दृश्य खोलने के लिए giong फिर से आशय की कार्रवाई को चालू करता है इस मामले में, आशय घटक ब्राउज़र खुल जाएगा</string>
+  <string name="tuto_intent_5_0">किसी अन्य स्क्रीन पर डेटा ट्रांसफर करें</string>
+  <string name="tuto_intent_5_1">जब यह बटन क्लिक किया जाता है, हम \ "% s \" पर नेविगेट करेंगे और इसके बाद के संपादकीय टेक्स्ट के मूल्य को स्थानांतरित कर देंगे</string>
+  <string name="tuto_intent_5_2">\ "% s \" के लॉजिक एडिटर पर नेविगेट करने के लिए फाइल चयनकर्ता पर क्लिक करें</string>
+  <string name="tuto_intent_5_3">"ऑन-क्रेत" इवेंट के अंदर गतिविधि को नया बनाया गया है, तो स्थानांतरित डेटा प्राप्त करें।</string>
+  <string name="tuto_intent_6_0">एक गतिविधि समाप्त करें</string>
+  <string name="tuto_intent_6_1">फिनिशिंग गतिविधि</string>
+  <string name="tuto_intent_6_2">जैसे ही हम एक गतिविधि को कैसे शुरू कर सकते हैं, हम एक गतिविधि को खत्म कर सकते हैं। भले ही फ़ंक्शन इंटेन्ट घटक पर निर्भर न हो, यह \ &amp;apos; s closely related</string>
+  <string name="tuto_intent_6_3">जब यह बटन क्लिक किया जाता है, हम वर्तमान गतिविधि को बंद कर देंगे</string>
+  <string name="tuto_intent_6_4">गतिविधि को बंद करने के लिए बंद करें बटन \\ apso; s onClick ईवेंट को संपादित करें</string>
+  <string name="tuto_intent_6_5">जब क्लोज़ बटन क्लिक किया जाता है, तो हम वर्तमान गतिविधि को बंद कर देंगे फिर, ध्यान दें कि यह खंड आशय घटक पर निर्भर नहीं है</string>
+  <string name="tuto_intent_7_0">"setFlag" ब्लॉक को समझें</string>
+  <string name="tuto_intent_7_1">ध्वज क्या है?</string>
+  <string name="tuto_intent_7_2">प्रोग्रामिंग में, झंडा एक वेरिएबल है जो आमतौर पर कुछ प्रोग्राम राज्य को इंगित करता है</string>
+  <string name="tuto_intent_7_3">"उदाहरण के लिए, कहते हैं कि आपके पास एक ऐसा कार्यक्रम है जो एक दृश्य प्रदर्शित करता है, लेकिन उपयोगकर्ता" दृश्यमान "नाम की बुलियन वैरिएबल के साथ दृश्य की दृश्यता को टॉगल कर सकता है, सच कहता है कि यह \ &amp;apos; दिखाई देता है और झूठा संकेत देता है यह \ "apos \" है इस मामले में, "दृश्यता" चर एक ध्वज है जो दृश्यता निर्धारित करता है</string>
+  <string name="tuto_intent_7_4">"setFlags" ब्लॉक का उपयोग कब किया गया?</string>
+  <string name="tuto_intent_7_5">"setFlags" ब्लॉक वास्तव में केवल उपयोगी होता है जब आप एप के अंदर किसी अन्य स्क्रीन पर नेविगेट करना चाहते हैं। इसे इस ट्यूटोरियल में अधिक विस्तार से समझाया जाएगा</string>
+  <string name="tuto_intent_7_7">"चालू करें" ईवेंट के अंदर "setFlags" ब्लॉक ढूंढें</string>
+  <string name="tuto_intent_7_8">"setFlags" ब्लॉक केवल तभी दिया जाता है जब आप " आशय "घटक</string>
+  <string name="tuto_intent_7_9">फ्लैग प्रकार</string>
+  <string name="tuto_intent_7_10">स्केचवेयर के अंदर, हम आपके लिए दो तरह के इरादे वाले ध्वज प्रदान करते हैं: \ n1। SINGLE_TOP \ n2। CLEAR_TOP</string>
+  <string name="tuto_intent_7_11">एकल शीर्ष ध्वज विचारों को ऐसे तरीके से संगठित करता है कि यदि आप जिस बारे में बदलाव करने जा रहे हैं, पहले से ही पहले ही कहलाया गया था, तो वह उस दृश्य को शीर्ष पर एक और कॉपी डालकर शीर्ष पर लाएगा।</string>
+  <string name="tuto_intent_7_12">साफ साफ़ करें वांछित स्क्रीन पर नेविगेट करने के बाद सभी पिछले दृश्यों को साफ करता है</string>
+  <string name="tuto_file_1_0">1. डेटा स्थानीय रूप से सहेजें \ n2। TextView</string>
+  <string name="tuto_file_1_1">फ़ाइल समझाया</string>
+  <string name="tuto_file_1_2">फ़ाइल घटक का उपयोग करके, आप एंड्रॉइड \ 'के देशी साझा पसंद लाइब्रेरी</string>
+  <string name="tuto_file_1_3">का उपयोग करके डेटा को बचा सकते हैं "जब हम इस बटन को दबाते हैं तो हम संपादन टेक्स्ट के मूल्य को बचाएंगे</string>
+  <string name="tuto_file_1_4">उसके बाद, हम इस टेक्स्टव्यू पर सहेजे गए डेटा मूल्य को लोड करेंगे</string>
+  <string name="tuto_file_1_6">\\ बटन को संपादित करें बटन \ &amp;apos; s onClick घटना की आवश्यकता होती है तो डेटा को सहेजने के लिए</string>
+  <string name="tuto_file_1_7">चलो \ &amp;apos; कुंजी मान के रूप में \ "% s \"</string>
+  <string name="tuto_file_1_8">"फ़ाइल सेटडेटा" ब्लॉक के दूसरे पैरामीटर के अंदर इसे ड्रॉप करें</string>
+  <string name="tuto_file_1_9">\ "% s \" का चयन करें EditText</string>
+  <string name="tuto_file_1_10">सेटडेटा ब्लॉक समझाया</string>
+  <string name="tuto_file_1_11">"setData" ब्लॉक "[कुंजी, मान]" प्रारूप में स्थानीय रूप से डेटा को बचाता है। हम उसी कुंजी का उपयोग करके मूल्य को सहेजते हैं और पुनः प्राप्त करते हैं</string>
+  <string name="tuto_file_1_12">लोड बटन के अंदर सहेजे गए डेटा को लोड करें \ &amp;apos; s onClick event</string>
+  <string name="tuto_file_1_13">लोड तर्क लक्ष्य</string>
+  <string name="tuto_file_1_14">हम \ &amp;apos; फिर से सहेजे गए मूल्य को लोड करने और लोड किए गए मान के साथ TextView \ &amp;apos;</string>
+  <string name="tuto_file_1_15">इसे TextView के पहले पैरामीटर के अंदर छोड़ दें</string>
+  <string name="tuto_file_1_16">हम आपके द्वारा सहेजी गई मूल्य को लोड करने के लिए इस्तेमाल की गई उसी कुंजी का उपयोग करने जा रहे हैं, \ "% s \"</string>
+  <string name="tuto_file_1_17">ile लोड</string>
+  <string name="tuto_file_1_18">फ़ाइल घटक सभी स्क्रीनों में इस्तेमाल किया जा सकता है सहेज और एक ही फाइल से मूल्य लोड, जब तक कि फ़ाइल नाम समान है</string>
+  <string name="tuto_file_2_0">फ़ाइल संकुचन से डेटा निकालें</string>
+  <string name="tuto_file_2_1">दोस्ताना अनुस्मारक</string>
+  <string name="tuto_file_2_2">यह ट्यूटोरियल पिछले एक के समान है यदि आप स्वर्ग \\ apo; t, कृपया पिछले ट्यूटोरियल को पूरा करें!</string>
+  <string name="tuto_file_2_3">हम इस बटन को दबाते समय EditText के मूल्य को बचाएंगे</string>
+  <string name="tuto_file_2_4">तब, हम इस टेक्स्टव्यू पर सहेजे गए डेटा वैल्यू को लोड करेंगे</string>
+  <string name="tuto_file_2_5">हमने \ फ़ाइल फ़ाइल के लिए प्रदान किया है आप</string>
+  <string name="tuto_file_2_6">हमने आपके लिए कुछ तर्क भी प्रदान किए हैं</string>
+  <string name="tuto_file_2_7">पिछले ट्यूटोरियल की तरह, हम स्थानीय रूप से \ "% s \" की कुंजी के साथ EditText के मूल्य को सहेजते हैं</string>
+  <string name="tuto_file_2_8">\ "% s \" घटना की जांच करें</string>
+  <string name="tuto_file_2_9">यहाँ , हम \ "% s \" की कुंजी के साथ डेटा को लोड करते हैं और TextView \ &amp;apos; value</string>
+  <string name="tuto_file_2_10">हमारे काम को \ "% s \" इवेंट में भरना है</string>
+  <string name="tuto_file_2_11">\ "% s \" की कुंजी के साथ फ़ाइल घटक से मूल्य निकालें</string>
+  <string name="tuto_file_2_12">\ "% s \"</string>
+  <string name="tuto_file_2_13">कुंजी</string>
+  <string name="tuto_file_2_14">स्थापित करने की कोशिश करने के लिए चीजों के साथ डेटा को दूर करने दें \\ 1. किसी भी डेटा को EditText में दर्ज करके कोई भी डेटा सहेजें और "सहेजें" पर क्लिक करें \ n2 "भार" बटन \ n3 पर क्लिक करके डेटा लोड करें। "निकालें" बटन पर क्लिक करके डेटा को निकालें और फिर से डेटा लोड करने का प्रयास करें</string>
+  <string name="tuto_file_3_0">स्थानीय डेटाबेस के साथ साइन-अप / लॉगिन पृष्ठ बनाएं</string>
+  <string name="tuto_file_3_1">हम एक ऐसा पृष्ठ बनायेंगे जहां हम दोनों साइन अप कर सकते हैं और प्रवेश कर सकते हैं</string>
+  <string name="tuto_file_3_2">उपयोगकर्ता अपना उपयोगकर्ता नाम यहां इनपुट करेगा</string>
+  <string name="tuto_file_3_3">और यहां पासवर्ड</string>
+  <string name="tuto_file_3_4">यदि उपयोगकर्ता एक ऐसे खाते से लॉग इन करने की कोशिश करता है जो मौजूद नहीं होता है, तो हम \ \ apos; पहले उन्हें साइन अप करने के लिए कहेंगे</string>
+  <string name="tuto_file_3_5">और यदि कोई खाता मौजूद है, तो हम एक संदेश दिखाएगा जो "लॉगिन सफलता!"</string>
+  <string name="tuto_file_3_6" formatted="false">हमने \ "% s \" \ "% s \" के साथ फाइल घटक \ "% s \" प्रदान किया है \ "% s \"</string>
+  <string name="tuto_file_3_7">\ "\" पहले साइनअप इवेंट को संभाल दें</string>
+  <string name="tuto_file_3_9">1. जांचें कि क्या उपयोगकर्ता ने उपयोगकर्ता नाम और पासवर्ड \ n2 को भर दिया है। अगर उनमें से एक खाली है, तो एक संदेश दिखाओ कि उन्हें दोनों रूपों को भरना होगा \ n3 यदि वे दोनों भरे हैं, तो जांचें कि उपयोगकर्ता नाम मौजूद है या नहीं? यदि यह मौजूद नहीं है, तो उनकी लॉगिन जानकारी स्थानीय रूप से सहेजें "</string>
+  <string name="tuto_file_3_10">if if स्टेटमेंट के अंदर, हम दो स्थितियों की जांच करते हैं</string>
+  <string name="tuto_file_3_11">सबसे पहले, हम जांचते हैं कि यूज़रनेम में इसकी लंबाई को मापने और तुलना करके कोई पाठ है या नहीं</string>
+  <string name="tuto_file_3_12">इसके अलावा, हम जांच करते हैं कि उपयोगकर्ता पासवर्ड</string>
+  <string name="tuto_file_3_13">यदि उनमें से एक या दोनों भरे नहीं हैं, तो हम उन्हें उन्हें दर्ज करने के लिए कहते हैं</string>
+  <string name="tuto_file_3_15">\ "% s \" संपादन टेक्स्ट का चयन करें</string>
+  <string name="tuto_file_3_16">यहां, हम यह जांच कर रहे हैं कि क्या पहले से ही एक ही उपयोगकर्ता नाम के साथ एक खाता मौजूद है या नहीं। हम चाहते हैं कि प्रत्येक उपयोगकर्ता नाम अनन्य हो, तो हम मौजूदा यूजरनेम को ओवरराइट न करें</string>
+  <string name="tuto_file_3_17">उपयोगकर्ता को बताएं "उपयोगकर्ता नाम पहले से ही मौजूद है!</string>
+  <string name="tuto_file_3_18">हम पहले जांच करते हैं कि दोनों उपयोगकर्ता नाम और पासवर्ड भरे हुए हैं या नहीं। उसके बाद, हम जांचते हैं कि उपयोगकर्ता नाम पहले से ही लिया गया है। अगर यह नहीं लिया गया है, तो "[कुंजी, मूल्य]" प्रारूप में लॉगिन जानकारी को सहेजकर कुंजी को उपयोगकर्ता नाम और पासवर्ड का मान दिया जा सकता है</string>
+  <string name="tuto_file_3_19">चलो \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ "</string>
+  <string name="tuto_file_3_20">यह तर्क साइन-अप तर्क के समान है। हम जांचते हैं कि उपयोगकर्ता ने दोनों पासवर्ड और उपयोगकर्ता नाम दर्ज किया है, और फिर जांचें कि क्या फ़ाइल में उपयोगकर्ता नाम मौजूद है या नहीं। इसके बजाय, इसके बजाय, जब उपयोगकर्ता नाम से निकलता है, हम लॉगिन करने का प्रयास करते हैं। यदि पासवर्ड सहेजे गए पासवर्ड के साथ मेल खाता है, तो हम उन्हें लॉग इन करते हैं। अगर कोई उपयोगकर्ता नाम फाइल में सहेजा नहीं जाता है, तो हम उन्हें पहले साइन अप करने के लिए कहते हैं</string>
+  <string name="tuto_file_3_21">ध्यान दें कि उपयोगकर्ता नाम मौजूद है या नहीं, यह जांचने के लिए "नहीं" ब्लॉक है</string>
+  <string name="tuto_file_3_22">संदेश% s</string>
+  <string name="tuto_file_3_23">थे दो मामले हैं यदि उपयोगकर्ता नाम मौजूद है, तो हम लॉगिन करने का प्रयास करते हैं - अगर पासवर्ड सहेजे गए एक से मेल खाता है, तो हमने सफलतापूर्वक लॉग इन किया है, अन्यथा यह विफल हो जाता है। अगर उपयोगकर्ता नाम मौजूद नहीं है, तो हम उपयोगकर्ता को पहले साइन अप करने के लिए सतर्क करते हैं</string>
+  <string name="tuto_file_4_0">अगले लॉन्च के लिए एक विकल्प याद रखें</string>
+  <string name="tuto_file_4_1">जब ऐप लॉन्च होता है, हम पिछले इनपुट को याद रखेंगे और इसे लोड करेंगे</string>
+  <string name="tuto_file_4_2" formatted="false">हमने \ "% s \"</string>
+  <string name="tuto_file_4_3">हम पहली बार फ़ाइल से लोड करने का प्रयास करते हैं, जब ऐप शुरू होता है</string>
+  <string name="tuto_file_4_4">1. जांचें कि क्या चेक मान फाइल में मौजूद है \ n2। यदि यह मौजूद है, तो चेक मान के मूल्य को पुनः प्राप्त करें \ n3 हम चैकबॉक्स को चेक करने के लिए सेट करेंगे यदि मान 1 है, और अनचेक किए गए</string>
+  <string name="tuto_file_4_5">हम \ "% s \"</string>
+  <string name="tuto_file_4_6">हम \ "% s \"</string>
+  <string name="tuto_file_4_7">की कुंजी के साथ मूल्य पुनः प्राप्त कर रहे हैं</string>
+  <string name="tuto_file_4_8">के बराबर है \ "% s \" चेकबॉक्स चुनें</string>
+  <string name="tuto_file_4_9">हम पहले जांचते हैं कि जांच मूल्य फ़ाइल में मौजूद है या नहीं। जब ऐप पहली बार लॉन्च करता है, तो यह इस वैल्यू के लिए नहीं होगा। \ n यदि मूल्य मौजूद है, तो हम इसके मान के आधार पर चेकबॉक्स को अपडेट करते हैं - 0 या 1</string>
+  <string name="tuto_file_4_10">चेकबॉक्स राज्य सहेज रहा है</string>
+  <string name="tuto_file_4_11">हमने लोडिंग भाग को संभाला। अब, \ \ apo; बचत भाग को संभाल दें</string>
+  <string name="tuto_file_4_12">जब भी हम अपडेट करते हैं, नया चेकबॉक्स मान सहेज लेंगे</string>
+  <string name="tuto_file_4_13">कुंजी को% s</string>
+  <string name="tuto_file_4_14">जब चेकबॉक्स \ अद्यतन, हम जाँच मूल्य के आधार पर 0 या 1 के मूल्य के साथ फ़ाइल घटक के अंदर "चेक" कुंजी को अद्यतन करते हैं</string>
+  <string name="tuto_calendar_1_0">वर्तमान समय को पुनर्प्राप्त करें और इसे TextView</string>
+  <string name="tuto_calendar_1_1">ऐप शुरू होने पर समय को पुनः प्राप्त करने के लिए "ऑन क्रेट" ईवेंट को संपादित करने दें।</string>
+  <string name="tuto_calendar_1_2">कैलेंडर घटक \ "getNow" ब्लॉक वर्तमान समय को प्राप्त करता है</string>
+  <string name="tuto_calendar_1_3">कैलेंडर स्वरूप</string>
+  <string name="tuto_calendar_1_4">कैलेंडर के समय को कई प्रारूपों में स्वरूपित किया जा सकता है। उदाहरण के लिए, \ n \ n 1-1-19 90 \ n01-01-1990 \ n जनवरी 1, 1 99 0 \ n \ n सभी अलग-अलग दिनांक स्वरूप हैं</string>
+  <string name="tuto_calendar_1_5">प्रारूप में टाइप करें \ "% s \"</string>
+  <string name="tuto_calendar_1_6">यह प्रारूप "% s \" के प्रारूप में दिनांक को प्रदर्शित करना चाहिए</string>
+  <string name="tuto_calendar_1_7">जब ऐप शुरू होता है, तो "प्राप्त करें" ब्लॉक को वर्तमान समय मिलेगा। उसके बाद, हम TextView \ apso; value को फ़ॉर्मेट किए गए समय पर सेट करेंगे</string>
+  <string name="tuto_calendar_1_8">संपादक पर लौटने के लिए वापस बटन पर क्लिक करें</string>
+  <string name="tuto_calendar_2_0">कैलेंडर घटक को समय दें</string>
+  <string name="tuto_calendar_2_1">टेक्स्ट व्यू वर्तमान दिन दिखाएगा</string>
+  <string name="tuto_calendar_2_2">जब हम बटन पर क्लिक करते हैं, तो हम एक दिन को वर्तमान दिन जोड़ देंगे</string>
+  <string name="tuto_calendar_2_3">चलो \ &amp;apos; s ऐप शुरू होने पर टेक्स्टव्यू पर दिन प्रदर्शित करने के लिए "ऑन क्रेट" ईवेंट को संपादित करें</string>
+  <string name="tuto_calendar_2_4">वर्तमान समय के लिए पाठदृश्य \ 'के मूल्य को बदलें \\\\\\\ s दिन का मान</string>
+  <string name="tuto_calendar_2_5">\ "% s \" पाठ का चयन करें</string>
+  <string name="tuto_calendar_2_6">घटक को वापसी दें श्रेणी</string>
+  <string name="tuto_calendar_2_7">चूंकि हम केवल दिन चाहते हैं, फ़ॉर्मेट को \ "% s \"</string>
+  <string name="tuto_calendar_2_8">जब ऐप शुरू होता है, तो कैलेंडर घटक वर्तमान समय को पुनः प्राप्त करेगा और टेक्स्टव्यू \ उस दिन के अनुसार</string>
+  <string name="tuto_calendar_2_9">दिन को जोड़ने के लिए \ Day addon button \ apos; s onClick ईवेंट को संपादित करें।</string>
+  <string name="tuto_calendar_2_11">1. कैलेंडर घटक को एक दिन जोड़ें \ n2। अपडेट किए गए कैलेंडर मूल्य के लिए TextView \ &amp;apos; s को अपडेट करें</string>
+  <string name="tuto_calendar_2_12">\ "% s \" विकल्प चुनें</string>
+  <string name="tuto_calendar_2_13">चूंकि हम एक दिन जोड़ना चाहते हैं, चलो 24 घंटे जोड़ दें</string>
+  <string name="tuto_calendar_2_14">जब भी बटन क्लिक किया जाता है, तो यह वर्तमान कैलेंडर घटक में 24 घंटे जोड़ देगा और नए दिन के मूल्य के साथ TextView को अपडेट करेगा</string>
+  <string name="tuto_calendar_3_0">दो समय मानों के बीच अंतर खोजें</string>
+  <string name="tuto_calendar_3_1">हम दो बार यहां के अंतर को दिखाएंगे</string>
+  <string name="tuto_calendar_3_2">एक कैलेंडर घटक एक समय का मान रख सकता है। हमने दो कैलेंडर घटकों को प्रदान किया है ताकि आप दो</string>
+  <string name="tuto_calendar_3_3">के बीच का अंतर पा सकते हैं। \ "परक्रेट करें" घटना</string>
+  <string name="tuto_calendar_3_4">यहां देखें, हम \ 'पहले ही दोनों के लिए समय प्रदान कर चुके हैं कैलेंडर घटक</string>
+  <string name="tuto_calendar_3_5">हमें पहले कैलेंडर घटक के लिए वर्तमान समय मिलता है, \ "% s \"</string>
+  <string name="tuto_calendar_3_6">तब, हम दूसरे कैलेंडर घटक के लिए वर्तमान समय प्राप्त करते हैं, \ "% s \"</string>
+  <string name="tuto_calendar_3_7">उदाहरण के लिए, हमने \ "% s \" पर एक अतिरिक्त सेकंड जोड़ा है कैलेंडर घटक</string>
+  <string name="tuto_calendar_3_8">समय अंतर</string>
+  <string name="tuto_calendar_3_9">अब, हम इन दो कैलेंडर घटकों के बीच के अंतर को खोजने जा रहे हैं और टेक्स्ट वीव पर मूल्य प्रदर्शित करें</string>
+  <string name="tuto_calendar_3_10">\ "% s \ " व्याख्यान दर्शन</string>
+  <string name="tuto_calendar_3_11">toString ब्लॉक</string>
+  <string name="tuto_calendar_3_12">चूंकि अंतर एक संख्या स्वरूप है, हम तुरंत पाठ मूल्य अंतर पर सेट कर सकते हैं। ब्लॉकों को एक साथ फिट करने के लिए प्रारूप को "संख्या" से "स्ट्रिंग" में बदलने की जरूरत है</string>
+  <string name="tuto_calendar_3_13">बिना स्ट्रिंग के लिए दशमलव</string>
+  <string name="tuto_calendar_3_14">"बिना दशमलव" और "दशमलव के साथ" अंतर के बीच में अंतर यह है कि " दशमलव के बिना "कोई भी दशमलव अंक के बिना संख्या प्रदर्शित करेगा</string>
+  <string name="tuto_calendar_3_15">\"% s \ "कैलेंडर घटक चुनें</string>
+  <string name="tuto_calendar_3_16">1. "सी 2" कैलेंडर घटक सेट करें ताकि यह "सी 1" कैलेंडर घटक \ n2 से 1 सेकंड अधिक हो। \ "Tostring \" और \ "अंतर \" ब्लॉक \ n3 का उपयोग करके \ "diff \" पाठदृश्य को समय अंतर मान सेट करें। अंतर मिलिसेकंड में दिखाया जाएगा 1 सेकंड 1,000 मिलीसेकेंड के बराबर है</string>
+  <string name="tuto_calendar_4_0">एक विशिष्ट समय मान सेट करें</string>
+  <string name="tuto_calendar_4_1">वर्तमान समय को पुनः प्राप्त करने के बजाय, हमें कभी-कभी कैलेंडर घटक</string>
+  <string name="tuto_calendar_4_2">आज्ञा देना एक विशिष्ट समय मान आवंटित करना पड़ सकता है \ एक विशिष्ट समय मान सेट और इसे इस TextView पर प्रदर्शित करें</string>
+  <string name="tuto_calendar_4_3">एक विशेष समय सेट करने के लिए "ऑन क्रेट" ईवेंट को संपादित करें और इसे प्रदर्शित करें</string>
+  <string name="tuto_calendar_4_4">\ "% s \" विकल्प का चयन करें</string>
+  <string name="tuto_calendar_4_5">आइए इनपुट \ वर्ष के लिए "% s \"</string>
+  <string name="tuto_calendar_4_6">महीने के लिए \ "% s \" इनपुट दें</string>
+  <string name="tuto_calendar_4_7">हालांकि हम महीने के लिए 0 इनपुट करते हैं, यह वास्तव में जनवरी प्रदर्शित करेगा, क्योंकि महीनों के शुरू होने से जावा प्रोग्रामिंग भाषा में 0</string>
+  <string name="tuto_calendar_4_8">\ "% s \" डालकर केवल वर्ष और महीने प्रदर्शित करें</string>
+  <string name="tuto_calendar_4_9">1. वर्ष 1 9 80 तक YEAR मान निर्धारित करें \ n2 MONTH मान को 0 पर सेट करें (नोट करें कि जनवरी 0 है) \ n3। उचित प्रारूप के साथ TextView को अपडेट करें</string>
+  <string name="tuto_calendar_5_0">एक डिजिटल घड़ी ऐप बनाएं</string>
+  <string name="tuto_calendar_5_1">हम समय का पुनः प्राप्त करने के लिए कैलेंडर का उपयोग करने जा रहे हैं और इसे इस टेक्स्टव्यू पर प्रदर्शित करें</string>
+  <string name="tuto_calendar_5_2">हमने आपके लिए दो घटकों, टाइमर और कैलेंडर प्रदान किए हैं</string>
+  <string name="tuto_calendar_5_3">ऐप के शुरू होने के समय के रूप में घड़ी चलाएं</string>
+  <string name="tuto_calendar_5_4">1. "टाइमर... प्रत्येक" ब्लॉक का उपयोग करना , हम हर दूसरे समय को पुनः प्राप्त करेंगे \ n2 पुनर्प्राप्त किए गए समय के साथ, हम टेक्स्ट को प्रारूपित करेंगे और इसे TextView</string>
+  <string name="tuto_calendar_5_5">% s ms</string>
+  <string name="tuto_calendar_5_6">हम चाहते हैं कि यह ब्लॉक हर% s एमएस</string>
+  <string name="tuto_calendar_5_7">\ "% s \" पाठदृश्य का चयन करें</string>
+  <string name="tuto_calendar_5_8">प्रारूप के लिए "hh: mm: ss" दर्ज करें, क्योंकि हम "घंटों मिनट: सेकंड" प्रारूप में घड़ी चाहते हैं</string>
+  <string name="tuto_calendar_5_9">1. "टाइमर प्रत्येक" ब्लॉक हर 1 सेकंड \ n2 बार प्राप्त करता है। हम "कैलेंडर मिलना" ब्लॉक का उपयोग करते हुए वर्तमान समय को पुनः प्राप्त करते हैं और पुनर्प्राप्त किए गए मूल्य के साथ TextView को अपडेट करते हैं</string>
+  <string name="tuto_calendar_6_0">जन्मदिन का उलटी गिनती ऐप बनाएं</string>
+  <string name="tuto_calendar_6_1">tuto_calendar_6_1</string>
+  <string name="tuto_calendar_6_2">\ सका चलो एक स्ट्रिंग सूची \ "% s \" नाम बनाने</string>
+  <string name="tuto_calendar_6_3">"चलो सका रों \ "% s \" नामक एक संख्या चर बनाएँ</string>
+  <string name="tuto_calendar_6_4">यह संख्या चर का उपयोग वर्ष 1990 से 2010 तक \ "% s \" में करने के लिए किया जाएगा</string>
+  <string name="tuto_calendar_6_5">\ "% s \" का चयन करें संख्या चर</string>
+  <string name="tuto_calendar_6_6">चूंकि हम चाहते हैं कि वर्ष 1 99 0 से शुरू हो, यहां "1990" दर्ज करें</string>
+  <string name="tuto_calendar_6_7" formatted="false">चूंकि हम 1990 के दशक से शुरू करना चाहते हैं, यहां \ "% s \" डाल दो</string>
+  <string name="tuto_calendar_6_8">इसका कारण यह है कि यह 21 है कि 1 99 0 की सूची में जोड़ा जा रहा है इससे पहले कि "टेम्प्_ युयर" बढ़ता है, महीनों के विपरीत</string>
+  <string name="tuto_calendar_6_9">\ "% s \" स्ट्रिंग सूची का चयन करें</string>
+  <string name="tuto_calendar_6_10">\ "% s \" स्पिनर का चयन करें</string>
+  <string name="tuto_calendar_6_11">\ "% s \" सूची का चयन करें</string>
+  <string name="tuto_calendar_6_12">अब दिनों के लिए आंकड़े जनित करें</string>
+  <string name="tuto_calendar_6_13">सबसे पहले, एक सूची बनाएं \ "% s \" नाम की स्ट्रिंग \ "% s \"</string>
+  <string name="tuto_calendar_6_14">\ "% s \" नामक एक नंबर वैरिएबल बनाएँ।</string>
+  <string name="tuto_calendar_6_15">यह संख्या वैरिएबल 1 से 31 तक के दिनों को \ "% s \" में जोड़ने के लिए इस्तेमाल किया जाएगा</string>
+  <string name="tuto_calendar_6_16">% S को दोहराने की स्थिति में जोड़ें</string>
+  <string name="tuto_calendar_6_17">दो कैलेंडर घटकों का उपयोग दो तिथियों के अंतर की गणना करने के लिए किया जाएगा</string>
+  <string name="tuto_calendar_6_18">भिन्नता की गणना करें और गणना बटन क्लिक किए जाने पर अंतर दिखाएं</string>
+  <string name="tuto_calendar_6_19">1. सी 2 कैलेंडर घटक के लिए वर्तमान समय प्राप्त करें \ n2। पुनर्प्राप्त किए गए उपयोगकर्ता इनपुट \ n3 से c1 कैलेंडर घटक के लिए वर्ष, महीना और दिन सेट करें दिनों में अंतर की गणना करें और इसे TextView पर प्रदर्शित करें</string>
+  <string name="tuto_vibrator_1_0">एक्स डिवाइस के लिए अपने डिवाइस को कंपन करें</string>
+  <string name="tuto_vibrator_1_1">जब बटन क्लिक किया जाता है, तो हम डिवाइस को 1 सेकेंड के लिए कंपन करेंगे</string>
+  <string name="tuto_vibrator_1_2">बटन दबाए जाने पर \ "बटन \ 'पर क्लिक करें, जब डिवाइस पर क्लिक किया जाए तो</string>
+  <string name="tuto_vibrator_1_3">कंपन करें उपकरण जब बटन क्लिक किया जाता है</string>
+  <string name="tuto_vibrator_1_4">पहले पैरामीटर निर्धारित करता है कितनी देर तक डिवाइस में मिलीसेकेंड</string>
+  <string name="tuto_vibrator_1_5" formatted="false">लिए कंपन करेगा जब से हम दूसरी% s के लिए कंपन करने के लिए उपकरण, चलो \ सका चाहते की परम अंदर \ "% s \" जोड़ने</string>
+  <string name="tuto_timer_1_0">% s सेकंड के बाद एक संदेश दिखाएं</string>
+  <string name="tuto_timer_1_1">टाइमर घटक का उपयोग कुछ कार्यों को विलंब करने के लिए किया जाता है, या फिर एक निश्चित अवधि के बीच में एक निश्चित कार्रवाई दोहराता है</string>
+  <string name="tuto_timer_1_2">"ऑनक्रेट" ईवेंट के अंदर टाइमर को आग लगा दें</string>
+  <string name="tuto_timer_1_3">जब अनुप्रयोग शुरू होता है, तो% s सेकंड के बाद एक संदेश दिखाएं</string>
+  <string name="tuto_timer_1_4" formatted="false">\ \ apos; s \ "मिलीसेकंड पैरामीटर के अंदर है, क्योंकि हम ब्लॉक को% s सेकंड के बाद निष्पादित करना चाहते हैं</string>
+  <string name="tuto_timer_1_5">कोई भी स्ट्रिंग वैल्यू दर्ज करें जिसे आप दिखाना चाहते हैं</string>
+  <string name="tuto_timer_1_6">1. जब अनुप्रयोग शुरू होता है \ n2 3000 एमएस ब्लॉक के बाद टाइमर \ "टी \" निष्पादित हो जाता है \ n3 टाइमर ब्लॉक के अंदर ShowMessage 3,000 मिलीसेकेंड या 3 सेकंड के बाद निष्पादित हो जाता है</string>
+  <string name="tuto_timer_2_0">स्प्राइट छवियों का उपयोग करके एक एनिमेटिंग चीता बनाएं</string>
+  <string name="tuto_timer_2_1">स्प्राइट की परिभाषा</string>
+  <string name="tuto_timer_2_2">स्प्राइट एक इमेज शीट है जिसमें एनीमेशन होने के लिए आवश्यक सभी फ़्रेम शामिल हैं</string>
+  <string name="tuto_timer_2_3">चीता फ्रेम्स</string>
+  <string name="tuto_timer_2_4">इस ट्यूटोरियल में, हम आपके लिए चलने वाले चीता के% s फ्रेम प्रदान किए हैं</string>
+  <string name="tuto_timer_2_5">चलो \ टाइमर घटक का उपयोग करके इस छवि को चेतन करें</string>
+  <string name="tuto_timer_2_6">हम \ &amp;apos; फिर से शुरू होने पर छवि को एनिमेट करना शुरू करने जा रहे हैं</string>
+  <string name="tuto_timer_2_7">1. एक नंबर वैरिएबल बनाएं जो कि एनीमेशन पर फ़्रेम का ट्रैक रखता है \ n2 हर एक्स मिलिसेकंड के फ्रेम वेरिएबल को अपडेट करने के लिए \ "टाइमर... हर \" ब्लॉक का प्रयोग करें \ n3 नई फ्रेम सूचकांक के साथ छवि को अपडेट करें</string>
+  <string name="tuto_timer_2_8">\ "% s \" नामक एक संख्या चर बनाएँ</string>
+  <string name="tuto_timer_2_9" formatted="false">ग्रेट! आपने \ "% s \" नामक एक नंबर वैरिएबल बनाया है। संख्या चर का मान% s</string>
+  <string name="tuto_timer_2_10">आइए, इस ब्लॉक को निष्पादित करें जब अनुप्रयोग प्रारंभ होता है - इनपुट% s</string>
+  <string name="tuto_timer_2_11">इसके अलावा, इस ब्लॉक को प्रत्येक% s मिलीसेकंड्स को निष्पादित करें</string>
+  <string name="tuto_timer_2_12" formatted="false">\ "% s \" ब्लॉक के दूसरे पैरामीटर में जोड़ें</string>
+  <string name="tuto_timer_2_13" formatted="false">Add \ "% s \" ब्लॉक</string>
+  <string name="tuto_timer_2_14">हम समझते हैं कि इससे पहले कि हम</string>
+  <string name="tuto_timer_2_15">पर आगे बढ़ने से पहले हमें इस शर्त की आवश्यकता होती है, हर बार टाइमर ब्लॉक को निष्पादित किया जाता है, फ़्रेम चर 1 से बढ़ता है, यह दर्शाता है कि छवि को अगले फ्रेम में बदलना चाहिए । \ fr फ्रेम परिवर्तनीय अपडेट के बाद, हमें यह जांचना चाहिए कि वह किस फ्रेम पर है, और संबंधित फ्रेम के अपडेट चूंकि 8 फ़्रेम हैं, इसलिए हमें 8 "if... condition" ब्लॉक की जरूरत है</string>
+  <string name="tuto_timer_2_16">हम फ्रेम को पहली छवि पर अपडेट करना चाहते हैं यदि फ़्रेम वैल्यू% s</string>
+  <string name="tuto_timer_2_17">"तब पर क्लिक करें "इसे प्रतिलिपि करने के लिए ब्लॉक करें</string>
+  <string name="tuto_timer_2_18">पहले फ्रेम की जांच के लिए यहां 1 को रखें</string>
+  <string name="tuto_timer_2_19" formatted="false">जब फ्रेम% s होता है, हम चाहते हैं कि छवि को \ "% s \"</string>
+  <string name="tuto_timer_2_20">में बदल दें। \ "अगर तब \" ब्लॉक करें</string>
+  <string name="tuto_timer_2_21">इसे पहले "तब" ब्लॉक के तहत कनेक्ट करें</string>
+  <string name="tuto_timer_2_22">दूसरे फ्रेम के लिए जांच करने के लिए 2 को यहां रखें</string>
+  <string name="tuto_timer_2_23">तीसरे फ्रेम की जांच करने के लिए यहां 3 को रखें</string>
+  <string name="tuto_timer_2_24">चौथे फ्रेम की जांच करने के लिए 4 को यहां रखें</string>
+  <string name="tuto_timer_2_25">रखो 5 यहां पांचवें फ्रेम की जांच करने के लिए</string>
+  <string name="tuto_timer_2_26">छठे फ्रेम की जांच करने के लिए यहां 6 रखें</string>
+  <string name="tuto_timer_2_27">सातवें फ्रेम</string>
+  <string name="tuto_timer_2_28">के लिए जांच करने के लिए 7 यहाँ रखें 1. हम "हर 150ms \" 2 के माध्यम से "फ्रेम" चर को बढ़ाने के लिए टाइमर ब्लॉक का उपयोग करें। जब फ़्रेम चर बढ़ता है, 1, 2, 3... 15, हम शेष ब्लॉक का उपयोग केवल 1 और 7 के बीच परिणाम प्राप्त करने के लिए करते हैं, चाहे कितना बड़ा \ "फ़्रेम चर है \" \ n3 हम फ्रेम के वर्तमान मूल्य की जांच करने के लिए "=" ब्लॉक का उपयोग करते हैं, और इसके अनुसार ImageView अपडेट करें</string>
+  <string name="tuto_timer_3_0">एक स्टॉपवॉच बनाएं</string>
+  <string name="tuto_timer_3_1">इस लेआउट के अंदर पांच स्वरूप हैं% s प्रारूप में</string>
+  <string name="tuto_timer_3_2">मिनट</string>
+  <string name="tuto_timer_3_3">सेकंड</string>
+  <string name="tuto_timer_3_4">और मिलिसेकंड्स</string>
+  <string name="tuto_timer_3_5">जब प्रारंभ बटन क्लिक किया जाता है, हम स्टॉपवॉच शुरू करेंगे</string>
+  <string name="tuto_timer_3_6">और जब स्टॉप बटन दबाया जाता है, हम इसे रोकेंगे, अगर यह \ 'एपस; चल रहा है, और स्टॉप वॉच को साफ़ करें</string>
+  <string name="tuto_timer_3_7">टाइमर घटक का प्रयोग हर एक्स मिलिसेकंड के टेक्स्टव्यू को अपडेट करने के लिए किया जाता है</string>
+  <string name="tuto_timer_3_8">सी 1 और सी 2 कैलेंडर घटकों को दो बार के बीच अंतर रखने और पकड़ने के लिए उपयोग किया जाता है।</string>
+  <string name="tuto_timer_3_9">प्रारंभ बटन क्लिक करने पर स्टॉपवॉच टाइमर को प्रारंभ करें \ n</string>
+  <string name="tuto_timer_3_10">1. जब बटन क्लिक किया जाता है, तो "शुरू" बूलियन बरकरार को सत्य के रूप में सेट करें और सी 1 कैलेंडर के लिए वर्तमान समय प्राप्त करें घटक \ n2। एक टाइमर शुरू करें जो हर मिलीसेकंद को दोहराता है, और सी 2 कैलेंडर घटक \ n3 के लिए समय मिलता है। सी 2 और सी 1 समय के बीच का अंतर \ n4 खोजें अंतर से मिनट, सेकंड, और मिलिसेकंड की गणना करें और टेक्स्टव्यूज़ अपडेट करें</string>
+  <string name="tuto_timer_3_11">एक बूलियन वैरिएबल बनाएँ जिसे \ "% s \" नाम दिया गया है</string>
+  <string name="tuto_timer_3_12">\ "% s \" बूलियन वेरिएबल हमें बताएगा कि स्टॉपवॉच की शुरुआत है या नहीं</string>
+  <string name="tuto_timer_3_13">\ "% s \" नामक एक संख्या चर बनाएँ</string>
+  <string name="tuto_timer_3_14">\ "% s \" संख्या चर का इस्तेमाल समय के अंतर को पकड़ने के लिए किया जाएगा</string>
+  <string name="tuto_timer_3_15">\ "% s \" बूलियन चर का चयन करें</string>
+  <string name="tuto_timer_3_16">\ "% s \" कैलेंडर घटक चुनें</string>
+  <string name="tuto_timer_3_17">\ "% s \" ms</string>
+  <string name="tuto_timer_3_18">इस टाइमर ब्लॉक को हर \ "% s \" मिलीसेकंड को दोहराएं</string>
+  <string name="tuto_timer_3_19">\ "% s \" चुनें संख्या चर</string>
+  <string name="tuto_timer_3_20">\ "% s \" पाठदृश्य का चयन करें</string>
+  <string name="tuto_timer_3_21">चूंकि हम केवल मिलिसेकंड चाहते हैं, यहाँ \ "% s \" डाल दें "</string>
+  <string name="tuto_timer_3_22">मिलिसेकेंड तर्क समझाया</string>
+  <string name="tuto_timer_3_23">"अंतर" ब्लॉक मिलीसेकंड में समय देता है। चलो कहते हैं कि अंतर का मूल्य 5153 है - 5153% 1000 153 होगा। "%" ब्लॉक 1,000 से मिलीसेकंडों का अधिकतम मूल्य कैप करता है</string>
+  <string name="tuto_timer_3_24">\ "% s \" यहां रखें, क्योंकि हम केवल सेकंड</string>
+  <string name="tuto_timer_3_25" formatted="false">को \ "% s \" यहां रखनी चाहिये, क्योंकि हम% s दूसरी टोपी डालनी चाहते हैं</string>
+  <string name="tuto_timer_3_26" formatted="false">यहां \ "% s \" रखो, क्योंकि हम चाहते हैं मिनटों की गणना करने के लिए, और% s मिलीसेकंड्स के बराबर% s मिनट</string>
+  <string name="tuto_timer_3_27" formatted="false">यहां \ "% s \" रखें, चूंकि हम% s मिनट की टोपी डालनी चाहते हैं</string>
+  <string name="tuto_timer_3_28">1. "प्रारंभ" बटन क्लिक होने पर, हमें "सी 1" कैलेंडर घटक \ n2 के लिए समय मिलता है। टाइमर को शुरू करने से, हम \ "c2 \" कैलेंडर घटक के लिए एक नया वर्तमान समय पुनः प्राप्त करते हैं और अंतर \ n3 प्राप्त करते हैं फिर, हम मिलीसेकंड को मिनट, सेकंड और मिलीसेकंड में पार्स करते हैं</string>
+  <string name="tuto_timer_3_29">स्टॉप बटन क्लिक होने पर टाइमर को रोकें</string>
+  <string name="tuto_timer_3_30">1. स्टॉपवॉच शुरू होने पर जांच करें \ n2। अगर शुरू हो गया है, तो हम स्टॉपवॉच को रोकते हैं \ n3 यदि यह \ &amp;apos; बंद हो गया है, तो हम समय को 0:00 बजे तक साफ़ कर देते हैं और "शुरू" बूलियन को झूठे में सेट करते हैं</string>
+  <string name="tuto_timer_3_31">% s ब्लॉक पर क्लिक करें</string>
+  <string name="tuto_timer_3_32">मिलीसेकंड्स को रीसेट करने के लिए \ "% s \" रखें</string>
+  <string name="tuto_timer_3_33">सेकंड्स को रीसेट करने के लिए \ "% s \" रखें</string>
+  <string name="tuto_timer_3_34">मिनटों को रीसेट करने के लिए \ "% s \" रखें</string>
+  <string name="tuto_timer_3_35">1. जांच करें कि स्टॉपवॉच की शुरुआत हुई है \ n2 अगर शुरू हो गया है, तो हम स्टॉपवॉच को रोकते हैं \ n3 यदि यह \ &amp;apos; बंद हो गया है, तो हम समय को 0:00 बजे तक साफ़ कर देते हैं और "शुरू" बूलियन को झूठे में सेट करते हैं</string>
+  <string name="tuto_timer_4_0">प्रत्येक सेकंड के द्वारा एक संख्या चर को बढ़ाएं</string>
+  <string name="tuto_timer_4_1">जब ऐप शुरू होता है, हम इस अंक को प्रत्येक सेकंड में% से बढ़ा देंगे</string>
+  <string name="tuto_timer_4_2">एप्लिकेशन शुरू होने पर टाइमर शुरू करें</string>
+  <string name="tuto_timer_4_3">1. एक नंबर वैरिएबल बनाएँ जो वर्तमान संख्या मान का ट्रैक रखेगा \ n2। "टाइमर हर" ब्लॉक का उपयोग करके, हम संख्या में वृद्धि करेंगे और TextView को अपडेट करेंगे</string>
+  <string name="tuto_timer_4_4">\ "% s \" नामक एक नंबर वैरिएबल बनाएँ</string>
+  <string name="tuto_timer_4_5">आपने &amp;nbsp; सफलतापूर्वक एक नंबर वैरिएबल बनाया है। इसका मूल्य डिफ़ॉल्ट% s में है</string>
+  <string name="tuto_timer_4_6">\ "% s \" एमएस के बाद टाइमर निष्पादित करें</string>
+  <string name="tuto_timer_4_7">चूंकि हम हर दूसरे में मान की संख्या में वृद्धि करना चाहते हैं, \ "% s \" ms</string>
+  <string name="tuto_timer_4_8">को \ "% s \" का चयन करें संख्या चर</string>
+  <string name="tuto_timer_4_9">\ "% s \" पाठदृश्य का चयन करें</string>
+  <string name="tuto_timer_4_10">1. एक बार एप्लिकेशन शुरू होने पर, "टाइमर प्रत्येक" ब्लॉक को प्रत्येक 1000ms या 1 सेकंड \ n2 को निष्पादित किया जाता है \ "Num \" नंबर वैरिएबल का उपयोग करते हुए, हम अंक के बढ़ते मूल्य का ट्रैक रखते हैं \ n3 चूंकि संख्या वैरिएबल संख्या प्रारूप में हैं, इसलिए हम "toString" ब्लॉक का इस्तेमाल करते हैं, तो टेक्स्ट प्रकार को अपडेट करने से पहले स्ट्रिंग में संख्या प्रकार को डालने के लिए उपयोग करते हैं</string>
+  <string name="tuto_sound_media_1_0">ध्वनि फ़ाइल को जोड़ना और खेलना</string>
+  <string name="tuto_sound_media_1_1">ध्वनिपूल बनाम मीडियाप्लेयर</string>
+  <string name="tuto_sound_media_1_2">"- ध्वनिपूल घटक का उपयोग शोर ध्वनि फ़ाइलों को लोड करने और चलाने के लिए किया जाता है, जैसे कि ध्वनि प्रभाव। \ N- मीडियाप्लेयर घटक का इस्तेमाल लंबे समय तक ध्वनि फ़ाइलों जैसे कि पृष्ठभूमि संगीत</string>
+  <string name="tuto_sound_media_1_3">हम इस बटन को SoundPool Component का उपयोग करके ध्वनि चलाएं</string>
+  <string name="tuto_sound_media_1_4">हम मीडियाप्लेयर कंपोनेंट का उपयोग करके ध्वनि खेलने के लिए इस बटन का प्रयोग करेंगे</string>
+  <string name="tuto_sound_media_1_5">ध्वनि जोड़ना</string>
+  <string name="tuto_sound_media_1_6">सबसे पहले, \ \ apos; ध्वनि फ़ाइल को जोड़ने का प्रयास करें लोड करने के लिए एक ध्वनि फ़ाइल डाउनलोड करें और तैयार करें</string>
+  <string name="tuto_sound_media_1_7">ध्वनि प्रबंधक</string>
+  <string name="tuto_sound_media_1_8">आप ध्वनि प्रबंधक का उपयोग करके ध्वनि फ़ाइलें जोड़ सकते हैं और प्रबंधित कर सकते हैं</string>
+  <string name="tuto_sound_media_1_9">ध्वनिपूल घटक का उपयोग करके ध्वनि फ़ाइल चलाने का प्रयास करें</string>
+  <string name="tuto_sound_media_1_11">ध्वनिपोल समझाया</string>
+  <string name="tuto_sound_media_1_12">ध्वनिपूल घटक के साथ ध्वनि बजाना 4 चरणों में टूट गया है: \ n1। एक ऐसा पूल बनाएं जो एक्स नंबर की संख्या को पकड़ सकता है \ n2 एक संख्या चर बनाएँ और ध्वनि की आईडी को चर में लोड करें \ n3 एक अन्य नंबर वैरिएबल बनाएं जो ध्वनि बजाते हैं और "बजाना आईडी"</string>
+  <string name="tuto_sound_media_1_13">चलो \ "पहले करें" ईवेंट में पूल बनायें</string>
+  <string name="tuto_sound_media_1_14" formatted="false">चूंकि हमारे पास केवल% s ध्वनि फ़ाइल है, \ "apache \" यहां \ "% s \" को जोड़ दें</string>
+  <string name="tuto_sound_media_1_15">चलो \ &amp;apos; नंबर वैरिएबल बनाएँ जो ध्वनि की आईडी को पकड़ सकती है</string>
+  <string name="tuto_sound_media_1_16">\ "% s \" नाम की एक संख्या चर बनाएँ</string>
+  <string name="tuto_sound_media_1_18">% s चर ध्वनि फ़ाइल लोड करने के लिए इस्तेमाल किया जाएगा</string>
+  <string name="tuto_sound_media_1_19">% s चर ध्वनि फ़ाइल को चलाने के लिए उपयोग किया जाएगा</string>
+  <string name="tuto_sound_media_1_20">चलो \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 'ध्वनि के आईडी संख्या चर में लोड हम \</string>
+  <string name="tuto_sound_media_1_21">चुनें \ "% s \" संख्या चर</string>
+  <string name="tuto_sound_media_1_22">\ "% s \" ध्वनि फ़ाइल का चयन करें जिसे आप पहले जोड़ चुके हैं</string>
+  <string name="tuto_sound_media_1_23">चलो \ &amp;apos; s अब संपादित करें बटन क्लिक करने पर ध्वनि खेलने के लिए बटन पर क्लिक करें</string>
+  <string name="tuto_sound_media_1_24">play_soundspool पर क्लिक करें \\ apes; s onClick event</string>
+  <string name="tuto_sound_media_1_25">आप यह निर्धारित कर सकते हैं कि ध्वनि कितनी बार यहां खेलेंगे डिफ़ॉल्ट रूप से, यह एक बार खेलता है। चलो \ &amp;apos;% s को यहां जोड़ दें</string>
+  <string name="tuto_sound_media_1_26">कारण SoundPool के लिए आपको गेमिंग को स्टोर करने के लिए एक नंबर वैरिएबल बनाने की आवश्यकता है, यह सुनिश्चित करने के लिए है कि आप आईडी को इस्तेमाल करने के लिए ध्वनि की रोकथाम कर सकते हैं</string>
+  <string name="tuto_sound_media_1_27">ध्यान दें कि एक स्टॉप ब्लॉक है, जो आवश्यक है जब playingID का उपयोग कर ध्वनि को रोक सकता है</string>
+  <string name="tuto_sound_media_1_28">साउंडपूल लघु ध्वनि के लिए है</string>
+  <string name="tuto_sound_media_1_29">आप जो ध्वनि जोड़ चुके हैं या नहीं चल सकते हैं, क्योंकि ध्वनिपूल केवल छोटी ध्वनि फ़ाइलें खेल सकते हैं</string>
+  <string name="tuto_sound_media_1_30">मीडियाप्लेयर घटक का उपयोग करके एक ही ध्वनि फ़ाइल चलाएं</string>
+  <string name="tuto_sound_media_1_31">अब मिडियाप्लेयर घटक का उपयोग करके ध्वनि चलाने की कोशिश करें</string>
+  <string name="tuto_sound_media_1_32">मीडियाप्लेयर समझाया</string>
+  <string name="tuto_sound_media_1_33">"मीडियाप्लेयर घटक प्रक्रिया 2 चरणों में टूट गई है: \ n1। एक मीडियाप्लेयर बनाएं जो कि हो सकता है 1 ध्वनि \ n2। मीडियाप्लेयर चलाएं \ n नोट करें कि मीडियाप्लेयर को संचालित करने के लिए एक नंबर वैरिएबल की आवश्यकता नहीं है, लेकिन इसे अधिक सिस्टम मेमोरी की आवश्यकता है</string>
+  <string name="tuto_sound_media_1_34">Let'\s create the MediaPlayer that can hold a sound inside the "onCreate" event
+</string>
+  <string name="tuto_sound_media_1_35">\ "% s \" ध्वनि फ़ाइल चुनें जिसे आप पहले अपलोड कर चुके हैं</string>
+  <string name="tuto_sound_media_1_36">अब, बटन दबाए जाने पर \ \ apos; s चलाएं</string>
+  <string name="tuto_sound_media_1_37">1. साउंडपुल घटक का उपयोग छोटे ध्वनियों को चलाने के लिए किया जाता है - ध्वनि फ़ाइल बहुत लंबी है तो ध्वनि नहीं चल सकती है। \ N आप की आवश्यकता है ध्वनि लोड करने और ध्वनि \ n2 चलाने के लिए दो नंबर चर बनाने के लिए मीडियाप्लेयर घटक का इस्तेमाल लंबे समय तक ध्वनि के लिए किया जाता है। यह एक संख्या चर की आवश्यकता नहीं है, लेकिन यह अधिक सिस्टम मेमोरी का उपयोग करता है</string>
+  <string name="tuto_sound_media_2_0">बजाना और ध्वनियों को रोकना</string>
+  <string name="tuto_sound_media_2_1">आप ध्वनि प्रबंधक</string>
+  <string name="tuto_sound_media_2_2">का उपयोग करके ध्वनि फ़ाइलें जोड़ सकते हैं और प्रबंधित कर सकते हैं। \ "% s \" नामक एक गीत प्रदान करने के लिए आप \</string>
+  <string name="tuto_sound_media_2_3">जब भी हम "प्ले" बटन पर क्लिक करते हैं, तो यह संगीत खेलना शुरू करेगा</string>
+  <string name="tuto_sound_media_2_4">जब भी हम "रोकें" बटन पर क्लिक करेंगे, तो यह संगीत को रोक देगा</string>
+  <string name="tuto_sound_media_2_5">हम \ &amp;apos; आपके लिए मीडियाप्लेयर घटक \ "% s \" भी प्रदान किया है</string>
+  <string name="tuto_sound_media_2_6">"क्रिएट" ईवेंट के अंदर मीडियाप्लेयर बनाने दें</string>
+  <string name="tuto_sound_media_2_7">ध्वनि फ़ाइल \ "% s \" चुनें</string>
+  <string name="tuto_sound_media_2_8">"प्ले" बटन क्लिक होने पर ध्वनि चलाएं, और "विराम दें" बटन दबाएं "बटन क्लिक किया गया है</string>
+  <string name="tuto_sound_media_2_9">प्ले बटन को संपादित करने दें \ apos; s onClick event</string>
+  <string name="tuto_sound_media_2_11">आज्ञा देना रोकें बटन \ &amp;apos; s onClick event</string>
+  <string name="tuto_sound_media_2_12">1. हम "ऑनक्रेट" घटना के अंदर उचित ध्वनि फ़ाइल के साथ मीडियाप्लेयर बनाते हैं \ n2। जब नाटक बटन क्लिक किया जाता है, हम \ "मीडियाप्लेयर शुरुआत \" ब्लॉक \ n3 का उपयोग करके ध्वनि फ़ाइल खेलते हैं। जब रोकें बटन क्लिक किया जाता है, तो हम "मीडियाप्लेयर पॉज़" ब्लॉक</string>
+  <string name="tuto_sound_media_3_0">असीम रूप से एक ध्वनि फ़ाइल लूप कर ध्वनि फ़ाइल को रोकते हैं</string>
+  <string name="tuto_sound_media_3_1">आप ध्वनि प्रबंधक का उपयोग करके ध्वनि फ़ाइलें जोड़ सकते हैं और प्रबंधित कर सकते हैं</string>
+  <string name="tuto_sound_media_3_2">यहां, हमने \ "% s \" नामक एक गीत प्रदान किया है जिसका उपयोग आप के लिए</string>
+  <string name="tuto_sound_media_3_3">ध्वनि को चलाने के लिए "ऑन क्रेट" इवेंट को संपादित करने दें और इसे सेट करें लूप</string>
+  <string name="tuto_sound_media_3_4">SoundPool घटक के विपरीत, मीडियाप्लेयर घटक में "रोचक सेट करें", "गीत अवधि प्राप्त करें" और अधिक</string>
+  <string name="tuto_sound_media_3_5">"\"% s \ "ध्वनि फ़ाइल चुनें \ &amp;apos; पहले अपलोड किया है</string>
+  <string name="tuto_sound_media_3_6">1. एक मीडियाप्लेयर घटक बनाएं \ n2 मीडियाप्लेयर \ n3 में ध्वनि को लोड करें सच में लूपिंग सेट करें \ n4। मीडियाप्लेयर शुरू करें</string>
+  <string name="tuto_sound_media_4_0">गीत की अवधि प्राप्त करना</string>
+  <string name="tuto_sound_media_4_1">आप ध्वनि प्रबंधक</string>
+  <string name="tuto_sound_media_4_2">का उपयोग करके ध्वनि फ़ाइलें जोड़ सकते हैं और प्रबंधित कर सकते हैं, यहां हम \ "% s नामक गीत प्रदान किए हैं \ "आप का उपयोग करने के लिए</string>
+  <string name="tuto_sound_media_4_3">गीत की अवधि 18 सेकंड (~ 18,000 मिलीसेकेंड)</string>
+  <string name="tuto_sound_media_4_4">हम गीत की कुल अवधि को पुनः प्राप्त करेंगे और प्रदर्शित करेंगे</string>
+  <string name="tuto_sound_media_4_5">चलो \ &amp;apos; की अवधि को पुनः प्राप्त करें गाना जब एप्लिकेशन शुरू होता है</string>
+  <string name="tuto_sound_media_4_6">\ "% s \" ध्वनि फ़ाइल का चयन करें</string>
+  <string name="tuto_sound_media_4_7">\ "% s \" पाठदृश्य का चयन करें</string>
+  <string name="tuto_sound_media_4_8">जब ऐप शुरू होता है, तो हम सबसे पहले "tobu_mesmerize" ध्वनि को मीडियाप्लेयर घटक में लोड करते हैं। \ n फिर, हम गीत की अवधि पुनः प्राप्त करते हैं (मिलीसेकंड में) और टेक्स्टव्यू अपडेट करें</string>
+  <string name="tuto_sound_media_5_0">एक 3- कुंजी पियान</string>
+  <string name="tuto_sound_media_5_1">डिजाइन समझाया</string>
+  <string name="tuto_sound_media_5_2">हम कदम से कदम के माध्यम से चलेंगे और समझेंगे कि इस ऐप को कैसे डिज़ाइन किया गया है</string>
+  <string name="tuto_sound_media_5_3">कई लेआउट इस लेआउट के अंदर स्थित हैं, जिसकी 200dp की ऊंचाई है</string>
+  <string name="tuto_sound_media_5_4">हम \ \ apos; शीर्ष और नीचे वाला लेआउट "center_horizontal" पर ले जाता है ताकि चाबियाँ केंद्र से संरेखित हों "</string>
+  <string name="tuto_sound_media_5_5">कुंजी" बटन "सफेद या काली पृष्ठभूमि वाले विजेट हैं</string>
+  <string name="tuto_sound_media_5_6">उनके पास 50dp की चौड़ाई और 100dp की ऊंचाई है</string>
+  <string name="tuto_sound_media_5_7">मध्य कुंजी के लिए, हमने इसे 4 डीपी का बाएं और दाएं तरल दिया है ताकि यह चाबियों के बीच थोड़ा अंतर हो।</string>
+  <string name="tuto_sound_media_5_8">ब्लैक कुंजियों के लिए भी यही लागू होता है</string>
+  <string name="tuto_sound_media_5_9">पियानो ध्वनि फ़ाइलें</string>
+  <string name="tuto_sound_media_5_11">हमने \ u2013f पांच अलग ध्वनि फ़ाइलें \ n \ nc1, c1s (काला कुंजी), डी 1, डी 1 एस ( काले कुंजी), और e1</string>
+  <string name="tuto_sound_media_5_12">इस ऐप में, हम केवल SoundPool घटक का उपयोग करते हैं। मीडियाप्लेयर के बजाए हम ध्वनिपूल का उपयोग क्यों करते हैं यह है कि पियानो ध्वनियां अपेक्षाकृत कम हैं</string>
+  <string name="tuto_sound_media_5_13">"परक्रेट" ईवेंट का विश्लेषण करने दें</string>
+  <string name="tuto_sound_media_5_14">"ऑन क्रेट" इवेंट के अंदर, हम साउंडपूल को इनिशियलाइज़ करते हैं और उपयुक्त ध्वनि फाइलों को लोड करते हैं</string>
+  <string name="tuto_sound_media_5_15" formatted="false">इसमें% s संख्या चर उपलब्ध हैं। \ "% S \" के साथ समाप्त होने वाले वेरिएबल ध्वनि को लोड करने के लिए उपयोग किया जाता है</string>
+  <string name="tuto_sound_media_5_16">\ "% s \" के साथ समाप्त होने वाले वेरिएबल ध्वनि को चलाने के लिए उपयोग किया जाता है</string>
+  <string name="tuto_sound_media_5_17" formatted="false">हम आरंभ करते हैं % S स्ट्रीम गणना के साथ SoundPool यह हमें% s ध्वनि फ़ाइलों को साउंडपूल में लोड करने देता है</string>
+  <string name="tuto_sound_media_5_18">ध्यान दें कि हमें "सेट नंबर टू" को लोड करने और ध्वनि फाइलों को चलाने के लिए ब्लॉक करने के लिए "ध्वनि संख्या" का उपयोग करने की आवश्यकता है</string>
+  <string name="tuto_sound_media_5_19">यहां, हम "SoundPool लोड करें "ब्लॉक</string>
+  <string name="tuto_sound_media_5_20">ध्यान दें कि अलग-अलग ध्वनियों को अलग-अलग संख्याओं में लोड किया जाता है</string>
+  <string name="tuto_sound_media_5_21">चलो" पिछला "सेट में लापता पैरामीटरों में भरें</string>
+  <string name="tuto_sound_media_5_22">\ "% s \" संख्या चर का चयन करें</string>
+  <string name="tuto_sound_media_5_23">\ "% s \" ध्वनि फ़ाइल</string>
+  <string name="tuto_sound_media_5_24">बजाना ध्वनि</string>
+  <string name="tuto_sound_media_5_25">"अब, चलो \ सका चयन की समझ कैसे ध्वनि फ़ाइलें खेला जा रहा है</string>
+  <string name="tuto_sound_media_5_26">वहाँ अलग अलग बटन onClick घटनाओं उपलब्ध हैं - प्रत्येक कुंजी के लिए एक</string>
+  <string name="tuto_sound_media_5_27">\ "% s \" कुंजी के लिए ध्वनि चलाएं जब इसे क्लिक किया जाता है</string>
+  <string name="tuto_sound_media_5_28">ध्वनि लोड की तरह, "सेट संख्या" ब्लॉक भी ध्वनि चलाने के लिए प्रयोग किया जाता है</string>
+  <string name="tuto_sound_media_5_29">सबसे पहले, हम उचित संख्या चर का चयन करें जो \ "% s \"</string>
+  <string name="tuto_sound_media_5_30" formatted="false">में समाप्त होता है चूंकि यह \ "% s \" के लिए onClick घटना के लिए है, \ "% s \"</string>
+  <string name="tuto_sound_media_5_31">फिर ध्वनि फ़ाइल चलाने के लिए हमें "ध्वनिपूल प्ले" ब्लॉक की आवश्यकता है</string>
+  <string name="tuto_sound_media_5_32">इसे यहाँ 0 डालकर एक बार खेलते रहें</string>
+  <string name="tuto_sound_media_5_33">अन्य प्रमुख घटनाओं के लिए तर्क समान है, इसलिए वे \ सका "। _play2" आप के लिए बाहर भरा गया है</string>
+  <string name="tuto_sound_media_5_34">1. हम 10 संख्या चर, 5 "_sound" का प्रत्यय और 5 के साथ साथ बनाया _sound "चर ध्वनि लोड करने के लिए इस्तेमाल किया गया "ऑन क्रेट" इवेंट में, और "_play" चर का इस्तेमाल कुंजी पर &amp;amp; पर क्लिक करने के लिए किया गया था; onClick event</string>
+  <string name="tuto_sound_media_7_0">एक म्यूजिक प्लेयर डिजाइन करें</string>
+  <string name="tuto_sound_media_7_1">हमने आपके लिए% s छवियां प्रदान की हैं</string>
+  <string name="tuto_sound_media_7_2">टोबू - एल्बम कला को नमस्कारित करें</string>
+  <string name="tuto_sound_media_7_3">प्ले बटन</string>
+  <string name="tuto_sound_media_7_4">रोकें बटन</string>
+  <string name="tuto_sound_media_7_5">फास्ट-फ़ॉरवर्ड बटन</string>
+  <string name="tuto_sound_media_7_6">रिवंड बटन</string>
+  <string name="tuto_sound_media_7_7">सबसे पहले, हमने लेआउट के पृष्ठभूमि रंग की संपत्ति को बदल दिया है जो अन्य सभी विगेट्स रखता है</string>
+  <string name="tuto_sound_media_7_8">दो रैखिक (वी) लेआउट हैं - यह केन्द्रित गुरुत्वाकर्षण के साथ पहला है</string>
+  <string name="tuto_sound_media_7_9">हमने एक इमेजिव्यू में एल्बम कला को लागू किया है</string>
+  <string name="tuto_sound_media_7_11">हमने एक टेक्स्टव्यू का उपयोग करके संगीत और कलाकार का शीर्षक जोड़ा है</string>
+  <string name="tuto_sound_media_7_12">यह केंद्र का गुरुत्वाकर्षण के साथ दूसरा लेआउट भी है</string>
+  <string name="tuto_sound_media_7_13">यह क्षैतिज लेआउट दूसरे लेआउट के अंदर है, तीन इमेजिव्यू के साथ</string>
+  <string name="tuto_sound_media_7_14">इस ट्यूटोरियल में, हम केवल "प्ले" बटन से चिंतित होंगे</string>
+  <string name="tuto_sound_media_7_15">चलो पहली बार लोड करें गीत को मीडियाप्लेयर में तब चालू करें जब ऐप शुरू होता है</string>
+  <string name="tuto_sound_media_7_16">"% s \" गीत को मीडियाप्लेयर घटक में लोड करें</string>
+  <string name="tuto_sound_media_7_17">गीत \ "% s \" चुनें</string>
+  <string name="tuto_sound_media_7_18">तब, प्ले बटन को क्लिक करने पर ध्वनि चलाएं</string>
+  <string name="tuto_sound_media_7_19">1. जांचें कि क्या गीत पहले से ही खेल रहा है \ n2। यदि खेल रहा हो, तो गीत को रोकें और चिह्न को खेलने के लिए आइकन बदलें \ n3 वरना, गीत बजाओ और आइकन को विराम दें आइकन बदलें</string>
+  <string name="tuto_sound_media_7_20">एक बुलियन वैरिएबल बनाएँ जिसे \ "% s \"</string>
+  <string name="tuto_sound_media_7_21">ग्रेट! हम यह चर जांचने के लिए उपयोग करेंगे कि क्या गीत चल रहा है या नहीं। इसका मूलभूत मान "गलत"</string>
+  <string name="tuto_sound_media_7_22">\ "% s \" छवि का चयन करें</string>
+  <string name="tuto_sound_media_7_23">\ "% s \" छवि का चयन करें</string>
+  <string name="tuto_sound_media_7_24">\ "% s \" का चयन करें बूलियन वैरिएबल</string>
+  <string name="tuto_sound_media_7_25">1. जांचें कि क्या गीत पहले ही चल रहा है \ n2। यदि खेल रहा हो, तो गीत को रोकें और चिह्न को खेलने के लिए आइकन बदलें \ n3 वरना, गीत चलाएं और आइकन को विराम देने के लिए आइकन बदलें</string>
+  <string name="tuto_object_animator_1_0">ऑब्जेक्ट एनीमेटर घटक के साथ एक विजेट को घुमाएं</string>
+  <string name="tuto_object_animator_1_1">ऑब्जेक्ट एनीमेटर क्या है?</string>
+  <string name="tuto_object_animator_1_2">ऑब्जेक्ट एनीमेटर का इस्तेमाल एनिमेशन को और अधिक सरल बनाने के लिए किया जाता है। टाइमर्स का उपयोग करने के बजाय, अब हम विज़ेट को एमीमेट करने के लिए ऑब्जेक्ट एनीमेटर घटक का उपयोग कर सकते हैं</string>
+  <string name="tuto_object_animator_1_3">हम \\ ऑब्जेक्ट एनीमेटर का उपयोग कर इस TextView को घुमाने के लिए जा रहे हैं</string>
+  <string name="tuto_object_animator_1_4">ऑब्जेक्ट एन्निमेटर घटक जोड़ा गया है</string>
+  <string name="tuto_object_animator_1_5">ऐप शुरू होने पर \ "पाठदृश्य" चेतन करें</string>
+  <string name="tuto_object_animator_1_6">तर्क लक्ष्य</string>
+  <string name="tuto_object_animator_1_7">TextView एटम को चेतन करने के लिए ऑब्जेक्ट एन्निमेटर घटक का प्रयोग करें</string>
+  <string name="tuto_object_animator_1_8">घटक श्रेणी पर क्लिक करें</string>
+  <string name="tuto_object_animator_1_9">तर्क लक्ष्य</string>
+  <string name="tuto_object_animator_1_10">तर्क लक्ष्य</string>
+  <string name="tuto_algorithm_1_0">दो पाठ मूल्यों के स्वैप मूल्य</string>
+  <string name="tuto_algorithm_1_1">मान स्वैप के बाद, टेक्स्ट \ n \ nB \ nA</string>
+  <string name="tuto_algorithm_1_2">\ "स्वैप \" बटन क्लिक किए जाने पर दो मानों को स्वैप करें</string>
+  <string formatted="false" name="tuto_algorithm_1_3">1 के रूप में प्रदर्शित किया जाएगा। एक अस्थायी चर बनाएँ जो \ "% s \" \ n2 का मान रखता है \ "% S \" का मान \ "% s \" \ n3 में बदलें \ "% S \" के मूल्य को \ "% s \" से निर्धारित करें</string>
+  <string name="tuto_algorithm_1_4">\ "% s \" नामक एक स्ट्रिंग चर बनाएँ</string>
+  <string name="tuto_algorithm_1_5">दो मानों को स्वैप करने के लिए, हमें एक अस्थायी प्लेसहोल्डर बनाने के लिए जो अस्थायी रूप से एक मान को पकड़ सकता है जब तक हम स्वैप बनाते हैं</string>
+  <string name="tuto_algorithm_2_0">तारांकन चिह्नों के त्रिकोण को मुद्रित करें</string>
+  <string name="tuto_algorithm_2_1">हम प्रदान किए गए टेक्स्ट व्यू के माध्यम से ट्रिनगल को प्रदर्शित करेंगे</string>
+  <string name="tuto_algorithm_2_2">चलो \ एक्रेट इवेंट</string>
+  <string name="tuto_algorithm_2_3">में तारे का त्रिकोण उत्पन्न करते हैं हम चाहते हैं कि इस तरह दिखने वाले तारों का त्रिशूल प्राप्त करना: \ n * \ n ** \ n *** \ n ** ** \ n *****</string>
+  <string name="tuto_algorithm_2_4">\ "% s \" नामक एक संख्या चर बनाएँ</string>
+  <string name="tuto_algorithm_2_5">यह संख्या चर हमें प्रत्येक पंक्ति</string>
+  <string name="tuto_algorithm_2_6">हमने 1 के लिए सेट कर दिया, क्योंकि हम पहली पंक्ति पर एक * प्रिंट करना चाहते हैं</string>
+  <string name="tuto_algorithm_2_7">नियंत्रण श्रेणी पर क्लिक करें</string>
+  <string name="tuto_algorithm_2_8">वेरिएबल श्रेणी पर क्लिक करें</string>
+  <string name="tuto_algorithm_2_9">\ "% s \" नामक एक स्ट्रिंग चर बनाएँ</string>
+  <string name="tuto_algorithm_2_10">\ "% s \" ब्लॉक का चयन करें</string>
+  <string name="tuto_algorithm_2_11">हम दो पुनरावृत्त ब्लॉकों का उपयोग करें \ n1 पहला पुनरावृत्ति ब्लॉक का उपयोग यह निर्धारित करने के लिए किया जाता है कि हम किस प्रकार की पंक्तियों को प्रत्येक लूप \ n2 जोड़कर प्रिंट करना चाहते हैं दोहराए गए ब्लॉक के अंदर दोहराए गए ब्लॉक का उपयोग प्रत्येक पंक्ति को मुद्रित करने के लिए किया जाता है \ n
+3. अंदर के लूप को दोहराया जाता है \ "i \" समय, जो बाहरी पुनरावृत्ति लूप में बढ़ता है। यह हमें त्रिकोणीय दिखने वाले प्रिंट को हासिल करने देता है \ n 4। अंत में, हम TextView को हम पाठ में सेट करते हैं जिस पर हम \ &amp;apos; जुड़ रहे हैं</string>
+  <string name="tuto_algorithm_2_12">\ "stars \" वेरिएबल में हम क्या मुद्रित करना चाहते हैं उसका मूल्य होगा</string>
+  <string name="tuto_algorithm_3_0">गणना करें कि संख्या कहीं भी है या अजीब</string>
+  <string name="tuto_algorithm_3_1">उपयोगकर्ता के बाद एक संख्यात्मक इनपुट और बटन पर क्लिक करता है, तो हम टोस्ट भी \ "यहां तक \" या \ "अजीब \"</string>
+  <string name="tuto_algorithm_3_2">चलो \ &amp;apos; बटन क्लिक करते समय गणना करते हैं</string>
+  <string name="tuto_algorithm_3_3">यहां तक कि संख्याएं संख्याएं हैं जो 2 से विभाज्य होती हैं। यह जांचने के लिए कि क्या इनपुट भी है, हमें यह जांचने की आवश्यकता है कि क्या कोई शेष रह गई है जब संख्या 2 से विभाजित होती है</string>
+  <string name="tuto_algorithm_3_4">जब वहाँ एक शेष है, हम \ &amp;apos; ll टोस्ट \ "अजीब \"</string>
+  <string name="tuto_algorithm_3_5">जब कोई शेष नहीं है, हम \ \ apos; टोस्ट \ "यहां तक कि \"</string>
+  <string name="tuto_algorithm_3_6">हम तय संख्या भी की गणना करता है, तो इनपुट किसी भी शेष के बाद यह 2</string>
+  <string name="tuto_algorithm_3_7">चैलेंज</string>
+  <string name="tuto_algorithm_3_8">अगर आप कोई संख्या बिल्कुल दर्ज आवेदन क्रैश हो सकता है। एक और बनाने का प्रयास करें अगर बयान आप जाँच लें कि EditText किसी भी इनपुट है</string>
+  <string name="tuto_algorithm_4_0">सूची में आइटम्स रिवर्स मदद करता है कि</string>
+  <string name="tuto_algorithm_4_1">प्रदान सूची सूची आइटम सूची के अंदर प्रदर्शित करने जा रहा है</string>
+  <string name="tuto_algorithm_4_2">जब रिवर्स बटन दबाया जाता है, सूची की सामग्री को उलट कर दिया जाएगा</string>
+  <string name="tuto_algorithm_4_3">चलो \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ "</string>
+  <string name="tuto_algorithm_4_4">हम \ "पहले \" स्ट्रिंग सूची में तीन आइटम बना चुके हैं और आबाद किए हैं, \ "a, b, c \"</string>
+  <string name="tuto_algorithm_4_5">रिवर्स बटन \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ "</string>
+  <string name="tuto_algorithm_4_6">1. एक नई स्ट्रिंग सूची बनाएं \ n2। मौजूदा सूची को दोहराएं और आइटम को पीछे की तरफ में कॉपी करें \ n3। सूची दृश्य को नई सामग्री के साथ अद्यतन करें</string>
+  <string name="tuto_algorithm_4_7">\ "% s \" नामक स्ट्रिंग सूची बनाएं</string>
+  <string name="tuto_algorithm_4_8">\ "% s \" नामित एक संख्या चर बनाएँ</string>
+  <string name="tuto_algorithm_4_9">हमने शुरू में सूची को साफ किया, ताकि रिवर्स बटन को कई बार क्लिक किया जा सके, \ "r_list \" हर बार एक ही रिक्त स्थिति से शुरू होती है । हमने सूचकांक नामक एक नंबर वैरिएबल बनाया है, जो हमें आखिरी मद से शुरू होने वाली मूल सूची के माध्यम से पुनरावृत्त करने में मदद करेगा।</string>
+  <string name="tuto_algorithm_4_10">\ "% s \" नामित एक संख्या चर बनाएँ</string>
+  <string name="tuto_algorithm_4_11">हम सूचकांक को \ "आकार -1 \" के रूप में सेट करते हैं, क्योंकि सूची में पहली वस्तु का सूचकांक 0 से शुरू होता है, और हम आखिरी मद से शुरू करना चाहता था चूंकि सूची का आकार 3 है, इसलिए हम इंडेक्स 2 से शुरू करना चाहते हैं, जो कि पिछले मद का सूचकांक है। \ N \ n
+दोहराने वाले ब्लॉक का प्रयोग करते हुए, हम अंतिम वस्तु से \ "list1 \ ", और उन्हें \" r_list \ "में जोड़ें हम \ "list1 \" में पिछली वस्तु को प्राप्त करने के लिए प्रत्येक आवृत्ति के द्वारा सूचक चर को घटाते हैं।</string>
+  <string name="tuto_algorithm_4_12">उसके बाद, हम ListView के लिए डेटा रीसेट करते हैं और उसे अपडेट करते हैं, ताकि सूचीव्यू \ "r_list \" का नया डेटा प्रदर्शित कर सके।</string>
+  <string name="tuto_algorithm_5_0">कार्ड खेलने का डेक बनाएं</string>
+  <string name="tuto_algorithm_5_1">प्रदान की गई सूचीदृश्य कार्ड उत्पन्न होने के बाद प्रदर्शित होने जा रहा है</string>
+  <string name="tuto_algorithm_5_2">एप्लिकेशन शुरू होने पर सूचीव्यू को जनरेट और आबाद करें</string>
+  <string name="tuto_algorithm_5_3">कार्ड खेलने में, प्रत्येक सूट के लिए चार सूट और 13 कार्ड हैं। डेक में हम \ 'बनने जा रहे हैं, हम संख्याओं के साथ सुइट्स को निरूपित करेंगे: \ n
+1. हीरे - 0 \ n2। दिल - 1 \ n3 हुकुम - 2 \ n4 क्लब - 3 \ n \ n उदाहरण के लिए, हुकुम का एक ऐस सूट-कार्ड नंबर स्वरूप</string>
+  <string name="tuto_algorithm_5_4">एक संख्या चर नामित करें \ "% s \"</string>
+  <string name="tuto_algorithm_5_5">सेट को मान सेट करें सूट की संख्या के लिए \ "% s \"</string>
+  <string name="tuto_algorithm_5_6">कार्डों की संख्या के लिए मान \ "% s \" सेट करें</string>
+  <string name="tuto_algorithm_5_7">\ "% s \" नाम की एक स्ट्रिंग सूची बनाएं</string>
+  <string name="tuto_algorithm_5_8">आंतरिक दोहराव लूप हर बार 13 बार दोहराता है जब बाह्य दोहराव पाश एक बार होता है। हम प्रत्येक सूट दोहराने के साथ 13 अलग-अलग कार्ड जोड़ते हैं, और कार्ड वैल्यू को 0 में रीसेट करते हैं ताकि अन्य सूट को समान 13 कार्ड मिल जाएंगे</string>
+  <string name="tuto_algorithm_5_9">हमने सफलतापूर्वक 52 कार्ड बनाए हैं। कार्ड प्रदर्शित होने वाला प्रारूप थोड़ा कायरता हो सकता है, लेकिन प्रोग्रामिंग की दुनिया में, यह अलग-अलग स्थितियों के लिए विभिन्न डेटा फोमों का उपयोग करने के लिए कभी भी आवश्यक है \ n \ n
+पहला अंक यह इंगित करता है कि यह कौन सा सूट है , और निम्न संख्या कार्ड की संख्या को इंगित करती है। उदाहरण के लिए, 09 एक जैक डायमंड्स होगा, क्योंकि पहली वस्तु 0th सूचकांक</string>
+  <string name="tuto_algorithm_6_0">कार्ड खेलने के डेक को घसीटना</string>
+  <string name="tuto_algorithm_6_1">पूर्वापेक्षित</string>
+  <string name="tuto_algorithm_6_2">अगर आप स्वर्ग \ एपीओ; टी, कृपया पूरा करें पिछले ट्यूटोरियल, क्योंकि यह एक संचयी ट्यूटोरियल है</string>
+  <string name="tuto_algorithm_6_3">हम इस सूची दृश्य का उपयोग शफ़ेड डेक को प्रदर्शित करने के लिए करेंगे</string>
+  <string name="tuto_algorithm_6_4">हम पहले से ही क्रिएट ईवेंट के लिए तर्क प्रदान कर चुके हैं</string>
+  <string name="tuto_algorithm_6_5">तर्क पिछले ट्यूटोरियल के समान है, सिवाय इसके कि हम \ 'शफ़ल डेक \' नामक एक नया मोरबॉक फ़ंक्शन बना चुके हैं।</string>
+  <string name="tuto_algorithm_6_6">डेक को फेर करने के लिए शेलल डेक फ़ंक्शन को संपादित करने दें और सूची दृश्य को पॉप्यूलेट करें</string>
+  <string name="tuto_algorithm_6_7">1. \ "s_deck \" \ n2 नामक एक नई सूची बनाएं यादृच्छिक रूप से \ "डेक \" सूची से 1 कार्ड चुनें और इसे \ "s_deck \" पर कॉपी करें।</string>
+  <string name="tuto_algorithm_6_8">\ "% s \" नामक एक संख्या चर बनाएँ</string>
+  <string name="tuto_algorithm_6_9">\ "% s \" नामक स्ट्रिंग सूची बनाएं</string>
+  <string name="tuto_algorithm_6_10">मूल्य को \ "% s \" पर सेट करें, क्योंकि डेक में 52 कार्ड हैं</string>
+  <string name="tuto_algorithm_6_11">ध्यान दें कि हम 1 को घटाते हैं, क्योंकि सूची के पहले आइटम 0 के इंडेक्स से शुरू होता है, जिसका अर्थ है कि आखिरी वस्तु का सूचक हमेशा लम्बा होता है - 1</string>
+  <string name="tuto_algorithm_6_12">52 पुनरावृत्त छोरों के दौरान, हम एक यादृच्छिक संख्या चर उत्पन्न करते हैं जो 0 से डेक सूची की लंबाई के लिए यादृच्छिक सूचकांक बनाते हैं - 1. सूचकांक का उपयोग करते हुए, हम कार्ड को डेक सूची से s_deck सूची में कॉपी करते हैं, और इसे
+डेक से हटाते हैं सूची इसलिए एक ही कार्ड को कॉपी नहीं किया जाता है</string>
+  <string name="tuto_algorithm_7_0">वाक्य में \ "a \" दोहराता शब्द कितनी बार गणना करें</string>
+  <string name="tuto_algorithm_7_1">यहाँ, हम \\\\\\\\\\\\\\\\\\\\\\\\\\\\ ' "एबीसीए \", हम एक एल्गोरिथ्म बनाते हैं जो कि गणना करता है कि कितनी बार \ "a \" दोहराया गया है</string>
+  <string name="tuto_algorithm_7_2">हम ऐप शुरू करते समय गिनती और गणना कर सकते हैं</string>
+  <string name="tuto_algorithm_7_3">लूप के लिए प्रत्येक वर्ण के माध्यम से जाओ</string>
+  <string name="tuto_algorithm_7_4">हम \ &amp;apos; आपके लिए 4 चर प्रदान किए हैं</string>
+  <string name="tuto_algorithm_7_5">\ "% s \" प्रत्येक वर्ण के द्वारा हमें पुनरावृत्त करने में मदद करेगी</string>
+  <string name="tuto_algorithm_7_6">\ "% s \" एक अस्थायी चर होगा जो प्रत्येक शब्द को अद्यतन करता है</string>
+  <string name="tuto_algorithm_7_7">\ "% s \" अस्थायी रूप से होगा प्रत्येक चरित्र के मूल्य को पकड़ो, जो इसे पुनरावृत्त करता है</string>
+  <string name="tuto_algorithm_7_8">\ "% s \" कितनी बार \ "a \" प्रकट हुई है</string>
+  <string name="tuto_algorithm_7_9">\ "character \" variable</string>
+  <string name="tuto_algorithm_7_10">में वर्ण को स्टोर करें जांचें कि क्या वर्ण एक रिक्त स्थान है। \ n1। यदि चरित्र रिक्त स्थान नहीं है, तो शब्द \ "शब्द \" में शामिल होने से \ "शब्द \" चर में चरित्र से जुड़ें \ "word + character \" \ n
+2. अगर चरित्र एक रिक्त स्थान है , जांचें कि क्या शब्द बराबर है \ "a \" अगर यह समान है, वेतन वृद्धि गिनती अंत में, \ "word \" variable reset</string>
+  <string name="tuto_algorithm_7_11">1. जब तक आप रिक्त स्थान तक नहीं पहुंच जाते तब तक शब्द में वर्ण में शामिल हों \ n 2. अगर शब्द \ "a \" बराबर होता है, तो गिनती बढ़ जाती है \ n 3. रीसेट करें रिक्त स्ट्रिंग के लिए वेरिएबल शब्द और इंडेक्स बढ़ता है \ n 4. टोस्ट की गिनती की संख्या हुई</string>
+</resources>
