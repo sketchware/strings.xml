@@ -20,6 +20,8 @@ Languages currently avaiable in this repository. Don't see your language? Go to 
 
 [Spanish 🇪🇸](https://raw.githubusercontent.com/sketchware/strings.xml/master/strings_es.xml)
 
+[Hindi 🇮🇳](https://raw.githubusercontent.com/sketchware/strings.xml/master/strings_hi.xml)
+
 Download Guide:
 
 1. Click on the desired language file above
